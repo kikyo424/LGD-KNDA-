@@ -214,8 +214,9 @@ const decisionAreas = [
     <section class="analysis-grid">
       <article class="panel matrix-panel">
         <div class="panel-heading"><div><small>COMPETITIVE MAP</small><h2>기업별 기술 경쟁</h2></div></div>
+        <p class="company-help">기업명을 누르면 해당 기업이 언급된 문서만 볼 수 있습니다.</p>
         {companyMatrix.length ? <div class="table-wrap"><table><thead><tr><th>기업</th>{categories.map((category) => <th>{category}</th>)}</tr></thead><tbody>
-          {companyMatrix.map((row) => <tr><th>{row.company}</th>{row.counts.map((count) => <td class:list={{ hot: count > 0 }}>{count}</td>)}</tr>)}
+          {companyMatrix.map((row) => <tr><th scope="row"><button type="button" class="company-filter" data-company-filter={row.company} aria-pressed="false" aria-label={`${row.company} 관련 문서 ${row.total}건 보기`}>{row.company}<span aria-hidden="true"> →</span></button></th>{row.counts.map((count) => <td class:list={{ hot: count > 0 }}>{count}</td>)}</tr>)}
         </tbody></table></div> : <div class="empty">기업명이 확인된 문서가 아직 없습니다.</div>}
       </article>
 
@@ -262,7 +263,7 @@ const decisionAreas = [
       <div id="document-empty" class="empty" hidden>선택한 조건에 해당하는 문서가 없습니다.</div>
       <div id="document-list" tabindex="0" role="region" aria-label="최신 기술 문서 목록">
         {documents.length ? documents.map((item) => (
-          <a class="document" href={item.url} target="_blank" rel="noreferrer" data-keywords={JSON.stringify((item.keywords || []).map((keyword) => keyword.toLowerCase()))} data-custom-keyword={(item.custom_keyword || "").toLowerCase()} data-region={item.region} data-year={item.published_at.slice(0, 4)} data-search={`${item.title} ${item.technologies.join(" ")} ${(item.keywords || []).join(" ")} ${(item.company || []).join(" ")} ${item.custom_keyword || ""}`.toLowerCase()}>
+          <a class="document" href={item.url} target="_blank" rel="noreferrer" data-companies={JSON.stringify(item.company || [])} data-keywords={JSON.stringify((item.keywords || []).map((keyword) => keyword.toLowerCase()))} data-custom-keyword={(item.custom_keyword || "").toLowerCase()} data-region={item.region} data-year={item.published_at.slice(0, 4)} data-search={`${item.title} ${item.technologies.join(" ")} ${(item.keywords || []).join(" ")} ${(item.company || []).join(" ")} ${item.custom_keyword || ""}`.toLowerCase()}>
             <div class="doc-meta"><span>{item.source} · {item.region === "domestic" ? "국내" : "해외"}</span><time>{item.published_at || "날짜 미상"}</time></div>
             <h3>{item.title}</h3>
             <p>{item.summary}</p>
@@ -289,6 +290,7 @@ const decisionAreas = [
     let selectedYear = "all";
     let selectedCollectionKeyword = "";
     let selectedTrendKeyword = "";
+    let selectedCompany = "";
     const documentList = document.querySelector<HTMLElement>("#document-list");
     const resizeDocumentList = () => {
       if (!documentList) return;
@@ -314,17 +316,19 @@ const decisionAreas = [
           : (documentElement.dataset.search || "").includes(query);
         const matchesRegion = selectedRegion === "all" || documentElement.dataset.region === selectedRegion;
         const matchesYear = selectedYear === "all" || documentElement.dataset.year === selectedYear;
-        documentElement.hidden = !(matchesText && matchesRegion && matchesYear);
+        const matchesCompany = !selectedCompany || (JSON.parse(documentElement.dataset.companies || "[]") as string[]).includes(selectedCompany);
+        documentElement.hidden = !(matchesText && matchesRegion && matchesYear && matchesCompany);
       });
       const count = document.querySelectorAll(".document:not([hidden])").length;
       const status = document.querySelector<HTMLElement>("#document-filter-status");
-      if (status) status.textContent = `${selectedYear === "all" ? "전체 연도" : selectedYear + "년"} · ${selectedTrendKeyword || selectedCollectionKeyword || query || "전체 키워드"} · ${count}건`;
+      if (status) status.textContent = `${selectedYear === "all" ? "전체 연도" : selectedYear + "년"} · ${selectedCompany || selectedTrendKeyword || selectedCollectionKeyword || query || "전체 키워드"} · ${count}건`;
+      document.querySelectorAll<HTMLButtonElement>("[data-company-filter]").forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.companyFilter === selectedCompany)));
       const empty = document.querySelector<HTMLElement>("#document-empty");
       if (empty) empty.hidden = count > 0;
       if (documentList) documentList.scrollTop = 0;
       resizeDocumentList();
     };
-    input?.addEventListener("input", () => { selectedTrendKeyword = ""; selectedCollectionKeyword = ""; applyFilters(); });
+    input?.addEventListener("input", () => { selectedCompany = ""; selectedTrendKeyword = ""; selectedCollectionKeyword = ""; applyFilters(); });
     yearSelect?.addEventListener("change", () => {
       selectedYear = yearSelect.value;
       applyFilters();
@@ -344,6 +348,7 @@ const decisionAreas = [
     trendKeywordSelect?.addEventListener("change", applyTrendFilters);
     trendYearSelect?.addEventListener("change", applyTrendFilters);
     document.querySelectorAll<HTMLButtonElement>("[data-trend-filter]").forEach((button) => button.addEventListener("click", () => {
+      selectedCompany = "";
       selectedTrendKeyword = button.dataset.trendFilter || "";
       selectedCollectionKeyword = "";
       selectedYear = button.dataset.trendYear || "all";
@@ -358,13 +363,23 @@ const decisionAreas = [
       document.querySelector(".documents")?.scrollIntoView({ behavior: "smooth" });
     }));
     document.querySelector("#reset-document-filters")?.addEventListener("click", () => {
-      selectedTrendKeyword = selectedCollectionKeyword = "";
+      selectedCompany = selectedTrendKeyword = selectedCollectionKeyword = "";
       selectedYear = selectedRegion = "all";
       if (input) input.value = "";
       if (yearSelect) yearSelect.value = "all";
       regionButtons.forEach((candidate) => candidate.classList.toggle("active", candidate.dataset.region === "all"));
       applyFilters();
     });
+    document.querySelectorAll<HTMLButtonElement>("[data-company-filter]").forEach((button) => button.addEventListener("click", () => {
+      selectedCompany = button.dataset.companyFilter || "";
+      selectedTrendKeyword = selectedCollectionKeyword = "";
+      selectedYear = selectedRegion = "all";
+      if (input) input.value = "";
+      if (yearSelect) yearSelect.value = "all";
+      regionButtons.forEach((candidate) => candidate.classList.toggle("active", candidate.dataset.region === "all"));
+      applyFilters();
+      document.querySelector(".documents")?.scrollIntoView({ behavior: "smooth" });
+    }));
     applyFilters();
     regionButtons.forEach((button) => button.addEventListener("click", () => {
       selectedRegion = button.dataset.region || "all";
@@ -373,6 +388,7 @@ const decisionAreas = [
     }));
 
     document.querySelectorAll<HTMLButtonElement>("[data-keyword-filter]").forEach((button) => button.addEventListener("click", () => {
+      selectedCompany = "";
       selectedTrendKeyword = "";
       selectedCollectionKeyword = "";
       if (input) input.value = button.dataset.keywordFilter || "";
@@ -398,6 +414,7 @@ const decisionAreas = [
     });
     document.querySelector<HTMLButtonElement>("#show-last-collection")?.addEventListener("click", (event) => {
       const keyword = (event.currentTarget as HTMLButtonElement | null)?.dataset.lastKeyword || "";
+      selectedCompany = "";
       selectedTrendKeyword = "";
       selectedCollectionKeyword = keyword;
       selectedYear = "all";
@@ -492,6 +509,9 @@ const decisionAreas = [
   #reset-document-filters { flex-shrink: 0; background: var(--brand-soft); color: var(--brand); border: 1px solid var(--border); padding: 9px 12px; cursor: pointer; }
   .caution { color: var(--text-muted); font-size: .72rem; max-width: 390px; margin: 0; text-align: right; line-height: 1.6; }
   .analysis-grid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr); gap: 20px; margin-bottom: 20px; }
+  .company-help { color: var(--text-muted); font-size: .85rem; margin: 0 0 16px; }
+  .company-filter { border: 1px solid transparent; background: transparent; color: var(--brand); font-weight: 700; padding: 8px 10px; text-align: left; cursor: pointer; border-radius: 3px; }
+  .company-filter:hover, .company-filter[aria-pressed="true"] { border-color: var(--brand); background: var(--brand-soft); }
   .table-wrap { overflow-x: auto; }
   table { width: 100%; border-collapse: collapse; min-width: 650px; }
   th, td { border-bottom: 1px solid var(--border); padding: 12px 9px; text-align: center; font-size: .75rem; }
