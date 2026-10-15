@@ -273,7 +273,7 @@ const decisionAreas = [
     <section class="sources-section">
       <article class="panel sources">
         <div class="panel-heading"><div><small>SOURCES</small><h2>출처 현황</h2></div></div>
-        {Object.keys(sourceCounts).length ? <div class="source-list">{Object.entries(sourceCounts).map(([source, count]) => (
+        {Object.keys(sourceCounts).length ? <div class="source-list">{Object.entries(sourceCounts).sort(([leftSource, leftCount], [rightSource, rightCount]) => rightCount - leftCount || leftSource.localeCompare(rightSource, "ko")).map(([source, count]) => (
           <div class="source-row"><span>{source}</span><strong>{count}</strong></div>
         ))}</div> : <div class="empty">수집기를 실행하면 Crossref·arXiv 자료가 추가됩니다.</div>}
       </article>
