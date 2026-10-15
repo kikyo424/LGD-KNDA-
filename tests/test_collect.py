@@ -237,3 +237,55 @@ def test_manual_news_collection_saves_foreign_news_when_domestic_feed_fails(monk
     assert item["custom_keyword"] == "smartwatch OLED"
     assert json.loads(collect.QUALITY_FILE.read_text())["source_errors"] == 1
     assert json.loads(collect.LAST_MANUAL_FILE.read_text())["result_count"] == 1
+
+
+def test_html_report_collects_all_routes_without_changing_dashboard(monkeypatch, tmp_path):
+    for name, filename in [("DATA_FILE", "items.json"), ("QUALITY_FILE", "quality.json"), ("LAST_MANUAL_FILE", "last.json")]:
+        path = tmp_path / filename
+        path.write_text('[{"id":"existing-dashboard-only"}]')
+        monkeypatch.setattr(collect, name, path)
+    before = {name: getattr(collect, name).read_bytes() for name in ("DATA_FILE", "QUALITY_FILE", "LAST_MANUAL_FILE")}
+    calls = []
+    def fetch(name, kind):
+        def run(client, query, *args):
+            calls.append(name)
+            assert query == "smartwatch OLED"
+            return [{"id": name, "title": f"{name} smartwatch OLED high brightness", "published_at": "2026-01-01", "source_type": kind, "source": name, "region": "international", "url": f"https://example.com/{name}", "summary": "LTPO OLED"}]
+        return run
+    for name in ("crossref", "arxiv", "semantic_scholar", "openalex", "domestic_news", "international_news"):
+        monkeypatch.setattr(collect, "fetch_" + name, fetch(name, "news" if name.endswith("news") else "paper"))
+    monkeypatch.setattr(collect.time, "sleep", lambda seconds: None)
+    output = tmp_path / "report.html"
+    assert collect.main(["--keyword", "smartwatch OLED", "--source", "all", "--report-output", str(output)]) == 0
+    assert len(calls) == 6
+    report = output.read_text()
+    assert "existing-dashboard-only" not in report
+    assert "전체<b>6건" in report
+    assert "뉴스<b>2건" in report
+    assert "논문<b>4건" in report
+    assert 'src="http' not in report and 'href="http' in report
+    assert all(getattr(collect, name).read_bytes() == original for name, original in before.items())
+
+
+def test_html_report_all_failed_still_writes_diagnostic_file(monkeypatch, tmp_path):
+    def fail(client, query):
+        raise collect.httpx.ConnectError("Service unavailable")
+    monkeypatch.setattr(collect, "fetch_domestic_news", fail)
+    monkeypatch.setattr(collect, "fetch_international_news", fail)
+    monkeypatch.setattr(collect, "load_existing", lambda: (_ for _ in ()).throw(AssertionError("must not read dashboard")))
+    output = tmp_path / "failed.html"
+    assert collect.main(["--keyword", "OLED", "--source", "news", "--report-output", str(output)]) == 1
+    report = output.read_text()
+    assert "수집 경로 오류 2건" in report
+    assert "검색 조건에 해당하는 자료가 없습니다" in report
+
+
+def test_html_report_escapes_remote_content_and_rejects_unsafe_links(tmp_path):
+    from scripts.html_report import write_report
+    args = parse_args(["--keyword", '<script>alert("test")</script>', "--report-output", str(tmp_path / "safe.html")])
+    write_report(args.report_output, args, [{"title": '<img src=x onerror="alert(1)">', "url": "javascript:alert(1)", "summary": "<script>bad()</script>", "source_type": "news", "region": "international", "source": "Test", "keywords": ["LTPO"]}], ["<script>failure</script>"])
+    report = args.report_output.read_text()
+    assert "<script>" not in report
+    assert "<img" not in report
+    assert "javascript:" not in report
+    assert "&lt;script&gt;" in report

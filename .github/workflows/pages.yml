@@ -7,37 +7,6 @@ on:
     # Daily at 09:17 Asia/Seoul (00:17 UTC).
     - cron: "17 0 * * *"
   workflow_dispatch:
-    inputs:
-      keyword:
-        description: "맞춤 수집 키워드 (비우면 기본 OLED 수집)"
-        required: false
-        type: string
-      date_from:
-        description: "시작일 YYYY-MM-DD"
-        required: false
-        type: string
-      date_to:
-        description: "종료일 YYYY-MM-DD"
-        required: false
-        type: string
-      source:
-        description: "수집 자료 유형"
-        required: true
-        default: all
-        type: choice
-        options:
-          - all
-          - news
-          - papers
-      clear_last_manual:
-        description: "최근 맞춤 수집 내역만 초기화 (수집 문서는 유지)"
-        required: false
-        default: false
-        type: boolean
-      delete_last_manual:
-        description: "최근 결과 문서 삭제: 사이트에 표시된 삭제 확인값 입력 (다른 입력보다 우선)"
-        required: false
-        type: string
 
 permissions:
   contents: write
@@ -65,27 +34,10 @@ jobs:
       - name: Collect metadata
         shell: bash
         env:
-          MANUAL_KEYWORD: ${{ inputs.keyword }}
-          DATE_FROM: ${{ inputs.date_from }}
-          DATE_TO: ${{ inputs.date_to }}
-          SOURCE_KIND: ${{ inputs.source }}
-          CLEAR_LAST_MANUAL: ${{ inputs.clear_last_manual }}
-          DELETE_LAST_MANUAL: ${{ inputs.delete_last_manual }}
           CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
           SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
-        run: |
-          if [[ -n "$DELETE_LAST_MANUAL" ]]; then
-            python scripts/collect.py --delete-last-manual "$DELETE_LAST_MANUAL"
-            exit 0
-          fi
-          args=()
-          if [[ -n "$MANUAL_KEYWORD" ]]; then args+=(--keyword "$MANUAL_KEYWORD"); fi
-          if [[ -n "$DATE_FROM" ]]; then args+=(--date-from "$DATE_FROM"); fi
-          if [[ -n "$DATE_TO" ]]; then args+=(--date-to "$DATE_TO"); fi
-          if [[ -n "$SOURCE_KIND" ]]; then args+=(--source "$SOURCE_KIND"); fi
-          if [[ "$CLEAR_LAST_MANUAL" == "true" ]]; then args+=(--clear-last-manual); fi
-          python scripts/collect.py "${args[@]}"
+        run: python scripts/collect.py
       - name: Commit collected metadata
         run: |
           if ! git diff --quiet -- src/data/items.json src/data/collection_quality.json src/data/last_manual_collection.json; then

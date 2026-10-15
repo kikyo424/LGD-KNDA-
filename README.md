@@ -11,45 +11,25 @@ python scripts/collect.py
 npm run dev
 ```
 
-## 원하는 키워드와 기간으로 수집
+## 맞춤 키워드 HTML 보고서
 
-대시보드의 **맞춤 키워드 수집**에서 키워드, 시작일, 종료일, 자료 유형을 선택합니다. 로컬 실행도 필요하다면 아래 명령을 사용할 수 있습니다.
+대시보드의 **맞춤 키워드 HTML 보고서**에서 키워드·기간·자료 유형을 입력하고 **HTML 보고서 만들기**를 누르세요. 표시된 조건을 **Custom HTML report → Run workflow**에 입력해 실행합니다. 해외 자료는 영문 키워드를 권장합니다.
 
-```powershell
-.\.venv\Scripts\python.exe scripts\collect.py --keyword "wearable OLED 3000 nits" --date-from 2024-01-01 --date-to 2026-12-31 --source all
+완료된 실행 화면 하단 **Artifacts**에서 `custom-html-report-실행번호` ZIP을 다운로드하고 압축을 푼 뒤 `custom-report.html`을 브라우저에서 여세요. 보고서는 30일간 보관됩니다. GitHub 로그인과 워크플로 실행 권한이 필요합니다.
+
+보고서에는 검색 조건, 생성 시각(한국 시간), 뉴스·논문 건수, 키워드별 자료 수, 출처 현황, 최신순 문서 목록·제공된 요약·원문 링크 및 수집 경로 오류가 포함됩니다. 스타일과 데이터가 파일 안에 포함되므로 인터넷 없이 읽을 수 있습니다. 원문 링크를 열 때만 인터넷이 필요합니다.
+
+국내·영문 해외 Google 뉴스 RSS와 Crossref·arXiv·Semantic Scholar·OpenAlex를 기존과 동일하게 사용합니다. 2023년 이전 자료를 제외하고 중복을 정리하며, 이번 검색에서 수집한 자료만 보고서에 포함합니다. 기존 사이트 데이터는 합치거나 변경하지 않고, 보고서 생성 시 사이트를 재배포하지 않습니다. 결과가 없으면 빈 결과 보고서, 일부 경로가 실패하면 오류 안내가 포함된 보고서를 제공합니다. 전 경로 실패로 결과가 없는 경우 워크플로가 실패하더라도 생성된 HTML은 Artifacts에서 확인할 수 있습니다.
+
+로컬에서도 실행할 수 있습니다.
+
+```bash
+python scripts/collect.py --keyword "wearable OLED 3000 nits" --date-from 2024-01-01 --date-to 2026-12-31 --source all --report-output reports/custom-report.html
 ```
 
-배포 사이트에서는 **GitHub Actions에서 수집 시작**을 누른 뒤 열린 Actions 화면에서 같은 조건을 입력해 실행합니다. 완료 후 사이트를 새로고침하면 `최근 맞춤 수집 결과`에서 마지막 키워드, 기간, 자료 유형, 결과 건수와 해당 문서 필터를 확인할 수 있습니다.
+`--source`는 `all`, `news`, `papers` 중 하나입니다. `reports/`는 Git에서 제외됩니다.
 
-`--source`는 `all`, `news`, `papers` 중 하나입니다. 맞춤 수집은 기존 데이터를 보존하면서 새 결과를 합치고 URL/DOI 기준으로 중복을 제거합니다. 사이트의 **가장 많이 나온 키워드** 영역에는 저장된 전체 결과의 키워드 빈도 상위 15개가 표시되며, 키워드를 누르면 관련 문서만 필터링됩니다.
-
-네트워크 요청 없이 기존 데이터의 유사어 통합, 키워드 가중치, 중복 제거 및 품질 통계를 다시 계산할 수도 있습니다.
-
-```powershell
-.\.venv\Scripts\python.exe scripts\collect.py --reprocess-only
-```
-
-키워드는 `nit/nits → 휘도`, `high brightness/초고휘도 → 고휘도`, `tandem OLED/탠덤 → 탠덤 OLED`처럼 대표어로 통합됩니다. 제목은 2점, 요약은 1점으로 집계하며, 같은 날짜의 동일·재배포 뉴스 제목은 하나로 정리합니다. 제외·중복·누락·오류 통계는 `src/data/collection_quality.json`에 저장되어 대시보드에 표시됩니다.
-
-## 최근 맞춤 수집 내역 지우기
-
-대시보드의 **이 브라우저에서 숨기기**는 현재 브라우저에서만 최근 맞춤 수집 결과 카드를 숨깁니다. 다음 맞춤 수집이 완료되면 새 결과는 다시 표시됩니다.
-
-모든 방문자에게 보이는 최근 맞춤 수집 내역을 지우려면 `Actions > Collect and deploy > Run workflow`에서 `clear_last_manual`을 선택해 실행하세요. 수집된 문서 데이터와 통계는 삭제하지 않고, 최근 맞춤 수집 요약만 초기화합니다.
-
-로컬에서는 아래 명령으로 같은 작업을 할 수 있습니다.
-
-```powershell
-.\.venv\Scripts\python.exe scripts\collect.py --clear-last-manual
-```
-
-## 최근 맞춤 수집 결과 삭제
-
-`최근 맞춤 수집 결과`의 **이 결과 N건 삭제**를 누르고 확인하면 삭제 확인값과 Actions 링크가 표시됩니다. **Run workflow**에서 `delete_last_manual`에 확인값을 그대로 입력하고 실행하세요. 삭제 작업은 새 자료를 수집하지 않으며, 배포가 끝나면 해당 문서가 목록·검색·통계에서 제거되고 최근 수집 내역도 초기화됩니다.
-
-삭제 대상은 **결과 N건 보기**와 동일한 문서입니다. 다른 수집과 겹치는 문서도 삭제되며, 이후 수집에서 다시 추가될 수 있습니다. 최근 수집이 바뀐 경우 오래된 확인값은 거부되므로 사이트를 새로고침하세요. `clear_last_manual`은 문서를 유지하고 요약만 초기화하는 기존 기능입니다.
-
-로컬에서는 `python scripts/collect.py --delete-last-manual '<완료 시각>'`으로 같은 작업을 실행할 수 있습니다.
+매일 자동 수집과 사이트 배포는 **Collect and deploy**가 담당합니다. 기존 데이터의 분류·중복·품질 통계만 다시 계산하려면 `python scripts/collect.py --reprocess-only`를 사용할 수 있습니다. 사이트 상위 키워드는 해당 키워드가 포함된 자료 수 기준입니다.
 
 ## 검증
 
@@ -64,7 +44,7 @@ npm run build
 2. 이 폴더를 `main` 브랜치에 push합니다.
 3. 저장소 `Settings > Pages > Source`를 **GitHub Actions**로 설정합니다.
 4. `Actions > Collect and deploy > Run workflow`로 첫 배포를 실행합니다.
-5. 맞춤 수집 시 Run workflow 화면에서 `keyword`, `date_from`, `date_to`, `source`를 입력합니다. 수집 결과는 자동으로 `src/data/items.json`에 커밋되고 사이트가 다시 배포됩니다.
+5. 맞춤 수집은 별도의 **Custom HTML report** 워크플로에서 실행하고 HTML 파일로 다운로드합니다.
 
 수집은 매일 한국 시간 오전 9시 17분에 자동 실행됩니다. 기본 OLED·웨어러블·COE 키워드로 뉴스와 논문 메타데이터를 수집하고 중복을 정리한 뒤 사이트를 자동 배포합니다. GitHub Actions 상황에 따라 실행 시간이 지연될 수 있습니다. Crossref의 polite pool을 사용하려면 저장소 Secret에 `CONTACT_EMAIL`을 추가하세요.
 

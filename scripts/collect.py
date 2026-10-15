@@ -531,9 +531,14 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--date-to", help="Inclusive end date in YYYY-MM-DD")
     parser.add_argument("--source", choices=("all", "news", "papers"), default="all")
     parser.add_argument("--reprocess-only", action="store_true", help="Rebuild tags, quality scores and duplicates without network requests")
+    parser.add_argument("--report-output", type=Path, help="Write a standalone HTML report without changing dashboard data (requires --keyword)")
     parser.add_argument("--clear-last-manual", action="store_true", help="Clear the recent custom collection summary without deleting documents")
     parser.add_argument("--delete-last-manual", metavar="COMPLETED_AT", help="Delete the displayed recent custom results using their completion timestamp")
     args = parser.parse_args(argv)
+    if args.report_output and (not clean_text(args.keyword) or args.reprocess_only or args.clear_last_manual or args.delete_last_manual):
+        parser.error("--report-output requires --keyword and cannot be combined with reprocess or deletion options")
+    if args.report_output and (args.report_output.suffix.lower() != ".html" or args.report_output.resolve().is_relative_to((ROOT / "src").resolve())):
+        parser.error("--report-output must be an .html file outside src/")
     for field in ("date_from", "date_to"):
         value = getattr(args, field)
         if value:
@@ -570,7 +575,7 @@ def main(argv: list[str] | None = None) -> int:
     custom_keyword = clean_text(args.keyword)
     is_manual = bool(custom_keyword)
     # 정기 수집의 RSS 결과는 최신 제목을 반영하고, 맞춤 수집은 기존 결과에 추가한다.
-    existing = load_existing()
+    existing = [] if args.report_output else load_existing()
     collected = existing if is_manual or args.reprocess_only else [item for item in existing if item.get("region") != "domestic"]
     paper_queries = [custom_keyword] if is_manual else QUERIES
     scholar_queries = [custom_keyword] if is_manual else SCHOLAR_QUERIES
@@ -630,6 +635,18 @@ def main(argv: list[str] | None = None) -> int:
 
     quality_stats: dict[str, int] = {}
     final_items = deduplicate(collected, quality_stats)
+    if args.report_output:
+        if __package__:
+            from .html_report import write_report
+        else:
+            from html_report import write_report
+        for name in ("CONTACT_EMAIL", "SEMANTIC_SCHOLAR_API_KEY", "OPENALEX_API_KEY"):
+            value = os.getenv(name)
+            if value:
+                errors = [error.replace(value, "[redacted]") for error in errors]
+        write_report(args.report_output, args, final_items, errors)
+        print(f"Saved standalone HTML report with {len(final_items)} documents to {args.report_output}")
+        return 0 if final_items or not errors else 1
     save(final_items)
     save_quality(quality_stats, final_items, errors)
     save_last_manual_collection(args, final_items, errors)
