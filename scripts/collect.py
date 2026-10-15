@@ -26,23 +26,26 @@ USER_AGENT = "oled-watch-trend-radar/0.1 (academic trend research)"
 QUERIES = [
     'OLED (smartwatch OR wearable) (brightness OR "sunlight readability")',
     'OLED (tandem OR LTPO OR "polarizer free") wearable',
+    'OLED ("COE display" OR "COE OLED" OR "color filter on encapsulation") wearable',
 ]
 
 SCHOLAR_QUERIES = [
     'wearable OLED high brightness sunlight readability',
     'LTPO OLED power efficiency tandem low reflection',
+    'wearable OLED COE display color filter on encapsulation',
 ]
 
 DOMESTIC_NEWS_QUERIES = [
     'OLED (스마트워치 OR 웨어러블) (고휘도 OR 야외시인성 OR 휘도)',
     'OLED (LTPO OR 탠덤 OR 무편광판 OR 반사율) (LG디스플레이 OR 삼성디스플레이)',
+    'OLED (COE OR 컬러필터온인캡슐레이션 OR 무편광판) (스마트워치 OR 웨어러블 OR 디스플레이)',
 ]
 
 TECHNOLOGIES = {
     "초고휘도": ("high brightness", "ultra-high luminance", "peak brightness", "peak luminance", "nit", "nits", "초고휘도", "고휘도", "최대 휘도"),
     "저전력": ("ltpo", "low-temperature polycrystalline oxide", "power efficiency", "power consumption", "energy efficiency", "low power", "소비전력", "전력 효율", "저전력"),
     "발광 구조": ("tandem oled", "tandem structure", "oled emitter", "emissive layer", "top-emission", "top emission", "tandem woled", "탠덤", "발광 소재", "발광층"),
-    "야외 시인성": ("sunlight readable", "sunlight readability", "low reflection", "low reflectance", "polarizer-free", "polarizer free", "color filter on encapsulation", "coe oled", "micro lens array", "microlens array", "ambient contrast", "야외 시인성", "저반사", "반사율", "무편광판"),
+    "야외 시인성": ("sunlight readable", "sunlight readability", "low reflection", "low reflectance", "polarizer-free", "polarizer free", "color filter on encapsulation", "coe oled", "coe display", "co-e display", "micro lens array", "microlens array", "ambient contrast", "야외 시인성", "저반사", "반사율", "무편광판"),
     "제조/공정": ("oled yield", "manufacturing cost", "mass production", "production yield", "fabrication process", "encapsulation", "양산", "수율", "제조 비용", "공정", "원가"),
 }
 
@@ -57,7 +60,8 @@ KEYWORD_CANONICAL = {
     "top-emission": "Top-emission", "top emission": "Top-emission",
     "sunlight readable": "야외 시인성", "sunlight readability": "야외 시인성", "ambient contrast": "야외 시인성",
     "low reflection": "저반사", "low reflectance": "저반사", "반사율": "저반사",
-    "polarizer-free": "무편광판", "polarizer free": "무편광판", "coe oled": "무편광판", "color filter on encapsulation": "무편광판",
+    "polarizer-free": "무편광판", "polarizer free": "무편광판",
+    "coe oled": "COE display", "coe display": "COE display", "co-e display": "COE display", "color filter on encapsulation": "COE display",
     "micro lens array": "MLA", "microlens array": "MLA",
     "oled yield": "수율", "production yield": "수율", "manufacturing cost": "제조 원가", "제조 비용": "제조 원가", "원가": "제조 원가",
     "mass production": "양산", "fabrication process": "제조 공정", "공정": "제조 공정", "encapsulation": "봉지 공정",
@@ -78,7 +82,7 @@ DISPLAY_SIGNALS = (
     "smartwatch", "smart watch", "wearable display", "watch display",
     "brightness", "luminance", "sunlight", "outdoor visibility", "reflectance",
     "tandem", "ltpo", "polarizer", "top-emission", "top emission",
-    "micro lens", "microlens", "amoled", "스마트워치", "야외 시인성",
+    "micro lens", "microlens", "coe display", "coe oled", "color filter on encapsulation", "amoled", "스마트워치", "야외 시인성",
     "휘도", "반사율", "탠덤", "무편광판",
 )
 
@@ -92,12 +96,21 @@ def clean_text(value: str | None) -> str:
 
 def tag_technologies(*values: str) -> list[str]:
     content = " ".join(values).lower()
-    return [name for name, terms in TECHNOLOGIES.items() if any(term in content for term in terms)]
+    tags = [name for name, terms in TECHNOLOGIES.items() if any(term in content for term in terms)]
+    # COE의 정식 명칭 안의 encapsulation은 봉지 공정 자체를 뜻하지 않는다.
+    if "color filter on encapsulation" in content and "제조/공정" in tags:
+        other_process_terms = tuple(term for term in TECHNOLOGIES["제조/공정"] if term != "encapsulation")
+        if not any(term in content for term in other_process_terms):
+            tags.remove("제조/공정")
+    return tags
 
 
 def extract_keywords(*values: str) -> list[str]:
     content = " ".join(values).lower()
-    return sorted({KEYWORD_CANONICAL.get(term, term) for terms in TECHNOLOGIES.values() for term in terms if term in content}, key=str.lower)
+    matched_terms = {term for terms in TECHNOLOGIES.values() for term in terms if term in content}
+    if "color filter on encapsulation" in content:
+        matched_terms.discard("encapsulation")
+    return sorted({KEYWORD_CANONICAL.get(term, term) for term in matched_terms}, key=str.lower)
 
 
 def extract_keyword_scores(title: str, summary: str) -> dict[str, int]:
@@ -112,6 +125,11 @@ def news_title_fingerprint(title: str) -> str:
     normalized = re.sub(r"^\[[^]]+\]\s*", "", clean_text(title).lower())
     normalized = re.sub(r"\s+[-|]\s+[^-|]+$", "", normalized)
     return re.sub(r"[^0-9a-z가-힣]+", "", normalized)
+
+
+def paper_title_fingerprint(title: str) -> str:
+    """출처가 다른 같은 논문의 표기 차이(공백·하이픈·대소문자)를 통합한다."""
+    return re.sub(r"[^0-9a-z가-힣]+", "", clean_text(title).lower())
 
 
 def extract_companies(*values: str) -> list[str]:
@@ -334,6 +352,8 @@ def deduplicate(items: list[dict[str, Any]], stats: dict[str, int] | None = None
             key = f"doi:{item['doi'].lower()}"
         elif item.get("source_type") == "news":
             key = f"news:{item.get('published_at', '')}:{news_title_fingerprint(title)}"
+        elif item.get("source_type") == "paper":
+            key = f"paper:{item.get('published_at', '')[:4]}:{paper_title_fingerprint(title)}"
         else:
             key = item["id"]
         previous = unique.get(key)

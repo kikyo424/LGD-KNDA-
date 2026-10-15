@@ -1,4 +1,4 @@
-from scripts.collect import deduplicate, extract_companies, extract_keyword_scores, extract_keywords, extract_metrics, in_date_range, is_relevant, news_title_fingerprint, normalize_date, parse_args, parse_arxiv, parse_crossref, parse_openalex, parse_rss, parse_semantic_scholar, tag_technologies
+from scripts.collect import deduplicate, extract_companies, extract_keyword_scores, extract_keywords, extract_metrics, in_date_range, is_relevant, news_title_fingerprint, normalize_date, paper_title_fingerprint, parse_args, parse_arxiv, parse_crossref, parse_openalex, parse_rss, parse_semantic_scholar, tag_technologies
 
 
 def test_tag_technologies_is_explainable():
@@ -124,4 +124,13 @@ def test_syndicated_news_titles_share_a_fingerprint_and_are_removed():
     assert news_title_fingerprint(first["title"]) == news_title_fingerprint(second["title"])
     assert len(deduplicate([first, second], stats)) == 1
     assert stats["duplicates_removed"] == 1
+
+
+def test_coe_display_variants_are_collected_as_one_keyword_and_paper_duplicates_merge():
+    assert extract_keywords("COE display uses color filter on encapsulation") == ["COE display"]
+    assert tag_technologies("COE OLED wearable display") == ["야외 시인성"]
+    assert paper_title_fingerprint("COE-Display for Wearable OLED") == paper_title_fingerprint("coe display for wearable oled")
+    first = {"id": "paper-a", "source_type": "paper", "title": "COE-Display for Wearable OLED", "summary": "Low reflection OLED wearable display", "published_at": "2025-01-01", "url": "https://a.example"}
+    second = {**first, "id": "paper-b", "title": "COE display for wearable OLED", "url": "https://b.example"}
+    assert len(deduplicate([first, second])) == 1
 
