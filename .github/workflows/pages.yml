@@ -71,10 +71,10 @@ jobs:
           python scripts/collect.py "${args[@]}"
       - name: Commit collected metadata
         run: |
-          if ! git diff --quiet -- src/data/items.json; then
+          if ! git diff --quiet -- src/data/items.json src/data/collection_quality.json src/data/last_manual_collection.json; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add src/data/items.json
+            git add src/data/items.json src/data/collection_quality.json src/data/last_manual_collection.json
             git commit -m "data: update OLED trend metadata"
             git push
           fi

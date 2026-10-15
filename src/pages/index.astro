@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import items from "../data/items.json";
 import quality from "../data/collection_quality.json";
+import lastManual from "../data/last_manual_collection.json";
 
 type Item = {
   id: string;
@@ -16,10 +17,16 @@ type Item = {
   company?: string[];
   keywords?: string[];
   keyword_scores?: Record<string, number | undefined>;
+  custom_keyword?: string;
   metrics?: { name: string; value: number; unit: string; context: string }[];
 };
 
 const documents = (items as Item[]).sort((a, b) => b.published_at.localeCompare(a.published_at));
+const repository = import.meta.env.GITHUB_REPOSITORY || "kikyo424/LGD-KNDA-";
+const workflowUrl = `https://github.com/${repository}/actions/workflows/pages.yml`;
+const lastManualDocuments = lastManual.keyword
+  ? documents.filter((item) => item.custom_keyword?.toLowerCase() === lastManual.keyword.toLowerCase())
+  : [];
 const categories = ["초고휘도", "저전력", "발광 구조", "야외 시인성", "제조/공정"];
 const categoryPurpose: Record<string, string> = {
   "초고휘도": "고휘도 구현 수준",
@@ -137,14 +144,27 @@ const decisionAreas = [
             <label>종료일<input id="collect-to" type="date" /></label>
           </div>
           <label>자료 유형<select id="collect-source"><option value="all">뉴스 + 논문</option><option value="news">뉴스</option><option value="papers">논문</option></select></label>
-          <button class="command-button" type="submit">수집 명령 만들기</button>
+          <button class="command-button" type="submit">GitHub Actions에서 수집 시작</button>
         </form>
         <div id="collection-result" hidden>
+          <p>아래 조건을 GitHub Actions 화면에 입력한 뒤 <b>Run workflow</b>를 누르세요.</p>
           <code id="collection-command"></code>
-          <button id="copy-command" type="button">명령 복사</button>
+          <a id="open-workflow" href={workflowUrl} target="_blank" rel="noreferrer">Actions 열기</a>
         </div>
-        <p class="collector-help">로컬에서는 복사한 명령을 PowerShell에서 실행합니다. GitHub에서는 Actions → Collect and deploy → Run workflow에 같은 조건을 입력하면 자동 수집 후 재배포됩니다.</p>
+        <p class="collector-help">수집·분석·재배포에는 보통 1~3분이 걸립니다. 완료된 뒤 이 페이지를 새로고침하면 아래 최근 수집 결과에 실제 문서가 표시됩니다.</p>
       </article>
+    </section>
+
+    <section class="panel recent-collection" aria-label="최근 맞춤 수집 결과">
+      <div class="panel-heading"><div><small>LAST CUSTOM COLLECTION</small><h2>최근 맞춤 수집 결과</h2></div></div>
+      {lastManual.keyword ? <div class="recent-content">
+        <div><span>수집 키워드</span><strong>{lastManual.keyword}</strong></div>
+        <div><span>기간</span><strong>{lastManual.date_from || "전체"} ~ {lastManual.date_to || "현재"}</strong></div>
+        <div><span>자료 유형</span><strong>{lastManual.source === "all" ? "뉴스 + 논문" : lastManual.source === "news" ? "뉴스" : "논문"}</strong></div>
+        <div><span>결과</span><strong>{lastManual.result_count}건</strong></div>
+        <div><span>완료 시각</span><strong>{lastManual.completed_at ? new Date(lastManual.completed_at).toLocaleString("ko-KR") : "-"}</strong></div>
+        <button type="button" id="show-last-collection" data-last-keyword={lastManual.keyword.toLowerCase()}>결과 {lastManualDocuments.length}건 보기</button>
+      </div> : <div class="empty">아직 맞춤 수집 이력이 없습니다. 위 조건을 입력해 GitHub Actions를 실행하세요.</div>}
     </section>
 
     <section class="quality-strip" aria-label="수집 데이터 품질">
@@ -203,7 +223,7 @@ const decisionAreas = [
       </div>
       <div id="document-list">
         {documents.length ? documents.map((item) => (
-          <a class="document" href={item.url} target="_blank" rel="noreferrer" data-region={item.region} data-search={`${item.title} ${item.technologies.join(" ")} ${(item.keywords || []).join(" ")} ${(item.company || []).join(" ")}`.toLowerCase()}>
+          <a class="document" href={item.url} target="_blank" rel="noreferrer" data-region={item.region} data-search={`${item.title} ${item.technologies.join(" ")} ${(item.keywords || []).join(" ")} ${(item.company || []).join(" ")} ${item.custom_keyword || ""}`.toLowerCase()}>
             <div class="doc-meta"><span>{item.source} · {item.region === "domestic" ? "국내" : "해외"}</span><time>{item.published_at || "날짜 미상"}</time></div>
             <h3>{item.title}</h3>
             <p>{item.summary}</p>
@@ -282,18 +302,17 @@ const decisionAreas = [
       const dateTo = document.querySelector("#collect-to")?.value;
       const source = document.querySelector("#collect-source")?.value || "all";
       if (!keyword) return;
-      const escapedKeyword = keyword.replaceAll('"', '\\"');
-      const parts = [`.\\.venv\\Scripts\\python.exe scripts\\collect.py --keyword "${escapedKeyword}"`];
-      if (dateFrom) parts.push(`--date-from ${dateFrom}`);
-      if (dateTo) parts.push(`--date-to ${dateTo}`);
-      parts.push(`--source ${source}`);
-      commandElement.textContent = parts.join(" ");
+      const sourceLabel = source === "all" ? "뉴스 + 논문" : source === "news" ? "뉴스" : "논문";
+      commandElement.textContent = `키워드: ${keyword} | 기간: ${dateFrom || "전체"} ~ ${dateTo || "현재"} | 자료 유형: ${sourceLabel}`;
       resultBox.hidden = false;
     });
-    document.querySelector("#copy-command")?.addEventListener("click", async () => {
-      const command = commandElement?.textContent || "";
-      await navigator.clipboard.writeText(command);
-      document.querySelector("#copy-command").textContent = "복사됨";
+    document.querySelector("#show-last-collection")?.addEventListener("click", (event) => {
+      const keyword = event.currentTarget.dataset.lastKeyword || "";
+      if (input) input.value = keyword;
+      selectedRegion = "all";
+      regionButtons.forEach((candidate) => candidate.classList.toggle("active", candidate.dataset.region === "all"));
+      applyFilters();
+      document.querySelector(".documents")?.scrollIntoView({ behavior: "smooth" });
     });
   </script>
 </Layout>
@@ -335,11 +354,17 @@ const decisionAreas = [
   .custom-collector label { color: #8495af; font-size: .72rem; display: grid; gap: 6px; }
   .custom-collector input, .custom-collector select { width: 100%; background: #080d18; color: #eef3ff; border: 1px solid #30425f; padding: 10px 12px; }
   .date-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-  .command-button, #copy-command { border: 0; background: #5df2c2; color: #07110e; font-weight: 800; padding: 11px; cursor: pointer; }
+  .command-button, #open-workflow, #show-last-collection { border: 0; background: #5df2c2; color: #07110e; font-weight: 800; padding: 11px; cursor: pointer; text-decoration: none; display: inline-block; text-align: center; }
   #collection-result { margin-top: 14px; border: 1px solid #30425f; padding: 12px; }
   #collection-result code { display: block; color: #b7c8df; font-size: .68rem; word-break: break-all; line-height: 1.6; margin-bottom: 10px; }
-  #copy-command { padding: 7px 10px; font-size: .72rem; }
+  #open-workflow { padding: 8px 10px; font-size: .72rem; }
   .collector-help { color: #5f728f; font-size: .68rem; line-height: 1.65; margin: 15px 0 0; }
+  .recent-collection { margin-bottom: 20px; }
+  .recent-content { display: grid; grid-template-columns: repeat(6, 1fr); gap: 1px; background: #1b2940; }
+  .recent-content > div { background: #0b1120; padding: 16px; display: flex; flex-direction: column; gap: 7px; }
+  .recent-content span { color: #71829e; font-size: .68rem; }
+  .recent-content strong { color: #e8eefc; font-size: .78rem; line-height: 1.45; word-break: break-word; }
+  #show-last-collection { align-self: stretch; display: grid; place-items: center; font-size: .78rem; }
   .panel { background: rgba(11, 17, 32, .92); border: 1px solid #22314a; border-radius: 3px; padding: 26px; }
   .panel-heading { display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px; }
   .panel-heading small { color: #5df2c2; font-size: .66rem; font-weight: 800; letter-spacing: .16em; }
@@ -409,6 +434,7 @@ const decisionAreas = [
     .taxonomy { grid-template-columns: repeat(2, 1fr); }
     .keyword-list { grid-template-columns: 1fr; }
     .quality-strip { grid-template-columns: repeat(2, 1fr); }
+    .recent-content { grid-template-columns: repeat(2, 1fr); }
     .caution { text-align: left; }
     .list-heading, .controls { align-items: stretch; flex-direction: column; }
     input { width: 100%; }

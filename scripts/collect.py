@@ -20,6 +20,7 @@ import httpx
 ROOT = Path(__file__).resolve().parents[1]
 DATA_FILE = ROOT / "src" / "data" / "items.json"
 QUALITY_FILE = ROOT / "src" / "data" / "collection_quality.json"
+LAST_MANUAL_FILE = ROOT / "src" / "data" / "last_manual_collection.json"
 USER_AGENT = "oled-watch-trend-radar/0.1 (academic trend research)"
 
 QUERIES = [
@@ -429,6 +430,24 @@ def save_quality(stats: dict[str, Any], items: list[dict[str, Any]], errors: lis
     QUALITY_FILE.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def save_last_manual_collection(args: argparse.Namespace, items: list[dict[str, Any]], errors: list[str]) -> None:
+    """정적 사이트에서도 마지막 맞춤 수집 결과를 표시할 수 있도록 요약을 저장한다."""
+    keyword = clean_text(args.keyword)
+    if not keyword:
+        return
+    matching = [item for item in items if clean_text(item.get("custom_keyword")).lower() == keyword.lower()]
+    report = {
+        "keyword": keyword,
+        "date_from": args.date_from or "",
+        "date_to": args.date_to or "",
+        "source": args.source,
+        "result_count": len(matching),
+        "source_errors": len(errors),
+        "completed_at": datetime.now(UTC).isoformat(),
+    }
+    LAST_MANUAL_FILE.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Collect OLED trend metadata")
     parser.add_argument("--keyword", help="Custom keyword or search phrase")
@@ -517,6 +536,7 @@ def main(argv: list[str] | None = None) -> int:
     final_items = deduplicate(collected, quality_stats)
     save(final_items)
     save_quality(quality_stats, final_items, errors)
+    save_last_manual_collection(args, final_items, errors)
     print(f"Saved {len(final_items)} unique documents to {DATA_FILE}")
     for error in errors:
         print(f"WARNING: {error}", file=sys.stderr)
