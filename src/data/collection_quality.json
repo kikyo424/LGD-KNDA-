@@ -3,9 +3,10 @@
   "excluded_irrelevant": 258,
   "excluded_before_2023": 72,
   "duplicates_removed": 23,
-  "saved": 180,
+  "saved": 147,
   "missing_date": 0,
   "missing_summary": 22,
   "source_errors": 3,
-  "generated_at": "2026-10-15T11:45:45.648546+00:00"
+  "generated_at": "2026-10-15T11:49:45.896340+00:00",
+  "deleted_custom_results": 33
 }

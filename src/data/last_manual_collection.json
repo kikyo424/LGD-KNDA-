@@ -1,9 +1,9 @@
 {
-  "keyword": "coe",
-  "date_from": "2026-01-01",
-  "date_to": "2026-10-15",
-  "source": "papers",
-  "result_count": 33,
-  "source_errors": 1,
-  "completed_at": "2026-10-15T06:47:07.691992+00:00"
+  "keyword": "",
+  "date_from": "",
+  "date_to": "",
+  "source": "all",
+  "result_count": 0,
+  "source_errors": 0,
+  "completed_at": ""
 }
