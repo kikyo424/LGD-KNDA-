@@ -190,3 +190,50 @@ def test_delete_recent_results_removes_matching_documents_and_updates_reports(mo
     assert quality["source_errors"] == 1
     assert json.loads(collect.LAST_MANUAL_FILE.read_text())["keyword"] == ""
     assert collect.main(["--delete-last-manual", "timestamp"]) == 1
+
+
+def test_international_google_news_uses_english_feed_and_preserves_publisher():
+    xml = '''<rss><channel><item>
+      <title>Smartwatch tandem OLED reaches 3000 nits</title>
+      <link>https://example.com/watch</link>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 GMT</pubDate>
+      <description>LTPO OLED improves power efficiency outdoors.</description>
+      <source>Example Tech</source>
+    </item></channel></rss>'''
+    def respond(request):
+        assert request.url.host == "news.google.com"
+        assert request.url.params["hl"] == "en-US"
+        assert request.url.params["gl"] == "US"
+        assert request.url.params["ceid"] == "US:en"
+        assert request.url.params["q"] == "smartwatch OLED"
+        return collect.httpx.Response(200, text=xml)
+    with collect.httpx.Client(transport=collect.httpx.MockTransport(respond)) as client:
+        item = collect.fetch_international_news(client, "smartwatch OLED")[0]
+    assert item["region"] == "international"
+    assert item["source_type"] == "news"
+    assert item["source"] == "Example Tech"
+    assert item["published_at"] == "2026-10-14"
+    assert "발광 구조" in item["technologies"]
+    assert len(deduplicate([item, item])) == 1
+    assert parse_rss(xml, fallback_source="Google News EN", region="international")[0]["id"] != parse_rss(xml)[0]["id"]
+
+
+def test_manual_news_collection_saves_foreign_news_when_domestic_feed_fails(monkeypatch, tmp_path):
+    monkeypatch.setattr(collect, "DATA_FILE", tmp_path / "items.json")
+    monkeypatch.setattr(collect, "QUALITY_FILE", tmp_path / "quality.json")
+    monkeypatch.setattr(collect, "LAST_MANUAL_FILE", tmp_path / "last.json")
+    def fail_domestic(client, query):
+        raise collect.httpx.ConnectError("Unavailable")
+    calls = []
+    def foreign(client, query):
+        calls.append(query)
+        return [{"id": "foreign", "title": "Smartwatch OLED high brightness", "published_at": "2026-10-14", "source_type": "news", "region": "international", "source": "Example Tech", "url": "https://example.com/watch"}]
+    monkeypatch.setattr(collect, "fetch_domestic_news", fail_domestic)
+    monkeypatch.setattr(collect, "fetch_international_news", foreign)
+    assert collect.main(["--keyword", "smartwatch OLED", "--source", "news", "--date-from", "2026-01-01"]) == 0
+    assert calls == ["smartwatch OLED"]
+    item = collect.load_existing()[0]
+    assert item["region"] == "international"
+    assert item["custom_keyword"] == "smartwatch OLED"
+    assert json.loads(collect.QUALITY_FILE.read_text())["source_errors"] == 1
+    assert json.loads(collect.LAST_MANUAL_FILE.read_text())["result_count"] == 1

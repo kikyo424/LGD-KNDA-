@@ -1,6 +1,6 @@
 # OLED Watch Trend Radar
 
-야외 시인성을 위한 초고휘도 스마트워치·웨어러블 OLED 기술 동향을 무료 공개 API와 RSS로 수집하고 보여주는 정적 대시보드입니다. 국내 뉴스와 해외 논문을 전체·국내·해외로 나누어 탐색할 수 있습니다.
+야외 시인성을 위한 초고휘도 스마트워치·웨어러블 OLED 기술 동향을 무료 공개 API와 RSS로 수집하고 보여주는 정적 대시보드입니다. 국내·해외 뉴스와 해외 논문을 전체·국내·해외로 나누어 탐색할 수 있습니다.
 
 ## 로컬 실행
 
@@ -80,7 +80,7 @@ OPENALEX_API_KEY
 
 ## 데이터 원칙
 
-- Crossref·arXiv의 해외 연구 메타데이터와 Google 뉴스 한국 RSS의 국내 기사 메타데이터를 저장합니다.
+- Crossref·arXiv의 해외 연구 메타데이터와 Google 뉴스 한국·미국 영문 RSS의 국내·해외 기사 메타데이터를 저장합니다.
 - 원문 전체를 복제하지 않고 제목, 초록, 날짜, DOI/URL, 기술 태그만 저장합니다.
 - DOI 또는 고유 URL로 중복을 제거합니다.
 
@@ -95,5 +95,5 @@ technology, keywords, summary, source_url, region, metrics
 
 `metrics`에는 원문에 단위가 명시된 휘도, 반사율, 소비전력, 수명, 수율과 해당 문맥을 함께 저장합니다. 서로 다른 측정 조건의 값을 자동 순위화하지 않습니다.
 
-현재 수집원은 Crossref, arXiv, Semantic Scholar, OpenAlex, Google 뉴스 한국 RSS입니다. Semantic Scholar와 OpenAlex는 무료 키를 환경변수로 선택적으로 사용할 수 있습니다. KIPRIS Plus는 무료 키 발급 후 특허 수집기로 확장합니다. Google Patents는 공식 공개 API가 없으므로 화면 자동 크롤링 대상에서 제외합니다.
+현재 수집원은 Crossref, arXiv, Semantic Scholar, OpenAlex, Google 뉴스 한국·미국 영문 RSS입니다. 해외 뉴스는 영문 검색어로 조회하며 `해외` 필터에 포함됩니다. 맞춤 수집에서 `뉴스`를 선택하면 국내·해외 RSS를 함께 조회합니다. Semantic Scholar와 OpenAlex는 무료 키를 환경변수로 선택적으로 사용할 수 있습니다. KIPRIS Plus는 무료 키 발급 후 특허 수집기로 확장합니다. Google Patents는 공식 공개 API가 없으므로 화면 자동 크롤링 대상에서 제외합니다.
 

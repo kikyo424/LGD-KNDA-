@@ -41,6 +41,12 @@ DOMESTIC_NEWS_QUERIES = [
     'OLED (COE OR 컬러필터온인캡슐레이션 OR 무편광판) (스마트워치 OR 웨어러블 OR 디스플레이)',
 ]
 
+INTERNATIONAL_NEWS_QUERIES = [
+    'OLED (smartwatch OR wearable) (brightness OR sunlight OR luminance)',
+    'OLED (LTPO OR tandem OR "polarizer free" OR reflectance) (watch OR wearable)',
+    'OLED ("COE display" OR "COE OLED" OR "color filter on encapsulation")',
+]
+
 TECHNOLOGIES = {
     "초고휘도": ("high brightness", "ultra-high luminance", "peak brightness", "peak luminance", "nit", "nits", "초고휘도", "고휘도", "최대 휘도"),
     "저전력": ("ltpo", "low-temperature polycrystalline oxide", "power efficiency", "power consumption", "energy efficiency", "low power", "소비전력", "전력 효율", "저전력"),
@@ -236,7 +242,7 @@ def parse_arxiv(xml_text: str) -> list[dict[str, Any]]:
     return results
 
 
-def parse_rss(xml_text: str, fallback_source: str = "Google 뉴스 KR") -> list[dict[str, Any]]:
+def parse_rss(xml_text: str, fallback_source: str = "Google 뉴스 KR", region: str = "domestic") -> list[dict[str, Any]]:
     root = ET.fromstring(xml_text)
     results = []
     for entry in root.findall("./channel/item"):
@@ -252,11 +258,11 @@ def parse_rss(xml_text: str, fallback_source: str = "Google 뉴스 KR") -> list[
         except (TypeError, ValueError):
             published_at = ""
         results.append({
-            "id": stable_id("domestic-news", url),
+            "id": stable_id(f"{region}-news", url),
             "doi": "",
             "source_type": "news",
             "source": source,
-            "region": "domestic",
+            "region": region,
             "title": title,
             "published_at": published_at,
             "url": url,
@@ -395,6 +401,15 @@ def fetch_domestic_news(client: httpx.Client, query: str) -> list[dict[str, Any]
     response = client.get(url)
     response.raise_for_status()
     return parse_rss(response.content.decode("utf-8"))
+
+
+def fetch_international_news(client: httpx.Client, query: str) -> list[dict[str, Any]]:
+    response = client.get(
+        "https://news.google.com/rss/search",
+        params={"q": query, "hl": "en-US", "gl": "US", "ceid": "US:en"},
+    )
+    response.raise_for_status()
+    return parse_rss(response.content.decode("utf-8"), fallback_source="Google News EN", region="international")
 
 
 def fetch_semantic_scholar(client: httpx.Client, query: str, api_key: str | None) -> list[dict[str, Any]]:
@@ -560,6 +575,7 @@ def main(argv: list[str] | None = None) -> int:
     paper_queries = [custom_keyword] if is_manual else QUERIES
     scholar_queries = [custom_keyword] if is_manual else SCHOLAR_QUERIES
     news_queries = [custom_keyword] if is_manual else DOMESTIC_NEWS_QUERIES
+    international_news_queries = [custom_keyword] if is_manual else INTERNATIONAL_NEWS_QUERIES
     email = os.getenv("CONTACT_EMAIL")
     semantic_scholar_key = os.getenv("SEMANTIC_SCHOLAR_API_KEY")
     openalex_key = os.getenv("OPENALEX_API_KEY")
@@ -576,7 +592,7 @@ def main(argv: list[str] | None = None) -> int:
 
     with httpx.Client(headers=headers, timeout=30, follow_redirects=True) as client:
         if args.reprocess_only:
-            paper_queries = scholar_queries = news_queries = []
+            paper_queries = scholar_queries = news_queries = international_news_queries = []
         for index, query in enumerate(paper_queries if args.source != "news" else []):
             try:
                 if index:
@@ -595,6 +611,11 @@ def main(argv: list[str] | None = None) -> int:
                 add_results(fetch_domestic_news(client, query))
             except (httpx.HTTPError, ET.ParseError) as exc:
                 errors.append(f"Domestic news/{query}: {exc}")
+        for query in international_news_queries if args.source != "papers" else []:
+            try:
+                add_results(fetch_international_news(client, query))
+            except (httpx.HTTPError, ET.ParseError) as exc:
+                errors.append(f"International news/{query}: {exc}")
         for query in scholar_queries if args.source != "news" else []:
             try:
                 add_results(fetch_semantic_scholar(client, query, semantic_scholar_key))
