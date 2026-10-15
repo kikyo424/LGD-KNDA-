@@ -43,6 +43,14 @@ npm run dev
 .\.venv\Scripts\python.exe scripts\collect.py --clear-last-manual
 ```
 
+## 최근 맞춤 수집 결과 삭제
+
+`최근 맞춤 수집 결과`의 **이 결과 N건 삭제**를 누르고 확인하면 삭제 확인값과 Actions 링크가 표시됩니다. **Run workflow**에서 `delete_last_manual`에 확인값을 그대로 입력하고 실행하세요. 삭제 작업은 새 자료를 수집하지 않으며, 배포가 끝나면 해당 문서가 목록·검색·통계에서 제거되고 최근 수집 내역도 초기화됩니다.
+
+삭제 대상은 **결과 N건 보기**와 동일한 문서입니다. 다른 수집과 겹치는 문서도 삭제되며, 이후 수집에서 다시 추가될 수 있습니다. 최근 수집이 바뀐 경우 오래된 확인값은 거부되므로 사이트를 새로고침하세요. `clear_last_manual`은 문서를 유지하고 요약만 초기화하는 기존 기능입니다.
+
+로컬에서는 `python scripts/collect.py --delete-last-manual '<완료 시각>'`으로 같은 작업을 실행할 수 있습니다.
+
 ## 검증
 
 ```bash

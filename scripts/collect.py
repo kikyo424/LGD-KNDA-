@@ -487,6 +487,28 @@ def clear_last_manual_collection() -> None:
     LAST_MANUAL_FILE.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def delete_last_manual_results(expected_completed_at: str) -> int:
+    report = json.loads(LAST_MANUAL_FILE.read_text(encoding="utf-8"))
+    keyword = report.get("keyword", "").lower()
+    if not keyword or report.get("completed_at") != expected_completed_at:
+        raise ValueError("최근 수집 내역이 변경되었습니다. 사이트를 새로고침한 뒤 삭제를 다시 요청하세요.")
+    existing = load_existing()
+    def matches(item: dict[str, Any]) -> bool:
+        published = item.get("published_at", "")
+        year = published[:4]
+        visible = not re.match(r"\d{4}", published) or int(year) >= 2023
+        return visible and item.get("custom_keyword", "").lower() == keyword
+    remaining = [item for item in existing if not matches(item)]
+    removed = len(existing) - len(remaining)
+    save(remaining)
+    stats = json.loads(QUALITY_FILE.read_text(encoding="utf-8")) if QUALITY_FILE.exists() else {}
+    stats.update({"saved": len(remaining), "deleted_custom_results": removed})
+    errors = stats.get("source_errors", 0)
+    save_quality(stats, remaining, [""] * errors)
+    clear_last_manual_collection()
+    return removed
+
+
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Collect OLED trend metadata")
     parser.add_argument("--keyword", help="Custom keyword or search phrase")
@@ -495,6 +517,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--source", choices=("all", "news", "papers"), default="all")
     parser.add_argument("--reprocess-only", action="store_true", help="Rebuild tags, quality scores and duplicates without network requests")
     parser.add_argument("--clear-last-manual", action="store_true", help="Clear the recent custom collection summary without deleting documents")
+    parser.add_argument("--delete-last-manual", metavar="COMPLETED_AT", help="Delete the displayed recent custom results using their completion timestamp")
     args = parser.parse_args(argv)
     for field in ("date_from", "date_to"):
         value = getattr(args, field)
@@ -517,6 +540,14 @@ def in_date_range(item: dict[str, Any], date_from: str | None, date_to: str | No
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
+    if args.delete_last_manual:
+        try:
+            removed = delete_last_manual_results(args.delete_last_manual)
+        except (ValueError, FileNotFoundError) as exc:
+            print(f"ERROR: {exc}", file=sys.stderr)
+            return 1
+        print(f"Deleted {removed} recent custom collection documents")
+        return 0
     if args.clear_last_manual:
         clear_last_manual_collection()
         print(f"Cleared recent custom collection summary in {LAST_MANUAL_FILE}")

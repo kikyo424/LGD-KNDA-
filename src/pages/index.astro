@@ -178,10 +178,16 @@ const decisionAreas = [
         <div><span>수집 키워드</span><strong>{lastManual.keyword}</strong></div>
         <div><span>기간</span><strong>{lastManual.date_from || "전체"} ~ {lastManual.date_to || "현재"}</strong></div>
         <div><span>자료 유형</span><strong>{lastManual.source === "all" ? "뉴스 + 논문" : lastManual.source === "news" ? "뉴스" : "논문"}</strong></div>
-        <div><span>결과</span><strong>{lastManual.result_count}건</strong></div>
+        <div><span>결과</span><strong>{lastManualDocuments.length}건</strong></div>
         <div><span>완료 시각</span><strong>{lastManual.completed_at ? new Date(lastManual.completed_at).toLocaleString("ko-KR") : "-"}</strong></div>
         <button type="button" id="show-last-collection" data-last-keyword={lastManual.keyword.toLowerCase()}>결과 {lastManualDocuments.length}건 보기</button>
-        <button type="button" id="hide-last-collection">이 브라우저에서 숨기기</button>
+        <button type="button" id="delete-last-collection" data-count={lastManualDocuments.length} disabled={!lastManualDocuments.length}>이 결과 {lastManualDocuments.length}건 삭제</button>
+        <div id="delete-instructions" hidden>
+          <p>Actions에서 <b>Run workflow</b>를 열고 <b>delete_last_manual</b>에 아래 확인값을 입력해 실행하세요. 배포가 완료되면 문서와 통계에서 삭제됩니다.</p>
+          <code>{lastManual.completed_at}</code>
+          <p>다른 수집과 겹친 문서도 삭제됩니다. 이후 다시 수집하면 같은 문서가 추가될 수 있습니다.</p>
+          <a href={workflowUrl} target="_blank" rel="noreferrer">삭제 실행을 위해 Actions 열기</a>
+        </div>
       </div> : <div class="empty">아직 맞춤 수집 이력이 없습니다. 위 조건을 입력해 GitHub Actions를 실행하세요.</div>}
     </section>
 
@@ -255,7 +261,7 @@ const decisionAreas = [
       </div>
       <div id="document-list">
         {documents.length ? documents.map((item) => (
-          <a class="document" href={item.url} target="_blank" rel="noreferrer" data-region={item.region} data-year={item.published_at.slice(0, 4)} data-search={`${item.title} ${item.technologies.join(" ")} ${(item.keywords || []).join(" ")} ${(item.company || []).join(" ")} ${item.custom_keyword || ""}`.toLowerCase()}>
+          <a class="document" href={item.url} target="_blank" rel="noreferrer" data-custom-keyword={(item.custom_keyword || "").toLowerCase()} data-region={item.region} data-year={item.published_at.slice(0, 4)} data-search={`${item.title} ${item.technologies.join(" ")} ${(item.keywords || []).join(" ")} ${(item.company || []).join(" ")} ${item.custom_keyword || ""}`.toLowerCase()}>
             <div class="doc-meta"><span>{item.source} · {item.region === "domestic" ? "국내" : "해외"}</span><time>{item.published_at || "날짜 미상"}</time></div>
             <h3>{item.title}</h3>
             <p>{item.summary}</p>
@@ -272,16 +278,19 @@ const decisionAreas = [
     const regionButtons = document.querySelectorAll<HTMLButtonElement>(".region-filter [data-region]");
     let selectedRegion = "all";
     let selectedYear = "all";
+    let selectedCollectionKeyword = "";
     const applyFilters = () => {
       const query = input?.value.trim().toLowerCase() || "";
       document.querySelectorAll<HTMLElement>(".document").forEach((documentElement) => {
-        const matchesText = (documentElement.dataset.search || "").includes(query);
+        const matchesText = selectedCollectionKeyword
+          ? documentElement.dataset.customKeyword === selectedCollectionKeyword
+          : (documentElement.dataset.search || "").includes(query);
         const matchesRegion = selectedRegion === "all" || documentElement.dataset.region === selectedRegion;
         const matchesYear = selectedYear === "all" || documentElement.dataset.year === selectedYear;
         documentElement.hidden = !(matchesText && matchesRegion && matchesYear);
       });
     };
-    input?.addEventListener("input", applyFilters);
+    input?.addEventListener("input", () => { selectedCollectionKeyword = ""; applyFilters(); });
     yearSelect?.addEventListener("change", () => {
       selectedYear = yearSelect.value;
       applyFilters();
@@ -307,6 +316,7 @@ const decisionAreas = [
     }));
 
     document.querySelectorAll<HTMLButtonElement>("[data-keyword-filter]").forEach((button) => button.addEventListener("click", () => {
+      selectedCollectionKeyword = "";
       if (input) input.value = button.dataset.keywordFilter || "";
       selectedRegion = "all";
       regionButtons.forEach((candidate) => candidate.classList.toggle("active", candidate.dataset.region === "all"));
@@ -330,22 +340,20 @@ const decisionAreas = [
     });
     document.querySelector<HTMLButtonElement>("#show-last-collection")?.addEventListener("click", (event) => {
       const keyword = (event.currentTarget as HTMLButtonElement | null)?.dataset.lastKeyword || "";
+      selectedCollectionKeyword = keyword;
+      selectedYear = "all";
+      if (yearSelect) yearSelect.value = "all";
       if (input) input.value = keyword;
       selectedRegion = "all";
       regionButtons.forEach((candidate) => candidate.classList.toggle("active", candidate.dataset.region === "all"));
       applyFilters();
       document.querySelector(".documents")?.scrollIntoView({ behavior: "smooth" });
     });
-    const recentCollection = document.querySelector<HTMLElement>("#recent-collection");
-    const hiddenCollectionKey = "oled-watch-trend-radar:hidden-last-manual";
-    const collectionTimestamp = recentCollection?.dataset.collectionAt || "";
-    if (collectionTimestamp && localStorage.getItem(hiddenCollectionKey) === collectionTimestamp) {
-      recentCollection?.setAttribute("hidden", "");
-    }
-    document.querySelector<HTMLButtonElement>("#hide-last-collection")?.addEventListener("click", () => {
-      if (!collectionTimestamp || !recentCollection) return;
-      localStorage.setItem(hiddenCollectionKey, collectionTimestamp);
-      recentCollection.hidden = true;
+    document.querySelector<HTMLButtonElement>("#delete-last-collection")?.addEventListener("click", (event) => {
+      const count = (event.currentTarget as HTMLButtonElement).dataset.count;
+      if (!window.confirm(`이 결과 ${count}건을 저장 데이터에서 삭제하시겠습니까? 다른 수집과 겹친 문서도 삭제됩니다. 다음 화면의 Actions 실행 후 적용됩니다.`)) return;
+      const instructions = document.querySelector<HTMLElement>("#delete-instructions");
+      if (instructions) instructions.hidden = false;
     });
   </script>
 </Layout>
@@ -387,7 +395,7 @@ const decisionAreas = [
   .custom-collector label { color: #8495af; font-size: .72rem; display: grid; gap: 6px; }
   .custom-collector input, .custom-collector select { width: 100%; background: #080d18; color: #eef3ff; border: 1px solid #30425f; padding: 10px 12px; }
   .date-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-  .command-button, #open-workflow, #show-last-collection, #hide-last-collection { border: 0; background: #5df2c2; color: #07110e; font-weight: 800; padding: 11px; cursor: pointer; text-decoration: none; display: inline-block; text-align: center; }
+  .command-button, #open-workflow, #show-last-collection, #delete-last-collection { border: 0; background: #5df2c2; color: #07110e; font-weight: 800; padding: 11px; cursor: pointer; text-decoration: none; display: inline-block; text-align: center; }
   #collection-result { margin-top: 14px; border: 1px solid #30425f; padding: 12px; }
   #collection-result code { display: block; color: #b7c8df; font-size: .68rem; word-break: break-all; line-height: 1.6; margin-bottom: 10px; }
   #open-workflow { padding: 8px 10px; font-size: .72rem; }
@@ -397,8 +405,8 @@ const decisionAreas = [
   .recent-content > div { background: #0b1120; padding: 16px; display: flex; flex-direction: column; gap: 7px; }
   .recent-content span { color: #71829e; font-size: .68rem; }
   .recent-content strong { color: #e8eefc; font-size: .78rem; line-height: 1.45; word-break: break-word; }
-  #show-last-collection, #hide-last-collection { align-self: stretch; display: grid; place-items: center; font-size: .78rem; }
-  #hide-last-collection { background: #24334d; color: #d7e2f5; }
+  #show-last-collection, #delete-last-collection { align-self: stretch; display: grid; place-items: center; font-size: .78rem; }
+  #delete-last-collection { background: #24334d; color: #d7e2f5; }
   .panel { background: rgba(11, 17, 32, .92); border: 1px solid #22314a; border-radius: 3px; padding: 26px; }
   .panel-heading { display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px; }
   .panel-heading small { color: #5df2c2; font-size: .66rem; font-weight: 800; letter-spacing: .16em; }

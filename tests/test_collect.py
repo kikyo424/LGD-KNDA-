@@ -163,3 +163,30 @@ def test_coe_display_variants_are_collected_as_one_keyword_and_paper_duplicates_
     second = {**first, "id": "paper-b", "title": "COE display for wearable OLED", "url": "https://b.example"}
     assert len(deduplicate([first, second])) == 1
 
+
+
+def test_delete_recent_results_removes_matching_documents_and_updates_reports(monkeypatch, tmp_path):
+    monkeypatch.setattr(collect, "DATA_FILE", tmp_path / "items.json")
+    monkeypatch.setattr(collect, "QUALITY_FILE", tmp_path / "quality.json")
+    monkeypatch.setattr(collect, "LAST_MANUAL_FILE", tmp_path / "last.json")
+    documents = [
+        {"id": "delete", "custom_keyword": "OLED", "published_at": "2023-01-01"},
+        {"id": "also-delete", "custom_keyword": "oled", "published_at": "2026-01-01"},
+        {"id": "older-hidden", "custom_keyword": "OLED", "published_at": "2022-01-01"},
+        {"id": "other", "custom_keyword": "LTPO", "published_at": "2026-01-01"},
+        {"id": "default", "published_at": "2026-01-01"},
+    ]
+    collect.save(documents)
+    collect.LAST_MANUAL_FILE.write_text(json.dumps({"keyword": "OLED", "completed_at": "timestamp"}))
+    collect.QUALITY_FILE.write_text(json.dumps({"saved": 5, "duplicates_removed": 3, "source_errors": 1}))
+    assert collect.main(["--delete-last-manual", "outdated"]) == 1
+    assert collect.load_existing() == documents
+    assert collect.main(["--delete-last-manual", "timestamp"]) == 0
+    assert {item["id"] for item in collect.load_existing()} == {"older-hidden", "other", "default"}
+    quality = json.loads(collect.QUALITY_FILE.read_text())
+    assert quality["saved"] == 3
+    assert quality["deleted_custom_results"] == 2
+    assert quality["duplicates_removed"] == 3
+    assert quality["source_errors"] == 1
+    assert json.loads(collect.LAST_MANUAL_FILE.read_text())["keyword"] == ""
+    assert collect.main(["--delete-last-manual", "timestamp"]) == 1
