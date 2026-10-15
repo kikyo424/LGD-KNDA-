@@ -47,7 +47,6 @@ const technologyCounts = documents.flatMap((item) => item.technologies).reduce<R
   acc[tag] = (acc[tag] || 0) + 1;
   return acc;
 }, {});
-const topTechnologies = Object.entries(technologyCounts).sort((a, b) => b[1] - a[1]).slice(0, 8);
 const sourceCounts = documents.reduce<Record<string, number>>((acc, item) => {
   acc[item.source] = (acc[item.source] || 0) + 1;
   return acc;
@@ -108,14 +107,7 @@ const decisionAreas = [
       <article><b>{Object.keys(technologyCounts).length}</b><span>탐지 기술</span></article>
     </section>
 
-    <section class="grid">
-      <article class="panel chart-panel">
-        <div class="panel-heading"><div><small>SIGNAL MAP</small><h2>주요 기술 신호</h2></div></div>
-        {topTechnologies.length ? <div class="signal-bars" aria-label="기술별 문서 수 차트">{topTechnologies.map(([name, count]) => (
-          <div class="signal-row"><span>{name}</span><i><b style={`width:${(count / (topTechnologies[0]?.[1] || 1)) * 100}%`}></b></i><strong>{count}</strong></div>
-        ))}</div> : <div class="empty">수집 후 기술 차트가 표시됩니다.</div>}
-      </article>
-
+    <section class="sources-section">
       <article class="panel sources">
         <div class="panel-heading"><div><small>SOURCES</small><h2>출처 현황</h2></div></div>
         {Object.keys(sourceCounts).length ? <div class="source-list">{Object.entries(sourceCounts).map(([source, count]) => (
@@ -327,7 +319,7 @@ const decisionAreas = [
   .stats article { background: #0b1120; padding: 25px; display: flex; flex-direction: column; gap: 6px; }
   .stats b { font-size: 2rem; color: #fff; }
   .stats span { color: #7f90ac; font-size: .82rem; }
-  .grid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr); gap: 20px; margin-bottom: 20px; }
+  .sources-section { margin-bottom: 20px; }
   .taxonomy { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1px; margin: 20px 0; background: #22314a; border: 1px solid #22314a; }
   .taxonomy article { background: #0b1120; padding: 22px; min-height: 170px; position: relative; }
   .taxonomy span { color: #40506b; font-weight: 800; }
@@ -366,11 +358,6 @@ const decisionAreas = [
   .panel-heading { display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px; }
   .panel-heading small { color: #5df2c2; font-size: .66rem; font-weight: 800; letter-spacing: .16em; }
   h2 { margin: 5px 0 0; font-size: 1.25rem; }
-  .signal-bars { display: grid; gap: 15px; padding: 11px 2px; }
-  .signal-row { display: grid; grid-template-columns: 100px 1fr 28px; align-items: center; gap: 12px; color: #cdd8ec; font-size: .78rem; }
-  .signal-row i { height: 13px; background: #1b2940; border-radius: 8px; overflow: hidden; }
-  .signal-row b { display: block; height: 100%; background: #5df2c2; border-radius: 8px; }
-  .signal-row strong { color: #eef3ff; text-align: right; }
   .trend-panel { margin-bottom: 20px; }
   .yearly-legend { display: flex; flex-wrap: wrap; gap: 12px; margin: -8px 0 18px; color: #8ea0bb; font-size: .68rem; }
   .yearly-legend span::before { content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 5px; background: currentColor; }
