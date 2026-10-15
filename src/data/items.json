@@ -12,7 +12,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.303189+00:00",
+    "collected_at": "2026-10-15T06:03:01.414863+00:00",
     "document_id": "f164cb3b2e5a8544a8a7",
     "published_date": "2026-10-13",
     "company": [
@@ -44,7 +44,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.303263+00:00",
+    "collected_at": "2026-10-15T06:03:01.414941+00:00",
     "document_id": "a3a06e2497a577e0d917",
     "published_date": "2026-10-12",
     "company": [],
@@ -73,7 +73,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.303098+00:00",
+    "collected_at": "2026-10-15T06:03:01.414758+00:00",
     "document_id": "27b86797b0b2eb442afe",
     "published_date": "2026-10-12",
     "company": [
@@ -104,7 +104,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.303163+00:00",
+    "collected_at": "2026-10-15T06:03:01.414833+00:00",
     "document_id": "7923e06b3dd70f8780ce",
     "published_date": "2026-10-11",
     "company": [
@@ -135,7 +135,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.303213+00:00",
+    "collected_at": "2026-10-15T06:03:01.414889+00:00",
     "document_id": "78d34ff1048dd8dfc53f",
     "published_date": "2026-10-11",
     "company": [
@@ -167,7 +167,7 @@
     "technologies": [
       "제조/공정"
     ],
-    "collected_at": "2026-10-15T05:50:39.992983+00:00",
+    "collected_at": "2026-10-15T06:03:01.100235+00:00",
     "document_id": "69cb74d7e0374ef08660",
     "published_date": "2026-10-11",
     "company": [
@@ -196,7 +196,7 @@
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xRzRqeHJxbnBhN0Z0SUszN2VyZTZBYlV6OG11Qk96U3NPVmxiQTFhOE44dXc1ejBobU16cTlXc3YxdzVzNzlHdGNFQWIwZFRWeGItSG9oeWZoa3BQSDZ1Snp2NlVmSXdkalh0UQ?oc=5",
     "summary": "LGD '꿈의 OLED' 플립…FMM 없애고 휘도 최대 1.6배·수명 최대 2.4배 높인 비결은? ER 이코노믹리뷰",
     "technologies": [],
-    "collected_at": "2026-10-15T05:50:39.992942+00:00",
+    "collected_at": "2026-10-15T06:03:01.100189+00:00",
     "document_id": "68d1e0e980329841e55e",
     "published_date": "2026-10-11",
     "company": [
@@ -221,7 +221,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.303313+00:00",
+    "collected_at": "2026-10-15T06:03:01.414993+00:00",
     "document_id": "2bf04f68d9b8ac3a0f2b",
     "published_date": "2026-10-10",
     "company": [],
@@ -236,6 +236,204 @@
     },
     "metrics": [],
     "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeE9SdVNXc3JNb0tIYlRqd1BfdW5ERzJXdExETkVtYjdTOUJ1aVg2dzRsNy1GS3dKUExzZkYwT1ZXdV9Ya20xOXVENHdybklPX0lzWGdIc09Kdk9WNXljNDBsWGM2ZUVrTnVORC1ZVTc2TGRiN0JOUERtMVdtb3dkZ0c4dllGSVN4N0FQUkVvbjZKQ1hheUE?oc=5"
+  },
+  {
+    "id": "ea258033cb8d2bbba270",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "Interpretation of Nanohertz Gravitational Waves via Cosmic Strings in Post-BBN Matter and Kination Domination",
+    "published_at": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10674v1",
+    "summary": "Recent pulsar timing array (PTA) observations have reported evidence for a common low frequency signal consistent with a stochastic gravitational wave background. In this work, we investigate the cosmic string interpretation of this signal in a non-standard cosmological history between big bang nucleosynthesis and recombination, featuring an early matter-dominated era followed by a kination phase. Previous studies have shown that kination can significantly modify the cosmic-string-induced gravitational wave spectrum, generating characteristic features in the nanohertz range and producing a shape consistent with current PTA data. Building on this, we perform separate Bayesian analyses of the ",
+    "technologies": [],
+    "collected_at": "2026-10-15T06:46:50.394654+00:00",
+    "custom_keyword": "coe",
+    "document_id": "ea258033cb8d2bbba270",
+    "published_date": "2026-10-07",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2610.10674v1"
+  },
+  {
+    "id": "efc0564b7566ac31faac",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "Sparse qubit operation in a 6$\\times$6 quantum dot array",
+    "published_at": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.07683v1",
+    "summary": "Fault-tolerant quantum computation requires increasing the qubit count while maintaining high performance and connectivity. Semiconductor qubits have demonstrated high-fidelity operation, but growing the system size at sufficient connectivity remains challenging, such that scaling mainly occurred in one spatial direction to preserve access for control lines in the other. Here, we realise an approach that relaxes the requirements on fabrication and demonstrate a 6$\\times$6 quantum dot array, defined by a shared barrier gate and individual plunger gates. The quantum dots are tuned through coherent spin shuttling over distances up to 5.2um into a sparse configuration of 10 simultaneously operat",
+    "technologies": [],
+    "collected_at": "2026-10-15T06:46:50.394730+00:00",
+    "custom_keyword": "coe",
+    "document_id": "efc0564b7566ac31faac",
+    "published_date": "2026-10-06",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2610.07683v1"
+  },
+  {
+    "id": "9e43d4b73d21209133c2",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "Planetary Geospatial Foundation Models: A New Paradigm for Global Public Health",
+    "published_at": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.05699v1",
+    "summary": "The efficacy of traditional disease prediction is limited by spatial gaps and temporal lags, which impact the timing and targets of resource deployments. Outbreaks escalate undetected, chronic disease burdens are quantified years later, and at-risk populations in data-sparse regions remain unaddressed. Planetary geospatial foundation models complement existing epidemiological workflows to provide operational improvements, encoding multimodal search, mobility, and environmental signals into generalizable place representations. As illustrations of this complementarity, we present independent global health case studies of Google Earth AI's Population Dynamics Foundation Model (PDFM) -- a founda",
+    "technologies": [],
+    "collected_at": "2026-10-15T06:46:50.394818+00:00",
+    "custom_keyword": "coe",
+    "document_id": "9e43d4b73d21209133c2",
+    "published_date": "2026-10-05",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2610.05699v1"
+  },
+  {
+    "id": "2d330dd2124651fa8566",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "SN Helios: A Multiply Imaged Type II Supernova Opening Time-Delay Cosmography beyond redshift of 3",
+    "published_at": "2026-09-24",
+    "url": "http://arxiv.org/abs/2609.30440v1",
+    "summary": "We report the discovery and spectroscopic confirmation of SN Helios, a strongly lensed, multiply imaged Type II supernova (SN) at $z=3.34$ behind the galaxy cluster RXC J0018.5+1626. The transient was identified as a red F150W-dropout source (F277W = 26.1 mag) in JWST/NIRCam imaging taken on 2026 July 3 for the VENUS survey, with no counterpart in 2024 December imaging. Director's Discretionary Time observations on 2026 August 17 added second-epoch NIRCam imaging and a deep NIRSpec prism spectrum. The spectrum shows a strong, spectrally resolved H$α$ emission line (FWHM $\\approx 7900$ km/s) with a P-Cygni absorption blueshifted by 8800 km/s, together with corresponding H$β$ and He I $λ$10830",
+    "technologies": [],
+    "collected_at": "2026-10-15T06:46:50.394944+00:00",
+    "custom_keyword": "coe",
+    "document_id": "2d330dd2124651fa8566",
+    "published_date": "2026-09-24",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2609.30440v1"
+  },
+  {
+    "id": "1c7689b5ebb77d03a8fa",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "A sub-100 pc view at z~5 of a Multiply-Imaged Massive Quiescent Galaxy",
+    "published_at": "2026-09-23",
+    "url": "http://arxiv.org/abs/2609.28474v1",
+    "summary": "Recent James Webb Space Telescope spectroscopic surveys reveal an abundance of rapidly assembled early galaxies in the first billion years. Cosmological simulations struggle to reproduce this population because models require a rapid, highly efficient conversion of baryons into stars followed by an abrupt cessation of star-formation, known as quenching, in the early Universe. Testing these theoretical models remains difficult because high-redshift field galaxies appear compact and unresolved. This lack of resolution makes it impossible to distinguish compaction-driven quenching from secular evolution. Here we present VENUS-CLJ0152-QG1, a massive post-starburst galaxy at $z=5.18\\pm0.15$, with",
+    "technologies": [],
+    "collected_at": "2026-10-15T06:46:50.395050+00:00",
+    "custom_keyword": "coe",
+    "document_id": "1c7689b5ebb77d03a8fa",
+    "published_date": "2026-09-23",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2609.28474v1"
+  },
+  {
+    "id": "bf551212b7f63377a60e",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "Bayesian Optimization of The Relativistic Heavy Ion Collider Luminosity via $s^*$ Control",
+    "published_at": "2026-09-21",
+    "url": "http://arxiv.org/abs/2609.24978v1",
+    "summary": "Maximizing luminosity at the interaction point (IP) requires the collision location $s_{IP}$ to coincide with the longitudinal position of the minimum beta function, $s^$. Accurate optics measurements and control of $s^$ are therefore essential for luminosity optimization. At the Relativistic Heavy Ion Collider (RHIC), average horizontal beta-beat measurements between operating IPs are approximately $20%$, with significant variation in measured $s^*$. Precise control of the beam waist position $s^$ is particularly challenging for modern high-energy colliders with short bunch lengths and large crossing angles. We present an online Bayesian optimization (BO) application using the GPTune framew",
+    "technologies": [],
+    "collected_at": "2026-10-15T06:46:50.395199+00:00",
+    "custom_keyword": "coe",
+    "document_id": "bf551212b7f63377a60e",
+    "published_date": "2026-09-21",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2609.24978v1"
+  },
+  {
+    "id": "a1f872ffc05284b5d6e9",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "Cosmic Birefringence and Axiogenesis",
+    "published_at": "2026-09-21",
+    "url": "http://arxiv.org/abs/2609.25202v1",
+    "summary": "Recent analyses of Planck and ACT CMB data report a $2\\text{-}4σ$ hint of isotropic cosmic birefringence ($β\\approx 0.3^\\circ$), corresponding to a parity-violating rotation of polarization planes that points to potential new physics. We show that both the hint of cosmic birefringence and the observed baryon asymmetry can be simultaneously explained by the rotation of an axion-like field. The minimal setup predicts a positive birefringence angle, consistent with the CMB hint, and matter and kination domination ending around a temperature of $\\mathcal O(3\\text{-}50)$ MeV, making the model falsifiable by astrophysical probes and potentially giving rise to characteristic gravitational-wave sign",
+    "technologies": [],
+    "collected_at": "2026-10-15T06:46:50.395111+00:00",
+    "custom_keyword": "coe",
+    "document_id": "a1f872ffc05284b5d6e9",
+    "published_date": "2026-09-21",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2609.25202v1"
+  },
+  {
+    "id": "742608a8a7b622465f4b",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "PEARLS: NuSTAR and XMM-Newton Extragalactic Survey of the JWST North Ecliptic Pole Time-Domain Field IV: X-Ray Variability Analysis",
+    "published_at": "2026-09-21",
+    "url": "http://arxiv.org/abs/2609.24963v1",
+    "summary": "NuSTAR and XMM-Newton have observed the James Webb Space Telescope (JWST) North Ecliptic Pole (NEP) Time-Domain Field (TDF) for almost five contiguous years starting in 2019. In that time, the NEP X-ray survey has accumulated 3.5 Ms and 228 ks of quasi-simultaneous NuSTAR and XMM-Newton observations, respectively. This paper presents variability results for the 112 NuSTAR and 453 XMM-Newton sources detected in this field, based solely on the X-ray photometric data. Four NuSTAR sources and 11 XMM-Newton sources varied in at least one band at >=99% confidence. The sources with redshift measurements show a relationship between luminosity and variability with 74% of variable sources brighter tha",
+    "technologies": [],
+    "collected_at": "2026-10-15T06:46:50.395260+00:00",
+    "custom_keyword": "coe",
+    "document_id": "742608a8a7b622465f4b",
+    "published_date": "2026-09-21",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2609.24963v1"
+  },
+  {
+    "id": "916a99334f08447ba85e",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "Constraints on the Pop III Sky Surface Brightness from High-Redshift Caustic Transients in MACS0416",
+    "published_at": "2026-09-17",
+    "url": "http://arxiv.org/abs/2609.19757v1",
+    "summary": "Population III (Pop III) stars are hypothetical zero-metallicity stellar structures formed from primordial hydrogen and helium. They are theorized to span a wide mass range, extending to several 100 solar masses, and may have played important roles in nucleosynthesis and reionization. Their expected fluxes are far below JWST NIRCam detection limits, making direct observation unlikely. However, extreme magnification near the caustics of massive foreground galaxy clusters may enable their detection. We search for overlooked high-redshift (7 = 7. From this null result, we constrain the 100 solar mass 2 micron Pop III sky surface brightness to >= 32.8 +/- 0.6 mag arcsec^-2. Modeling the non-dete",
+    "technologies": [],
+    "collected_at": "2026-10-15T06:46:50.395331+00:00",
+    "custom_keyword": "coe",
+    "document_id": "916a99334f08447ba85e",
+    "published_date": "2026-09-17",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2609.19757v1"
   },
   {
     "id": "1dbff2c8dbdce35ac2f6",
@@ -269,6 +467,28 @@
     "source_url": "https://doi.org/10.35631/jistm.1144009"
   },
   {
+    "id": "7b461b1011c054667dd6",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "The THRILS Factor: Investigating the properties of Little Red Dots (LRDs) at 3<z<6 with JWST/NIRSpec",
+    "published_at": "2026-09-09",
+    "url": "http://arxiv.org/abs/2609.10803v1",
+    "summary": "JWST has uncovered a class of objects called LRDs, whose nature is still widely debated. In this work, we present a comprehensive spectroscopic analysis of nine LRDs in the Extended Groth Strip (EGS) field studied as part of THRILS and C3PO, both JWST Cycle 3 programs. These targets, photometrically selected based on their compact red appearance, are observed with deep spectroscopic exposures ($\\geq8$ hours), enabling robust detections of broad Balmer lines, He I emission, and other spectral features characteristic of AGN activity. Using the [SII] $λ\\lambda6716,6731$ doublet, we find electron densities ($n_e$) between $2.33 < \\log (n_e) < 2.97 \\ \\mathrm{cm^{-3}}$, comparable to those in narr",
+    "technologies": [],
+    "collected_at": "2026-10-15T06:46:50.395449+00:00",
+    "custom_keyword": "coe",
+    "document_id": "7b461b1011c054667dd6",
+    "published_date": "2026-09-09",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2609.10803v1"
+  },
+  {
     "id": "cb5992b037a35286f945",
     "doi": "",
     "source_type": "news",
@@ -281,7 +501,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.305176+00:00",
+    "collected_at": "2026-10-15T06:03:01.417054+00:00",
     "document_id": "cb5992b037a35286f945",
     "published_date": "2026-09-07",
     "company": [
@@ -312,7 +532,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.303823+00:00",
+    "collected_at": "2026-10-15T06:03:01.415566+00:00",
     "document_id": "2a05ec728dab1f8ea771",
     "published_date": "2026-09-06",
     "company": [
@@ -331,6 +551,28 @@
     "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9fMllnX05uWHFzOVp5M2V5YXZDdkJrdDh1WVdzZ3V5RUNpTHFONkpCNUVZeUJYNDVaaVg3T3RuRFM1N1UzTmNmX2s0ekM2bFpqZnZiSDFBM0I4eFnSAWBBVV95cUxQYTZuVkxCNDR4dkM0cUJjUWVnM1Z2ZUNpMFF0YTN3NkZhbDMxcF9zdXM4dUVFS1dPeW1pUUZxMkxZZDFvdnFtVHJwZmdxWUFEajdxdHZGTm52TlZuYVQ2cHo?oc=5"
   },
   {
+    "id": "551a12cb3ea118233a20",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "Cusped Defects: Cusp Operator Expansion, Conformal Properties and Bootstrap Applications",
+    "published_at": "2026-09-03",
+    "url": "http://arxiv.org/abs/2609.04035v1",
+    "summary": "We analyze general properties of cusped defect lines embedded in generic conformal field theories (CFTs). We prove that suitably defined cusp scaling operators transform like primary operators under general conformal transformations. We show that, via the cusp operator expansion (COE), defects of general shape can be expanded in a basis of cusped defects. These findings are checked and exemplified in the case of the localized magnetic field defect. Finally, we derive analytic constraints on dynamical cusp data by making use of a crossing equation, and discuss possible numerical bootstrap applications of our results.",
+    "technologies": [],
+    "collected_at": "2026-10-15T06:46:50.395493+00:00",
+    "custom_keyword": "coe",
+    "document_id": "551a12cb3ea118233a20",
+    "published_date": "2026-09-03",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2609.04035v1"
+  },
+  {
     "id": "de7beafbde91976241d3",
     "doi": "",
     "source_type": "news",
@@ -343,7 +585,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304263+00:00",
+    "collected_at": "2026-10-15T06:03:01.416036+00:00",
     "document_id": "de7beafbde91976241d3",
     "published_date": "2026-08-26",
     "company": [
@@ -362,6 +604,50 @@
     "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wb01NT2s3b1FUV25yeUNFUEVfN3VabzMwMURvWlluUnNPelNEcW01eWw1eVVZZTlBd0NXbUZwSzJNNF9GVFhYekkwak9COU9yWGFwYlZn?oc=5"
   },
   {
+    "id": "52db612ef186e8a63aa4",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "Chain-of-Experience for Continual LLM Improvement",
+    "published_at": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.18027v1",
+    "summary": "Humans continuously learn from experience, whereas conventional large language model (LLM) evaluations ignore the models' ability to improve through inference-time interaction. In this paper, we study how LLMs learn from iterative experience at test time, a setting we refer to as Chain-of-Experience (CoE), where models accumulate experiential traces through iterative interactions with self or environmental feedback to form a continual improvement loop beyond zero-shot inference. We instantiate CoE with diverse feedback mechanisms, including model self-feedback and environmental signals such as correctness or public coding test pass rates, and evaluate across math, coding, and knowledge domai",
+    "technologies": [],
+    "collected_at": "2026-10-15T06:46:50.395567+00:00",
+    "custom_keyword": "coe",
+    "document_id": "52db612ef186e8a63aa4",
+    "published_date": "2026-08-18",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2608.18027v1"
+  },
+  {
+    "id": "22022ca635d40ad86bfd",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "Robo-Dopamine 2.0: History-Conditioned and OOD-Aware Process Reward Modeling for Robotic Manipulation",
+    "published_at": "2026-08-16",
+    "url": "http://arxiv.org/abs/2608.15680v1",
+    "summary": "Vision-language-action (VLA) models improve robotic manipulation but remain vulnerable to compounding errors, scene changes, and off-trajectory states. Reinforcement learning can refine pretrained VLA policies, yet sparse success signals hinder exploration, while engineered dense rewards are costly and task-specific. Existing learned visual reward models often rely on static before-after observations, causing temporal ambiguity and weak discrimination between robustness-preserving variations and task-invalid failures under out-of-distribution (OOD) execution. We introduce Robo-Dopamine 2.0, a history- and OOD-aware process reward model with a pairwise prediction interface. It combines (1) hi",
+    "technologies": [],
+    "collected_at": "2026-10-15T06:46:50.395647+00:00",
+    "custom_keyword": "coe",
+    "document_id": "22022ca635d40ad86bfd",
+    "published_date": "2026-08-16",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2608.15680v1"
+  },
+  {
     "id": "8446c6e95f73a5c55cd0",
     "doi": "",
     "source_type": "news",
@@ -374,7 +660,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.303240+00:00",
+    "collected_at": "2026-10-15T06:03:01.414915+00:00",
     "document_id": "8446c6e95f73a5c55cd0",
     "published_date": "2026-08-13",
     "company": [
@@ -391,6 +677,110 @@
     },
     "metrics": [],
     "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8yM3dyeWlFWkFBMHZpeGFtWXNXWWNVQ2tzNkt0NTJDbTQtYkJPVTI4R09DSEdJTWQ2VXVzTUJXRlpQeHB5UXdSeDNxWGtnNFdkdlhmUTRTaVBRTzdGMy1sbTdudFdDTkluMEItQTh1N3RHZ9IBdkFVX3lxTE00T1A5UDUwQWpPLTVodU95RjlvcDA4S0tWN1JidjlDblpiRFR2blNld2w4VjF4aWNqbzFxODFmUVRtdzFJWDgtVWpsVjc5OElNakJTcXNFaFFjTjhmR1JZNHBURU9HV0xaN0gwVWNuRG4tei1KMXc?oc=5"
+  },
+  {
+    "id": "bc4be1c76026be6c95d9",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "Evidence-Grounded Trustworthy Multimodal Reasoning and Evaluation Benchmark in Complex Urban Scenes",
+    "published_at": "2026-08-11",
+    "url": "http://arxiv.org/abs/2608.10954v2",
+    "summary": "While Multimodal Large Language Models (MLLMs) demonstrate impressive performance in benign scenarios, their cognitive reliability deteriorates significantly in complex scenes under adverse conditions. In these settings, models often rely on implicit inference without sufficient visual evidence, leading to a disconnect between perception and reasoning. Meanwhile, existing outcome-oriented benchmarks evaluate only final predictions and fail to diagnose failures in the underlying reasoning process. To address this gap, the authors propose AD2-Bench, which introduces a Hierarchical Visual Diagnosis framework that decomposes reasoning into a structured Chain of Evidence (CoE). This fine-grained ",
+    "technologies": [
+      "초고휘도"
+    ],
+    "collected_at": "2026-10-15T06:46:50.395734+00:00",
+    "custom_keyword": "coe",
+    "document_id": "bc4be1c76026be6c95d9",
+    "published_date": "2026-08-11",
+    "company": [],
+    "technology": [
+      "초고휘도"
+    ],
+    "keywords": [
+      "휘도"
+    ],
+    "keyword_scores": {
+      "휘도": 1
+    },
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2608.10954v2"
+  },
+  {
+    "id": "8d945165d954e4e91b3c",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "WorldSimProbe: Diagnosing Simulator Faithfulness in Action-Conditioned World Models for Embodied Manipulation",
+    "published_at": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09298v1",
+    "summary": "Action-conditioned world models (ACWMs) promise to provide embodied AI with scalable predictive simulators for planning, policy evaluation, and data generation. Realizing this promise requires precise action-conditioned transitions rather than merely plausible outputs. Yet their applicability remains difficult to establish because prevailing evaluations emphasize visual quality, task outcomes, or coarse rollout-level responsiveness without directly testing simulator fidelity. To address this gap, we evaluate ACWMs through the observable capabilities expected of physical simulators. Accordingly, we formalize Observable Simulator Contract, a minimal contract that any action-conditioned physica",
+    "technologies": [],
+    "collected_at": "2026-10-15T06:46:50.395817+00:00",
+    "custom_keyword": "coe",
+    "document_id": "8d945165d954e4e91b3c",
+    "published_date": "2026-08-10",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2608.09298v1"
+  },
+  {
+    "id": "83e50d48bacf5d8c10ed",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "The James Webb Space Telescope Absolute Flux Calibration. VI. Near-Infrared Camera Imaging and Coronagraphy",
+    "published_at": "2026-08-09",
+    "url": "http://arxiv.org/abs/2608.08717v1",
+    "summary": "We present an updated flux calibration for all imaging modes of the Near-Infrared Camera on JWST that converts instrumental units to physical surface brightness units of MJy sr^-1. This calibration includes observations of 19 flux standard stars spanning 3.5 years, with a mix of A dwarfs, solar analogs, and hot stars. All 5 coronagraphic setups, all 29 filters, and both weak lenses are calibrated. This is the first on-sky calibration for the weak lenses used in Time Series observations and for secondary coronagraphic configurations (long wavelength masks paired with short wavelength filters, and vice versa). We also assess count-rate differences between subarrays and the full frame, finding ",
+    "technologies": [
+      "초고휘도"
+    ],
+    "collected_at": "2026-10-15T06:46:50.395894+00:00",
+    "custom_keyword": "coe",
+    "document_id": "83e50d48bacf5d8c10ed",
+    "published_date": "2026-08-09",
+    "company": [],
+    "technology": [
+      "초고휘도"
+    ],
+    "keywords": [
+      "휘도"
+    ],
+    "keyword_scores": {
+      "휘도": 1
+    },
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2608.08717v1"
+  },
+  {
+    "id": "7d091c11632b886c1d76",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "Parallel Repetition in the Two-Player Quantum Cloning Game",
+    "published_at": "2026-08-02",
+    "url": "http://arxiv.org/abs/2608.00930v1",
+    "summary": "We study parallel repetition in the two-player quantum cloning game, a monogamy-of-entanglement game motivated by quantum position verification. Colisson Palais, Escolà-Farràs, and Speelman bounded the value of $n$ copies between $(3/4)^n$ and $\\cos^{2n}(π/8)$. For two copies, we prove that neither bound is tight. An explicit challenge-dependent strategy achieves value $(5+\\sqrt{17})/16>9/16$, so strong parallel repetition fails for the unrestricted game. A block Gram matrix argument gives the upper bound $(11+\\sqrt{65})/32<\\cos^4(π/8)$ and strictly improves the previous parallel-repetition upper bound for every $n$. For every $n$, challenge-independent strategies have optimal value $(3/4)^n",
+    "technologies": [],
+    "collected_at": "2026-10-15T06:46:50.395950+00:00",
+    "custom_keyword": "coe",
+    "document_id": "7d091c11632b886c1d76",
+    "published_date": "2026-08-02",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2608.00930v1"
   },
   {
     "id": "8815ca1e3c0f05e1ba79",
@@ -555,7 +945,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-15T05:50:36.684744+00:00",
+    "collected_at": "2026-10-15T06:02:57.682413+00:00",
     "document_id": "0c7b1b1f67fcc937d861",
     "published_date": "2026-08-01",
     "company": [],
@@ -591,7 +981,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.303546+00:00",
+    "collected_at": "2026-10-15T06:03:01.415249+00:00",
     "document_id": "7d10ffaab2790469cc59",
     "published_date": "2026-07-31",
     "company": [
@@ -623,7 +1013,7 @@
       "발광 구조",
       "제조/공정"
     ],
-    "collected_at": "2026-10-15T05:50:40.303451+00:00",
+    "collected_at": "2026-10-15T06:03:01.415146+00:00",
     "document_id": "5a9920c7fee00b712b45",
     "published_date": "2026-07-31",
     "company": [
@@ -657,7 +1047,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.303967+00:00",
+    "collected_at": "2026-10-15T06:03:01.415719+00:00",
     "document_id": "743a3c7cf023343949cd",
     "published_date": "2026-07-30",
     "company": [
@@ -688,7 +1078,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.303497+00:00",
+    "collected_at": "2026-10-15T06:03:01.415197+00:00",
     "document_id": "7a286afc91935cd93c61",
     "published_date": "2026-07-24",
     "company": [
@@ -719,7 +1109,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:39.993115+00:00",
+    "collected_at": "2026-10-15T06:03:01.100357+00:00",
     "document_id": "d28beb46e7261bdc51b9",
     "published_date": "2026-07-22",
     "company": [],
@@ -748,7 +1138,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304553+00:00",
+    "collected_at": "2026-10-15T06:03:01.416349+00:00",
     "document_id": "4a598cb2197392de714e",
     "published_date": "2026-07-22",
     "company": [
@@ -779,7 +1169,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.303755+00:00",
+    "collected_at": "2026-10-15T06:03:01.415492+00:00",
     "document_id": "200e3dff05dd337abc15",
     "published_date": "2026-07-22",
     "company": [],
@@ -809,7 +1199,7 @@
       "저전력",
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304054+00:00",
+    "collected_at": "2026-10-15T06:03:01.415802+00:00",
     "document_id": "124e84a816662a71b0c9",
     "published_date": "2026-07-22",
     "company": [
@@ -843,7 +1233,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.303780+00:00",
+    "collected_at": "2026-10-15T06:03:01.415517+00:00",
     "document_id": "0003a656118aad104411",
     "published_date": "2026-07-22",
     "company": [],
@@ -872,7 +1262,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304287+00:00",
+    "collected_at": "2026-10-15T06:03:01.416061+00:00",
     "document_id": "dd6321eb33dc7e9cce34",
     "published_date": "2026-07-21",
     "company": [
@@ -903,7 +1293,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.303428+00:00",
+    "collected_at": "2026-10-15T06:03:01.415121+00:00",
     "document_id": "c24b86bd8a7ec04e8efc",
     "published_date": "2026-07-21",
     "company": [
@@ -935,7 +1325,7 @@
       "저전력",
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304645+00:00",
+    "collected_at": "2026-10-15T06:03:01.416459+00:00",
     "document_id": "bbc35be53d6d605a43ef",
     "published_date": "2026-07-21",
     "company": [
@@ -969,7 +1359,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.303568+00:00",
+    "collected_at": "2026-10-15T06:03:01.415273+00:00",
     "document_id": "aa1fa64cbd8c85af59bc",
     "published_date": "2026-07-21",
     "company": [
@@ -1000,7 +1390,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304693+00:00",
+    "collected_at": "2026-10-15T06:03:01.416512+00:00",
     "document_id": "6efb038d9d47cb5c7880",
     "published_date": "2026-07-21",
     "company": [
@@ -1032,7 +1422,7 @@
       "저전력",
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304947+00:00",
+    "collected_at": "2026-10-15T06:03:01.416809+00:00",
     "document_id": "6aa938d965e52177b46a",
     "published_date": "2026-07-21",
     "company": [
@@ -1066,7 +1456,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.303845+00:00",
+    "collected_at": "2026-10-15T06:03:01.415591+00:00",
     "document_id": "656dc45956ffbe0e685a",
     "published_date": "2026-07-21",
     "company": [
@@ -1097,7 +1487,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.303357+00:00",
+    "collected_at": "2026-10-15T06:03:01.415040+00:00",
     "document_id": "46e6f55aed26f50aa42e",
     "published_date": "2026-07-21",
     "company": [
@@ -1128,7 +1518,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304481+00:00",
+    "collected_at": "2026-10-15T06:03:01.416273+00:00",
     "document_id": "3836022939c61bab9897",
     "published_date": "2026-07-21",
     "company": [
@@ -1159,7 +1549,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304359+00:00",
+    "collected_at": "2026-10-15T06:03:01.416137+00:00",
     "document_id": "33ece2bfb5b6ad9c64ed",
     "published_date": "2026-07-21",
     "company": [
@@ -1190,7 +1580,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.303379+00:00",
+    "collected_at": "2026-10-15T06:03:01.415064+00:00",
     "document_id": "13fbae0757e019c11ccc",
     "published_date": "2026-07-21",
     "company": [
@@ -1221,7 +1611,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304030+00:00",
+    "collected_at": "2026-10-15T06:03:01.415775+00:00",
     "document_id": "0f308223cf8e07d7074e",
     "published_date": "2026-07-21",
     "company": [
@@ -1252,7 +1642,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.303288+00:00",
+    "collected_at": "2026-10-15T06:03:01.414967+00:00",
     "document_id": "efa4059a8312eca0ca28",
     "published_date": "2026-07-20",
     "company": [
@@ -1283,7 +1673,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304669+00:00",
+    "collected_at": "2026-10-15T06:03:01.416486+00:00",
     "document_id": "ed4b70c81f06b09ce770",
     "published_date": "2026-07-20",
     "company": [
@@ -1314,7 +1704,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304969+00:00",
+    "collected_at": "2026-10-15T06:03:01.416833+00:00",
     "document_id": "e82f61a6cd89b0313da7",
     "published_date": "2026-07-20",
     "company": [
@@ -1345,7 +1735,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304310+00:00",
+    "collected_at": "2026-10-15T06:03:01.416086+00:00",
     "document_id": "c9730e8856f1f61e2b82",
     "published_date": "2026-07-20",
     "company": [
@@ -1376,7 +1766,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304102+00:00",
+    "collected_at": "2026-10-15T06:03:01.415855+00:00",
     "document_id": "c1926277cb2e2a581b05",
     "published_date": "2026-07-20",
     "company": [
@@ -1407,7 +1797,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.303636+00:00",
+    "collected_at": "2026-10-15T06:03:01.415350+00:00",
     "document_id": "88c1e7fc9492be1a3c6a",
     "published_date": "2026-07-20",
     "company": [
@@ -1438,7 +1828,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.303940+00:00",
+    "collected_at": "2026-10-15T06:03:01.415690+00:00",
     "document_id": "888b04c409006fa25b44",
     "published_date": "2026-07-20",
     "company": [
@@ -1469,7 +1859,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304785+00:00",
+    "collected_at": "2026-10-15T06:03:01.416631+00:00",
     "document_id": "5df35a6a165da82df27e",
     "published_date": "2026-07-20",
     "company": [
@@ -1500,7 +1890,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304762+00:00",
+    "collected_at": "2026-10-15T06:03:01.416605+00:00",
     "document_id": "50f28e17be5f26bfa071",
     "published_date": "2026-07-20",
     "company": [
@@ -1532,7 +1922,7 @@
       "발광 구조",
       "제조/공정"
     ],
-    "collected_at": "2026-10-15T05:50:40.305154+00:00",
+    "collected_at": "2026-10-15T06:03:01.417030+00:00",
     "document_id": "45ce29bc5014ed7d7cb0",
     "published_date": "2026-07-20",
     "company": [
@@ -1566,7 +1956,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304454+00:00",
+    "collected_at": "2026-10-15T06:03:01.416243+00:00",
     "document_id": "43d43f233f5464ecf122",
     "published_date": "2026-07-20",
     "company": [
@@ -1597,7 +1987,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.303682+00:00",
+    "collected_at": "2026-10-15T06:03:01.415403+00:00",
     "document_id": "3771747d9d8556a19cc8",
     "published_date": "2026-07-20",
     "company": [
@@ -1628,7 +2018,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304126+00:00",
+    "collected_at": "2026-10-15T06:03:01.415881+00:00",
     "document_id": "376c63f4d8e922a003b5",
     "published_date": "2026-07-20",
     "company": [
@@ -1659,7 +2049,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.303730+00:00",
+    "collected_at": "2026-10-15T06:03:01.415465+00:00",
     "document_id": "2dddef001100fabe6809",
     "published_date": "2026-07-20",
     "company": [
@@ -1690,7 +2080,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304332+00:00",
+    "collected_at": "2026-10-15T06:03:01.416110+00:00",
     "document_id": "1f501d005906262a7b47",
     "published_date": "2026-07-20",
     "company": [
@@ -1721,7 +2111,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304923+00:00",
+    "collected_at": "2026-10-15T06:03:01.416782+00:00",
     "document_id": "0ca847028b51340ae381",
     "published_date": "2026-07-20",
     "company": [
@@ -1752,7 +2142,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304717+00:00",
+    "collected_at": "2026-10-15T06:03:01.416538+00:00",
     "document_id": "0b3ce39cc7e2764e0792",
     "published_date": "2026-07-20",
     "company": [
@@ -1783,7 +2173,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.305199+00:00",
+    "collected_at": "2026-10-15T06:03:01.417079+00:00",
     "document_id": "04e372bc723e0f559205",
     "published_date": "2026-07-20",
     "company": [
@@ -1814,7 +2204,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.305112+00:00",
+    "collected_at": "2026-10-15T06:03:01.416982+00:00",
     "document_id": "004687c3005de73e26e2",
     "published_date": "2026-07-20",
     "company": [
@@ -1833,6 +2223,58 @@
     "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBaVThuanBqR01PYVhrZU5TbzhTanllcVg5YjZzYWxSblBNNDhBVFJIeXQ4VWw5N19xSy1SRWNvLWNnT1JuR01OdlRsR0ZDVHFPZ2FpTk52SjdwYzNSVk92Slg2TW5yZlJwZGRmS09B?oc=5"
   },
   {
+    "id": "fc75e7ac1d5979f5195f",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "VENUS: an ultra-faint galaxy hosting the metal-poor type II supernova at $z=5.13$ Witnessing the initial metal enrichment with extremely frequent core-collapse supernovae?",
+    "published_at": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.14355v1",
+    "summary": "We present the first characterization of the host galaxy of a recently discovered type IIP SN at $z=5.13$ (SN Eos). SN Eos and its host galaxy are gravitationally lensed and multiply imaged. The total magnification $μ\\sim53$ enables spatially resolving the system, allowing us to localize the core-collapse supernova (CCSN) position and to characterize its local environment within an early galaxy. Our observation reveals that the host is an ultra-faint ($M_{\\rm UV}=-14.4\\pm0.3$ mag) Lyman-$α$ emitter with a very high equivalent width. The host galaxy also shows very weak [O iii]4959,5007 lines despite an H$α$ line detection ([O iii]5007/H$β<0.7$ with case B recombination). Assuming that the we",
+    "technologies": [
+      "초고휘도"
+    ],
+    "collected_at": "2026-10-15T06:46:50.396052+00:00",
+    "custom_keyword": "coe",
+    "document_id": "fc75e7ac1d5979f5195f",
+    "published_date": "2026-07-15",
+    "company": [],
+    "technology": [
+      "초고휘도"
+    ],
+    "keywords": [
+      "휘도"
+    ],
+    "keyword_scores": {
+      "휘도": 2
+    },
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2607.14355v1"
+  },
+  {
+    "id": "dfad3a7c82bedbe51da9",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "Deep Spectroscopic Follow-Up of Maisie's Galaxy -- A Typical Galaxy in the Early Universe",
+    "published_at": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08749v1",
+    "summary": "The first several years of JWST observations have yielded surprisingly large numbers of bright $z>10$ galaxies, with follow-up spectroscopy of many of these sources implying extreme star formation activity and/or AGN content. Here, we present a combination of two deep Cycle 3 NIRSpec G395M programs, totaling over 19 hours of exposure time, plus MIRI/LRS observations for one such high-redshift source: Maisie's Galaxy. We provide an updated redshift measurement of $z = 11.408 \\pm 0.005$ for this source. Measurements of the [OII] doublet in these data yield an electron density ($n_e = 108.56^{+873.9}_{-35.37}$) and a star-formation rate (SFR$_{[OII]} = 1.3 \\pm 0.35$), placing it along the star-",
+    "technologies": [],
+    "collected_at": "2026-10-15T06:46:50.396145+00:00",
+    "custom_keyword": "coe",
+    "document_id": "dfad3a7c82bedbe51da9",
+    "published_date": "2026-07-09",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2607.08749v1"
+  },
+  {
     "id": "1198ef85b96850cc8a49",
     "doi": "",
     "source_type": "news",
@@ -1845,7 +2287,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-15T05:50:40.303911+00:00",
+    "collected_at": "2026-10-15T06:03:01.415667+00:00",
     "document_id": "1198ef85b96850cc8a49",
     "published_date": "2026-07-09",
     "company": [
@@ -1895,6 +2337,36 @@
     "source_url": "https://doi.org/10.37385/jaets.v7i2.9391"
   },
   {
+    "id": "a01768155b31d1e0847d",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "Finite-Dimensional Type I von Neumann Algebras in PyTorch: A GPU-Accelerated Framework for Random Block-Diagonal Operators",
+    "published_at": "2026-06-14",
+    "url": "http://arxiv.org/abs/2606.15882v1",
+    "summary": "We present \\texttt{torch\\_vn\\_algebra}, an open-source Python library built on PyTorch for numerical experiments with finite-dimensional Type I von Neumann algebras (direct sums of matrix algebras). The library provides: $\\bullet$ a compact batched tensor representation $(B,C,k_{\\max},k_{\\max})$ that handles both Monte Carlo samples and multiple direct summands; $\\bullet$ lazy evaluation of operators to avoid unnecessary memory allocation; $\\bullet$ generation of random operators with arbitrary eigenvalue distributions (user-provided samplers) and various unitary ensembles (Haar, $\\mathrm{SU}(n)$, COE, CSE, diagonal phases); $\\bullet$ functional calculus via SVD (absolute value, square root,",
+    "technologies": [
+      "초고휘도"
+    ],
+    "collected_at": "2026-10-15T06:46:50.396210+00:00",
+    "custom_keyword": "coe",
+    "document_id": "a01768155b31d1e0847d",
+    "published_date": "2026-06-14",
+    "company": [],
+    "technology": [
+      "초고휘도"
+    ],
+    "keywords": [
+      "휘도"
+    ],
+    "keyword_scores": {
+      "휘도": 3
+    },
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2606.15882v1"
+  },
+  {
     "id": "00cbdcc1dd1680b63740",
     "doi": "",
     "source_type": "news",
@@ -1907,7 +2379,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304170+00:00",
+    "collected_at": "2026-10-15T06:03:01.415932+00:00",
     "document_id": "00cbdcc1dd1680b63740",
     "published_date": "2026-06-09",
     "company": [
@@ -1924,6 +2396,58 @@
     },
     "metrics": [],
     "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1wYUlGTWJSbmo4bVFoSy1JY1hzSHk1R1lUVzUwMjNaMWtWb2JqdE5ISjNWemd0LTVWaWtVWmhIOVRfU1I1RnJwRFZ6eVNCMXZubTI4YzZTYlRYZmJ3eUFCUjdEY9IBZ0FVX3lxTE5TVFp3b2pzc21EbHJ3TW9PNGpmNEhaUjNRZ2J5Rm82M3pHbGtRbEdVdklkVC0tVm5lQmVLRTVoRmtrZTV6bzZHUkNLYV83aHZGZW9hekRlbms3bjhqNG1yYU03dTMwWlE?oc=5"
+  },
+  {
+    "id": "c3a7d88a94a41ac761dc",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "Imagine Before You Predict: Interleaved Latent Visual Reasoning for Video Event Prediction",
+    "published_at": "2026-06-04",
+    "url": "http://arxiv.org/abs/2606.05769v1",
+    "summary": "Video event prediction (VEP) requires models to infer unobserved future states from partial video evidence. Existing video MLLMs usually verbalize intermediate future reasoning in text space: once visual evidence is verbalized, fine-grained motion, geometry, and interaction cues can be lost, leading to plausible but visually ungrounded hallucinations. We introduce Future-L1, an interleaved latent visual reasoning framework that lets an MLLM alternate between language tokens and continuous latent visual spans during autoregressive decoding. To train this capability, we construct Future-L1-50K by selecting examples where future visual hints help prediction and align latent states to future-fra",
+    "technologies": [],
+    "collected_at": "2026-10-15T06:46:50.396277+00:00",
+    "custom_keyword": "coe",
+    "document_id": "c3a7d88a94a41ac761dc",
+    "published_date": "2026-06-04",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2606.05769v1"
+  },
+  {
+    "id": "f1816502d3a260e7f43b",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "An Integrated Techno-Economic Framework for Optimal Microgrid Design: An Australian Case Study",
+    "published_at": "2026-06-02",
+    "url": "http://arxiv.org/abs/2606.03783v1",
+    "summary": "Reliable and affordable electricity supply remains a challenge for remote and regional communities, motivating the deployment of renewable-based microgrids supported by flexible storage and advanced planning methods. This paper proposes an integrated techno-economic framework for optimal microgrid design and robustness assessment, and applies it to a 1000-household residential community in Rockhampton, Queensland (Australia). The framework links time-series simulation, dispatch-based operation, and lifecycle costing to evaluate hybrid configurations comprising photovoltaic and wind generation, battery storage, diesel backup, grid exchange, and an optional hydrogen subsystem (electrolyzer--hy",
+    "technologies": [
+      "초고휘도"
+    ],
+    "collected_at": "2026-10-15T06:46:50.396352+00:00",
+    "custom_keyword": "coe",
+    "document_id": "f1816502d3a260e7f43b",
+    "published_date": "2026-06-02",
+    "company": [],
+    "technology": [
+      "초고휘도"
+    ],
+    "keywords": [
+      "휘도"
+    ],
+    "keyword_scores": {
+      "휘도": 1
+    },
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2606.03783v1"
   },
   {
     "id": "d7fbb841b97b50375759",
@@ -2007,7 +2531,7 @@
     "technologies": [
       "제조/공정"
     ],
-    "collected_at": "2026-10-15T05:50:36.684845+00:00",
+    "collected_at": "2026-10-15T06:02:57.682552+00:00",
     "document_id": "a319ad9cecee41a72dd4",
     "published_date": "2026-06-01",
     "company": [],
@@ -2192,7 +2716,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-15T05:50:36.685080+00:00",
+    "collected_at": "2026-10-15T06:02:57.682786+00:00",
     "document_id": "1d1162d46eb946a988d0",
     "published_date": "2026-06-01",
     "company": [],
@@ -2256,7 +2780,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-15T05:50:36.684783+00:00",
+    "collected_at": "2026-10-15T06:02:57.682483+00:00",
     "document_id": "16fe0b14ec1a893dc6d9",
     "published_date": "2026-06-01",
     "company": [],
@@ -2280,6 +2804,72 @@
     "source_url": "https://doi.org/10.1002/sdtp.70001_687"
   },
   {
+    "id": "45997a9144f5c47155bc",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "Individually tunable Si/SiGe quantum dot operating voltages via gate-biased illumination",
+    "published_at": "2026-05-30",
+    "url": "http://arxiv.org/abs/2606.00446v1",
+    "summary": "Semiconductor quantum dot qubits often require very different voltages on each gate to bring them to a correct operating point. Here, we present a method by which one can controllably and repeatably alter the nanoscale trapped charge distribution at an oxide-semiconductor interface. We demonstrate this method on a Si/SiGe quantum dot device, and we find that the operating voltages can be controlled and made much more uniform. The method relies on illumination with near-infrared light in the presence of applied gate voltages, and it enables the tuning of the device operating point on a gate-by-gate basis. We present an explanation of the underlying physics using self-consistent Schrödinger-Po",
+    "technologies": [],
+    "collected_at": "2026-10-15T06:46:50.396421+00:00",
+    "custom_keyword": "coe",
+    "document_id": "45997a9144f5c47155bc",
+    "published_date": "2026-05-30",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2606.00446v1"
+  },
+  {
+    "id": "033ff8d751c884ad0754",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "ScientistOne: Towards Human-Level Autonomous Research via Chain-of-Evidence",
+    "published_at": "2026-05-25",
+    "url": "http://arxiv.org/abs/2605.26340v1",
+    "summary": "Autonomous research agents produce competitive solutions and professional-looking manuscripts, yet their outputs contain verifiability failures undetectable by surface-level evaluation: fabricated citations, unreproducible scores, and method descriptions that diverge from the implementation. We address this through three contributions. First, Chain-of-Evidence (CoE), a verifiability framework requiring every claim to be traceable to its evidence source. Second, ScientistOne, an end-to-end autonomous research system that maintains evidence chains by construction throughout literature review, solution discovery, and paper writing. Third, CoE Audit, a post-hoc audit whose four integrity checks ",
+    "technologies": [],
+    "collected_at": "2026-10-15T06:46:50.396494+00:00",
+    "custom_keyword": "coe",
+    "document_id": "033ff8d751c884ad0754",
+    "published_date": "2026-05-25",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2605.26340v1"
+  },
+  {
+    "id": "ca69e500460537ce3c29",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "New Isocurvature Constraints from JWST UV Luminosity Function",
+    "published_at": "2026-05-11",
+    "url": "http://arxiv.org/abs/2605.11079v1",
+    "summary": "We constrain uncorrelated primordial isocurvature perturbations using a combination of large- and small-scale cosmological probes, with the small-scale data provided by the ultraviolet luminosity function (UVLF) -- a measure of number density of galaxies as a function of UV brightness. We consider several isocurvature modes, including cold dark matter, baryon, neutrino density, neutrino velocity, and dark radiation perturbations. The isocurvature power spectrum is modeled using two independent parameterizations: a broken power law and a running power law, without fixing the spectral index a priori. Our analysis combines large-scale data from the Cosmic Microwave Background (CMB), baryon acou",
+    "technologies": [],
+    "collected_at": "2026-10-15T06:46:50.396569+00:00",
+    "custom_keyword": "coe",
+    "document_id": "ca69e500460537ce3c29",
+    "published_date": "2026-05-11",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2605.11079v1"
+  },
+  {
     "id": "f6c093cdeb2ff7ec59bf",
     "doi": "",
     "source_type": "news",
@@ -2292,7 +2882,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-15T05:50:40.303518+00:00",
+    "collected_at": "2026-10-15T06:03:01.415220+00:00",
     "document_id": "f6c093cdeb2ff7ec59bf",
     "published_date": "2026-05-07",
     "company": [
@@ -2323,7 +2913,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.303659+00:00",
+    "collected_at": "2026-10-15T06:03:01.415377+00:00",
     "document_id": "dbccced797d711360d80",
     "published_date": "2026-05-07",
     "company": [
@@ -2354,7 +2944,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304195+00:00",
+    "collected_at": "2026-10-15T06:03:01.415959+00:00",
     "document_id": "af60fcfb5de0c28c5cc8",
     "published_date": "2026-05-06",
     "company": [
@@ -2385,7 +2975,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304899+00:00",
+    "collected_at": "2026-10-15T06:03:01.416755+00:00",
     "document_id": "a199a74afe04ce5f9e90",
     "published_date": "2026-05-06",
     "company": [],
@@ -2414,7 +3004,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.305223+00:00",
+    "collected_at": "2026-10-15T06:03:01.417106+00:00",
     "document_id": "6a7f28f968a9b865615d",
     "published_date": "2026-05-06",
     "company": [
@@ -2433,6 +3023,28 @@
     "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51bDVCRFpVckZRUVVMb0JTZ1k3bzg3YndURURja2xYLS00LU4yUTREYUZkeDdBMUIxWm5WZDFEVGZrUkJTT0hLNlJ0NzQ3M0hBckFmcUY0X2JDZEdJ?oc=5"
   },
   {
+    "id": "fe1d82ea649fcae4040e",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "Design and Implementation of BNN-Based Object Detection on FPGA",
+    "published_at": "2026-05-05",
+    "url": "http://arxiv.org/abs/2605.03396v2",
+    "summary": "This paper implements a Binary Neural Network (BNN) based YOLOv3-tiny-like object detector on a low-cost FPGA. The network takes 320*320*3 RGB images as input. Its main convolution layers use 1-bit weights and 8-bit activations, while Conv1 and the final detection head use fixed-point standard convolutions. From the trained ONNX model, weights, biases, and quantization parameters are extracted, converted to fixed point, packed into COE files, and stored in Vivado BRAM ROMs. The hardware is written fully in Verilog RTL and includes padding, line buffering, binary convolution, quantization post-processing, max pooling, and detection-head computation. For layers where Mul_prev is indexed by inp",
+    "technologies": [],
+    "collected_at": "2026-10-15T06:46:50.396630+00:00",
+    "custom_keyword": "coe",
+    "document_id": "fe1d82ea649fcae4040e",
+    "published_date": "2026-05-05",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2605.03396v2"
+  },
+  {
     "id": "e3491e904c20366e31f2",
     "doi": "",
     "source_type": "news",
@@ -2445,7 +3057,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304218+00:00",
+    "collected_at": "2026-10-15T06:03:01.415986+00:00",
     "document_id": "e3491e904c20366e31f2",
     "published_date": "2026-05-05",
     "company": [
@@ -2476,7 +3088,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304146+00:00",
+    "collected_at": "2026-10-15T06:03:01.415904+00:00",
     "document_id": "85565f36b529e4216ade",
     "published_date": "2026-05-05",
     "company": [
@@ -2508,7 +3120,7 @@
       "발광 구조",
       "제조/공정"
     ],
-    "collected_at": "2026-10-15T05:50:40.304807+00:00",
+    "collected_at": "2026-10-15T06:03:01.416655+00:00",
     "document_id": "71bb4813b75be2f11716",
     "published_date": "2026-05-05",
     "company": [
@@ -2543,7 +3155,7 @@
       "초고휘도",
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304407+00:00",
+    "collected_at": "2026-10-15T06:03:01.416191+00:00",
     "document_id": "1ec4d2d6076c9b8ac433",
     "published_date": "2026-05-05",
     "company": [
@@ -2563,6 +3175,102 @@
     },
     "metrics": [],
     "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNaWJlM3hzNkFieUszMUc3bF91SXNGcm5TRHB0Z0ZTZEpaNGVRdWIxQnRTcTRYa2Z1UFp3MlVFM3FmZmE5VkpCeGp2UDl6TENvMERvUnIzUU90aEkwWE5IbUhKOFFHdWM5cEFRcXJnNm84dGhkR2VXdnhzYzgwNGtuVElR0gGWAUFVX3lxTFB0eGNSblJWeVc5YlRCUWsxNjVpdUVQbTBIR0loeVNUREdKUUhLRnRTRWQyT25iSU9TV3VyR0duSTNjSEZOVjBDODdqOU50X1lHQmFXeHhvRzAzLUhEaG5Jc0h6c1RTU1NxaVBaSU8xODc0Si1lR1ZoVldHMjdITnRmNHp2ZVhEX0w0RlNaN01CQVN6LWN6dw?oc=5"
+  },
+  {
+    "id": "2261a32c3e2fd35a4040",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "Chain of Evidence: Pixel-Level Visual Attribution for Iterative Retrieval-Augmented Generation",
+    "published_at": "2026-05-02",
+    "url": "http://arxiv.org/abs/2605.01284v2",
+    "summary": "Iterative Retrieval-Augmented Generation (iRAG) has emerged as a powerful paradigm for answering complex multi-hop questions by progressively retrieving and reasoning over external documents. However, current systems predominantly operate on parsed text, which creates two critical bottlenecks: (1) \\textit{Coarse-grained attribution}, where users are burdened with manually locating evidence within lengthy documents based on vague text-level citations; and (2) \\textit{Visual semantic loss}, where the conversion of visually rich documents (e.g., slides, PDFs with charts) into text discards spatial logic and layout cues essential for reasoning. To bridge this gap, we present \\textbf{Chain of Evi",
+    "technologies": [],
+    "collected_at": "2026-10-15T06:46:50.396706+00:00",
+    "custom_keyword": "coe",
+    "document_id": "2261a32c3e2fd35a4040",
+    "published_date": "2026-05-02",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2605.01284v2"
+  },
+  {
+    "id": "bfb0feac82e40b783c79",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "PEARLS: Two Distinct Populations of AGN Hosts Moving Between Star Formation and Quiescence",
+    "published_at": "2026-05-01",
+    "url": "http://arxiv.org/abs/2605.00822v1",
+    "summary": "We present the results of AGN--host-galaxy decomposition using JWST/NIRCam, HST/ACS, and HST/WFC3 imaging of the North Ecliptic Pole Time Domain Field (NEP-TDF). The light-profiles of 36 NIRCam-selected AGN candidates are modeled for measurement of their point sources, and point source-subtracted host-galaxy emission is used in SED modeling for star formation rate (SFR) estimation. Offsets from the canonical star-forming main sequence (SFMS) show that the host galaxies form two distinct groups distinguished by their star formation: a ``bridge'' between the moderate SFRs of radio sources and low SFRs of X-ray sources, and a cleanly-separated ``branch'' above $Δ\\rm SFMS = -1$ whose SFR trends ",
+    "technologies": [],
+    "collected_at": "2026-10-15T06:46:50.396796+00:00",
+    "custom_keyword": "coe",
+    "document_id": "bfb0feac82e40b783c79",
+    "published_date": "2026-05-01",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2605.00822v1"
+  },
+  {
+    "id": "135aac1d1e6c4719c157",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "Large quantum dot energy level shifts in anomalous photon-assisted tunneling",
+    "published_at": "2026-04-29",
+    "url": "http://arxiv.org/abs/2604.26947v1",
+    "summary": "Orbital energy splittings are important quantum dot parameters for the operation of hole spin qubits. They are known to depend on the lateral confinement of the quantum dots. However, when changing top, plunger gate voltages, which are the typical control parameter for qubit applications, such energy splitting changes are typically negligible, both as measured in experiment and as assumed in effective theories. Here, we study the singlet-triplet (ST) splittings, which depend on the orbital splittings, of a double quantum dot (DQD) in a Ge/SiGe heterostructure using photon-assisted tunneling (PAT) and pulsed-gate spectroscopy. We find that the ST splittings have a surprising, strong dependenc",
+    "technologies": [],
+    "collected_at": "2026-10-15T06:46:50.396855+00:00",
+    "custom_keyword": "coe",
+    "document_id": "135aac1d1e6c4719c157",
+    "published_date": "2026-04-29",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2604.26947v1"
+  },
+  {
+    "id": "a7b2ab2052266b7827bd",
+    "doi": "",
+    "source_type": "paper",
+    "source": "arXiv",
+    "region": "international",
+    "title": "Two Exciting High-redshift Galaxy Candidates Turn Out to Be Two Exciting Ultra-cool Brown Dwarfs",
+    "published_at": "2026-04-26",
+    "url": "http://arxiv.org/abs/2604.23668v2",
+    "summary": "From the onset of observations of JWST we have discovered unexpectedly luminous galaxies at redshifts $z>10$ and as high as $z=14$. With their discovery, the question immediately followed as to where their progenitors are, since such progenitors should be within reach of existing surveys. However, the discovery of several bright candidates at $z>15$ may indicate further discrepancies between pre-JWST model predictions and current observations. Progenitors of the bright $z\\sim 14$ galaxies should be visible at redshifts as high as $z\\sim 20-30$, showing in the data as F277W and F356W dropouts. We identify two such candidates in the Bullet Cluster JWST data; however, subsequent NIRSpec follow-",
+    "technologies": [
+      "초고휘도"
+    ],
+    "collected_at": "2026-10-15T06:46:50.396923+00:00",
+    "custom_keyword": "coe",
+    "document_id": "a7b2ab2052266b7827bd",
+    "published_date": "2026-04-26",
+    "company": [],
+    "technology": [
+      "초고휘도"
+    ],
+    "keywords": [
+      "휘도"
+    ],
+    "keyword_scores": {
+      "휘도": 1
+    },
+    "metrics": [],
+    "source_url": "http://arxiv.org/abs/2604.23668v2"
   },
   {
     "id": "f6e45341b9d9c99d30a0",
@@ -2630,7 +3338,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304502+00:00",
+    "collected_at": "2026-10-15T06:03:01.416297+00:00",
     "document_id": "2965183c094441cfea04",
     "published_date": "2026-03-13",
     "company": [
@@ -2661,7 +3369,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.303403+00:00",
+    "collected_at": "2026-10-15T06:03:01.415091+00:00",
     "document_id": "8fb6863c7a72b1cfe47e",
     "published_date": "2026-02-12",
     "company": [
@@ -2692,7 +3400,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.304853+00:00",
+    "collected_at": "2026-10-15T06:03:01.416704+00:00",
     "document_id": "8313e24a4e252844bc5c",
     "published_date": "2026-02-12",
     "company": [
@@ -2723,7 +3431,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:40.305368+00:00",
+    "collected_at": "2026-10-15T06:03:01.417267+00:00",
     "document_id": "99aaf93b5e5434f63652",
     "published_date": "2026-02-06",
     "company": [],
@@ -2804,6 +3512,83 @@
     "keyword_scores": {},
     "metrics": [],
     "source_url": "https://doi.org/10.1039/d5mh02129d/v2/review1"
+  },
+  {
+    "id": "ea6d330928fd962f014d",
+    "doi": "10.1002/9781394438174.ch7",
+    "source_type": "paper",
+    "source": "OpenAlex",
+    "region": "international",
+    "title": "The CoE in Strategic Planning and Management",
+    "published_at": "2026-01-14",
+    "url": "https://doi.org/10.1002/9781394438174.ch7",
+    "summary": "This chapter reviews some strategic planning methods from a manufacturing company perspective and presents explanations as to why it is important to have a CoE actively engaged in the strategic planning process. In strategic planning, it is important that the planning be based on the capabilities of day-to-day operations and the more significant capability improvement plans. At the same time, with manufacturing operations, it is necessary to plan day-to-day operations and capability improvement activities for both the manufacturing processes and the business processes. The chapter explains how a manufacturing company can use the MOM activity model from the ISA-95 standards as a template for ",
+    "technologies": [],
+    "citation_count": 0,
+    "collected_at": "2026-10-15T06:47:06.573610+00:00",
+    "custom_keyword": "coe",
+    "document_id": "ea6d330928fd962f014d",
+    "published_date": "2026-01-14",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "https://doi.org/10.1002/9781394438174.ch7"
+  },
+  {
+    "id": "5f66384491411de56bea",
+    "doi": "10.1002/9781394438174.ch2",
+    "source_type": "paper",
+    "source": "OpenAlex",
+    "region": "international",
+    "title": "CoE and Data‐Driven Management",
+    "published_at": "2026-01-14",
+    "url": "https://doi.org/10.1002/9781394438174.ch2",
+    "summary": "This chapter discusses the aspect of data integrity in more detail and go deeper into the function of a center of excellence (CoE) from the perspectives of data and process integrity. It examines the changes in operations management resulting from the increased availability of data. Depending on a company's requirements, the CoE team will have a few roles for its members to handle. In general, the CoE will be responsible for documenting and managing the processes that are common to larger areas. Most of the initial activities of a CoE come down to three main functions: documenting processes, normalizing these processes, and ensuring the repeatable measurement of these processes. Ensuring a c",
+    "technologies": [
+      "초고휘도"
+    ],
+    "citation_count": 0,
+    "collected_at": "2026-10-15T06:47:06.572872+00:00",
+    "custom_keyword": "coe",
+    "document_id": "5f66384491411de56bea",
+    "published_date": "2026-01-14",
+    "company": [],
+    "technology": [
+      "초고휘도"
+    ],
+    "keywords": [
+      "휘도"
+    ],
+    "keyword_scores": {
+      "휘도": 1
+    },
+    "metrics": [],
+    "source_url": "https://doi.org/10.1002/9781394438174.ch2"
+  },
+  {
+    "id": "2663cd45cd8ecbf59595",
+    "doi": "10.1002/9781394438174",
+    "source_type": "paper",
+    "source": "OpenAlex",
+    "region": "international",
+    "title": "CoE",
+    "published_at": "2026-01-14",
+    "url": "https://doi.org/10.1002/9781394438174",
+    "summary": "CoE: The Key to Data-Driven Manufacturing explains how manufacturing teams can transform messy shop-floor data into reliable improvements by leveraging data, standards and a Center of Excellence (CoE). This book connects common factory problems, such as process variation, miscommunication and poor data, to practical solutions, including process documentation, MES and ERP integration, ISA-95 models and continuous improvement methods. This book provides clear examples and real-world experiences that demonstrate how sensor data and basic analytics can help identify root causes, reduce rework and standardize operations. It also outlines the skills and structure required for an effective CoE, dem",
+    "technologies": [],
+    "citation_count": 0,
+    "collected_at": "2026-10-15T06:47:06.572499+00:00",
+    "custom_keyword": "coe",
+    "document_id": "2663cd45cd8ecbf59595",
+    "published_date": "2026-01-14",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "https://doi.org/10.1002/9781394438174"
   },
   {
     "id": "bb38a293f6596f031ed5",
@@ -2890,7 +3675,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-15T05:50:36.684554+00:00",
+    "collected_at": "2026-10-15T06:02:57.682200+00:00",
     "document_id": "23cd24a59a71dd732beb",
     "published_date": "2025-12-04",
     "company": [],
@@ -2920,8 +3705,7 @@
       "야외 시인성"
     ],
     "citation_count": 0,
-    "collected_at": "2026-10-15T06:00:30.939149+00:00",
-    "custom_keyword": "wearable OLED outdoor readability",
+    "collected_at": "2026-10-15T06:03:17.661692+00:00",
     "document_id": "e0a07dd0a6e8ea05d3e5",
     "published_date": "2025-11-28",
     "company": [],
@@ -3354,7 +4138,7 @@
       "초고휘도",
       "저전력"
     ],
-    "collected_at": "2026-10-15T05:50:36.684537+00:00",
+    "collected_at": "2026-10-15T06:02:57.682177+00:00",
     "document_id": "7380e44968c3125da014",
     "published_date": "2024-08-09",
     "company": [],
@@ -3496,7 +4280,7 @@
       "초고휘도",
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T05:50:36.684972+00:00",
+    "collected_at": "2026-10-15T06:02:57.682690+00:00",
     "document_id": "d118d41721fa73af42a1",
     "published_date": "2024-06-01",
     "company": [],
@@ -3599,7 +4383,7 @@
     "url": "https://doi.org/10.1002/sdtp.17460",
     "summary": "The reflection color dispersion phenomenon is more visible on polarizer‐free OLED panel compared to the panel with polarizer. However, the mechanism and detailed analysis of this effect is very limited in previous reports. The panel reflection patterns are usually very sophisticated, which are composed of rings, dots and color distribution (R G B reflection located at different direction of the panel, respectively). In this paper, the causes of the reflection pattern are analyzed in detail and the influential factors of the shape, distribution, color and other characteristics of the reflection pattern are clarified and verified through the comparison of simulation and actual results. Finally",
     "technologies": [],
-    "collected_at": "2026-10-15T05:50:36.684934+00:00",
+    "collected_at": "2026-10-15T06:02:57.682649+00:00",
     "document_id": "29606780307a7b6ff259",
     "published_date": "2024-06-01",
     "company": [],
@@ -3666,8 +4450,7 @@
       "발광 구조"
     ],
     "citation_count": 2,
-    "collected_at": "2026-10-15T06:00:30.948024+00:00",
-    "custom_keyword": "wearable OLED outdoor readability",
+    "collected_at": "2026-10-15T06:03:34.569338+00:00",
     "document_id": "9f7dd72118098ec2f6ce",
     "published_date": "2024-03-01",
     "company": [],
@@ -3819,7 +4602,7 @@
     "url": "https://doi.org/10.1117/12.2686563",
     "summary": "",
     "technologies": [],
-    "collected_at": "2026-10-15T05:50:36.685040+00:00",
+    "collected_at": "2026-10-15T06:02:57.682743+00:00",
     "document_id": "8c84dc803b07d1310a3a",
     "published_date": "2023-08-10",
     "company": [],
@@ -3906,7 +4689,7 @@
     "url": "https://doi.org/10.2139/ssrn.4348537",
     "summary": "",
     "technologies": [],
-    "collected_at": "2026-10-15T05:50:36.685163+00:00",
+    "collected_at": "2026-10-15T06:02:57.682876+00:00",
     "document_id": "8d5fbac1969c6c9738fd",
     "published_date": "2023-01-01",
     "company": [],
@@ -3957,7 +4740,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-15T05:50:36.684646+00:00",
+    "collected_at": "2026-10-15T06:02:57.682306+00:00",
     "document_id": "10dbe6f85c45f5e8244b",
     "published_date": "2022-06-01",
     "company": [],
@@ -3988,7 +4771,7 @@
       "야외 시인성"
     ],
     "citation_count": 1393,
-    "collected_at": "2026-10-15T05:50:56.479118+00:00",
+    "collected_at": "2026-10-15T06:03:17.661401+00:00",
     "document_id": "f5a3744c661e2c491637",
     "published_date": "2020-06-18",
     "company": [],
@@ -4038,7 +4821,7 @@
     "url": "https://doi.org/10.1002/sdtp.12911",
     "summary": "Due to the inherent reflective property of OLED (organic light‐emitting diode) displays, the use of an active circular polarizer technology has been previously reported to provide an OLED E‐Mirror (Electronic‐Mirror). This paper focuses on the optimization of the active circular polarizer technology to improve the dynamic reflection dimming range.",
     "technologies": [],
-    "collected_at": "2026-10-15T05:50:36.685153+00:00",
+    "collected_at": "2026-10-15T06:02:57.682865+00:00",
     "document_id": "30a93fb6735ff4404264",
     "published_date": "2019-06-01",
     "company": [],
@@ -4155,7 +4938,7 @@
     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8yZ09oTk1iX1kxX28wTEwtR2RsS1hlVzZYbDBBMThKUTJ5OFJfNEpXUlhZcTdKX2JxbzZXYjNlb2kyYi1VX09jR2JwYkg?oc=5",
     "summary": "[삼성디스플레이] 2015년 최고의 스마트워치, 원형 플렉서블 OLED를 탑재한 기어S2 삼성디스플레이 뉴스룸",
     "technologies": [],
-    "collected_at": "2026-10-15T05:50:39.993442+00:00",
+    "collected_at": "2026-10-15T06:03:01.100711+00:00",
     "document_id": "c8f8d04495dc09b26306",
     "published_date": "2015-12-23",
     "company": [
@@ -4264,7 +5047,7 @@
     "url": "https://doi.org/10.1889/1.3069464",
     "summary": "Abstract We demonstrated a hybrid transflective device by vertically integrating a reflective LCD and a transparent OLED. Such a device can effectively prevent the environment attacking of the OLED and lengthen the storage lifetime. A new device with an ultra‐high transmittance (82.23% overall) by using a polarizer‐free LCD as the reflective mode is also demonstrated.",
     "technologies": [],
-    "collected_at": "2026-10-15T05:50:36.685123+00:00",
+    "collected_at": "2026-10-15T06:02:57.682832+00:00",
     "document_id": "3c23d789e9113e2b97bd",
     "published_date": "2008-05-01",
     "company": [],
@@ -4315,7 +5098,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-15T05:50:35.184550+00:00",
+    "collected_at": "2026-10-15T06:02:56.019632+00:00",
     "document_id": "ad707fc62a9d8bc61ad0",
     "published_date": "2004-05-01",
     "company": [],
