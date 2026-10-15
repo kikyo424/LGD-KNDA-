@@ -122,14 +122,7 @@ const decisionAreas = [
       <article><b>{Object.keys(technologyCounts).length}</b><span>탐지 기술</span></article>
     </section>
 
-    <section class="sources-section">
-      <article class="panel sources">
-        <div class="panel-heading"><div><small>SOURCES</small><h2>출처 현황</h2></div></div>
-        {Object.keys(sourceCounts).length ? <div class="source-list">{Object.entries(sourceCounts).map(([source, count]) => (
-          <div class="source-row"><span>{source}</span><strong>{count}</strong></div>
-        ))}</div> : <div class="empty">수집기를 실행하면 Crossref·arXiv 자료가 추가됩니다.</div>}
-      </article>
-    </section>
+
 
     <section class="taxonomy" aria-label="기술 수집 체계">
       {categories.map((category, index) => (
@@ -259,7 +252,8 @@ const decisionAreas = [
           <input id="document-filter" type="search" placeholder="제목·기술 검색" aria-label="문서 검색" />
         </div>
       </div>
-      <div id="document-list">
+      <p class="document-scroll-help">문서는 한 번에 최대 8개씩 표시됩니다. 목록 안에서 스크롤해 더 확인하세요.</p>
+      <div id="document-list" tabindex="0" role="region" aria-label="최신 기술 문서 목록">
         {documents.length ? documents.map((item) => (
           <a class="document" href={item.url} target="_blank" rel="noreferrer" data-custom-keyword={(item.custom_keyword || "").toLowerCase()} data-region={item.region} data-year={item.published_at.slice(0, 4)} data-search={`${item.title} ${item.technologies.join(" ")} ${(item.keywords || []).join(" ")} ${(item.company || []).join(" ")} ${item.custom_keyword || ""}`.toLowerCase()}>
             <div class="doc-meta"><span>{item.source} · {item.region === "domestic" ? "국내" : "해외"}</span><time>{item.published_at || "날짜 미상"}</time></div>
@@ -270,6 +264,14 @@ const decisionAreas = [
         )) : <div class="empty large"><strong>아직 수집된 문서가 없습니다.</strong><code>python scripts/collect.py</code>를 실행하세요.</div>}
       </div>
     </section>
+    <section class="sources-section">
+      <article class="panel sources">
+        <div class="panel-heading"><div><small>SOURCES</small><h2>출처 현황</h2></div></div>
+        {Object.keys(sourceCounts).length ? <div class="source-list">{Object.entries(sourceCounts).map(([source, count]) => (
+          <div class="source-row"><span>{source}</span><strong>{count}</strong></div>
+        ))}</div> : <div class="empty">수집기를 실행하면 Crossref·arXiv 자료가 추가됩니다.</div>}
+      </article>
+    </section>
   </main>
 
   <script>
@@ -279,6 +281,21 @@ const decisionAreas = [
     let selectedRegion = "all";
     let selectedYear = "all";
     let selectedCollectionKeyword = "";
+    const documentList = document.querySelector<HTMLElement>("#document-list");
+    const resizeDocumentList = () => {
+      if (!documentList) return;
+      const visible = [...documentList.querySelectorAll<HTMLElement>(".document")].filter((item) => !item.hidden);
+      const eighth = visible[7];
+      if (!eighth) {
+        documentList.style.maxHeight = "none";
+        return;
+      }
+      const height = eighth.getBoundingClientRect().bottom - documentList.getBoundingClientRect().top + documentList.scrollTop;
+      documentList.style.maxHeight = `${height}px`;
+    };
+    window.addEventListener("resize", resizeDocumentList);
+    document.fonts.ready.then(resizeDocumentList);
+    resizeDocumentList();
     const applyFilters = () => {
       const query = input?.value.trim().toLowerCase() || "";
       document.querySelectorAll<HTMLElement>(".document").forEach((documentElement) => {
@@ -289,6 +306,8 @@ const decisionAreas = [
         const matchesYear = selectedYear === "all" || documentElement.dataset.year === selectedYear;
         documentElement.hidden = !(matchesText && matchesRegion && matchesYear);
       });
+      if (documentList) documentList.scrollTop = 0;
+      resizeDocumentList();
     };
     input?.addEventListener("input", () => { selectedCollectionKeyword = ""; applyFilters(); });
     yearSelect?.addEventListener("change", () => {
@@ -371,7 +390,7 @@ const decisionAreas = [
   .stats article { background: #0b1120; padding: 25px; display: flex; flex-direction: column; gap: 6px; }
   .stats b { font-size: 2rem; color: #fff; }
   .stats span { color: #7f90ac; font-size: .82rem; }
-  .sources-section { margin-bottom: 20px; }
+  .sources-section { margin-top: 20px; }
   .taxonomy { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1px; margin: 20px 0; background: #22314a; border: 1px solid #22314a; }
   .taxonomy article { background: #0b1120; padding: 22px; min-height: 170px; position: relative; }
   .taxonomy span { color: #40506b; font-weight: 800; }
@@ -470,7 +489,9 @@ const decisionAreas = [
   .year-select select { border: 1px solid #30425f; background: #080d18; color: #dce7fb; padding: 8px; }
   input { width: 250px; border: 1px solid #30425f; border-radius: 2px; background: #080d18; color: #eef3ff; padding: 11px 14px; outline: none; }
   input:focus { border-color: #5df2c2; }
-  #document-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; background: #1b2940; }
+  #document-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; background: #1b2940; overflow-y: auto; align-content: start; scrollbar-gutter: stable; }
+  #document-list:focus-visible { outline: 2px solid #5df2c2; outline-offset: 3px; }
+  .document-scroll-help { color: #8191aa; font-size: .75rem; margin: 0 0 14px; }
   .document { background: #0b1120; padding: 24px; text-decoration: none; transition: background .2s, transform .2s; }
   .document:hover { background: #101b2d; transform: translateY(-2px); }
   .doc-meta { display: flex; justify-content: space-between; color: #7285a3; font-size: .72rem; text-transform: uppercase; }
