@@ -82,7 +82,16 @@ const cooccurrence = categories.flatMap((left, index) => categories.slice(index 
   pair: `${left} + ${right}`,
   count: documents.filter((item) => item.technologies.includes(left) && item.technologies.includes(right)).length,
 }))).sort((a, b) => b.count - a.count).slice(0, 6);
-const performanceMetrics = documents.flatMap((item) => (item.metrics || []).map((metric) => ({ ...metric, item }))).slice(0, 12);
+const seenPerformanceMetrics = new Set<string>();
+const performanceMetrics = documents
+  .flatMap((item) => (item.metrics || []).map((metric) => ({ ...metric, item })))
+  .filter((metric) => {
+    const key = JSON.stringify([metric.name, metric.value, metric.unit]);
+    if (seenPerformanceMetrics.has(key)) return false;
+    seenPerformanceMetrics.add(key);
+    return true;
+  })
+  .slice(0, 12);
 const decisionAreas = [
   { code: "A", title: "최대 밝기 경쟁", categories: ["초고휘도", "발광 구조"], action: "Tandem·발광 소재·구동 기술 검토" },
   { code: "B", title: "배터리 부담", categories: ["저전력", "초고휘도"], action: "LTPO·발광 효율·구동 최적화" },
