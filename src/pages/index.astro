@@ -221,7 +221,7 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
 
     <section class="panel documents">
       <div class="panel-heading list-heading">
-        <div><small>EVIDENCE FEED</small><h2>최신 기술 문서</h2></div>
+        <div><small>EVIDENCE FEED</small><h2>기술 뉴스·논문 모아보기</h2></div>
         <div class="controls">
           <div class="type-filter region-filter" role="group" aria-label="자료 유형 필터">
             <button class="active" type="button" data-document-type="all" aria-pressed="true">전체 <span>{documents.length}</span></button>
@@ -249,9 +249,9 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
         </div>
       </div>
       <p class="document-scroll-help">문서는 한 번에 최대 8개씩 표시됩니다. 목록 안에서 스크롤해 더 확인하세요.</p>
-      <div class="document-filter-status"><p id="document-filter-status" role="status" aria-live="polite"></p><button type="button" id="reset-document-filters">전체 문서 보기</button></div>
+      <div class="document-filter-status"><p id="document-filter-status" role="status" aria-live="polite"></p><button type="button" id="reset-document-filters">검색 조건 초기화</button></div>
       <div id="document-empty" class="empty" hidden>선택한 조건에 해당하는 문서가 없습니다.</div>
-      <div id="document-list" tabindex="0" role="region" aria-label="최신 기술 문서 목록">
+      <div id="document-list" tabindex="0" role="region" aria-label="기술 뉴스·논문 목록">
         {documents.length ? documents.map((item) => (
           <a class="document" href={item.url} target="_blank" rel="noreferrer" data-companies={JSON.stringify(item.company || [])} data-keywords={JSON.stringify((item.keywords || []).map((keyword) => keyword.toLowerCase()))} data-custom-keyword={(item.custom_keyword || "").toLowerCase()} data-document-kind={item.source_type} data-published-at={item.published_at} data-region={item.region} data-year={item.published_at.slice(0, 4)} data-search={`${item.title} ${item.technologies.join(" ")} ${(item.keywords || []).join(" ")} ${(item.company || []).join(" ")} ${item.custom_keyword || ""}`.toLowerCase()}>
             <div class="doc-meta"><span>{item.source} · {item.region === "domestic" ? "국내" : "해외"}</span><time>{item.published_at || "날짜 미상"}</time></div>
