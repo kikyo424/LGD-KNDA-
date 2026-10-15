@@ -71,6 +71,39 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Cancel stale Pages deployment
+        uses: actions/github-script@v7
+        with:
+          script: |
+            // This deployment survived the previous workflow's cancellation.
+            // Only clean up this known blocker; leave other deployments alone.
+            const params = {
+              ...context.repo,
+              deploymentId: '7325cbbcd0763429337befba61b680686b151b16',
+            };
+            const route = '/repos/{owner}/{repo}/pages/deployments/{deploymentId}';
+            const terminal = new Set([
+              'succeed', 'deployment_cancelled', 'deployment_failed',
+              'deployment_perms_error', 'deployment_content_failed', 'deployment_lost',
+            ]);
+            async function getStatus() {
+              try {
+                const response = await github.request(`GET ${route}`, params);
+                core.info(`Previous Pages deployment: ${response.data.status}`);
+                return response.data.status;
+              } catch (error) {
+                if (error.status === 404) return 'not_found';
+                throw error;
+              }
+            }
+            const finished = status => status === 'not_found' || terminal.has(status);
+            if (finished(await getStatus())) return;
+            await github.request(`POST ${route}/cancel`, params);
+            for (let attempt = 0; attempt < 12; attempt++) {
+              await new Promise(resolve => setTimeout(resolve, 5000));
+              if (finished(await getStatus())) return;
+            }
+            throw new Error('GitHub Pages still reports the previous deployment as active after cancellation. Retry this workflow once GitHub finishes cancelling it.');
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
