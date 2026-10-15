@@ -1,0 +1,17 @@
+{
+  "name": "wearable-oled-observatory",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/astro.mjs dev --host 0.0.0.0",
+    "collect": "python3 -m collector.collect",
+    "check": "python3 -m unittest discover -s tests -v",
+    "build": "node scripts/astro.mjs build",
+    "preview": "node scripts/astro.mjs preview --host 0.0.0.0",
+    "demo": "python3 -m collector.demo"
+  },
+  "dependencies": {
+    "astro": "^5.0.0"
+  }
+}

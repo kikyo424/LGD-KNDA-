@@ -1,0 +1,55 @@
+{
+  "demo": true,
+  "updated": null,
+  "reports": [],
+  "articles": [
+    {
+      "id": "demo-0",
+      "title": "[데모] Wearable OLED sunlight readability",
+      "url": "https://www.crossref.org/",
+      "published": "2025-06-01",
+      "source": "합성 데모",
+      "type": "데모 · 실제 논문 아님",
+      "publisher": "UI 검증용 예시",
+      "tags": [
+        "웨어러블",
+        "야외 시인성"
+      ],
+      "status": "합성 자료 · 분석 사용 금지",
+      "measurement": "실제 측정 자료 없음",
+      "collected": "2026-10-15T00:35:48.238775+00:00"
+    },
+    {
+      "id": "demo-1",
+      "title": "[데모] High brightness tandem OLED efficiency",
+      "url": "https://www.crossref.org/",
+      "published": "2024-11-01",
+      "source": "합성 데모",
+      "type": "데모 · 실제 논문 아님",
+      "publisher": "UI 검증용 예시",
+      "tags": [
+        "밝기·효율",
+        "탠덤 OLED"
+      ],
+      "status": "합성 자료 · 분석 사용 금지",
+      "measurement": "실제 측정 자료 없음",
+      "collected": "2026-10-15T00:35:48.238789+00:00"
+    },
+    {
+      "id": "demo-2",
+      "title": "[데모] Low power OLED lifetime",
+      "url": "https://www.crossref.org/",
+      "published": "2023-02-01",
+      "source": "합성 데모",
+      "type": "데모 · 실제 논문 아님",
+      "publisher": "UI 검증용 예시",
+      "tags": [
+        "전력·구동",
+        "수명·신뢰성"
+      ],
+      "status": "합성 자료 · 분석 사용 금지",
+      "measurement": "실제 측정 자료 없음",
+      "collected": "2026-10-15T00:35:48.238791+00:00"
+    }
+  ]
+}

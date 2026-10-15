@@ -1,0 +1,43 @@
+---
+import data from '../data/articles.json';
+const demo = 'demo' in data && data.demo;
+const tags = [...new Set(data.articles.flatMap(article => article.tags))].sort();
+---
+<!doctype html>
+<html lang="ko">
+<head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width"/><title>OLED FIELDNOTE — 웨어러블 기술 관측소</title></head>
+<body>
+<header><a href="/" class="brand">◉ OLED <b>FIELDNOTE</b></a><span>LOCAL RESEARCH LAB / 01</span></header>
+<main>
+<section class="hero"><div class="eyebrow">WEARABLE DISPLAY INTELLIGENCE</div><h1>햇빛 아래에서도,<br/><em>선명한 가능성.</em></h1><p>초고휘도 스마트워치·웨어러블 OLED의 기술 변화와 상용화 근거를 모읍니다.</p><div class="metrics"><div><strong>{data.articles.length}</strong><span>수집 자료</span></div><div><strong>{tags.length}</strong><span>기술 태그</span></div><div><strong>Crossref</strong><span>현재 연결된 출처</span></div></div></section>
+<section class="notice"><b>연구 자료 탐색용 MVP</b><span>제목 기반 자동 분류입니다. 웨어러블 적용·양산 여부는 원문 검토가 필요하며, 밝기 수치와 측정 조건은 아직 추출하지 않습니다.</span></section>
+<section class="library">{demo && <p class="notice">데모 모드: 아래 3건은 화면 검증용 합성 자료입니다. 실제 논문이나 기술 근거가 아닙니다.</p>}<div class="section-title"><h2>기술 동향 라이브러리</h2><span>업데이트 {data.updated ? data.updated.slice(0,10) : '수집 전'}</span></div>
+<div class="controls"><label>검색<input id="search" type="search" placeholder="논문 제목, 발행기관, 기술 키워드"/></label><label>기술 분야<select id="tag"><option value="">모든 기술</option>{tags.map(tag => <option value={tag}>{tag}</option>)}</select></label><label>정렬<select id="sort"><option value="new">최신 발표순</option><option value="old">오래된 발표순</option></select></label></div>
+<p id="count" aria-live="polite"></p><div id="articles">
+{data.articles.map(article => <article class="card" data-search={`${article.title} ${article.publisher} ${article.tags.join(' ')}`.toLowerCase()} data-tags={JSON.stringify(article.tags)} data-date={article.published}><div class="meta"><span>{article.type}</span><time>{article.published}</time></div><h3><a href={article.url} target="_blank" rel="noopener noreferrer">{article.title}<span aria-hidden="true"> ↗</span></a></h3><p>{article.publisher}</p><div class="tags">{article.tags.map(tag => <span>{tag}</span>)}</div><details><summary>출처와 검토 정보</summary><dl><dt>수집 출처</dt><dd>{article.source} · {article.id}</dd><dt>검토 상태</dt><dd>{article.status}</dd><dt>비교 지표</dt><dd>{article.measurement}</dd><dt>수집일</dt><dd>{article.collected.slice(0,10)}</dd></dl></details></article>)}
+</div><p id="empty" hidden>조건에 맞는 자료가 없습니다. 검색 조건을 바꾸거나 <code>npm run collect</code>로 자료를 수집하세요.</p></section>
+<section class="sources"><h2>수집 상태</h2><p>네 가지 검색 주제를 같은 Crossref API에서 수집합니다. 독립된 네 개의 출처를 의미하지 않습니다.</p>{data.reports.map(report => <div><b>{report.name}</b><span>{report.ok ? `수집 성공 · ${report.accepted}건 확인 / ${report.added}건 신규` : '수집 실패 · 기존 자료 유지'}</span></div>)}</section>
+</main><footer>OLED FIELDNOTE <span>출처를 남기고, 조건을 비교하고, 가능성을 검토합니다.</span></footer>
+<script>
+const search = document.querySelector<HTMLInputElement>('#search')!;
+const tag = document.querySelector<HTMLSelectElement>('#tag')!;
+const sort = document.querySelector<HTMLSelectElement>('#sort')!;
+const container = document.querySelector('#articles')!;
+const cards = [...document.querySelectorAll<HTMLElement>('.card')];
+function refresh() {
+ let count = 0;
+ cards.sort((a,b) => sort.value === 'new' ? b.dataset.date!.localeCompare(a.dataset.date!) : a.dataset.date!.localeCompare(b.dataset.date!));
+ for (const card of cards) {
+  card.hidden = !(card.dataset.search!.includes(search.value.trim().toLowerCase()) && (!tag.value || JSON.parse(card.dataset.tags!).includes(tag.value)));
+  if (!card.hidden) count++;
+  container.append(card);
+ }
+ document.querySelector('#count')!.textContent = `${count}건의 자료`;
+ (document.querySelector('#empty') as HTMLElement).hidden = count !== 0;
+}
+search.addEventListener('input',refresh); tag.addEventListener('change',refresh); sort.addEventListener('change',refresh); refresh();
+</script>
+<style is:global>
+*{box-sizing:border-box}body{margin:0;background:#f4f5ef;color:#1d302d;font:16px/1.65 system-ui,sans-serif}header,main,footer{max-width:1160px;margin:auto}header{display:flex;justify-content:space-between;align-items:center;padding:28px 24px;border-bottom:1px solid #cad2c9}header>span,.eyebrow{font-size:11px;letter-spacing:2px}.brand{text-decoration:none;color:inherit;letter-spacing:2px}main{padding:0 24px}.hero{padding:65px 0 40px}.eyebrow{color:#557960}h1{font-size:clamp(40px,6vw,72px);line-height:1.2;letter-spacing:-3px;margin:20px 0}em{font-style:normal;color:#598563}.hero>p{color:#61716c}.metrics{display:flex;gap:70px;margin-top:35px}.metrics strong{display:block;font-size:28px}.metrics span{font-size:12px;color:#65756d}.notice{display:flex;gap:24px;padding:20px;background:#e4eadd;border-left:3px solid #668a5a;font-size:13px}.notice b{white-space:nowrap}.library{padding:45px 0}.section-title{display:flex;justify-content:space-between;align-items:center}h2{font-size:22px}.section-title>span,#count{font-size:12px;color:#67766e}.controls{display:grid;grid-template-columns:2fr 1fr 1fr;gap:16px}label{font-size:12px;font-weight:600}input,select{display:block;width:100%;padding:13px;margin-top:6px;background:#fff;border:1px solid #cbd4c8;border-radius:5px;font:inherit;color:inherit}input:focus,select:focus{outline:2px solid #6b8f65;outline-offset:2px}#articles{display:grid;grid-template-columns:1fr 1fr;gap:18px}.card{background:#fff;border:1px solid #dbe0d5;padding:24px;border-radius:8px}.card[hidden]{display:none}.meta{display:flex;justify-content:space-between;font-size:11px;color:#6b7d72}.card h3{font-size:18px;line-height:1.5;margin:14px 0}.card h3 a{color:inherit;text-decoration:none}.card h3 a:hover{text-decoration:underline}.card p{font-size:12px;color:#708073}.tags{display:flex;flex-wrap:wrap;gap:6px}.tags span{background:#eef2e8;padding:3px 9px;border-radius:20px;font-size:11px}details{margin-top:18px;font-size:12px;border-top:1px solid #edf0e9;padding-top:12px}summary{cursor:pointer;color:#56745f}dl{overflow-wrap:anywhere}dt{font-weight:bold}dd{margin:0 0 8px;color:#68766d}.sources{border-top:1px solid #ccd5c8;padding:20px 0 45px}.sources p{font-size:13px;color:#68776e}.sources>div{display:flex;gap:30px;padding:8px 0;font-size:13px}.sources b{width:90px}footer{padding:25px 24px;border-top:1px solid #ccd5c8;font-size:12px;display:flex;justify-content:space-between;color:#6e7e72}@media(max-width:650px){header>span{display:none}.hero{padding-top:40px}h1{letter-spacing:-2px}.metrics{gap:25px}.metrics strong{font-size:22px}.notice{display:block}.notice span{display:block;margin-top:8px}.controls{grid-template-columns:1fr 1fr}.controls label:first-child{grid-column:1/-1}#articles{grid-template-columns:1fr}.section-title{align-items:flex-start;flex-direction:column}footer{display:block}footer span{display:block}}
+</style>
+</body></html>
