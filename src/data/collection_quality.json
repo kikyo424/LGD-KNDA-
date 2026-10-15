@@ -1,11 +1,17 @@
 {
-  "input": 761,
-  "excluded_irrelevant": 359,
-  "excluded_before_2023": 106,
-  "duplicates_removed": 82,
+  "input": 769,
+  "excluded_irrelevant": 356,
+  "excluded_before_2023": 108,
+  "duplicates_removed": 91,
   "saved": 214,
+  "last_update": {
+    "completed_at": "2026-10-15T23:37:01.892229+00:00",
+    "new_count": 0,
+    "new_documents": [],
+    "source_errors": 2
+  },
   "missing_date": 0,
   "missing_summary": 22,
-  "source_errors": 3,
-  "generated_at": "2026-10-15T23:31:00.139132+00:00"
+  "source_errors": 2,
+  "generated_at": "2026-10-15T23:37:01.892423+00:00"
 }
