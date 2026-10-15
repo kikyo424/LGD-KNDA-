@@ -282,13 +282,13 @@ const newDocuments = lastUpdate?.new_documents || [];
               <option value="oldest">오래된순</option>
             </select>
           </label>
-          <input id="document-filter" type="search" placeholder="제목·기술 검색" aria-label="문서 검색" />
           <label class="year-select">태그
             <select id="document-tag" aria-label="문서 기술 태그 필터">
               <option value="">전체 태그</option>
               {documentTags.map((tag) => <option value={tag}>{tag}</option>)}
             </select>
           </label>
+          <input id="document-filter" type="search" placeholder="제목·기술 검색" aria-label="문서 검색" />
         </div>
       </div>
       <p class="document-scroll-help">문서는 한 번에 최대 8개씩 표시됩니다. 목록 안에서 스크롤해 더 확인하세요.</p>
