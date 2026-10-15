@@ -335,6 +335,7 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
     const applyFilters = () => {
       sortDocuments();
       const query = input?.value.trim().toLowerCase() || "";
+      const regionCounts: Record<string, number> = { all: 0, domestic: 0, international: 0 };
       document.querySelectorAll<HTMLElement>(".document").forEach((documentElement) => {
         const matchesText = selectedTrendKeyword
           ? (JSON.parse(documentElement.dataset.keywords || "[]") as string[]).includes(selectedTrendKeyword)
@@ -343,7 +344,19 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
         const matchesYear = selectedYear === "all" || documentElement.dataset.year === selectedYear;
         const matchesCompany = !selectedCompany || (JSON.parse(documentElement.dataset.companies || "[]") as string[]).includes(selectedCompany);
         const matchesType = selectedType === "all" || documentElement.dataset.documentKind === selectedType;
+        if (matchesText && matchesYear && matchesCompany && matchesType) {
+          regionCounts.all += 1;
+          const region = documentElement.dataset.region || "";
+          if (region === "domestic" || region === "international") regionCounts[region] += 1;
+        }
         documentElement.hidden = !(matchesText && matchesRegion && matchesYear && matchesCompany && matchesType);
+      });
+      regionButtons.forEach((button) => {
+        const region = button.dataset.region || "all";
+        const countElement = button.querySelector("span");
+        if (countElement) countElement.textContent = String(regionCounts[region] || 0);
+        button.classList.toggle("active", region === selectedRegion);
+        button.setAttribute("aria-pressed", String(region === selectedRegion));
       });
       typeButtons.forEach((button) => {
         const active = button.dataset.documentType === selectedType;
