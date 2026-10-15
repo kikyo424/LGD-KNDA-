@@ -193,14 +193,19 @@ const decisionAreas = [
     </section>
 
     <section class="panel trend-panel">
-      <div class="panel-heading"><div><small>KEYWORD TREND BY YEAR</small><h2>키워드별 연도 동향</h2></div><p class="caution">상위 키워드를 선택해 연도별 문서 수를 확인합니다. 문서 건수는 관심도 신호이며 기술 성숙도를 직접 의미하지 않습니다.</p></div>
+      <div class="panel-heading"><div><small>KEYWORD TREND BY YEAR</small><h2>키워드별 연도 동향</h2></div><p class="caution">키워드를 선택해 연도별 문서 수를 비교하세요. 연도 카드를 누르면 해당 문서만 볼 수 있습니다.</p></div>
       <div class="trend-controls">
         <label>키워드<select id="trend-keyword">{trendKeywords.map((keyword) => <option value={keyword.toLowerCase()}>{keyword}</option>)}</select></label>
         <label>연도<select id="trend-year"><option value="all">전체 연도</option>{trendYears.map((year) => <option value={year}>{year}년</option>)}</select></label>
       </div>
       <div class="keyword-trends" aria-label="키워드별 연도 문서 추이">{keywordTrendRows.map((row, rowIndex) => (
         <div class="yearly-chart" data-trend-keyword={row.keyword.toLowerCase()} hidden={rowIndex !== 0}>{row.years.map((entry) => (
-          <article data-trend-year={entry.year}><div class="year-title"><strong>{entry.year}</strong><span>{row.keyword}</span></div><div class="year-bar"><i style={`width:${(entry.count / keywordYearlyMax) * 100}%`}></i><span>{entry.count}건</span></div></article>
+          <button type="button" class="year-card" data-trend-year={entry.year} data-trend-filter={row.keyword.toLowerCase()} aria-label={`${entry.year}년 ${row.keyword} 문서 ${entry.count}건 보기`}>
+            <span class="year-title"><strong>{entry.year}년</strong><span>{row.keyword}</span></span>
+            <span class="year-count">{entry.count}<small>건</small></span>
+            <span class="year-bar" aria-hidden="true"><i style={`width:${(entry.count / keywordYearlyMax) * 100}%`}></i></span>
+            <span class="year-link">해당 문서 보기 →</span>
+          </button>
         ))}</div>
       ))}</div>
     </section>
@@ -252,9 +257,11 @@ const decisionAreas = [
         </div>
       </div>
       <p class="document-scroll-help">문서는 한 번에 최대 8개씩 표시됩니다. 목록 안에서 스크롤해 더 확인하세요.</p>
+      <div class="document-filter-status"><p id="document-filter-status" role="status" aria-live="polite"></p><button type="button" id="reset-document-filters">전체 문서 보기</button></div>
+      <div id="document-empty" class="empty" hidden>선택한 조건에 해당하는 문서가 없습니다.</div>
       <div id="document-list" tabindex="0" role="region" aria-label="최신 기술 문서 목록">
         {documents.length ? documents.map((item) => (
-          <a class="document" href={item.url} target="_blank" rel="noreferrer" data-custom-keyword={(item.custom_keyword || "").toLowerCase()} data-region={item.region} data-year={item.published_at.slice(0, 4)} data-search={`${item.title} ${item.technologies.join(" ")} ${(item.keywords || []).join(" ")} ${(item.company || []).join(" ")} ${item.custom_keyword || ""}`.toLowerCase()}>
+          <a class="document" href={item.url} target="_blank" rel="noreferrer" data-keywords={JSON.stringify((item.keywords || []).map((keyword) => keyword.toLowerCase()))} data-custom-keyword={(item.custom_keyword || "").toLowerCase()} data-region={item.region} data-year={item.published_at.slice(0, 4)} data-search={`${item.title} ${item.technologies.join(" ")} ${(item.keywords || []).join(" ")} ${(item.company || []).join(" ")} ${item.custom_keyword || ""}`.toLowerCase()}>
             <div class="doc-meta"><span>{item.source} · {item.region === "domestic" ? "국내" : "해외"}</span><time>{item.published_at || "날짜 미상"}</time></div>
             <h3>{item.title}</h3>
             <p>{item.summary}</p>
@@ -280,6 +287,7 @@ const decisionAreas = [
     let selectedRegion = "all";
     let selectedYear = "all";
     let selectedCollectionKeyword = "";
+    let selectedTrendKeyword = "";
     const documentList = document.querySelector<HTMLElement>("#document-list");
     const resizeDocumentList = () => {
       if (!documentList) return;
@@ -298,17 +306,24 @@ const decisionAreas = [
     const applyFilters = () => {
       const query = input?.value.trim().toLowerCase() || "";
       document.querySelectorAll<HTMLElement>(".document").forEach((documentElement) => {
-        const matchesText = selectedCollectionKeyword
+        const matchesText = selectedTrendKeyword
+          ? (JSON.parse(documentElement.dataset.keywords || "[]") as string[]).includes(selectedTrendKeyword)
+          : selectedCollectionKeyword
           ? documentElement.dataset.customKeyword === selectedCollectionKeyword
           : (documentElement.dataset.search || "").includes(query);
         const matchesRegion = selectedRegion === "all" || documentElement.dataset.region === selectedRegion;
         const matchesYear = selectedYear === "all" || documentElement.dataset.year === selectedYear;
         documentElement.hidden = !(matchesText && matchesRegion && matchesYear);
       });
+      const count = document.querySelectorAll(".document:not([hidden])").length;
+      const status = document.querySelector<HTMLElement>("#document-filter-status");
+      if (status) status.textContent = `${selectedYear === "all" ? "전체 연도" : selectedYear + "년"} · ${selectedTrendKeyword || selectedCollectionKeyword || query || "전체 키워드"} · ${count}건`;
+      const empty = document.querySelector<HTMLElement>("#document-empty");
+      if (empty) empty.hidden = count > 0;
       if (documentList) documentList.scrollTop = 0;
       resizeDocumentList();
     };
-    input?.addEventListener("input", () => { selectedCollectionKeyword = ""; applyFilters(); });
+    input?.addEventListener("input", () => { selectedTrendKeyword = ""; selectedCollectionKeyword = ""; applyFilters(); });
     yearSelect?.addEventListener("change", () => {
       selectedYear = yearSelect.value;
       applyFilters();
@@ -327,6 +342,29 @@ const decisionAreas = [
     };
     trendKeywordSelect?.addEventListener("change", applyTrendFilters);
     trendYearSelect?.addEventListener("change", applyTrendFilters);
+    document.querySelectorAll<HTMLButtonElement>("[data-trend-filter]").forEach((button) => button.addEventListener("click", () => {
+      selectedTrendKeyword = button.dataset.trendFilter || "";
+      selectedCollectionKeyword = "";
+      selectedYear = button.dataset.trendYear || "all";
+      selectedRegion = "all";
+      if (input) input.value = selectedTrendKeyword;
+      if (yearSelect) {
+        if (![...yearSelect.options].some((option) => option.value === selectedYear)) yearSelect.add(new Option(`${selectedYear}년`, selectedYear));
+        yearSelect.value = selectedYear;
+      }
+      regionButtons.forEach((candidate) => candidate.classList.toggle("active", candidate.dataset.region === "all"));
+      applyFilters();
+      document.querySelector(".documents")?.scrollIntoView({ behavior: "smooth" });
+    }));
+    document.querySelector("#reset-document-filters")?.addEventListener("click", () => {
+      selectedTrendKeyword = selectedCollectionKeyword = "";
+      selectedYear = selectedRegion = "all";
+      if (input) input.value = "";
+      if (yearSelect) yearSelect.value = "all";
+      regionButtons.forEach((candidate) => candidate.classList.toggle("active", candidate.dataset.region === "all"));
+      applyFilters();
+    });
+    applyFilters();
     regionButtons.forEach((button) => button.addEventListener("click", () => {
       selectedRegion = button.dataset.region || "all";
       regionButtons.forEach((candidate) => candidate.classList.toggle("active", candidate === button));
@@ -334,6 +372,7 @@ const decisionAreas = [
     }));
 
     document.querySelectorAll<HTMLButtonElement>("[data-keyword-filter]").forEach((button) => button.addEventListener("click", () => {
+      selectedTrendKeyword = "";
       selectedCollectionKeyword = "";
       if (input) input.value = button.dataset.keywordFilter || "";
       selectedRegion = "all";
@@ -358,6 +397,7 @@ const decisionAreas = [
     });
     document.querySelector<HTMLButtonElement>("#show-last-collection")?.addEventListener("click", (event) => {
       const keyword = (event.currentTarget as HTMLButtonElement | null)?.dataset.lastKeyword || "";
+      selectedTrendKeyword = "";
       selectedCollectionKeyword = keyword;
       selectedYear = "all";
       if (yearSelect) yearSelect.value = "all";
@@ -431,17 +471,23 @@ const decisionAreas = [
   .panel-heading small { color: var(--brand); font-size: .66rem; font-weight: 800; letter-spacing: .16em; }
   h2 { margin: 5px 0 0; font-size: 1.25rem; }
   .trend-panel { margin-bottom: 20px; }
-  .trend-controls { display: flex; gap: 12px; margin: -5px 0 18px; }
-  .trend-controls label { display: flex; align-items: center; gap: 7px; color: var(--text-muted); font-size: .72rem; }
-  .trend-controls select { border: 1px solid var(--border-strong); background: var(--surface); color: var(--text); padding: 8px; }
-  .yearly-chart { display: grid; grid-template-columns: repeat(8, minmax(92px, 1fr)); gap: 9px; overflow-x: auto; padding-bottom: 4px; }
-  .yearly-chart article { min-width: 92px; border: 1px solid var(--border); background: var(--surface); padding: 12px 9px; }
-  .year-title { display: flex; flex-direction: column; gap: 3px; margin-bottom: 11px; }
-  .year-title strong { color: var(--text); font-size: .82rem; }
-  .year-title span { color: var(--text-muted); font-size: .62rem; }
-  .year-bar { height: 8px; margin: 6px 0; background: var(--surface-muted); position: relative; }
-  .year-bar i { display: block; height: 100%; min-width: 0; background: var(--brand); }
-  .year-bar span { background: var(--surface); border-radius: 2px; padding: 0 2px; position: absolute; left: 4px; top: -1px; color: var(--text); font-size: .58rem; line-height: 8px; }
+  .trend-controls { display: flex; gap: 20px; margin: 0 0 24px; }
+  .trend-controls label { display: flex; align-items: center; gap: 10px; color: var(--text-secondary); font-size: .9rem; }
+  .trend-controls select { border: 1px solid var(--border-strong); background: var(--surface); color: var(--text); padding: 12px 16px; font-size: 1rem; }
+  .yearly-chart { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; }
+  .year-card { min-width: 0; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); padding: 24px; text-align: left; cursor: pointer; transition: background .2s, border-color .2s; }
+  .year-card:hover { background: var(--brand-soft); border-color: var(--brand); }
+  .year-title { display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; }
+  .year-title strong { color: var(--text); font-size: 1.25rem; }
+  .year-title > span { color: var(--text-secondary); font-size: .95rem; }
+  .year-count { display: block; color: var(--brand); font-size: 2.5rem; font-weight: 800; line-height: 1.2; }
+  .year-count small { color: var(--text-muted); font-size: .9rem; margin-left: 6px; font-weight: 500; }
+  .year-bar { display: block; height: 12px; margin: 18px 0; border-radius: 6px; overflow: hidden; background: var(--surface-muted); }
+  .year-bar i { display: block; height: 100%; background: var(--brand); border-radius: inherit; }
+  .year-link { color: var(--brand); font-size: .85rem; font-weight: 700; }
+  .document-filter-status { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 16px; }
+  #document-filter-status { color: var(--text-secondary); font-size: .85rem; margin: 0; }
+  #reset-document-filters { flex-shrink: 0; background: var(--brand-soft); color: var(--brand); border: 1px solid var(--border); padding: 9px 12px; cursor: pointer; }
   .caution { color: var(--text-muted); font-size: .72rem; max-width: 390px; margin: 0; text-align: right; line-height: 1.6; }
   .analysis-grid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr); gap: 20px; margin-bottom: 20px; }
   .table-wrap { overflow-x: auto; }
