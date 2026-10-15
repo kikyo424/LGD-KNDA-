@@ -167,8 +167,10 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
     </section>
 
 
-    <section class="panel trend-panel">
-      <div class="panel-heading"><div><small>KEYWORD TREND BY YEAR</small><h2>키워드별 연도 동향</h2></div><p class="caution">키워드를 선택해 연도별 문서 수를 비교하세요. 연도 카드를 누르면 해당 문서만 볼 수 있습니다.</p></div>
+    <details class="panel trend-panel section-disclosure">
+      <summary class="section-summary"><div class="section-title"><small>KEYWORD TREND BY YEAR</small><h2>키워드별 연도 동향</h2></div><span class="section-toggle"><span class="when-closed">보기</span><span class="when-open">접기</span></span></summary>
+      <div class="section-content">
+      <p class="caution">키워드를 선택해 연도별 문서 수를 비교하세요. 연도 카드를 누르면 해당 문서만 볼 수 있습니다.</p>
       <div class="trend-controls">
         <label>키워드<select id="trend-keyword">{trendKeywords.map((keyword) => <option value={keyword.toLowerCase()}>{keyword}</option>)}</select></label>
         <label>연도<select id="trend-year"><option value="all">전체 연도</option>{trendYears.map((year) => <option value={year}>{year}년</option>)}</select></label>
@@ -183,7 +185,8 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
           </button>
         ))}</div>
       ))}</div>
-    </section>
+      </div>
+    </details>
 
     <section class="panel keyword-evidence-panel" aria-label="키워드별 4개 기준 근거 현황">
       <div class="panel-heading"><div><small>KEYWORD EVIDENCE REVIEW</small><h2>키워드별 4개 기준 근거 현황</h2></div><p class="caution">키워드를 선택하고 버튼을 눌러 확인하세요. 제목·요약과 추출 수치 기반의 근거 현황이며, 기술의 우열·실제 적용·상용화 가능성을 판정한 결과는 아닙니다.</p></div>
@@ -203,8 +206,9 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
       </div>
     </section>
 
-    <section class="panel matrix-panel">
-      <div class="panel-heading"><div><small>COMPANY KEYWORDS</small><h2>기업별 기술 경쟁</h2></div></div>
+    <details class="panel matrix-panel section-disclosure">
+      <summary class="section-summary"><div class="section-title"><small>COMPANY KEYWORDS</small><h2>기업별 기술 경쟁</h2></div><span class="section-toggle"><span class="when-closed">보기</span><span class="when-open">접기</span></span></summary>
+      <div class="section-content">
       <p class="company-help">각 기업이 언급된 자료에서 키워드별 자료 수가 많은 순서로 표시합니다. 기업명이나 키워드를 누르면 해당 문서만 볼 수 있습니다.</p>
       {companyMatrix.length ? <div class="company-rows">{companyMatrix.map((row) => (
         <article class="company-row">
@@ -214,10 +218,13 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
           ))}</ol> : <p class="company-help">확인된 키워드가 없습니다.</p>}
         </article>
       ))}</div> : <div class="empty">기업명이 확인된 문서가 아직 없습니다.</div>}
-    </section>
+      </div>
+    </details>
 
-    <section class="panel performance-panel">
-      <div class="panel-heading"><div><small>PERFORMANCE EVIDENCE</small><h2>제목·요약에서 확인된 성능 수치</h2></div><p class="caution">제목·요약에서 지표와 단위가 명확히 연결된 수치만 표시합니다. 대상과 조건은 문맥 기준이며, 요약에서 확인되지 않는 조건은 원문 확인이 필요합니다. 수율·변화율·배터리 사용시간은 제외합니다.</p></div>
+    <details class="panel performance-panel section-disclosure">
+      <summary class="section-summary"><div class="section-title"><small>PERFORMANCE EVIDENCE</small><h2>제목·요약에서 확인된 성능 수치</h2></div><span class="section-toggle"><span class="when-closed">보기</span><span class="when-open">접기</span></span></summary>
+      <div class="section-content">
+      <p class="caution">제목·요약에서 지표와 단위가 명확히 연결된 수치만 표시합니다. 대상과 조건은 문맥 기준이며, 요약에서 확인되지 않는 조건은 원문 확인이 필요합니다. 수율·변화율·배터리 사용시간은 제외합니다.</p>
       {performanceMetrics.length ? <div class="metric-grid">{performanceMetrics.map(({ item, ...metric }) => (
         <article class="metric-card">
           <div class="metric-main"><div class="metric-heading"><span>{metricLabels[metric.name]}</span>{metric.qualifier && <small>{metric.qualifier}</small>}</div><strong class="metric-value">{metric.value.toLocaleString()} {metric.unit}</strong></div>
@@ -226,7 +233,8 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
           <a class="metric-source" href={item.url} target="_blank" rel="noreferrer"><span>{item.source} ↗</span><small>{item.published_at}</small></a>
         </article>
       ))}</div> : <div class="empty">성능 단위가 명시된 문서를 수집하면 표시됩니다.</div>}
-    </section>
+      </div>
+    </details>
 
     <section class="decision-section">
       <div class="section-heading"><small>CONDITIONAL DECISION</small><h2>상용화 관련 주요 기술 동향</h2><p>수집 자료의 기술 언급 비중을 바탕으로 정리한 검토 방향입니다.</p></div>
@@ -596,6 +604,20 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
   .panel { min-width: 0; background: var(--surface); border: 1px solid var(--border); border-radius: 3px; padding: 26px; }
   .panel-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 22px; }
   .panel-heading > div { min-width: 0; }
+  .section-disclosure { margin-bottom: 20px; }
+  .section-summary { display: flex; align-items: center; justify-content: space-between; gap: 16px; cursor: pointer; list-style: none; }
+  .section-summary::-webkit-details-marker { display: none; }
+  .section-summary:focus-visible { outline: 2px solid var(--brand); outline-offset: 6px; }
+  .section-title { min-width: 0; }
+  .section-title small { color: var(--brand); font-size: .66rem; font-weight: 800; letter-spacing: .16em; }
+  .section-title h2 { overflow-wrap: anywhere; }
+  .section-toggle { flex-shrink: 0; padding: 9px 16px; border: 1px solid var(--brand); border-radius: 3px; background: var(--brand-soft); color: var(--brand); font-size: .8rem; font-weight: 700; }
+  .section-summary:hover .section-toggle { background: var(--brand); color: var(--on-brand); }
+  .section-disclosure > .section-summary .when-open { display: none; }
+  .section-disclosure[open] > .section-summary .when-open { display: inline; }
+  .section-disclosure[open] > .section-summary .when-closed { display: none; }
+  .section-content { padding-top: 22px; }
+
   .panel-heading small { color: var(--brand); font-size: .66rem; font-weight: 800; letter-spacing: .16em; }
   h2 { margin: 5px 0 0; font-size: 1.25rem; }
   .keyword-evidence-panel { margin-bottom: 20px; }
