@@ -119,7 +119,6 @@ const decisionAreas = [
       <article><b>{documents.length}</b><span>전체 문서</span></article>
       <article><b>{domesticCount}</b><span>국내 자료</span></article>
       <article><b>{internationalCount}</b><span>해외 자료</span></article>
-      <article><b>{Object.keys(technologyCounts).length}</b><span>탐지 기술</span></article>
     </section>
 
 
@@ -386,7 +385,7 @@ const decisionAreas = [
   h1 em { color: var(--brand); font-style: normal; }
   .hero p { max-width: 680px; color: var(--text-secondary); font-size: clamp(1rem, 2vw, 1.2rem); line-height: 1.75; }
   .meta { color: var(--text-muted); font-size: .78rem; margin-top: 28px; }
-  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; margin: 28px 0; background: var(--border); border: 1px solid var(--border); }
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; margin: 28px 0; background: var(--border); border: 1px solid var(--border); }
   .stats article { background: var(--surface); padding: 25px; display: flex; flex-direction: column; gap: 6px; }
   .stats b { font-size: 2rem; color: var(--brand); }
   .stats span { color: var(--text-muted); font-size: .82rem; }
@@ -507,7 +506,7 @@ const decisionAreas = [
   [hidden] { display: none !important; }
   @media (max-width: 760px) {
     main { padding-top: 26px; }
-    .stats { grid-template-columns: repeat(2, 1fr); }
+    .stats article { padding: 20px 12px; }
     .grid, .analysis-grid, .keyword-tools, #document-list, .metric-grid, .decision-grid { grid-template-columns: 1fr; }
     .taxonomy { grid-template-columns: repeat(2, 1fr); }
     .keyword-list { grid-template-columns: 1fr; }
