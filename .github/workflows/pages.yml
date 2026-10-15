@@ -28,6 +28,11 @@ on:
           - all
           - news
           - papers
+      clear_last_manual:
+        description: "최근 맞춤 수집 내역만 초기화 (수집 문서는 유지)"
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -59,6 +64,7 @@ jobs:
           DATE_FROM: ${{ inputs.date_from }}
           DATE_TO: ${{ inputs.date_to }}
           SOURCE_KIND: ${{ inputs.source }}
+          CLEAR_LAST_MANUAL: ${{ inputs.clear_last_manual }}
           CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
           SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
@@ -68,6 +74,7 @@ jobs:
           if [[ -n "$DATE_FROM" ]]; then args+=(--date-from "$DATE_FROM"); fi
           if [[ -n "$DATE_TO" ]]; then args+=(--date-to "$DATE_TO"); fi
           if [[ -n "$SOURCE_KIND" ]]; then args+=(--source "$SOURCE_KIND"); fi
+          if [[ "$CLEAR_LAST_MANUAL" == "true" ]]; then args+=(--clear-last-manual); fi
           python scripts/collect.py "${args[@]}"
       - name: Commit collected metadata
         run: |

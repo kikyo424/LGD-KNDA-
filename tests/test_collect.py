@@ -1,4 +1,24 @@
+import json
+
+import scripts.collect as collect
 from scripts.collect import deduplicate, extract_companies, extract_keyword_scores, extract_keywords, extract_metrics, in_date_range, is_relevant, news_title_fingerprint, normalize_date, paper_title_fingerprint, parse_args, parse_arxiv, parse_crossref, parse_openalex, parse_rss, parse_semantic_scholar, tag_technologies
+
+
+def test_clear_last_manual_collection_preserves_a_valid_empty_summary(monkeypatch, tmp_path):
+    target = tmp_path / "last_manual_collection.json"
+    monkeypatch.setattr(collect, "LAST_MANUAL_FILE", target)
+
+    collect.clear_last_manual_collection()
+
+    assert json.loads(target.read_text(encoding="utf-8")) == {
+        "keyword": "",
+        "date_from": "",
+        "date_to": "",
+        "source": "all",
+        "result_count": 0,
+        "source_errors": 0,
+        "completed_at": "",
+    }
 
 
 def test_tag_technologies_is_explainable():

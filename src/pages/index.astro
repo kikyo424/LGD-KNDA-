@@ -160,7 +160,7 @@ const decisionAreas = [
       </article>
     </section>
 
-    <section class="panel recent-collection" aria-label="최근 맞춤 수집 결과">
+    <section id="recent-collection" class="panel recent-collection" aria-label="최근 맞춤 수집 결과" data-collection-at={lastManual.completed_at}>
       <div class="panel-heading"><div><small>LAST CUSTOM COLLECTION</small><h2>최근 맞춤 수집 결과</h2></div></div>
       {lastManual.keyword ? <div class="recent-content">
         <div><span>수집 키워드</span><strong>{lastManual.keyword}</strong></div>
@@ -169,6 +169,7 @@ const decisionAreas = [
         <div><span>결과</span><strong>{lastManual.result_count}건</strong></div>
         <div><span>완료 시각</span><strong>{lastManual.completed_at ? new Date(lastManual.completed_at).toLocaleString("ko-KR") : "-"}</strong></div>
         <button type="button" id="show-last-collection" data-last-keyword={lastManual.keyword.toLowerCase()}>결과 {lastManualDocuments.length}건 보기</button>
+        <button type="button" id="hide-last-collection">이 브라우저에서 숨기기</button>
       </div> : <div class="empty">아직 맞춤 수집 이력이 없습니다. 위 조건을 입력해 GitHub Actions를 실행하세요.</div>}
     </section>
 
@@ -323,6 +324,17 @@ const decisionAreas = [
       applyFilters();
       document.querySelector(".documents")?.scrollIntoView({ behavior: "smooth" });
     });
+    const recentCollection = document.querySelector<HTMLElement>("#recent-collection");
+    const hiddenCollectionKey = "oled-watch-trend-radar:hidden-last-manual";
+    const collectionTimestamp = recentCollection?.dataset.collectionAt || "";
+    if (collectionTimestamp && localStorage.getItem(hiddenCollectionKey) === collectionTimestamp) {
+      recentCollection?.setAttribute("hidden", "");
+    }
+    document.querySelector<HTMLButtonElement>("#hide-last-collection")?.addEventListener("click", () => {
+      if (!collectionTimestamp || !recentCollection) return;
+      localStorage.setItem(hiddenCollectionKey, collectionTimestamp);
+      recentCollection.hidden = true;
+    });
   </script>
 </Layout>
 
@@ -363,7 +375,7 @@ const decisionAreas = [
   .custom-collector label { color: #8495af; font-size: .72rem; display: grid; gap: 6px; }
   .custom-collector input, .custom-collector select { width: 100%; background: #080d18; color: #eef3ff; border: 1px solid #30425f; padding: 10px 12px; }
   .date-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-  .command-button, #open-workflow, #show-last-collection { border: 0; background: #5df2c2; color: #07110e; font-weight: 800; padding: 11px; cursor: pointer; text-decoration: none; display: inline-block; text-align: center; }
+  .command-button, #open-workflow, #show-last-collection, #hide-last-collection { border: 0; background: #5df2c2; color: #07110e; font-weight: 800; padding: 11px; cursor: pointer; text-decoration: none; display: inline-block; text-align: center; }
   #collection-result { margin-top: 14px; border: 1px solid #30425f; padding: 12px; }
   #collection-result code { display: block; color: #b7c8df; font-size: .68rem; word-break: break-all; line-height: 1.6; margin-bottom: 10px; }
   #open-workflow { padding: 8px 10px; font-size: .72rem; }
@@ -373,7 +385,8 @@ const decisionAreas = [
   .recent-content > div { background: #0b1120; padding: 16px; display: flex; flex-direction: column; gap: 7px; }
   .recent-content span { color: #71829e; font-size: .68rem; }
   .recent-content strong { color: #e8eefc; font-size: .78rem; line-height: 1.45; word-break: break-word; }
-  #show-last-collection { align-self: stretch; display: grid; place-items: center; font-size: .78rem; }
+  #show-last-collection, #hide-last-collection { align-self: stretch; display: grid; place-items: center; font-size: .78rem; }
+  #hide-last-collection { background: #24334d; color: #d7e2f5; }
   .panel { background: rgba(11, 17, 32, .92); border: 1px solid #22314a; border-radius: 3px; padding: 26px; }
   .panel-heading { display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px; }
   .panel-heading small { color: #5df2c2; font-size: .66rem; font-weight: 800; letter-spacing: .16em; }

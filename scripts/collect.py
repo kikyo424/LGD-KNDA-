@@ -468,6 +468,21 @@ def save_last_manual_collection(args: argparse.Namespace, items: list[dict[str, 
     LAST_MANUAL_FILE.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def clear_last_manual_collection() -> None:
+    """Keep collected documents while clearing only the displayed custom-collection summary."""
+    report = {
+        "keyword": "",
+        "date_from": "",
+        "date_to": "",
+        "source": "all",
+        "result_count": 0,
+        "source_errors": 0,
+        "completed_at": "",
+    }
+    LAST_MANUAL_FILE.parent.mkdir(parents=True, exist_ok=True)
+    LAST_MANUAL_FILE.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Collect OLED trend metadata")
     parser.add_argument("--keyword", help="Custom keyword or search phrase")
@@ -475,6 +490,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--date-to", help="Inclusive end date in YYYY-MM-DD")
     parser.add_argument("--source", choices=("all", "news", "papers"), default="all")
     parser.add_argument("--reprocess-only", action="store_true", help="Rebuild tags, quality scores and duplicates without network requests")
+    parser.add_argument("--clear-last-manual", action="store_true", help="Clear the recent custom collection summary without deleting documents")
     args = parser.parse_args(argv)
     for field in ("date_from", "date_to"):
         value = getattr(args, field)
@@ -497,6 +513,10 @@ def in_date_range(item: dict[str, Any], date_from: str | None, date_to: str | No
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
+    if args.clear_last_manual:
+        clear_last_manual_collection()
+        print(f"Cleared recent custom collection summary in {LAST_MANUAL_FILE}")
+        return 0
     custom_keyword = clean_text(args.keyword)
     is_manual = bool(custom_keyword)
     # 정기 수집의 RSS 결과는 최신 제목을 반영하고, 맞춤 수집은 기존 결과에 추가한다.

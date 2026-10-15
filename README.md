@@ -31,6 +31,18 @@ npm run dev
 
 키워드는 `nit/nits → 휘도`, `high brightness/초고휘도 → 고휘도`, `tandem OLED/탠덤 → 탠덤 OLED`처럼 대표어로 통합됩니다. 제목은 2점, 요약은 1점으로 집계하며, 같은 날짜의 동일·재배포 뉴스 제목은 하나로 정리합니다. 제외·중복·누락·오류 통계는 `src/data/collection_quality.json`에 저장되어 대시보드에 표시됩니다.
 
+## 최근 맞춤 수집 내역 지우기
+
+대시보드의 **이 브라우저에서 숨기기**는 현재 브라우저에서만 최근 맞춤 수집 결과 카드를 숨깁니다. 다음 맞춤 수집이 완료되면 새 결과는 다시 표시됩니다.
+
+모든 방문자에게 보이는 최근 맞춤 수집 내역을 지우려면 `Actions > Collect and deploy > Run workflow`에서 `clear_last_manual`을 선택해 실행하세요. 수집된 문서 데이터와 통계는 삭제하지 않고, 최근 맞춤 수집 요약만 초기화합니다.
+
+로컬에서는 아래 명령으로 같은 작업을 할 수 있습니다.
+
+```powershell
+.\.venv\Scripts\python.exe scripts\collect.py --clear-last-manual
+```
+
 ## 검증
 
 ```bash
