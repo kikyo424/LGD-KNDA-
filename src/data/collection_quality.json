@@ -1,17 +1,49 @@
 {
   "last_update": {
-    "completed_at": "2026-10-15T23:48:40.318111+00:00",
-    "new_count": 0,
-    "new_documents": [],
-    "source_errors": 2
+    "completed_at": "2026-10-15T23:53:20.137110+00:00",
+    "new_count": 1,
+    "new_documents": [
+      {
+        "id": "c5fe9a3450853f60f9be",
+        "doi": "",
+        "source_type": "news",
+        "source": "브릿지경제",
+        "region": "domestic",
+        "title": "LGD “AI 시대 디스플레이 승부처는 전력효율⋯ ‘탠덤 OLED’가 해법” - 브릿지경제",
+        "published_at": "2026-07-21",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB0TTJ1ZWVNMVNvamtrVjFZTWFWYW5lb1BHQkRqTEhtc2dXRmlCOE1VN3hQY2MzNDNrYUdlcUJ1ekJ4RXd4ZFB0eWU3VE54M0RGS0o1eHB2dw?oc=5",
+        "summary": "LGD “AI 시대 디스플레이 승부처는 전력효율⋯ ‘탠덤 OLED’가 해법” 브릿지경제",
+        "technologies": [
+          "발광 구조"
+        ],
+        "collected_at": "2026-10-15T23:52:26.754415+00:00",
+        "document_id": "c5fe9a3450853f60f9be",
+        "published_date": "2026-07-21",
+        "company": [
+          "LG디스플레이"
+        ],
+        "technology": [
+          "발광 구조"
+        ],
+        "keywords": [
+          "탠덤 OLED"
+        ],
+        "keyword_scores": {
+          "탠덤 OLED": 3
+        },
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB0TTJ1ZWVNMVNvamtrVjFZTWFWYW5lb1BHQkRqTEhtc2dXRmlCOE1VN3hQY2MzNDNrYUdlcUJ1ekJ4RXd4ZFB0eWU3VE54M0RGS0o1eHB2dw?oc=5"
+      }
+    ],
+    "source_errors": 3
   },
-  "input": 790,
-  "excluded_irrelevant": 360,
-  "excluded_before_2023": 125,
-  "duplicates_removed": 91,
-  "saved": 214,
+  "input": 760,
+  "excluded_irrelevant": 357,
+  "excluded_before_2023": 106,
+  "duplicates_removed": 82,
+  "saved": 215,
   "missing_date": 0,
   "missing_summary": 22,
-  "source_errors": 2,
-  "generated_at": "2026-10-15T23:48:40.318287+00:00"
+  "source_errors": 3,
+  "generated_at": "2026-10-15T23:53:20.137304+00:00"
 }
