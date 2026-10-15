@@ -54,10 +54,9 @@ const sourceCounts = documents.reduce<Record<string, number>>((acc, item) => {
   return acc;
 }, {});
 const keywordCounts = documents.reduce<Record<string, number>>((acc, item) => {
-  const scores = item.keyword_scores || Object.fromEntries((item.keywords || []).map((keyword) => [keyword, 1]));
-  Object.entries(scores).forEach(([keyword, score]) => {
-    const normalized = keyword.trim();
-    if (normalized) acc[normalized] = (acc[normalized] || 0) + (score || 0);
+  const keywords = new Set((item.keywords || []).map((keyword) => keyword.trim()).filter(Boolean));
+  keywords.forEach((keyword) => {
+    acc[keyword] = (acc[keyword] || 0) + 1;
   });
   return acc;
 }, {});
@@ -144,14 +143,14 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
 
     <section class="keyword-tools">
       <article class="panel keyword-panel">
-        <div class="panel-heading"><div><small>TOP KEYWORDS</small><h2>수집 결과 상위 키워드</h2></div><p class="caution">유사어를 통합하고 제목 2점·요약 1점으로 계산합니다. 버튼을 누르면 관련 문서만 표시합니다.</p></div>
+        <div class="panel-heading"><div><small>TOP KEYWORDS</small><h2>수집 결과 상위 키워드</h2></div><p class="caution">키워드가 포함된 자료 수가 많은 순서입니다. 한 자료에서는 같은 키워드를 한 번만 집계합니다. 버튼을 누르면 해당 자료만 표시합니다.</p></div>
         <div class="keyword-list">
           {topKeywords.map(([keyword, count], index) => (
             <button type="button" data-keyword-filter={keyword.toLowerCase()}>
               <span class="rank">{String(index + 1).padStart(2, "0")}</span>
               <span class="keyword-name">{keyword}</span>
               <i><b style={`width:${Math.max(5, (count / maxKeywordCount) * 100)}%`}></b></i>
-              <strong>{count}</strong>
+              <strong>{count}건</strong>
             </button>
           ))}
         </div>
@@ -436,9 +435,11 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
 
     document.querySelectorAll<HTMLButtonElement>("[data-keyword-filter]").forEach((button) => button.addEventListener("click", () => {
       selectedCompany = "";
-      selectedTrendKeyword = "";
+      selectedTrendKeyword = button.dataset.keywordFilter || "";
       selectedCollectionKeyword = "";
       if (input) input.value = button.dataset.keywordFilter || "";
+      selectedYear = "all";
+      if (yearSelect) yearSelect.value = "all";
       selectedRegion = "all";
       regionButtons.forEach((candidate) => candidate.classList.toggle("active", candidate.dataset.region === "all"));
       applyFilters();
@@ -508,7 +509,7 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
   .quality-strip span { color: var(--text-muted); font-size: .72rem; }
   .quality-strip strong { color: var(--text); font-size: 1.2rem; }
   .keyword-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px 20px; }
-  .keyword-list button { display: grid; grid-template-columns: 28px minmax(95px, auto) 1fr 28px; align-items: center; gap: 10px; border: 0; border-bottom: 1px solid var(--border); background: transparent; color: var(--text-secondary); padding: 9px 0; text-align: left; cursor: pointer; }
+  .keyword-list button { display: grid; grid-template-columns: 28px minmax(95px, auto) 1fr 48px; align-items: center; gap: 10px; border: 0; border-bottom: 1px solid var(--border); background: transparent; color: var(--text-secondary); padding: 9px 0; text-align: left; cursor: pointer; }
   .keyword-list button:hover .keyword-name { color: var(--brand); }
   .rank { color: var(--text-muted); font-size: .66rem; }
   .keyword-name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: .76rem; }
