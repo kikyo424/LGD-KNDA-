@@ -104,6 +104,14 @@ const decisionAreas = [
   const evidence = documents.filter((item) => area.categories.some((category) => item.technologies.includes(category))).length;
   return { ...area, evidence, score: documents.length ? Math.round((evidence / documents.length) * 100) : 0 };
 });
+const buildTime = new Date();
+const nextUpdate = new Date(buildTime);
+nextUpdate.setUTCHours(0, 17, 0, 0);
+if (nextUpdate <= buildTime) nextUpdate.setUTCDate(nextUpdate.getUTCDate() + 1);
+const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
+  timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit",
+  hour: "2-digit", minute: "2-digit", hour12: false,
+});
 ---
 
 <Layout title="초고휘도 스마트워치 OLED 상용화 전략 분석" description="야외 시인성과 전력 효율을 높이는 스마트워치 OLED 기술을 분석하고, 글로벌 시장을 위한 상용화 방향을 살펴봅니다.">
@@ -113,7 +121,11 @@ const decisionAreas = [
       <h1>초고휘도 스마트워치 OLED<br /><em>상용화 전략 분석</em></h1>
       <p class="hero-subtitle">직사광선 아래 또렷하게, 작은 배터리로 더 오래</p>
       <p>야외 시인성과 전력 효율을 높이는 스마트워치 OLED 기술을 분석하고, 글로벌 시장을 위한 상용화 방향을 살펴봅니다.</p>
-      <div class="meta">마지막 빌드 {new Date().toLocaleDateString("ko-KR")} · 공개 API 기반</div>
+      <div class="meta">
+        <span>마지막 빌드 <time datetime={buildTime.toISOString()}>{koreanDateTime.format(buildTime)}</time> (한국 시간)</span>
+        <span>다음 자동 업데이트 예정 <time id="next-update" datetime={nextUpdate.toISOString()}>{koreanDateTime.format(nextUpdate)}</time> (한국 시간)</span>
+        <span>매일 오전 9시 17분 자동 수집 · 수집·배포 상황에 따라 반영이 지연될 수 있습니다.</span>
+      </div>
     </header>
 
     <section class="stats" aria-label="요약 지표">
@@ -255,6 +267,12 @@ const decisionAreas = [
               {documentYears.map((year) => <option value={year}>{year}년 · {documentYearCounts[year]}건</option>)}
             </select>
           </label>
+          <label class="year-select">정렬
+            <select id="document-sort" aria-label="문서 날짜 정렬">
+              <option value="newest">최신순</option>
+              <option value="oldest">오래된순</option>
+            </select>
+          </label>
           <input id="document-filter" type="search" placeholder="제목·기술 검색" aria-label="문서 검색" />
         </div>
       </div>
@@ -263,7 +281,7 @@ const decisionAreas = [
       <div id="document-empty" class="empty" hidden>선택한 조건에 해당하는 문서가 없습니다.</div>
       <div id="document-list" tabindex="0" role="region" aria-label="최신 기술 문서 목록">
         {documents.length ? documents.map((item) => (
-          <a class="document" href={item.url} target="_blank" rel="noreferrer" data-companies={JSON.stringify(item.company || [])} data-keywords={JSON.stringify((item.keywords || []).map((keyword) => keyword.toLowerCase()))} data-custom-keyword={(item.custom_keyword || "").toLowerCase()} data-region={item.region} data-year={item.published_at.slice(0, 4)} data-search={`${item.title} ${item.technologies.join(" ")} ${(item.keywords || []).join(" ")} ${(item.company || []).join(" ")} ${item.custom_keyword || ""}`.toLowerCase()}>
+          <a class="document" href={item.url} target="_blank" rel="noreferrer" data-companies={JSON.stringify(item.company || [])} data-keywords={JSON.stringify((item.keywords || []).map((keyword) => keyword.toLowerCase()))} data-custom-keyword={(item.custom_keyword || "").toLowerCase()} data-published-at={item.published_at} data-region={item.region} data-year={item.published_at.slice(0, 4)} data-search={`${item.title} ${item.technologies.join(" ")} ${(item.keywords || []).join(" ")} ${(item.company || []).join(" ")} ${item.custom_keyword || ""}`.toLowerCase()}>
             <div class="doc-meta"><span>{item.source} · {item.region === "domestic" ? "국내" : "해외"}</span><time>{item.published_at || "날짜 미상"}</time></div>
             <h3>{item.title}</h3>
             <p>{item.summary}</p>
@@ -283,8 +301,21 @@ const decisionAreas = [
   </main>
 
   <script>
+    const nextUpdateElement = document.querySelector<HTMLTimeElement>("#next-update");
+    if (nextUpdateElement) {
+      const now = new Date();
+      const next = new Date(now);
+      next.setUTCHours(0, 17, 0, 0);
+      if (next <= now) next.setUTCDate(next.getUTCDate() + 1);
+      nextUpdateElement.dateTime = next.toISOString();
+      nextUpdateElement.textContent = new Intl.DateTimeFormat("ko-KR", {
+        timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit",
+        hour: "2-digit", minute: "2-digit", hour12: false,
+      }).format(next);
+    }
     const input = document.querySelector<HTMLInputElement>("#document-filter");
     const yearSelect = document.querySelector<HTMLSelectElement>("#document-year");
+    const sortSelect = document.querySelector<HTMLSelectElement>("#document-sort");
     const regionButtons = document.querySelectorAll<HTMLButtonElement>(".region-filter [data-region]");
     let selectedRegion = "all";
     let selectedYear = "all";
@@ -306,7 +337,22 @@ const decisionAreas = [
     window.addEventListener("resize", resizeDocumentList);
     document.fonts.ready.then(resizeDocumentList);
     resizeDocumentList();
+    const sortDocuments = () => {
+      if (!documentList) return;
+      const direction = sortSelect?.value === "oldest" ? 1 : -1;
+      const cards = [...documentList.querySelectorAll<HTMLElement>(".document")];
+      cards.sort((left, right) => {
+        const leftDate = left.dataset.publishedAt || "";
+        const rightDate = right.dataset.publishedAt || "";
+        const leftKnown = /^\d{4}/.test(leftDate);
+        const rightKnown = /^\d{4}/.test(rightDate);
+        if (leftKnown !== rightKnown) return leftKnown ? -1 : 1;
+        return direction * leftDate.localeCompare(rightDate);
+      });
+      documentList.append(...cards);
+    };
     const applyFilters = () => {
+      sortDocuments();
       const query = input?.value.trim().toLowerCase() || "";
       document.querySelectorAll<HTMLElement>(".document").forEach((documentElement) => {
         const matchesText = selectedTrendKeyword
@@ -329,6 +375,7 @@ const decisionAreas = [
       resizeDocumentList();
     };
     input?.addEventListener("input", () => { selectedCompany = ""; selectedTrendKeyword = ""; selectedCollectionKeyword = ""; applyFilters(); });
+    sortSelect?.addEventListener("change", applyFilters);
     yearSelect?.addEventListener("change", () => {
       selectedYear = yearSelect.value;
       applyFilters();
@@ -443,7 +490,7 @@ const decisionAreas = [
   h1 em { color: var(--brand); font-style: normal; }
   .hero p { max-width: 680px; color: var(--text-secondary); font-size: clamp(1rem, 2vw, 1.2rem); line-height: 1.75; }
   .hero .hero-subtitle { max-width: none; color: var(--text); font-size: clamp(1.1rem, 2.4vw, 1.5rem); font-weight: 700; }
-  .meta { color: var(--text-muted); font-size: .78rem; margin-top: 28px; }
+  .meta { display: grid; gap: 8px; color: var(--text-muted); font-size: .78rem; margin-top: 28px; line-height: 1.6; }
   .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; margin: 28px 0; background: var(--border); border: 1px solid var(--border); }
   .stats article { background: var(--surface); padding: 25px; display: flex; flex-direction: column; gap: 6px; }
   .stats b { font-size: 2rem; color: var(--brand); }
@@ -548,7 +595,7 @@ const decisionAreas = [
   .source-list::-webkit-scrollbar { width: 5px; }
   .source-list::-webkit-scrollbar-thumb { background: var(--text-muted); border-radius: 5px; }
   .list-heading { gap: 18px; }
-  .controls { display: flex; align-items: center; gap: 10px; }
+  .controls { display: flex; flex-wrap: wrap; justify-content: flex-end; align-items: center; gap: 10px; }
   .region-filter { display: flex; padding: 3px; background: var(--surface); border: 1px solid var(--border-strong); }
   .region-filter button { border: 0; background: transparent; color: var(--text-muted); padding: 7px 10px; cursor: pointer; }
   .region-filter button.active { background: var(--brand); color: var(--on-brand); font-weight: 800; }
