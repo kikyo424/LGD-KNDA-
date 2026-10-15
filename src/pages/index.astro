@@ -204,11 +204,10 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
       <div class="panel-heading"><div><small>PERFORMANCE EVIDENCE</small><h2>문헌에 보고된 성능 지표</h2></div><p class="caution">제목·요약에서 지표와 단위가 명확히 연결된 수치만 표시합니다. 대상과 조건은 문맥 기준이며, 미공개 조건은 원문 확인이 필요합니다. 수율·변화율·배터리 사용시간은 제외합니다.</p></div>
       {performanceMetrics.length ? <div class="metric-grid">{performanceMetrics.map(({ item, ...metric }) => (
         <article class="metric-card">
-          <div class="metric-heading"><span>{metricLabels[metric.name]}</span>{metric.qualifier && <small>{metric.qualifier}</small>}</div>
-          <strong class="metric-value">{metric.value.toLocaleString()} {metric.unit}</strong>
-          <dl><div><dt>문헌 내 대상</dt><dd>{metric.target || "측정 대상 미공개"}</dd></div><div><dt>측정 조건</dt><dd>{metric.conditions?.length ? `${metric.conditions.join(" · ")} (그 외 조건 미공개)` : "측정 조건 미공개"}</dd></div></dl>
-          <p class="metric-evidence"><b>근거 문장</b>{metric.context}</p>
-          <a class="metric-source" href={item.url} target="_blank" rel="noreferrer">{item.title}<small>{item.source} · {item.published_at} · 원문 보기 ↗</small></a>
+          <div class="metric-main"><div class="metric-heading"><span>{metricLabels[metric.name]}</span>{metric.qualifier && <small>{metric.qualifier}</small>}</div><strong class="metric-value">{metric.value.toLocaleString()} {metric.unit}</strong></div>
+          <dl><div><dt>대상</dt><dd>{metric.target || "측정 대상 미공개"}</dd></div><div><dt>조건</dt><dd>{metric.conditions?.length ? metric.conditions.join(" · ") : "측정 조건 미공개"}</dd></div></dl>
+          <details class="metric-detail"><summary>상세 보기</summary><p class="metric-evidence">{metric.context}</p><a class="metric-title" href={item.url} target="_blank" rel="noreferrer">{item.title} ↗</a></details>
+          <a class="metric-source" href={item.url} target="_blank" rel="noreferrer"><span>{item.source} ↗</span><small>{item.published_at}</small></a>
         </article>
       ))}</div> : <div class="empty">성능 단위가 명시된 문서를 수집하면 표시됩니다.</div>}
     </section>
@@ -606,20 +605,25 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
   td { color: var(--text-muted); }
   td.hot { background: var(--brand-soft); color: var(--brand); font-weight: 800; }
   .performance-panel { margin-bottom: 26px; }
-  .metric-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
-  .metric-card { min-width: 0; border: 1px solid var(--border); background: var(--surface); padding: 22px; overflow-wrap: anywhere; }
-  .metric-heading { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
-  .metric-heading > span { color: var(--brand); font-size: .85rem; font-weight: 700; }
-  .metric-heading small { background: var(--brand-soft); color: var(--brand); padding: 4px 7px; }
-  .metric-value { display: block; font-size: 1.5rem; margin: 12px 0 18px; }
-  .metric-card dl { display: grid; gap: 9px; font-size: .8rem; margin: 0; }
-  .metric-card dl > div { display: grid; grid-template-columns: 95px minmax(0, 1fr); gap: 8px; }
+  .metric-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: start; gap: 10px; }
+  .metric-card { min-width: 0; border: 1px solid var(--border); border-radius: 5px; background: var(--surface); padding: 14px; overflow-wrap: anywhere; }
+  .metric-main { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; margin-bottom: 12px; }
+  .metric-heading { display: flex; flex-direction: column; align-items: flex-start; gap: 5px; }
+  .metric-heading > span { color: var(--brand); font-size: .75rem; font-weight: 700; }
+  .metric-heading small { color: var(--text-muted); font-size: .62rem; line-height: 1.5; }
+  .metric-value { color: var(--text); font-size: 1.15rem; line-height: 1.3; text-align: right; }
+  .metric-card dl { display: grid; gap: 5px; font-size: .7rem; margin: 0; line-height: 1.65; }
+  .metric-card dl > div { display: grid; grid-template-columns: 30px minmax(0, 1fr); gap: 6px; }
   .metric-card dt { color: var(--text-muted); }
   .metric-card dd { color: var(--text-secondary); margin: 0; }
-  .metric-evidence { color: var(--text-secondary); font-size: .8rem; line-height: 1.8; border-left: 3px solid var(--border); padding-left: 12px; margin: 20px 0; white-space: normal; }
-  .metric-evidence b { display: block; color: var(--text-muted); font-size: .7rem; margin-bottom: 6px; }
-  .metric-source { display: block; color: var(--brand); font-size: .8rem; line-height: 1.6; }
-  .metric-source small { display: block; color: var(--text-muted); margin-top: 6px; }
+  .metric-detail { margin-top: 10px; font-size: .7rem; }
+  .metric-detail summary { color: var(--brand); cursor: pointer; width: fit-content; }
+  .metric-evidence { color: var(--text-secondary); font-size: .7rem; line-height: 1.75; margin: 10px 0; white-space: normal; }
+  .metric-title { color: var(--brand); font-size: .7rem; line-height: 1.65; }
+  .metric-source { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; color: var(--text-muted); font-size: .65rem; line-height: 1.6; text-decoration: none; border-top: 1px solid var(--border); padding-top: 9px; margin-top: 10px; }
+  .metric-source small { font-size: inherit; flex-shrink: 0; }
+  .metric-source:hover { color: var(--brand); }
+  @media (min-width: 761px) and (max-width: 1000px) { .metric-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
   .decision-section { padding: 34px 0 40px; }
   .section-heading small { color: var(--brand); letter-spacing: .16em; font-weight: 800; }
   .section-heading h2 { font-size: 1.8rem; }
