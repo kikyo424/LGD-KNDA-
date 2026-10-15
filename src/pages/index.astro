@@ -178,7 +178,7 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
           <p id="collection-status"></p>
           <a id="download-report" hidden>HTML 보고서 다운로드</a>
         </div>
-        <p class="collector-help">국내·해외 뉴스와 논문을 수집해 HTML 파일로 제공합니다. GitHub 로그인 없이 사용할 수 있으며 사이트 데이터에는 추가하지 않습니다. 첫 요청은 서버 준비로 지연될 수 있습니다. 완료 후 이 화면에서 다운로드하세요. 파일은 최대 1시간 동안 제공되며 서버 재시작 시 사라집니다.</p>
+        <p class="collector-help">국내·해외 뉴스와 논문을 수집해 HTML 파일로 제공합니다. GitHub 로그인 없이 사용할 수 있으며 사이트 데이터에는 추가하지 않습니다. 첫 요청은 서버 준비로 지연될 수 있습니다. 무료 사용 한도나 서버 상태에 따라 일시적으로 수집이 제한될 수 있습니다. 완료 후 이 화면에서 다운로드하세요. 파일은 최대 1시간 동안 제공되며 서버 재시작 시 사라집니다.</p>
       </article>
     </section>
 
@@ -465,6 +465,7 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
     const resultBox = document.querySelector<HTMLElement>("#collection-result");
     const statusElement = document.querySelector<HTMLElement>("#collection-status");
     const downloadLink = document.querySelector<HTMLAnchorElement>("#download-report");
+    const serverUnavailableMessage = "현재 수집 서버를 이용할 수 없습니다. Render 무료 사용량 소진, 서버 절전 또는 일시 장애가 원인일 수 있습니다. 잠시 후 다시 시도하고, 계속되면 운영자에게 문의해 주세요. 무료 사용량이 소진된 경우 한도 갱신 전까지 이용이 제한될 수 있습니다.";
     const collectButton = collectionForm?.querySelector<HTMLButtonElement>("button[type=submit]");
     collectionForm?.addEventListener("input", () => document.querySelector<HTMLInputElement>("#collect-to")?.setCustomValidity(""));
     collectionForm?.addEventListener("submit", async (event) => {
@@ -497,13 +498,18 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
         });
         if (!response.ok) {
           const error = await response.json().catch(() => ({}));
-          throw new Error(typeof error.detail === "string" ? error.detail : "수집 요청을 처리하지 못했습니다. 입력 조건을 확인한 뒤 다시 시도해 주세요.");
+          const fallback = response.status >= 500 || response.status === 402 || response.status === 403
+            ? serverUnavailableMessage
+            : "수집 요청을 처리하지 못했습니다. 입력 조건을 확인한 뒤 다시 시도해 주세요.";
+          throw new Error(typeof error.detail === "string" ? error.detail : fallback);
         }
         const { id } = await response.json();
         if (typeof id !== "string" || !/^[a-f0-9-]{36}$/i.test(id)) throw new Error("수집 요청을 확인하지 못했습니다.");
         for (let attempt = 0; attempt < 400; attempt++) {
           const result = await fetch(`${api}/reports/${id}`, { cache: "no-store", signal: AbortSignal.timeout(30000) });
-          if (!result.ok) throw new Error("수집 상태를 확인하지 못했습니다. 서버가 재시작되었을 수 있으니 잠시 후 다시 시도해 주세요.");
+          if (!result.ok) throw new Error(result.status >= 500 || result.status === 402 || result.status === 403
+            ? serverUnavailableMessage
+            : "수집 상태를 확인하지 못했습니다. 서버가 재시작되었을 수 있으니 잠시 후 다시 시도해 주세요.");
           const job = await result.json();
           setStatus(job.message || "수집 중입니다.");
           if (job.state === "completed" || job.state === "failed") {
@@ -518,7 +524,7 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
         }
         throw new Error("수집 대기 시간이 길어지고 있습니다. 잠시 후 다시 시도해 주세요.");
       } catch (error) {
-        setStatus(error instanceof Error && error.name === "Error" ? error.message : "서버에 연결하지 못했습니다. 잠시 후 다시 시도해 주세요.");
+        setStatus(error instanceof Error && error.name === "Error" ? error.message : serverUnavailableMessage);
       } finally {
         if (collectButton) collectButton.disabled = false;
       }
