@@ -28,14 +28,29 @@ const {
 
 <style is:global>
   :root {
-    color-scheme: dark;
+    color-scheme: light;
+    --brand: #a50034;
+    --brand-hover: #85002a;
+    --brand-soft: #f9edf1;
+    --page: #f5f4f5;
+    --surface: #ffffff;
+    --surface-muted: #f0eef0;
+    --text: #29262a;
+    --text-secondary: #514c53;
+    --text-muted: #68616b;
+    --border: #ded9df;
+    --border-strong: #b4abb6;
+    --on-brand: #ffffff;
     font-family: Inter, "Noto Sans KR", system-ui, sans-serif;
-    background: #060913;
-    color: #eef3ff;
+    background: var(--page);
+    color: var(--text);
   }
   * { box-sizing: border-box; }
-  body { margin: 0; min-width: 320px; background: radial-gradient(circle at 15% 0%, #152a4d 0, transparent 36rem), #060913; }
+  body { margin: 0; min-width: 320px; background: radial-gradient(circle at 15% 0%, var(--brand-soft) 0, transparent 36rem), var(--page); }
   a { color: inherit; }
-  button, input { font: inherit; }
+  button, input, select { font: inherit; }
+  button:focus-visible, a:focus-visible, select:focus-visible { outline: 2px solid var(--brand); outline-offset: 3px; }
+  button:disabled { cursor: not-allowed; opacity: .55; }
+  ::selection { background: var(--brand); color: var(--on-brand); }
 </style>
 
