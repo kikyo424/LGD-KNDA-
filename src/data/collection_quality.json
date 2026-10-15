@@ -1,11 +1,11 @@
 {
-  "input": 764,
-  "excluded_irrelevant": 359,
+  "input": 765,
+  "excluded_irrelevant": 362,
   "excluded_before_2023": 106,
-  "duplicates_removed": 83,
-  "saved": 216,
+  "duplicates_removed": 84,
+  "saved": 213,
   "missing_date": 0,
   "missing_summary": 22,
   "source_errors": 3,
-  "generated_at": "2026-10-15T13:09:06.546626+00:00"
+  "generated_at": "2026-10-15T13:16:27.415665+00:00"
 }
