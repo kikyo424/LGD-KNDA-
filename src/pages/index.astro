@@ -29,8 +29,7 @@ const documentYearCounts = documents.reduce<Record<string, number>>((counts, ite
   if (/^\d{4}$/.test(year)) counts[year] = (counts[year] || 0) + 1;
   return counts;
 }, {});
-const repository = import.meta.env.GITHUB_REPOSITORY || "kikyo424/LGD-KNDA-";
-const workflowUrl = `https://github.com/${repository}/actions/workflows/report.yml`;
+const reportApiUrl = import.meta.env.PUBLIC_REPORT_API_URL || "";
 const categories = ["초고휘도", "저전력", "발광 구조", "야외 시인성", "제조/공정"];
 const categoryPurpose: Record<string, string> = {
   "초고휘도": "고휘도 구현 수준",
@@ -157,8 +156,8 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
 
       <article class="panel custom-collector">
         <div class="panel-heading"><div><small>MANUAL COLLECTION</small><h2>맞춤 키워드 HTML 보고서</h2></div></div>
-        <form id="collection-form">
-          <label>검색 키워드<input id="collect-keyword" required placeholder="예: blue phosphorescent OLED" /></label>
+        <form id="collection-form" data-report-api={reportApiUrl}>
+          <label>검색 키워드<input id="collect-keyword" maxlength="200" required placeholder="예: blue phosphorescent OLED" /></label>
           <div class="date-fields">
             <label>시작일<input id="collect-from" type="date" /></label>
             <label>종료일<input id="collect-to" type="date" /></label>
@@ -166,12 +165,11 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
           <label>자료 유형<select id="collect-source"><option value="all">뉴스 + 논문</option><option value="news">뉴스</option><option value="papers">논문</option></select></label>
           <button class="command-button" type="submit">HTML 보고서 만들기</button>
         </form>
-        <div id="collection-result" hidden>
-          <p>아래 조건을 <b>Custom HTML report → Run workflow</b>에 입력해 실행하세요. 완료 후 실행 화면의 <b>Artifacts</b>에서 보고서 ZIP을 다운로드하고, 압축을 풀어 <b>custom-report.html</b>을 여세요.</p>
-          <code id="collection-command"></code>
-          <a id="open-workflow" href={workflowUrl} target="_blank" rel="noreferrer">보고서 생성 Actions 열기</a>
+        <div id="collection-result" role="status" aria-live="polite" hidden>
+          <p id="collection-status"></p>
+          <a id="download-report" hidden>HTML 보고서 다운로드</a>
         </div>
-        <p class="collector-help">국내·해외 Google 뉴스와 학술 API에서 수집해 독립 HTML 파일로 제공합니다. 사이트 데이터에는 추가하지 않습니다. 완료까지 수 분이 걸릴 수 있으며 보고서는 30일간 다운로드할 수 있습니다.</p>
+        <p class="collector-help">국내·해외 뉴스와 논문을 수집해 HTML 파일로 제공합니다. GitHub 로그인 없이 사용할 수 있으며 사이트 데이터에는 추가하지 않습니다. 첫 요청은 서버 준비로 지연될 수 있습니다. 완료 후 이 화면에서 다운로드하세요. 파일은 최대 1시간 동안 제공되며 서버 재시작 시 사라집니다.</p>
       </article>
     </section>
 
@@ -450,9 +448,11 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
 
     const collectionForm = document.querySelector<HTMLFormElement>("#collection-form");
     const resultBox = document.querySelector<HTMLElement>("#collection-result");
-    const commandElement = document.querySelector<HTMLElement>("#collection-command");
+    const statusElement = document.querySelector<HTMLElement>("#collection-status");
+    const downloadLink = document.querySelector<HTMLAnchorElement>("#download-report");
+    const collectButton = collectionForm?.querySelector<HTMLButtonElement>("button[type=submit]");
     collectionForm?.addEventListener("input", () => document.querySelector<HTMLInputElement>("#collect-to")?.setCustomValidity(""));
-    collectionForm?.addEventListener("submit", (event) => {
+    collectionForm?.addEventListener("submit", async (event) => {
       event.preventDefault();
       const keyword = document.querySelector<HTMLInputElement>("#collect-keyword")?.value.trim();
       const dateFrom = document.querySelector<HTMLInputElement>("#collect-from")?.value;
@@ -464,9 +464,49 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
         endInput.setCustomValidity(dateFrom && dateTo && dateFrom > dateTo ? "종료일은 시작일 이후로 선택해 주세요." : "");
         if (!endInput.reportValidity()) return;
       }
-      const sourceLabel = source === "all" ? "뉴스 + 논문" : source === "news" ? "뉴스" : "논문";
-      if (commandElement) commandElement.textContent = `keyword: ${keyword} | date_from: ${dateFrom || "(비움)"} | date_to: ${dateTo || "(비움)"} | source: ${source} (${sourceLabel})`;
       if (resultBox) resultBox.hidden = false;
+      if (downloadLink) { downloadLink.hidden = true; downloadLink.removeAttribute("href"); }
+      const setStatus = (message: string) => { if (statusElement) statusElement.textContent = message; };
+      const api = (collectionForm?.dataset.reportApi || "").replace(/\/$/, "");
+      if (!api) {
+        setStatus("보고서 서비스를 준비 중입니다. 연결이 완료되면 이 화면에서 수집과 다운로드를 이용할 수 있습니다.");
+        return;
+      }
+      if (collectButton) collectButton.disabled = true;
+      setStatus("수집 서버에 연결하고 있습니다. 무료 서버의 첫 연결은 1분 이상 걸릴 수 있습니다.");
+      try {
+        const response = await fetch(`${api}/reports`, {
+          method: "POST", headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ keyword, date_from: dateFrom || null, date_to: dateTo || null, source }),
+          signal: AbortSignal.timeout(120000),
+        });
+        if (!response.ok) {
+          const error = await response.json().catch(() => ({}));
+          throw new Error(typeof error.detail === "string" ? error.detail : "수집 요청을 처리하지 못했습니다. 입력 조건을 확인한 뒤 다시 시도해 주세요.");
+        }
+        const { id } = await response.json();
+        if (typeof id !== "string" || !/^[a-f0-9-]{36}$/i.test(id)) throw new Error("수집 요청을 확인하지 못했습니다.");
+        for (let attempt = 0; attempt < 400; attempt++) {
+          const result = await fetch(`${api}/reports/${id}`, { cache: "no-store", signal: AbortSignal.timeout(30000) });
+          if (!result.ok) throw new Error("수집 상태를 확인하지 못했습니다. 서버가 재시작되었을 수 있으니 잠시 후 다시 시도해 주세요.");
+          const job = await result.json();
+          setStatus(job.message || "수집 중입니다.");
+          if (job.state === "completed" || job.state === "failed") {
+            if (job.downloadable && downloadLink) {
+              downloadLink.href = `${api}/reports/${id}/download`;
+              downloadLink.download = "oled-custom-report.html";
+              downloadLink.hidden = false;
+            }
+            return;
+          }
+          await new Promise((resolve) => setTimeout(resolve, 3000));
+        }
+        throw new Error("수집 대기 시간이 길어지고 있습니다. 잠시 후 다시 시도해 주세요.");
+      } catch (error) {
+        setStatus(error instanceof Error && error.name === "Error" ? error.message : "서버에 연결하지 못했습니다. 잠시 후 다시 시도해 주세요.");
+      } finally {
+        if (collectButton) collectButton.disabled = false;
+      }
     });
   </script>
 </Layout>
@@ -509,11 +549,11 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
   .custom-collector label { color: var(--text-muted); font-size: .72rem; display: grid; gap: 6px; }
   .custom-collector input, .custom-collector select { width: 100%; background: var(--surface); color: var(--text); border: 1px solid var(--border-strong); padding: 10px 12px; }
   .date-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-  .command-button, #open-workflow { border: 0; background: var(--brand); color: var(--on-brand); font-weight: 800; padding: 11px; cursor: pointer; text-decoration: none; display: inline-block; text-align: center; }
-  .command-button:hover, #open-workflow:hover { background: var(--brand-hover); }
+  .command-button, #download-report { border: 0; background: var(--brand); color: var(--on-brand); font-weight: 800; padding: 11px; cursor: pointer; text-decoration: none; display: inline-block; text-align: center; }
+  .command-button:hover, #download-report:hover { background: var(--brand-hover); }
   #collection-result { margin-top: 14px; border: 1px solid var(--border-strong); padding: 12px; }
   #collection-result code { display: block; color: var(--text-secondary); font-size: .68rem; word-break: break-all; line-height: 1.6; margin-bottom: 10px; }
-  #open-workflow { padding: 8px 10px; font-size: .72rem; }
+  #download-report { padding: 8px 10px; font-size: .72rem; }
   .collector-help { color: var(--text-muted); font-size: .68rem; line-height: 1.65; margin: 15px 0 0; }
   .panel { min-width: 0; background: var(--surface); border: 1px solid var(--border); border-radius: 3px; padding: 26px; }
   .panel-heading { display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px; }

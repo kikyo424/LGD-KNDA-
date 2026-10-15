@@ -1,10 +1,9 @@
 """Render a standalone report without changing the dashboard's stored data."""
 from collections import Counter
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from html import escape
 from pathlib import Path
 from urllib.parse import urlsplit
-from zoneinfo import ZoneInfo
 
 
 def write_report(path: Path, args, items: list[dict], errors: list[str]) -> None:
@@ -14,7 +13,7 @@ def write_report(path: Path, args, items: list[dict], errors: list[str]) -> None
     keywords = Counter(keyword for item in items for keyword in set(item.get("keywords", [])))
     sources = Counter(item.get("source", "출처 미상") for item in items)
     source_label = {"all": "뉴스 + 논문", "news": "뉴스", "papers": "논문"}[args.source]
-    generated = datetime.now(ZoneInfo("Asia/Seoul")).strftime("%Y-%m-%d %H:%M")
+    generated = datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d %H:%M")
     cards = []
     for item in items:
         url = item.get("url", "")

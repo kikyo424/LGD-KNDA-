@@ -57,6 +57,7 @@ jobs:
         env:
           SITE_URL: https://${{ github.repository_owner }}.github.io
           BASE_PATH: /${{ github.event.repository.name }}
+          PUBLIC_REPORT_API_URL: ${{ vars.REPORT_API_URL }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

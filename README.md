@@ -11,25 +11,42 @@ python scripts/collect.py
 npm run dev
 ```
 
-## 맞춤 키워드 HTML 보고서
+## 사이트에서 맞춤 HTML 보고서 받기
 
-대시보드의 **맞춤 키워드 HTML 보고서**에서 키워드·기간·자료 유형을 입력하고 **HTML 보고서 만들기**를 누르세요. 표시된 조건을 **Custom HTML report → Run workflow**에 입력해 실행합니다. 해외 자료는 영문 키워드를 권장합니다.
+방문자는 **맞춤 키워드 HTML 보고서**에서 키워드·기간·자료 유형을 입력하고 **HTML 보고서 만들기**를 누릅니다. 진행 상태가 표시되고, 완료되면 같은 화면의 **HTML 보고서 다운로드**로 파일을 받습니다. 방문자의 GitHub 계정이나 Actions 조작은 필요하지 않습니다.
 
-완료된 실행 화면 하단 **Artifacts**에서 `custom-html-report-실행번호` ZIP을 다운로드하고 압축을 푼 뒤 `custom-report.html`을 브라우저에서 여세요. 보고서는 30일간 보관됩니다. GitHub 로그인과 워크플로 실행 권한이 필요합니다.
+국내·영문 해외 Google 뉴스 RSS와 Crossref·arXiv·Semantic Scholar·OpenAlex를 사용합니다. 이번 검색 자료만 독립 HTML 파일로 만들며, 기존 대시보드 데이터는 바꾸지 않습니다. 검색 조건·출처·문서 목록·제공된 요약·키워드 통계·오류 내역을 포함합니다. 수집 경로 일부가 실패해도 결과 보고서에 오류가 표시되며, 전부 실패하면 오류 내역 보고서를 제공합니다.
 
-보고서에는 검색 조건, 생성 시각(한국 시간), 뉴스·논문 건수, 키워드별 자료 수, 출처 현황, 최신순 문서 목록·제공된 요약·원문 링크 및 수집 경로 오류가 포함됩니다. 스타일과 데이터가 파일 안에 포함되므로 인터넷 없이 읽을 수 있습니다. 원문 링크를 열 때만 인터넷이 필요합니다.
+### 무료 수집 서버 연결 (운영자 최초 1회)
 
-국내·영문 해외 Google 뉴스 RSS와 Crossref·arXiv·Semantic Scholar·OpenAlex를 기존과 동일하게 사용합니다. 2023년 이전 자료를 제외하고 중복을 정리하며, 이번 검색에서 수집한 자료만 보고서에 포함합니다. 기존 사이트 데이터는 합치거나 변경하지 않고, 보고서 생성 시 사이트를 재배포하지 않습니다. 결과가 없으면 빈 결과 보고서, 일부 경로가 실패하면 오류 안내가 포함된 보고서를 제공합니다. 전 경로 실패로 결과가 없는 경우 워크플로가 실패하더라도 생성된 HTML은 Artifacts에서 확인할 수 있습니다.
+GitHub Pages는 정적 사이트이므로 수집 실행용 서버가 별도로 필요합니다. `render.yaml`은 **Render 무료 Web Service** 1개만 선언합니다. 유료 인스턴스·데이터베이스·디스크는 사용하지 않습니다. 실제 이용 조건과 무료 한도는 배포 시 서비스에서 확인하세요.
 
-로컬에서도 실행할 수 있습니다.
+1. Render 계정에서 이 저장소를 연결하고 **New → Blueprint**로 `render.yaml`을 배포합니다. Web Service 플랜이 **Free**인지 확인합니다. 직접 Web Service를 만들 경우 Python 런타임(Python 3.11 이상)을 선택하고 `render.yaml`의 buildCommand·startCommand를 사용합니다.
+2. 생성된 서버 주소에서 `/health`가 `{"status":"ok"}`를 반환하는지 확인합니다.
+3. GitHub 저장소 **Settings → Secrets and variables → Actions → Variables**에 `REPORT_API_URL`을 서버의 HTTPS 주소로 추가합니다. 경로는 넣지 않습니다. 예: `https://실제서비스이름.onrender.com`.
+4. **Collect and deploy**를 한 번 실행해 사이트를 다시 배포합니다. 이후 방문자는 사이트 안에서만 수집·다운로드를 이용합니다.
+5. 실제 키워드로 보고서를 만들고 다운로드해 각 수집원 결과를 확인합니다. 코드 테스트만으로 외부 수집원 접근 가능 여부나 공개 배포 성공을 보장하지 않습니다.
+
+서버의 `REPORT_ALLOWED_ORIGINS`는 현재 사이트 `https://kikyo424.github.io`로 설정됩니다. 도메인을 바꾸면 이 값도 수정하세요. 선택 API 키는 서버의 환경 설정에 보관하고 프런트엔드에 넣지 않습니다.
+
+무료 서버는 유휴 시 절전 또는 재시작될 수 있어 첫 연결이 늦거나 진행 중 작업이 사라질 수 있습니다. 보고서는 최대 1시간 임시 보관하며 서버 재시작 시 소실됩니다. 완료 즉시 다운로드하세요. 동시 실행 2개, 대기 포함 4개, 보관 30개, IP당 10분에 3회로 제한합니다. 서버는 메모리 작업 상태를 사용하므로 **worker 1개·인스턴스 1개**로 실행합니다. 별도 유료 기능은 활성화하지 않습니다.
+
+### 로컬 실행
+
+```bash
+python -m pip install -e '.[server,test]'
+python -m uvicorn scripts.report_server:app --host 127.0.0.1 --port 8765 --workers 1
+```
+
+다른 터미널에서 `PUBLIC_REPORT_API_URL=http://127.0.0.1:8765 npm run dev`를 실행하면 사이트에서 수집을 요청할 수 있습니다.
+
+서버 없이 로컬 파일로만 수집할 수도 있습니다.
 
 ```bash
 python scripts/collect.py --keyword "wearable OLED 3000 nits" --date-from 2024-01-01 --date-to 2026-12-31 --source all --report-output reports/custom-report.html
 ```
 
-`--source`는 `all`, `news`, `papers` 중 하나입니다. `reports/`는 Git에서 제외됩니다.
-
-매일 자동 수집과 사이트 배포는 **Collect and deploy**가 담당합니다. 기존 데이터의 분류·중복·품질 통계만 다시 계산하려면 `python scripts/collect.py --reprocess-only`를 사용할 수 있습니다. 사이트 상위 키워드는 해당 키워드가 포함된 자료 수 기준입니다.
+관리자용 **Custom HTML report** Actions 워크플로도 보조 수단으로 남아 있습니다. 이 경로로 만든 파일은 실행 화면의 Artifacts에서 30일간 다운로드할 수 있습니다. 매일 자동 수집과 사이트 배포는 기존 **Collect and deploy**가 담당합니다.
 
 ## 검증
 
@@ -44,7 +61,7 @@ npm run build
 2. 이 폴더를 `main` 브랜치에 push합니다.
 3. 저장소 `Settings > Pages > Source`를 **GitHub Actions**로 설정합니다.
 4. `Actions > Collect and deploy > Run workflow`로 첫 배포를 실행합니다.
-5. 맞춤 수집은 별도의 **Custom HTML report** 워크플로에서 실행하고 HTML 파일로 다운로드합니다.
+5. 맞춤 수집 서버를 위 절차대로 연결하면 방문자가 사이트에서 HTML 보고서를 직접 다운로드할 수 있습니다.
 
 수집은 매일 한국 시간 오전 9시 17분에 자동 실행됩니다. 기본 OLED·웨어러블·COE 키워드로 뉴스와 논문 메타데이터를 수집하고 중복을 정리한 뒤 사이트를 자동 배포합니다. GitHub Actions 상황에 따라 실행 시간이 지연될 수 있습니다. Crossref의 polite pool을 사용하려면 저장소 Secret에 `CONTACT_EMAIL`을 추가하세요.
 
