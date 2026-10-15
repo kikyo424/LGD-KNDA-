@@ -22,6 +22,12 @@ type Item = {
 };
 
 const documents = (items as Item[]).sort((a, b) => b.published_at.localeCompare(a.published_at));
+const documentYears = [...new Set(documents.map((item) => item.published_at.slice(0, 4)).filter((year) => /^\d{4}$/.test(year)))].sort((a, b) => b.localeCompare(a));
+const documentYearCounts = documents.reduce<Record<string, number>>((counts, item) => {
+  const year = item.published_at.slice(0, 4);
+  if (/^\d{4}$/.test(year)) counts[year] = (counts[year] || 0) + 1;
+  return counts;
+}, {});
 const repository = import.meta.env.GITHUB_REPOSITORY || "kikyo424/LGD-KNDA-";
 const workflowUrl = `https://github.com/${repository}/actions/workflows/pages.yml`;
 const lastManualDocuments = lastManual.keyword
@@ -218,12 +224,18 @@ const decisionAreas = [
             <button type="button" data-region="domestic">국내 <span>{domesticCount}</span></button>
             <button type="button" data-region="international">해외 <span>{internationalCount}</span></button>
           </div>
+          <label class="year-select">연도
+            <select id="document-year" aria-label="문서 연도 필터">
+              <option value="all">전체 연도</option>
+              {documentYears.map((year) => <option value={year}>{year}년 · {documentYearCounts[year]}건</option>)}
+            </select>
+          </label>
           <input id="document-filter" type="search" placeholder="제목·기술 검색" aria-label="문서 검색" />
         </div>
       </div>
       <div id="document-list">
         {documents.length ? documents.map((item) => (
-          <a class="document" href={item.url} target="_blank" rel="noreferrer" data-region={item.region} data-search={`${item.title} ${item.technologies.join(" ")} ${(item.keywords || []).join(" ")} ${(item.company || []).join(" ")} ${item.custom_keyword || ""}`.toLowerCase()}>
+          <a class="document" href={item.url} target="_blank" rel="noreferrer" data-region={item.region} data-year={item.published_at.slice(0, 4)} data-search={`${item.title} ${item.technologies.join(" ")} ${(item.keywords || []).join(" ")} ${(item.company || []).join(" ")} ${item.custom_keyword || ""}`.toLowerCase()}>
             <div class="doc-meta"><span>{item.source} · {item.region === "domestic" ? "국내" : "해외"}</span><time>{item.published_at || "날짜 미상"}</time></div>
             <h3>{item.title}</h3>
             <p>{item.summary}</p>
@@ -267,17 +279,24 @@ const decisionAreas = [
     });
 
     const input = document.querySelector("#document-filter");
+    const yearSelect = document.querySelector("#document-year");
     const regionButtons = document.querySelectorAll(".region-filter [data-region]");
     let selectedRegion = "all";
+    let selectedYear = "all";
     const applyFilters = () => {
       const query = input?.value.trim().toLowerCase() || "";
       document.querySelectorAll(".document").forEach((documentElement) => {
         const matchesText = documentElement.dataset.search.includes(query);
         const matchesRegion = selectedRegion === "all" || documentElement.dataset.region === selectedRegion;
-        documentElement.hidden = !(matchesText && matchesRegion);
+        const matchesYear = selectedYear === "all" || documentElement.dataset.year === selectedYear;
+        documentElement.hidden = !(matchesText && matchesRegion && matchesYear);
       });
     };
     input?.addEventListener("input", applyFilters);
+    yearSelect?.addEventListener("change", () => {
+      selectedYear = yearSelect.value;
+      applyFilters();
+    });
     regionButtons.forEach((button) => button.addEventListener("click", () => {
       selectedRegion = button.dataset.region;
       regionButtons.forEach((candidate) => candidate.classList.toggle("active", candidate === button));
@@ -412,6 +431,8 @@ const decisionAreas = [
   .region-filter button { border: 0; background: transparent; color: #8191aa; padding: 7px 10px; cursor: pointer; }
   .region-filter button.active { background: #5df2c2; color: #07110e; font-weight: 800; }
   .region-filter span { font-size: .68rem; opacity: .75; }
+  .year-select { display: flex; align-items: center; gap: 6px; color: #8191aa; font-size: .7rem; white-space: nowrap; }
+  .year-select select { border: 1px solid #30425f; background: #080d18; color: #dce7fb; padding: 8px; }
   input { width: 250px; border: 1px solid #30425f; border-radius: 2px; background: #080d18; color: #eef3ff; padding: 11px 14px; outline: none; }
   input:focus { border-color: #5df2c2; }
   #document-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; background: #1b2940; }
@@ -435,6 +456,7 @@ const decisionAreas = [
     .keyword-list { grid-template-columns: 1fr; }
     .quality-strip { grid-template-columns: repeat(2, 1fr); }
     .recent-content { grid-template-columns: repeat(2, 1fr); }
+    .controls { flex-wrap: wrap; }
     .caution { text-align: left; }
     .list-heading, .controls { align-items: stretch; flex-direction: column; }
     input { width: 100%; }
