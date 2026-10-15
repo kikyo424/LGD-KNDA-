@@ -553,9 +553,10 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
   #collection-result { margin-top: 14px; border: 1px solid var(--border-strong); padding: 12px; }
   #collection-result code { display: block; color: var(--text-secondary); font-size: .68rem; word-break: break-all; line-height: 1.6; margin-bottom: 10px; }
   #download-report { padding: 8px 10px; font-size: .72rem; }
-  .collector-help { color: var(--text-muted); font-size: .68rem; line-height: 1.65; margin: 15px 0 0; }
+  .collector-help { color: var(--text-muted); font-size: calc(.68rem - 2px); line-height: 1.9; margin: 15px 0 0; }
   .panel { min-width: 0; background: var(--surface); border: 1px solid var(--border); border-radius: 3px; padding: 26px; }
-  .panel-heading { display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px; }
+  .panel-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 22px; }
+  .panel-heading > div { min-width: 0; }
   .panel-heading small { color: var(--brand); font-size: .66rem; font-weight: 800; letter-spacing: .16em; }
   h2 { margin: 5px 0 0; font-size: 1.25rem; }
   .trend-panel { margin-bottom: 20px; }
@@ -576,7 +577,8 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
   .document-filter-status { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 16px; }
   #document-filter-status { color: var(--text-secondary); font-size: .85rem; margin: 0; }
   #reset-document-filters { flex-shrink: 0; background: var(--brand-soft); color: var(--brand); border: 1px solid var(--border); padding: 9px 12px; cursor: pointer; }
-  .caution { color: var(--text-muted); font-size: .72rem; max-width: 390px; margin: 0; text-align: right; line-height: 1.6; }
+  .caution, .collector-help, .company-help, .document-scroll-help, .section-heading p { max-width: 100%; white-space: normal; overflow: visible; word-break: keep-all; overflow-wrap: anywhere; line-height: 1.9; }
+  .caution { flex-basis: 100%; color: var(--text-muted); font-size: calc(.72rem - 2px); margin: 0; text-align: left; line-height: 1.9; }
   .matrix-panel { margin-bottom: 20px; }
   .company-row { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 20px; padding: 22px 0; border-top: 1px solid var(--border); }
   .company-heading { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
@@ -586,7 +588,7 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
   .company-keywords button:hover { background: var(--brand-soft); border-color: var(--brand); }
   .company-keyword-rank { color: var(--text-muted); font-size: .75rem; }
   .company-keywords strong { color: var(--brand); }
-  .company-help { color: var(--text-muted); font-size: .85rem; margin: 0 0 16px; }
+  .company-help { color: var(--text-muted); font-size: calc(.85rem - 2px); margin: 0 0 16px; }
   .company-filter { border: 1px solid transparent; background: transparent; color: var(--brand); font-weight: 700; padding: 8px 10px; text-align: left; cursor: pointer; border-radius: 3px; }
   .company-filter:hover, .company-filter[aria-pressed="true"] { border-color: var(--brand); background: var(--brand-soft); }
   .table-wrap { overflow-x: auto; }
@@ -606,7 +608,7 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
   .decision-section { padding: 34px 0 40px; }
   .section-heading small { color: var(--brand); letter-spacing: .16em; font-weight: 800; }
   .section-heading h2 { font-size: 1.8rem; }
-  .section-heading p { color: var(--text-muted); }
+  .section-heading p { color: var(--text-muted); font-size: calc(1rem - 2px); }
   .decision-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 22px; }
   .decision-grid article { border: 1px solid var(--border); background: var(--surface); padding: 22px; }
   .decision-top { display: flex; justify-content: space-between; align-items: center; }
@@ -634,7 +636,7 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
   input:focus { border-color: var(--brand); }
   #document-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; background: var(--border); overflow-y: auto; align-content: start; scrollbar-gutter: stable; }
   #document-list:focus-visible { outline: 2px solid var(--brand); outline-offset: 3px; }
-  .document-scroll-help { color: var(--text-muted); font-size: .75rem; margin: 0 0 14px; }
+  .document-scroll-help { color: var(--text-muted); font-size: calc(.75rem - 2px); margin: 0 0 14px; }
   .document { background: var(--surface); padding: 24px; text-decoration: none; transition: background .2s, transform .2s; }
   .document:hover { background: var(--brand-soft); transform: translateY(-2px); }
   .doc-meta { display: flex; justify-content: space-between; color: var(--text-muted); font-size: .72rem; text-transform: uppercase; }
