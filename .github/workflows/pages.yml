@@ -57,7 +57,7 @@ jobs:
         env:
           SITE_URL: https://${{ github.repository_owner }}.github.io
           BASE_PATH: /${{ github.event.repository.name }}
-          PUBLIC_REPORT_API_URL: ${{ vars.REPORT_API_URL }}
+          PUBLIC_REPORT_API_URL: ${{ vars.REPORT_API_URL || 'https://oled-report-service.onrender.com' }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

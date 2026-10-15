@@ -23,7 +23,7 @@ GitHub Pages는 정적 사이트이므로 수집 실행용 서버가 별도로 �
 
 1. Render 계정에서 이 저장소를 연결하고 **New → Blueprint**로 `render.yaml`을 배포합니다. Web Service 플랜이 **Free**인지 확인합니다. 직접 Web Service를 만들 경우 Python 런타임(Python 3.11 이상)을 선택하고 `render.yaml`의 buildCommand·startCommand를 사용합니다.
 2. 생성된 서버 주소에서 `/health`가 `{"status":"ok"}`를 반환하는지 확인합니다.
-3. GitHub 저장소 **Settings → Secrets and variables → Actions → Variables**에 `REPORT_API_URL`을 서버의 HTTPS 주소로 추가합니다. 경로는 넣지 않습니다. 예: `https://실제서비스이름.onrender.com`.
+3. 현재 사이트의 기본 수집 서버는 `https://oled-report-service.onrender.com`으로 연결되어 있습니다. 서버를 바꾸려면 GitHub 저장소 **Settings → Secrets and variables → Actions → Variables**에 `REPORT_API_URL`을 새 서버의 HTTPS 주소로 추가합니다. 경로는 넣지 않습니다. 이 값이 있으면 기본 주소보다 우선합니다.
 4. **Collect and deploy**를 한 번 실행해 사이트를 다시 배포합니다. 이후 방문자는 사이트 안에서만 수집·다운로드를 이용합니다.
 5. 실제 키워드로 보고서를 만들고 다운로드해 각 수집원 결과를 확인합니다. 코드 테스트만으로 외부 수집원 접근 가능 여부나 공개 배포 성공을 보장하지 않습니다.
 
