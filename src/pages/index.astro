@@ -64,10 +64,12 @@ const topKeywords = Object.entries(keywordCounts).sort((a, b) => b[1] - a[1] || 
 const maxKeywordCount = topKeywords[0]?.[1] || 1;
 const currentYear = new Date().getFullYear();
 const trendYears = Array.from({ length: 8 }, (_, index) => String(currentYear - 7 + index));
-const trendSeries = categories.map((category) => ({
-  name: category,
-  data: trendYears.map((year) => documents.filter((item) => item.published_at.startsWith(year) && item.technologies.includes(category)).length),
+const yearlyRows = trendYears.map((year) => ({
+  year,
+  total: documents.filter((item) => item.published_at.startsWith(year)).length,
+  categories: categories.map((category) => ({ category, count: documents.filter((item) => item.published_at.startsWith(year) && item.technologies.includes(category)).length })),
 }));
+const yearlyMax = Math.max(1, ...yearlyRows.flatMap((row) => row.categories.map((entry) => entry.count)));
 const companyNames = [...new Set(documents.flatMap((item) => item.company || []))];
 const companyMatrix = companyNames.map((company) => ({
   company,
@@ -109,14 +111,16 @@ const decisionAreas = [
     <section class="grid">
       <article class="panel chart-panel">
         <div class="panel-heading"><div><small>SIGNAL MAP</small><h2>주요 기술 신호</h2></div></div>
-        {topTechnologies.length ? <div id="technology-chart" aria-label="기술별 문서 수 차트"></div> : <div class="empty">수집 후 기술 차트가 표시됩니다.</div>}
+        {topTechnologies.length ? <div class="signal-bars" aria-label="기술별 문서 수 차트">{topTechnologies.map(([name, count]) => (
+          <div class="signal-row"><span>{name}</span><i><b style={`width:${(count / (topTechnologies[0]?.[1] || 1)) * 100}%`}></b></i><strong>{count}</strong></div>
+        ))}</div> : <div class="empty">수집 후 기술 차트가 표시됩니다.</div>}
       </article>
 
       <article class="panel sources">
         <div class="panel-heading"><div><small>SOURCES</small><h2>출처 현황</h2></div></div>
-        {Object.keys(sourceCounts).length ? Object.entries(sourceCounts).map(([source, count]) => (
+        {Object.keys(sourceCounts).length ? <div class="source-list">{Object.entries(sourceCounts).map(([source, count]) => (
           <div class="source-row"><span>{source}</span><strong>{count}</strong></div>
-        )) : <div class="empty">수집기를 실행하면 Crossref·arXiv 자료가 추가됩니다.</div>}
+        ))}</div> : <div class="empty">수집기를 실행하면 Crossref·arXiv 자료가 추가됩니다.</div>}
       </article>
     </section>
 
@@ -184,7 +188,12 @@ const decisionAreas = [
 
     <section class="panel trend-panel">
       <div class="panel-heading"><div><small>TREND BY YEAR</small><h2>연도별 기술 동향</h2></div><p class="caution">문서 건수는 관심도 신호이며 기술 성숙도를 직접 의미하지 않습니다.</p></div>
-      <div id="yearly-chart" aria-label="연도별 기술 문서 추이"></div>
+      <div class="yearly-legend">{categories.map((category, index) => <span class={`series-${index}`}>{category}</span>)}</div>
+      <div class="yearly-chart" aria-label="연도별 기술 문서 추이">{yearlyRows.map((row) => (
+        <article><div class="year-title"><strong>{row.year}</strong><span>전체 {row.total}건</span></div>{row.categories.map((entry, index) => (
+          <div class="year-bar"><i class={`series-${index}`} style={`width:${(entry.count / yearlyMax) * 100}%`}></i><span>{entry.count}</span></div>
+        ))}</article>
+      ))}</div>
     </section>
 
     <section class="analysis-grid">
@@ -246,47 +255,16 @@ const decisionAreas = [
     </section>
   </main>
 
-  <script define:vars={{ topTechnologies, trendYears, trendSeries }}>
-    if (topTechnologies.length) {
-      import("echarts").then((echarts) => {
-        const element = document.querySelector("#technology-chart");
-        const chart = echarts.init(element);
-        chart.setOption({
-          backgroundColor: "transparent",
-          grid: { left: 8, right: 18, top: 10, bottom: 8, containLabel: true },
-          xAxis: { type: "value", axisLabel: { color: "#8090aa" }, splitLine: { lineStyle: { color: "#1b2940" } } },
-          yAxis: { type: "category", inverse: true, data: topTechnologies.map(([name]) => name), axisLabel: { color: "#cdd8ec" }, axisLine: { show: false }, axisTick: { show: false } },
-          series: [{ type: "bar", data: topTechnologies.map(([, count]) => count), barWidth: 13, itemStyle: { color: "#5df2c2", borderRadius: [0, 7, 7, 0] }, label: { show: true, position: "right", color: "#eef3ff" } }],
-        });
-        window.addEventListener("resize", () => chart.resize());
-      });
-    }
-
-    import("echarts").then((echarts) => {
-      const element = document.querySelector("#yearly-chart");
-      if (!element) return;
-      const chart = echarts.init(element);
-      chart.setOption({
-        color: ["#5df2c2", "#62a8ff", "#f8c35c", "#c58cff", "#ff7e77"],
-        tooltip: { trigger: "axis", backgroundColor: "#101b2d", borderColor: "#30425f", textStyle: { color: "#eef3ff" } },
-        legend: { data: trendSeries.map((series) => series.name), textStyle: { color: "#91a2bc" }, top: 0 },
-        grid: { left: 15, right: 15, top: 50, bottom: 10, containLabel: true },
-        xAxis: { type: "category", data: trendYears, axisLabel: { color: "#8090aa" }, axisLine: { lineStyle: { color: "#30425f" } } },
-        yAxis: { type: "value", minInterval: 1, axisLabel: { color: "#8090aa" }, splitLine: { lineStyle: { color: "#1b2940" } } },
-        series: trendSeries.map((series) => ({ ...series, type: "line", smooth: true, symbolSize: 7 })),
-      });
-      window.addEventListener("resize", () => chart.resize());
-    });
-
-    const input = document.querySelector("#document-filter");
-    const yearSelect = document.querySelector("#document-year");
-    const regionButtons = document.querySelectorAll(".region-filter [data-region]");
+  <script>
+    const input = document.querySelector<HTMLInputElement>("#document-filter");
+    const yearSelect = document.querySelector<HTMLSelectElement>("#document-year");
+    const regionButtons = document.querySelectorAll<HTMLButtonElement>(".region-filter [data-region]");
     let selectedRegion = "all";
     let selectedYear = "all";
     const applyFilters = () => {
       const query = input?.value.trim().toLowerCase() || "";
-      document.querySelectorAll(".document").forEach((documentElement) => {
-        const matchesText = documentElement.dataset.search.includes(query);
+      document.querySelectorAll<HTMLElement>(".document").forEach((documentElement) => {
+        const matchesText = (documentElement.dataset.search || "").includes(query);
         const matchesRegion = selectedRegion === "all" || documentElement.dataset.region === selectedRegion;
         const matchesYear = selectedYear === "all" || documentElement.dataset.year === selectedYear;
         documentElement.hidden = !(matchesText && matchesRegion && matchesYear);
@@ -298,35 +276,35 @@ const decisionAreas = [
       applyFilters();
     });
     regionButtons.forEach((button) => button.addEventListener("click", () => {
-      selectedRegion = button.dataset.region;
+      selectedRegion = button.dataset.region || "all";
       regionButtons.forEach((candidate) => candidate.classList.toggle("active", candidate === button));
       applyFilters();
     }));
 
-    document.querySelectorAll("[data-keyword-filter]").forEach((button) => button.addEventListener("click", () => {
-      if (input) input.value = button.dataset.keywordFilter;
+    document.querySelectorAll<HTMLButtonElement>("[data-keyword-filter]").forEach((button) => button.addEventListener("click", () => {
+      if (input) input.value = button.dataset.keywordFilter || "";
       selectedRegion = "all";
       regionButtons.forEach((candidate) => candidate.classList.toggle("active", candidate.dataset.region === "all"));
       applyFilters();
       document.querySelector(".documents")?.scrollIntoView({ behavior: "smooth" });
     }));
 
-    const collectionForm = document.querySelector("#collection-form");
-    const resultBox = document.querySelector("#collection-result");
-    const commandElement = document.querySelector("#collection-command");
+    const collectionForm = document.querySelector<HTMLFormElement>("#collection-form");
+    const resultBox = document.querySelector<HTMLElement>("#collection-result");
+    const commandElement = document.querySelector<HTMLElement>("#collection-command");
     collectionForm?.addEventListener("submit", (event) => {
       event.preventDefault();
-      const keyword = document.querySelector("#collect-keyword")?.value.trim();
-      const dateFrom = document.querySelector("#collect-from")?.value;
-      const dateTo = document.querySelector("#collect-to")?.value;
-      const source = document.querySelector("#collect-source")?.value || "all";
+      const keyword = document.querySelector<HTMLInputElement>("#collect-keyword")?.value.trim();
+      const dateFrom = document.querySelector<HTMLInputElement>("#collect-from")?.value;
+      const dateTo = document.querySelector<HTMLInputElement>("#collect-to")?.value;
+      const source = document.querySelector<HTMLSelectElement>("#collect-source")?.value || "all";
       if (!keyword) return;
       const sourceLabel = source === "all" ? "뉴스 + 논문" : source === "news" ? "뉴스" : "논문";
-      commandElement.textContent = `키워드: ${keyword} | 기간: ${dateFrom || "전체"} ~ ${dateTo || "현재"} | 자료 유형: ${sourceLabel}`;
-      resultBox.hidden = false;
+      if (commandElement) commandElement.textContent = `키워드: ${keyword} | 기간: ${dateFrom || "전체"} ~ ${dateTo || "현재"} | 자료 유형: ${sourceLabel}`;
+      if (resultBox) resultBox.hidden = false;
     });
-    document.querySelector("#show-last-collection")?.addEventListener("click", (event) => {
-      const keyword = event.currentTarget.dataset.lastKeyword || "";
+    document.querySelector<HTMLButtonElement>("#show-last-collection")?.addEventListener("click", (event) => {
+      const keyword = (event.currentTarget as HTMLButtonElement | null)?.dataset.lastKeyword || "";
       if (input) input.value = keyword;
       selectedRegion = "all";
       regionButtons.forEach((candidate) => candidate.classList.toggle("active", candidate.dataset.region === "all"));
@@ -388,9 +366,27 @@ const decisionAreas = [
   .panel-heading { display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px; }
   .panel-heading small { color: #5df2c2; font-size: .66rem; font-weight: 800; letter-spacing: .16em; }
   h2 { margin: 5px 0 0; font-size: 1.25rem; }
-  #technology-chart { height: 310px; }
-  #yearly-chart { height: 360px; }
+  .signal-bars { display: grid; gap: 15px; padding: 11px 2px; }
+  .signal-row { display: grid; grid-template-columns: 100px 1fr 28px; align-items: center; gap: 12px; color: #cdd8ec; font-size: .78rem; }
+  .signal-row i { height: 13px; background: #1b2940; border-radius: 8px; overflow: hidden; }
+  .signal-row b { display: block; height: 100%; background: #5df2c2; border-radius: 8px; }
+  .signal-row strong { color: #eef3ff; text-align: right; }
   .trend-panel { margin-bottom: 20px; }
+  .yearly-legend { display: flex; flex-wrap: wrap; gap: 12px; margin: -8px 0 18px; color: #8ea0bb; font-size: .68rem; }
+  .yearly-legend span::before { content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 5px; background: currentColor; }
+  .yearly-chart { display: grid; grid-template-columns: repeat(8, minmax(92px, 1fr)); gap: 9px; overflow-x: auto; padding-bottom: 4px; }
+  .yearly-chart article { min-width: 92px; border: 1px solid #22314a; background: #0b1120; padding: 12px 9px; }
+  .year-title { display: flex; flex-direction: column; gap: 3px; margin-bottom: 11px; }
+  .year-title strong { color: #e8eefc; font-size: .82rem; }
+  .year-title span { color: #6e819f; font-size: .62rem; }
+  .year-bar { height: 8px; margin: 6px 0; background: #17243a; position: relative; }
+  .year-bar i { display: block; height: 100%; min-width: 0; }
+  .year-bar span { position: absolute; left: 4px; top: -1px; color: #dce7fb; font-size: .58rem; line-height: 8px; }
+  .yearly-legend .series-0 { color: #5df2c2; } .year-bar .series-0 { background-color: #5df2c2; }
+  .yearly-legend .series-1 { color: #62a8ff; } .year-bar .series-1 { background-color: #62a8ff; }
+  .yearly-legend .series-2 { color: #f8c35c; } .year-bar .series-2 { background-color: #f8c35c; }
+  .yearly-legend .series-3 { color: #c58cff; } .year-bar .series-3 { background-color: #c58cff; }
+  .yearly-legend .series-4 { color: #ff7e77; } .year-bar .series-4 { background-color: #ff7e77; }
   .caution { color: #687a99; font-size: .72rem; max-width: 390px; margin: 0; text-align: right; line-height: 1.6; }
   .analysis-grid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr); gap: 20px; margin-bottom: 20px; }
   .table-wrap { overflow-x: auto; }
@@ -425,6 +421,9 @@ const decisionAreas = [
   .score i { display: block; height: 100%; background: #5df2c2; }
   .source-row { display: flex; justify-content: space-between; padding: 15px 0; border-bottom: 1px solid #1b2940; color: #aebbd0; }
   .source-row strong { color: #5df2c2; }
+  .source-list { max-height: 246px; overflow-y: auto; padding-right: 7px; }
+  .source-list::-webkit-scrollbar { width: 5px; }
+  .source-list::-webkit-scrollbar-thumb { background: #40506b; border-radius: 5px; }
   .list-heading { gap: 18px; }
   .controls { display: flex; align-items: center; gap: 10px; }
   .region-filter { display: flex; padding: 3px; background: #080d18; border: 1px solid #30425f; }
