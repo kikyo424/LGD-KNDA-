@@ -144,25 +144,94 @@ def extract_companies(*values: str) -> list[str]:
 
 
 def extract_metrics(*values: str) -> list[dict[str, Any]]:
-    content = clean_text(" ".join(values))
+    number = r"(?<![\da-zA-Z.,−–—-])(?P<value>(?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?)"
     patterns = (
-        ("brightness", r"(?P<value>[\d,]+(?:\.\d+)?)\s*(?P<unit>nits?|cd\s*/?\s*m(?:²|2))"),
-        ("reflectance", r"(?:reflectance|reflection|반사율)[^\d]{0,20}(?P<value>\d+(?:\.\d+)?)\s*(?P<unit>%)"),
-        ("power", r"(?:power consumption|소비전력)[^\d]{0,20}(?P<value>\d+(?:\.\d+)?)\s*(?P<unit>m?w)\b"),
-        ("lifetime", r"(?:lifetime|수명)[^\d]{0,20}(?P<value>[\d,]+(?:\.\d+)?)\s*(?P<unit>hours?|hrs?|시간)"),
-        ("yield", r"(?:yield|수율)[^\d]{0,20}(?P<value>\d+(?:\.\d+)?)\s*(?P<unit>%)"),
+        ("brightness", number + r"\s*(?P<unit>nits?|cd\s*/?\s*m(?:²|2))(?![a-zA-Z])"),
+        ("reflectance", r"(?:reflectance|reflection|반사율)[^\d.;%]{0,45}" + number + r"\s*(?P<unit>%)"),
+        ("power", r"(?:power consumption|consum(?:es|ed|ing)|소비전력)[^\d.;%]{0,45}" + number + r"\s*(?P<unit>m?w)(?![a-zA-Z])"),
+        ("lifetime", r"(?:lifetime|수명|LT(?:50|90|95|97))[^\d.;%]{0,45}" + number + r"\s*(?P<unit>hours?|hrs?|시간|h)(?![a-zA-Z])"),
     )
     metrics = []
-    for name, pattern in patterns:
-        for match in re.finditer(pattern, content, flags=re.IGNORECASE):
-            start, end = match.span()
-            metrics.append({
-                "name": name,
-                "value": float(match.group("value").replace(",", "")),
-                "unit": match.group("unit"),
-                "context": content[max(0, start - 45):min(len(content), end + 45)],
-            })
-    return metrics[:12]
+    seen = set()
+    for value in values:
+        # Keep titles and summaries separate, and retain the full evidence sentence.
+        sentences = re.split(r"(?<=[.!?。！？])\s+(?=[A-Za-z가-힣])|[;\n]+", clean_text(value))
+        for sentence in sentences:
+            for name, pattern in patterns:
+                for match in re.finditer(pattern, sentence, flags=re.IGNORECASE):
+                    numeric = float(match.group("value").replace(",", ""))
+                    if numeric <= 0 or (name == "reflectance" and numeric > 100):
+                        continue
+                    if name == "brightness" and not re.search(r"brightness|luminance|휘도|밝기|oled|올레드", sentence, re.I):
+                        continue
+                    if name == "brightness" and (
+                        re.search(r"(?:by|of)\s*$", sentence[max(0, match.start() - 25):match.start()], re.I)
+                        and re.search(r"increas|decreas|improv|reduc", sentence, re.I)
+                        or re.match(r"\s*(?:만큼|증가|감소|향상)", sentence[match.end():])
+                    ):
+                        continue
+                    if name == "reflectance" and re.search(r"reduc|decreas|improv|증가|감소|개선|절감|낮[아췄추]", sentence, re.I):
+                        continue
+                    if name == "power":
+                        if not re.search(r"oled|올레드|panel|display|패널|디스플레이|소자", sentence, re.I):
+                            continue
+                        if re.search(r"battery|배터리|(?:device|system|smartwatch|watch)\s+(?:total\s+)?power|(?:total|overall)\s+(?:device|system|watch)|(?:기기|시스템|스마트워치)(?:의)?\s*(?:전체|총)?\s*소비전력", sentence, re.I):
+                            continue
+                    if name == "lifetime":
+                        if not re.search(r"oled|올레드|emitter|발광|소자", sentence, re.I):
+                            continue
+                        if re.search(r"battery|배터리|test(?:ing)? (?:time|duration)|시험\s*시간|테스트\s*시간", sentence, re.I):
+                            continue
+                        if re.search(r"improv|increas|extend|향상|증가|연장", match.group(), re.I):
+                            continue
+                    unit = match.group("unit")
+                    if name == "brightness":
+                        unit = "nits" if unit.lower().startswith("nit") else "cd/m²"
+                    elif name == "power":
+                        unit = "mW" if unit.lower().startswith("m") else "W"
+                    elif name == "lifetime":
+                        unit = "시간"
+                    target = "측정 대상 미공개"
+                    if re.search(r"smart\s*watch|스마트워치|스마트 워치", sentence, re.I):
+                        target = "스마트워치 관련"
+                    elif re.search(r"\bTV\b|television|smartphone|phone|vehicle|laptop|notebook|tablet|monitor|microdisplay|텔레비전|스마트폰|차량|노트북|태블릿|모니터", sentence, re.I):
+                        target = "타 기기 관련"
+                    elif re.search(r"wearable|웨어러블", sentence, re.I):
+                        target = "웨어러블 관련 (스마트워치 여부 미공개)"
+                    elif re.search(r"panel|display|패널|디스플레이", sentence, re.I):
+                        target = "패널·디스플레이"
+                    elif re.search(r"device|emitter|소자|발광체", sentence, re.I):
+                        target = "소자·발광체"
+                    elif re.search(r"oled|올레드", sentence, re.I):
+                        target = "OLED (세부 대상 미공개)"
+                    qualifier = ""
+                    if name == "brightness":
+                        if re.search(r"peak|maximum|max\b|최대|피크", sentence, re.I):
+                            qualifier = "최대 휘도 언급"
+                        elif re.search(r"sustained|continuous|지속|연속", sentence, re.I):
+                            qualifier = "지속 휘도 언급"
+                        prefix = sentence[max(0, match.start() - 20):match.start()]
+                        if re.search(r"\bfrom\s*$", prefix, re.I):
+                            qualifier = "비교 기준값"
+                        elif re.search(r"\bto\s*$", prefix, re.I):
+                            qualifier = "변경 후 보고값"
+                        elif re.search(r"\b(?:at|under)\s*$", prefix, re.I):
+                            qualifier = "측정·구동 조건값"
+                    if name == "lifetime":
+                        lifetime_type = re.search(r"\bLT(?:50|90|95|97)\b", sentence, re.I)
+                        if lifetime_type:
+                            qualifier = lifetime_type.group().upper()
+                    conditions = [entry.group().strip() for entry in re.finditer(
+                        r"(?:APL|OPR|주사율|refresh rate|initial luminance|초기 휘도)\s*(?:of|at|[:=])?\s*\d+(?:\.\d+)?\s*(?:%|Hz|nits?|cd/m²)|\d+(?:\.\d+)?\s*(?:°C|℃|Hz)", sentence, re.I)]
+                    evidence_key = re.sub(r"[\W_]+", "", sentence).casefold()
+                    key = (name, numeric, unit, evidence_key)
+                    if key in seen:
+                        continue
+                    seen.add(key)
+                    metrics.append({"name": name, "value": numeric, "unit": unit,
+                                    "context": sentence.strip(), "target": target,
+                                    "qualifier": qualifier, "conditions": conditions})
+    return metrics
 
 
 def is_relevant(*values: str) -> bool:

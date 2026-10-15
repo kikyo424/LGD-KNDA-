@@ -17,7 +17,7 @@ type Item = {
   keywords?: string[];
   keyword_scores?: Record<string, number | undefined>;
   custom_keyword?: string;
-  metrics?: { name: string; value: number; unit: string; context: string }[];
+  metrics?: { name: string; value: number; unit: string; context: string; target?: string; qualifier?: string; conditions?: string[] }[];
 };
 
 const documents = (items as Item[])
@@ -70,16 +70,17 @@ const companyMatrix = companyNames.map((company) => {
     keywords: Object.entries(counts).sort(([left, leftCount], [right, rightCount]) => rightCount - leftCount || left.localeCompare(right, "ko")),
   };
 }).sort((a, b) => b.total - a.total).slice(0, 7);
+const metricLabels: Record<string, string> = { brightness: "휘도", reflectance: "반사율", power: "소비전력", lifetime: "OLED 수명" };
 const seenPerformanceMetrics = new Set<string>();
 const performanceMetrics = documents
   .flatMap((item) => (item.metrics || []).map((metric) => ({ ...metric, item })))
   .filter((metric) => {
-    const key = JSON.stringify([metric.name, metric.value, metric.unit]);
+    if (!metricLabels[metric.name]) return false;
+    const key = JSON.stringify([metric.item.id, metric.name, metric.value, metric.unit, metric.context]);
     if (seenPerformanceMetrics.has(key)) return false;
     seenPerformanceMetrics.add(key);
     return true;
-  })
-  .slice(0, 12);
+  });
 const decisionAreas = [
   { code: "A", title: "최대 밝기 경쟁", categories: ["초고휘도", "발광 구조"], action: "Tandem·발광 소재·구동 기술 검토" },
   { code: "B", title: "배터리 부담", categories: ["저전력", "초고휘도"], action: "LTPO·발광 효율·구동 최적화" },
@@ -200,9 +201,15 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
     </section>
 
     <section class="panel performance-panel">
-      <div class="panel-heading"><div><small>PERFORMANCE EVIDENCE</small><h2>문헌에 보고된 성능 지표</h2></div><p class="caution">수집 자료에 명시된 성능 수치입니다. 측정 조건은 원문에서 확인해 주세요.</p></div>
+      <div class="panel-heading"><div><small>PERFORMANCE EVIDENCE</small><h2>문헌에 보고된 성능 지표</h2></div><p class="caution">제목·요약에서 지표와 단위가 명확히 연결된 수치만 표시합니다. 대상과 조건은 문맥 기준이며, 미공개 조건은 원문 확인이 필요합니다. 수율·변화율·배터리 사용시간은 제외합니다.</p></div>
       {performanceMetrics.length ? <div class="metric-grid">{performanceMetrics.map(({ item, ...metric }) => (
-        <a href={item.url} target="_blank" rel="noreferrer"><span>{metric.name}</span><strong>{metric.value.toLocaleString()} {metric.unit}</strong><p>{metric.context}</p><small>{item.source} · {item.published_at}</small></a>
+        <article class="metric-card">
+          <div class="metric-heading"><span>{metricLabels[metric.name]}</span>{metric.qualifier && <small>{metric.qualifier}</small>}</div>
+          <strong class="metric-value">{metric.value.toLocaleString()} {metric.unit}</strong>
+          <dl><div><dt>문헌 내 대상</dt><dd>{metric.target || "측정 대상 미공개"}</dd></div><div><dt>측정 조건</dt><dd>{metric.conditions?.length ? `${metric.conditions.join(" · ")} (그 외 조건 미공개)` : "측정 조건 미공개"}</dd></div></dl>
+          <p class="metric-evidence"><b>근거 문장</b>{metric.context}</p>
+          <a class="metric-source" href={item.url} target="_blank" rel="noreferrer">{item.title}<small>{item.source} · {item.published_at} · 원문 보기 ↗</small></a>
+        </article>
       ))}</div> : <div class="empty">성능 단위가 명시된 문서를 수집하면 표시됩니다.</div>}
     </section>
 
@@ -599,12 +606,20 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
   td { color: var(--text-muted); }
   td.hot { background: var(--brand-soft); color: var(--brand); font-weight: 800; }
   .performance-panel { margin-bottom: 26px; }
-  .metric-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--surface-muted); }
-  .metric-grid a { background: var(--surface); padding: 20px; text-decoration: none; }
-  .metric-grid span { color: var(--brand); font-size: .65rem; text-transform: uppercase; }
-  .metric-grid strong { display: block; font-size: 1.35rem; margin: 8px 0; }
-  .metric-grid p { color: var(--text-muted); font-size: .7rem; line-height: 1.5; }
-  .metric-grid small { color: var(--text-muted); }
+  .metric-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+  .metric-card { min-width: 0; border: 1px solid var(--border); background: var(--surface); padding: 22px; overflow-wrap: anywhere; }
+  .metric-heading { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+  .metric-heading > span { color: var(--brand); font-size: .85rem; font-weight: 700; }
+  .metric-heading small { background: var(--brand-soft); color: var(--brand); padding: 4px 7px; }
+  .metric-value { display: block; font-size: 1.5rem; margin: 12px 0 18px; }
+  .metric-card dl { display: grid; gap: 9px; font-size: .8rem; margin: 0; }
+  .metric-card dl > div { display: grid; grid-template-columns: 95px minmax(0, 1fr); gap: 8px; }
+  .metric-card dt { color: var(--text-muted); }
+  .metric-card dd { color: var(--text-secondary); margin: 0; }
+  .metric-evidence { color: var(--text-secondary); font-size: .8rem; line-height: 1.8; border-left: 3px solid var(--border); padding-left: 12px; margin: 20px 0; white-space: normal; }
+  .metric-evidence b { display: block; color: var(--text-muted); font-size: .7rem; margin-bottom: 6px; }
+  .metric-source { display: block; color: var(--brand); font-size: .8rem; line-height: 1.6; }
+  .metric-source small { display: block; color: var(--text-muted); margin-top: 6px; }
   .decision-section { padding: 34px 0 40px; }
   .section-heading small { color: var(--brand); letter-spacing: .16em; font-weight: 800; }
   .section-heading h2 { font-size: 1.8rem; }

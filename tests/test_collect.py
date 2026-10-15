@@ -289,3 +289,55 @@ def test_html_report_escapes_remote_content_and_rejects_unsafe_links(tmp_path):
     assert "<img" not in report
     assert "javascript:" not in report
     assert "&lt;script&gt;" in report
+
+
+def test_metrics_exclude_relative_changes_battery_usage_and_yield():
+    rejected = [
+        "OLED reflectance was reduced by 30%.",
+        "OLED 반사율 30% 감소를 달성했다.",
+        "OLED panel power consumption was reduced by 20%.",
+        "OLED smartwatch battery lifetime is 48 hours.",
+        "OLED device total power consumption is 2 W.",
+        "OLED 스마트워치 전체 소비전력 2 W.",
+        "OLED test duration is 1000 hours.",
+        "OLED lifetime improved by 500 hours.",
+        "OLED brightness increased by 500 nits.",
+        "OLED 휘도 500 nits 증가.",
+        "OLED manufacturing yield is 95%.",
+        "OLED brightness 0 nits.",
+    ]
+    for sentence in rejected:
+        assert extract_metrics(sentence) == [], sentence
+
+
+def test_metrics_preserve_full_evidence_units_target_and_explicit_conditions():
+    sentence = "The OLED panel power consumption is 200 mW at 60 Hz and 25 °C."
+    power = extract_metrics(sentence)[0]
+    assert (power["name"], power["value"], power["unit"]) == ("power", 200, "mW")
+    assert power["context"] == sentence
+    assert power["target"] == "패널·디스플레이"
+    assert power["conditions"] == ["60 Hz", "25 °C"]
+    brightness = extract_metrics("The smartwatch OLED peak brightness reaches 3,000 nits.")[0]
+    assert brightness["qualifier"] == "최대 휘도 언급"
+    assert brightness["target"] == "스마트워치 관련"
+    assert brightness["conditions"] == []
+    lifetime = extract_metrics("OLED LT95 lifetime is 10,000 hours.")[0]
+    assert lifetime["qualifier"] == "LT95"
+    assert lifetime["unit"] == "시간"
+
+
+def test_metrics_keep_all_values_and_do_not_join_unrelated_title_and_summary():
+    assert extract_metrics("OLED panel power consumption", "The device uses 2 W.") == []
+    sentence = "OLED peak brightness reaches 3000 nits."
+    assert len(extract_metrics(sentence, sentence)) == 1
+    values = " ".join(f"OLED brightness is {1000 + index} nits." for index in range(15))
+    assert len(extract_metrics(values)) == 15
+
+
+def test_metrics_distinguish_comparison_values_and_ignore_typographic_duplicates():
+    metrics = extract_metrics("OLED luminance increased from 1500 nits to 3323 nits at OPR 5%.")
+    assert [metric["qualifier"] for metric in metrics] == ["비교 기준값", "변경 후 보고값"]
+    assert all(metric["conditions"] == ["OPR 5%"] for metric in metrics)
+    assert len(extract_metrics("OLED brightness 1600 nits - News", "OLED brightness 1600 nits News")) == 1
+    assert extract_metrics("OLED brightness -3,332 nits.") == []
+    assert extract_metrics("OLED brightness 1.5e3 nits.") == []
