@@ -1,10 +1,10 @@
 {
-  "input": 557,
+  "input": 556,
   "excluded_irrelevant": 324,
-  "duplicates_removed": 29,
+  "duplicates_removed": 28,
   "saved": 204,
   "missing_date": 0,
   "missing_summary": 34,
   "source_errors": 3,
-  "generated_at": "2026-10-15T07:36:45.795812+00:00"
+  "generated_at": "2026-10-15T11:35:05.996305+00:00"
 }
