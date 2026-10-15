@@ -111,6 +111,7 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
         <span>마지막 빌드 <time datetime={buildTime.toISOString()}>{koreanDateTime.format(buildTime)}</time> (한국 시간)</span>
         <span>다음 자동 업데이트 예정 <time id="next-update" datetime={nextUpdate.toISOString()}>{koreanDateTime.format(nextUpdate)}</time> (한국 시간)</span>
         <span>매일 오전 8시 자동 수집 · 수집·배포 상황에 따라 반영이 지연될 수 있습니다.</span>
+        <span>수집원: Google 뉴스 국내·영문 해외 RSS · Crossref · arXiv · Semantic Scholar · OpenAlex</span>
       </div>
     </header>
 
