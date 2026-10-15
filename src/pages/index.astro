@@ -106,12 +106,13 @@ const decisionAreas = [
 });
 ---
 
-<Layout title="OLED Watch Trend Radar">
+<Layout title="초고휘도 스마트워치 OLED 상용화 전략 분석" description="야외 시인성과 전력 효율을 높이는 스마트워치 OLED 기술을 분석하고, 글로벌 시장을 위한 상용화 방향을 살펴봅니다.">
   <main>
     <header class="hero">
       <div class="eyebrow"><span></span> OPEN TECHNOLOGY INTELLIGENCE</div>
-      <h1>야외에서도 보이는<br /><em>OLED의 다음 전략</em></h1>
-      <p>초고휘도 스마트워치·웨어러블 OLED의 논문, 특허, 기업 신호를 추적합니다.</p>
+      <h1>초고휘도 스마트워치 OLED<br /><em>상용화 전략 분석</em></h1>
+      <p class="hero-subtitle">직사광선 아래 또렷하게, 작은 배터리로 더 오래</p>
+      <p>야외 시인성과 전력 효율을 높이는 스마트워치 OLED 기술을 분석하고, 글로벌 시장을 위한 상용화 방향을 살펴봅니다.</p>
       <div class="meta">마지막 빌드 {new Date().toLocaleDateString("ko-KR")} · 공개 API 기반</div>
     </header>
 
@@ -421,9 +422,10 @@ const decisionAreas = [
   .hero { padding: 44px 0 54px; border-bottom: 1px solid var(--border); }
   .eyebrow { color: var(--text-muted); font-size: .72rem; font-weight: 800; letter-spacing: .18em; display: flex; align-items: center; gap: 10px; }
   .eyebrow span { width: 30px; height: 2px; background: var(--brand); }
-  h1 { margin: 22px 0 18px; font-size: clamp(2.8rem, 8vw, 6.7rem); line-height: .98; letter-spacing: -.065em; max-width: 980px; }
+  h1 { margin: 22px 0 18px; font-size: clamp(2rem, 4.6vw, 4rem); line-height: 1.25; letter-spacing: -.05em; max-width: 1100px; word-break: keep-all; }
   h1 em { color: var(--brand); font-style: normal; }
   .hero p { max-width: 680px; color: var(--text-secondary); font-size: clamp(1rem, 2vw, 1.2rem); line-height: 1.75; }
+  .hero .hero-subtitle { max-width: none; color: var(--text); font-size: clamp(1.1rem, 2.4vw, 1.5rem); font-weight: 700; }
   .meta { color: var(--text-muted); font-size: .78rem; margin-top: 28px; }
   .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; margin: 28px 0; background: var(--border); border: 1px solid var(--border); }
   .stats article { background: var(--surface); padding: 25px; display: flex; flex-direction: column; gap: 6px; }
