@@ -124,6 +124,15 @@ def test_parse_openalex_reconstructs_abstract():
     assert item["doi"] == "10.1000/openalex"
 
 
+def test_collection_excludes_pre_2023_documents_including_custom_results():
+    dates = ["2022-12-31", "2023-01-01", "2026-01-01", "2022", ""]
+    items = [{"id": str(index), "title": "OLED wearable display", "published_at": date, "custom_keyword": "OLED"} for index, date in enumerate(dates)]
+    stats = {}
+    result = deduplicate(items, stats)
+    assert {item["published_at"] for item in result} == {"2023-01-01", "2026-01-01", ""}
+    assert stats["excluded_before_2023"] == 2
+
+
 def test_manual_collection_arguments_and_date_filter():
     args = parse_args(["--keyword", "blue OLED", "--date-from", "2025-01-01", "--date-to", "2025-12-31", "--source", "papers"])
     assert args.keyword == "blue OLED"

@@ -21,7 +21,9 @@ type Item = {
   metrics?: { name: string; value: number; unit: string; context: string }[];
 };
 
-const documents = (items as Item[]).sort((a, b) => b.published_at.localeCompare(a.published_at));
+const documents = (items as Item[])
+  .filter((item) => !/^\d{4}/.test(item.published_at) || Number(item.published_at.slice(0, 4)) >= 2023)
+  .sort((a, b) => b.published_at.localeCompare(a.published_at));
 const documentYears = [...new Set(documents.map((item) => item.published_at.slice(0, 4)).filter((year) => /^\d{4}$/.test(year)))].sort((a, b) => b.localeCompare(a));
 const documentYearCounts = documents.reduce<Record<string, number>>((counts, item) => {
   const year = item.published_at.slice(0, 4);
@@ -62,7 +64,8 @@ const keywordCounts = documents.reduce<Record<string, number>>((acc, item) => {
 const topKeywords = Object.entries(keywordCounts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 15);
 const maxKeywordCount = topKeywords[0]?.[1] || 1;
 const currentYear = new Date().getFullYear();
-const trendYears = Array.from({ length: 8 }, (_, index) => String(currentYear - 7 + index));
+const trendStartYear = Math.max(2023, currentYear - 7);
+const trendYears = Array.from({ length: currentYear - trendStartYear + 1 }, (_, index) => String(trendStartYear + index));
 const trendKeywords = topKeywords.slice(0, 12).map(([keyword]) => keyword);
 const keywordTrendRows = trendKeywords.map((keyword) => ({
   keyword,

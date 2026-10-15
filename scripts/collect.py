@@ -330,8 +330,12 @@ def parse_openalex(payload: dict[str, Any]) -> list[dict[str, Any]]:
 
 def deduplicate(items: list[dict[str, Any]], stats: dict[str, int] | None = None) -> list[dict[str, Any]]:
     unique: dict[str, dict[str, Any]] = {}
-    excluded = duplicates = 0
+    excluded = duplicates = excluded_before_2023 = 0
     for item in items:
+        year = clean_text(item.get("published_at"))[:4]
+        if year.isdigit() and len(year) == 4 and int(year) < 2023:
+            excluded_before_2023 += 1
+            continue
         if not item.get("custom_keyword") and not is_relevant(item.get("title", ""), item.get("summary", "")):
             excluded += 1
             continue
@@ -364,7 +368,7 @@ def deduplicate(items: list[dict[str, Any]], stats: dict[str, int] | None = None
         unique[key] = item
     result = sorted(unique.values(), key=lambda item: (item.get("published_at", ""), item["id"]), reverse=True)
     if stats is not None:
-        stats.update({"input": len(items), "excluded_irrelevant": excluded, "duplicates_removed": duplicates, "saved": len(result)})
+        stats.update({"input": len(items), "excluded_irrelevant": excluded, "excluded_before_2023": excluded_before_2023, "duplicates_removed": duplicates, "saved": len(result)})
     return result
 
 
