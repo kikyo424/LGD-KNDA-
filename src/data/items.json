@@ -12,7 +12,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.637254+00:00",
+    "collected_at": "2026-10-15T12:31:08.089499+00:00",
     "document_id": "f164cb3b2e5a8544a8a7",
     "published_date": "2026-10-13",
     "company": [
@@ -44,7 +44,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.637409+00:00",
+    "collected_at": "2026-10-15T12:31:08.089650+00:00",
     "document_id": "a3a06e2497a577e0d917",
     "published_date": "2026-10-12",
     "company": [],
@@ -73,7 +73,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.637197+00:00",
+    "collected_at": "2026-10-15T12:31:08.089443+00:00",
     "document_id": "27b86797b0b2eb442afe",
     "published_date": "2026-10-12",
     "company": [
@@ -104,7 +104,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.637141+00:00",
+    "collected_at": "2026-10-15T12:31:08.089379+00:00",
     "document_id": "7923e06b3dd70f8780ce",
     "published_date": "2026-10-11",
     "company": [
@@ -135,7 +135,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.637304+00:00",
+    "collected_at": "2026-10-15T12:31:08.089549+00:00",
     "document_id": "78d34ff1048dd8dfc53f",
     "published_date": "2026-10-11",
     "company": [
@@ -167,7 +167,7 @@
     "technologies": [
       "제조/공정"
     ],
-    "collected_at": "2026-10-15T12:27:22.324914+00:00",
+    "collected_at": "2026-10-15T12:31:07.744016+00:00",
     "document_id": "69cb74d7e0374ef08660",
     "published_date": "2026-10-11",
     "company": [
@@ -196,7 +196,7 @@
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xRzRqeHJxbnBhN0Z0SUszN2VyZTZBYlV6OG11Qk96U3NPVmxiQTFhOE44dXc1ejBobU16cTlXc3YxdzVzNzlHdGNFQWIwZFRWeGItSG9oeWZoa3BQSDZ1Snp2NlVmSXdkalh0UQ?oc=5",
     "summary": "LGD '꿈의 OLED' 플립…FMM 없애고 휘도 최대 1.6배·수명 최대 2.4배 높인 비결은? ER 이코노믹리뷰",
     "technologies": [],
-    "collected_at": "2026-10-15T12:27:22.324835+00:00",
+    "collected_at": "2026-10-15T12:31:07.743937+00:00",
     "document_id": "68d1e0e980329841e55e",
     "published_date": "2026-10-11",
     "company": [
@@ -221,7 +221,7 @@
     "technologies": [
       "제조/공정"
     ],
-    "collected_at": "2026-10-15T12:27:22.326984+00:00",
+    "collected_at": "2026-10-15T12:31:07.746090+00:00",
     "document_id": "0f22af69864733856c53",
     "published_date": "2026-10-11",
     "company": [
@@ -252,7 +252,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.637506+00:00",
+    "collected_at": "2026-10-15T12:31:08.089758+00:00",
     "document_id": "2bf04f68d9b8ac3a0f2b",
     "published_date": "2026-10-10",
     "company": [],
@@ -281,7 +281,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-15T12:27:22.886611+00:00",
+    "collected_at": "2026-10-15T12:31:08.335870+00:00",
     "document_id": "e628ee971bfa29736efc",
     "published_date": "2026-09-22",
     "company": [
@@ -298,6 +298,37 @@
     },
     "metrics": [],
     "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9EcEM2VGtma0JCVm8xS2xRdjd1UTZxX1BYckxVeE1STy1LUzNlRWJERTlxU3hwbkU3WE1qSF8wRXpPdXNvUXJySF8tUmQ1UzV2Tndlbjg0UlFld05iWVdFSEx1UTlOTmYzQVB4YjIxNA?oc=5"
+  },
+  {
+    "id": "3a035c1cb83cff10d0da",
+    "doi": "",
+    "source_type": "news",
+    "source": "OLED-Info",
+    "region": "international",
+    "title": "Apple announces its first foldable iPhone, in addition to the iPhone 18 Pro and 2026 Watch lineups - all featuring LTPO AMOLED displays - OLED-Info",
+    "published_at": "2026-09-10",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZXZwdjgyT0x3S3J1WGhSNEZpSWs5T2NkMHdxeDMxbUhmM3EtejcxU2pScXZ4UnZPbW5CUWV5S1YxcjVsUUtZa3ZqOG9VM1pzeHNVNXhwZTJ4QmxzYkhtX3FfdGl0RmtraFZiTTYwSms4SUc2X2d1bWlWRXVqQWpISEZzWUZkWG1NZW5VZ0RVNjZlZ0x5WkFLVDJ4ZmcwOGJ6N3lvT1duMUM?oc=5",
+    "summary": "Apple announces its first foldable iPhone, in addition to the iPhone 18 Pro and 2026 Watch lineups - all featuring LTPO AMOLED displays OLED-Info",
+    "technologies": [
+      "저전력"
+    ],
+    "collected_at": "2026-10-15T12:31:09.017717+00:00",
+    "document_id": "3a035c1cb83cff10d0da",
+    "published_date": "2026-09-10",
+    "company": [
+      "Apple"
+    ],
+    "technology": [
+      "저전력"
+    ],
+    "keywords": [
+      "LTPO"
+    ],
+    "keyword_scores": {
+      "LTPO": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZXZwdjgyT0x3S3J1WGhSNEZpSWs5T2NkMHdxeDMxbUhmM3EtejcxU2pScXZ4UnZPbW5CUWV5S1YxcjVsUUtZa3ZqOG9VM1pzeHNVNXhwZTJ4QmxzYkhtX3FfdGl0RmtraFZiTTYwSms4SUc2X2d1bWlWRXVqQWpISEZzWUZkWG1NZW5VZ0RVNjZlZ0x5WkFLVDJ4ZmcwOGJ6N3lvT1duMUM?oc=5"
   },
   {
     "id": "1dbff2c8dbdce35ac2f6",
@@ -331,6 +362,39 @@
     "source_url": "https://doi.org/10.35631/jistm.1144009"
   },
   {
+    "id": "a4a8a677f400d08fe3bb",
+    "doi": "",
+    "source_type": "news",
+    "source": "NoypiGeeks",
+    "region": "international",
+    "title": "HUAWEI Watch 6, 6 Pro: up to 3,500-nit LTPO OLED, 7-day battery, Wrist-flick gesture - NoypiGeeks",
+    "published_at": "2026-09-08",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNbnFtNDVfeE0teUMyWkRXby1Jck9fS01oamdZRTFZeXM2aU9vZnBqZVRRZ0RZTV9FdmFDb2tYYm9fUjdhQTVCSjNPQ0ljTmV6ZmFIN2N0enNqV0hiN19sOUtERlFtMVhWcGc?oc=5",
+    "summary": "HUAWEI Watch 6, 6 Pro: up to 3,500-nit LTPO OLED, 7-day battery, Wrist-flick gesture NoypiGeeks",
+    "technologies": [
+      "초고휘도",
+      "저전력"
+    ],
+    "collected_at": "2026-10-15T12:31:09.021030+00:00",
+    "document_id": "a4a8a677f400d08fe3bb",
+    "published_date": "2026-09-08",
+    "company": [],
+    "technology": [
+      "초고휘도",
+      "저전력"
+    ],
+    "keywords": [
+      "LTPO",
+      "휘도"
+    ],
+    "keyword_scores": {
+      "LTPO": 3,
+      "휘도": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNbnFtNDVfeE0teUMyWkRXby1Jck9fS01oamdZRTFZeXM2aU9vZnBqZVRRZ0RZTV9FdmFDb2tYYm9fUjdhQTVCSjNPQ0ljTmV6ZmFIN2N0enNqV0hiN19sOUtERlFtMVhWcGc?oc=5"
+  },
+  {
     "id": "cb5992b037a35286f945",
     "doi": "",
     "source_type": "news",
@@ -343,7 +407,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.641216+00:00",
+    "collected_at": "2026-10-15T12:31:08.093563+00:00",
     "document_id": "cb5992b037a35286f945",
     "published_date": "2026-09-07",
     "company": [
@@ -374,7 +438,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.638569+00:00",
+    "collected_at": "2026-10-15T12:31:08.090777+00:00",
     "document_id": "2a05ec728dab1f8ea771",
     "published_date": "2026-09-06",
     "company": [
@@ -405,7 +469,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.639441+00:00",
+    "collected_at": "2026-10-15T12:31:08.091712+00:00",
     "document_id": "de7beafbde91976241d3",
     "published_date": "2026-08-26",
     "company": [
@@ -436,7 +500,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.637355+00:00",
+    "collected_at": "2026-10-15T12:31:08.089600+00:00",
     "document_id": "8446c6e95f73a5c55cd0",
     "published_date": "2026-08-13",
     "company": [
@@ -453,6 +517,35 @@
     },
     "metrics": [],
     "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8yM3dyeWlFWkFBMHZpeGFtWXNXWWNVQ2tzNkt0NTJDbTQtYkJPVTI4R09DSEdJTWQ2VXVzTUJXRlpQeHB5UXdSeDNxWGtnNFdkdlhmUTRTaVBRTzdGMy1sbTdudFdDTkluMEItQTh1N3RHZ9IBdkFVX3lxTE00T1A5UDUwQWpPLTVodU95RjlvcDA4S0tWN1JidjlDblpiRFR2blNld2w4VjF4aWNqbzFxODFmUVRtdzFJWDgtVWpsVjc5OElNakJTcXNFaFFjTjhmR1JZNHBURU9HV0xaN0gwVWNuRG4tei1KMXc?oc=5"
+  },
+  {
+    "id": "4d0eefac1dcef5a4fe65",
+    "doi": "",
+    "source_type": "news",
+    "source": "OLED-Info",
+    "region": "international",
+    "title": "Google launches the Pixel 11 smartphone family, all with LTPO AMOLED displays - OLED-Info",
+    "published_at": "2026-08-13",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdVlDOEhCZFpmbWRMeFEwU2xoNWFjQ0FkNFdPNkhGeHc1TXJOd3lrWnI3Zy1LbEV6TVpkeGRqU3BTM2ZhVm5QQ29iS0I2eDA5NkNYYTZLUUdoOTBGVkk2TU4zXzBUemZQSWU2c1pzX3hWbjZEUHNIc0hGN3hjcFRCYjBjOTV6WXh6TXhRSjRrMUZiMzRUUlQ5ZmtGUlRHdw?oc=5",
+    "summary": "Google launches the Pixel 11 smartphone family, all with LTPO AMOLED displays OLED-Info",
+    "technologies": [
+      "저전력"
+    ],
+    "collected_at": "2026-10-15T12:31:09.018318+00:00",
+    "document_id": "4d0eefac1dcef5a4fe65",
+    "published_date": "2026-08-13",
+    "company": [],
+    "technology": [
+      "저전력"
+    ],
+    "keywords": [
+      "LTPO"
+    ],
+    "keyword_scores": {
+      "LTPO": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdVlDOEhCZFpmbWRMeFEwU2xoNWFjQ0FkNFdPNkhGeHc1TXJOd3lrWnI3Zy1LbEV6TVpkeGRqU3BTM2ZhVm5QQ29iS0I2eDA5NkNYYTZLUUdoOTBGVkk2TU4zXzBUemZQSWU2c1pzX3hWbjZEUHNIc0hGN3hjcFRCYjBjOTV6WXh6TXhRSjRrMUZiMzRUUlQ5ZmtGUlRHdw?oc=5"
   },
   {
     "id": "f73247136ea34f1ed6d7",
@@ -592,7 +685,7 @@
       "초고휘도",
       "야외 시인성"
     ],
-    "collected_at": "2026-10-15T12:27:18.981978+00:00",
+    "collected_at": "2026-10-15T12:31:04.366443+00:00",
     "document_id": "3f7164bb6606a3c2ff02",
     "published_date": "2026-08-01",
     "company": [],
@@ -702,7 +795,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-15T12:27:14.685041+00:00",
+    "collected_at": "2026-10-15T12:30:59.211061+00:00",
     "document_id": "0c7b1b1f67fcc937d861",
     "published_date": "2026-08-01",
     "company": [],
@@ -738,7 +831,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.638051+00:00",
+    "collected_at": "2026-10-15T12:31:08.090311+00:00",
     "document_id": "7d10ffaab2790469cc59",
     "published_date": "2026-07-31",
     "company": [
@@ -770,7 +863,7 @@
       "발광 구조",
       "제조/공정"
     ],
-    "collected_at": "2026-10-15T12:27:22.637906+00:00",
+    "collected_at": "2026-10-15T12:31:08.090162+00:00",
     "document_id": "5a9920c7fee00b712b45",
     "published_date": "2026-07-31",
     "company": [
@@ -804,7 +897,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.638875+00:00",
+    "collected_at": "2026-10-15T12:31:08.091127+00:00",
     "document_id": "743a3c7cf023343949cd",
     "published_date": "2026-07-30",
     "company": [
@@ -835,7 +928,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.637855+00:00",
+    "collected_at": "2026-10-15T12:31:08.090106+00:00",
     "document_id": "7a286afc91935cd93c61",
     "published_date": "2026-07-24",
     "company": [
@@ -854,6 +947,27 @@
     "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Ja3l4UER4WV9xbVowZXh5OHB6MHcta2x1RE8tN2JZWEs5SThlbEJJMHlneDl2NVY3RWFJN1Q5aVQtTExnd2phRVVHYVZFell5cjhPTWRGQXkyRHF4QW1YZ21WYnF3TGlhODVhOUYwSkLSAXRBVV95cUxQclpYX0N4anQ1OExLaDROUHRzVWRjeVNtRmFlMW9ESnNxWU5ydU01NDkxRGFhd01xVS1DdVJKbGQ0Zk50ZzVIN2xZcDl4dThHNGhVZHFxblYyT1JuMm50MkgxbWdoelFmaHc1QnR1NVE4cldLeQ?oc=5"
   },
   {
+    "id": "f56cf299f5dff2271f21",
+    "doi": "",
+    "source_type": "news",
+    "source": "OLED-Info",
+    "region": "international",
+    "title": "Samsung unveils three new OLED foldables and the world's brightest smartwatch - OLED-Info",
+    "published_at": "2026-07-23",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdWs1dW1uM2JJN1RlZEdkalY0c1lMdnhHWGY0ZWZWSUlzTHJtQzJmUUxlc2tHUU1nd3BpQVpZQVFjUGc0cDJPQTBTYzNkMUpxQlBGZkh2ZkJicF9iTnZ2OVBxUk0zajMydkVmT1hpVlZJeE9VanFzM2JkVkZZMXpzQVFkMmN4ampOTFBCbVhVMHBsdEQ4V2FkSjNqb003VEU?oc=5",
+    "summary": "Samsung unveils three new OLED foldables and the world's brightest smartwatch OLED-Info",
+    "technologies": [],
+    "collected_at": "2026-10-15T12:31:09.018558+00:00",
+    "document_id": "f56cf299f5dff2271f21",
+    "published_date": "2026-07-23",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdWs1dW1uM2JJN1RlZEdkalY0c1lMdnhHWGY0ZWZWSUlzTHJtQzJmUUxlc2tHUU1nd3BpQVpZQVFjUGc0cDJPQTBTYzNkMUpxQlBGZkh2ZkJicF9iTnZ2OVBxUk0zajMydkVmT1hpVlZJeE9VanFzM2JkVkZZMXpzQVFkMmN4ampOTFBCbVhVMHBsdEQ4V2FkSjNqb003VEU?oc=5"
+  },
+  {
     "id": "d28beb46e7261bdc51b9",
     "doi": "",
     "source_type": "news",
@@ -866,7 +980,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.325163+00:00",
+    "collected_at": "2026-10-15T12:31:07.744272+00:00",
     "document_id": "d28beb46e7261bdc51b9",
     "published_date": "2026-07-22",
     "company": [],
@@ -895,7 +1009,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.639982+00:00",
+    "collected_at": "2026-10-15T12:31:08.092260+00:00",
     "document_id": "4a598cb2197392de714e",
     "published_date": "2026-07-22",
     "company": [
@@ -926,7 +1040,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.638393+00:00",
+    "collected_at": "2026-10-15T12:31:08.090594+00:00",
     "document_id": "200e3dff05dd337abc15",
     "published_date": "2026-07-22",
     "company": [],
@@ -956,7 +1070,7 @@
       "저전력",
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.639023+00:00",
+    "collected_at": "2026-10-15T12:31:08.091283+00:00",
     "document_id": "124e84a816662a71b0c9",
     "published_date": "2026-07-22",
     "company": [
@@ -990,7 +1104,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.638482+00:00",
+    "collected_at": "2026-10-15T12:31:08.090689+00:00",
     "document_id": "0003a656118aad104411",
     "published_date": "2026-07-22",
     "company": [],
@@ -1019,7 +1133,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.639487+00:00",
+    "collected_at": "2026-10-15T12:31:08.091759+00:00",
     "document_id": "dd6321eb33dc7e9cce34",
     "published_date": "2026-07-21",
     "company": [
@@ -1050,7 +1164,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.637761+00:00",
+    "collected_at": "2026-10-15T12:31:08.089992+00:00",
     "document_id": "c24b86bd8a7ec04e8efc",
     "published_date": "2026-07-21",
     "company": [
@@ -1082,7 +1196,7 @@
       "저전력",
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.640163+00:00",
+    "collected_at": "2026-10-15T12:31:08.092446+00:00",
     "document_id": "bbc35be53d6d605a43ef",
     "published_date": "2026-07-21",
     "company": [
@@ -1116,7 +1230,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.637998+00:00",
+    "collected_at": "2026-10-15T12:31:08.090260+00:00",
     "document_id": "aa1fa64cbd8c85af59bc",
     "published_date": "2026-07-21",
     "company": [
@@ -1147,7 +1261,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.640311+00:00",
+    "collected_at": "2026-10-15T12:31:08.092600+00:00",
     "document_id": "6efb038d9d47cb5c7880",
     "published_date": "2026-07-21",
     "company": [
@@ -1179,7 +1293,7 @@
       "저전력",
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.640857+00:00",
+    "collected_at": "2026-10-15T12:31:08.093152+00:00",
     "document_id": "6aa938d965e52177b46a",
     "published_date": "2026-07-21",
     "company": [
@@ -1213,7 +1327,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.638613+00:00",
+    "collected_at": "2026-10-15T12:31:08.090875+00:00",
     "document_id": "656dc45956ffbe0e685a",
     "published_date": "2026-07-21",
     "company": [
@@ -1244,7 +1358,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.637595+00:00",
+    "collected_at": "2026-10-15T12:31:08.089849+00:00",
     "document_id": "46e6f55aed26f50aa42e",
     "published_date": "2026-07-21",
     "company": [
@@ -1275,7 +1389,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.640216+00:00",
+    "collected_at": "2026-10-15T12:31:08.092504+00:00",
     "document_id": "3836022939c61bab9897",
     "published_date": "2026-07-21",
     "company": [
@@ -1306,7 +1420,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.639625+00:00",
+    "collected_at": "2026-10-15T12:31:08.091998+00:00",
     "document_id": "33ece2bfb5b6ad9c64ed",
     "published_date": "2026-07-21",
     "company": [
@@ -1337,7 +1451,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.637640+00:00",
+    "collected_at": "2026-10-15T12:31:08.089896+00:00",
     "document_id": "13fbae0757e019c11ccc",
     "published_date": "2026-07-21",
     "company": [
@@ -1368,7 +1482,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.638974+00:00",
+    "collected_at": "2026-10-15T12:31:08.091234+00:00",
     "document_id": "0f308223cf8e07d7074e",
     "published_date": "2026-07-21",
     "company": [
@@ -1399,7 +1513,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.637458+00:00",
+    "collected_at": "2026-10-15T12:31:08.089708+00:00",
     "document_id": "efa4059a8312eca0ca28",
     "published_date": "2026-07-20",
     "company": [
@@ -1430,7 +1544,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.640264+00:00",
+    "collected_at": "2026-10-15T12:31:08.092552+00:00",
     "document_id": "ed4b70c81f06b09ce770",
     "published_date": "2026-07-20",
     "company": [
@@ -1461,7 +1575,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.640907+00:00",
+    "collected_at": "2026-10-15T12:31:08.093198+00:00",
     "document_id": "e82f61a6cd89b0313da7",
     "published_date": "2026-07-20",
     "company": [
@@ -1492,7 +1606,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.639532+00:00",
+    "collected_at": "2026-10-15T12:31:08.091805+00:00",
     "document_id": "c9730e8856f1f61e2b82",
     "published_date": "2026-07-20",
     "company": [
@@ -1523,7 +1637,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.639118+00:00",
+    "collected_at": "2026-10-15T12:31:08.091380+00:00",
     "document_id": "c1926277cb2e2a581b05",
     "published_date": "2026-07-20",
     "company": [
@@ -1554,7 +1668,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.638198+00:00",
+    "collected_at": "2026-10-15T12:31:08.090454+00:00",
     "document_id": "88c1e7fc9492be1a3c6a",
     "published_date": "2026-07-20",
     "company": [
@@ -1585,7 +1699,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.638818+00:00",
+    "collected_at": "2026-10-15T12:31:08.091054+00:00",
     "document_id": "888b04c409006fa25b44",
     "published_date": "2026-07-20",
     "company": [
@@ -1616,7 +1730,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.640497+00:00",
+    "collected_at": "2026-10-15T12:31:08.092792+00:00",
     "document_id": "5df35a6a165da82df27e",
     "published_date": "2026-07-20",
     "company": [
@@ -1647,7 +1761,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.640451+00:00",
+    "collected_at": "2026-10-15T12:31:08.092745+00:00",
     "document_id": "50f28e17be5f26bfa071",
     "published_date": "2026-07-20",
     "company": [
@@ -1679,7 +1793,7 @@
       "발광 구조",
       "제조/공정"
     ],
-    "collected_at": "2026-10-15T12:27:22.641261+00:00",
+    "collected_at": "2026-10-15T12:31:08.093609+00:00",
     "document_id": "45ce29bc5014ed7d7cb0",
     "published_date": "2026-07-20",
     "company": [
@@ -1713,7 +1827,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.639835+00:00",
+    "collected_at": "2026-10-15T12:31:08.092107+00:00",
     "document_id": "43d43f233f5464ecf122",
     "published_date": "2026-07-20",
     "company": [
@@ -1744,7 +1858,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.638290+00:00",
+    "collected_at": "2026-10-15T12:31:08.090547+00:00",
     "document_id": "3771747d9d8556a19cc8",
     "published_date": "2026-07-20",
     "company": [
@@ -1775,7 +1889,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.639165+00:00",
+    "collected_at": "2026-10-15T12:31:08.091427+00:00",
     "document_id": "376c63f4d8e922a003b5",
     "published_date": "2026-07-20",
     "company": [
@@ -1806,7 +1920,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.638436+00:00",
+    "collected_at": "2026-10-15T12:31:08.090637+00:00",
     "document_id": "2dddef001100fabe6809",
     "published_date": "2026-07-20",
     "company": [
@@ -1837,7 +1951,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.639576+00:00",
+    "collected_at": "2026-10-15T12:31:08.091850+00:00",
     "document_id": "1f501d005906262a7b47",
     "published_date": "2026-07-20",
     "company": [
@@ -1868,7 +1982,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.640544+00:00",
+    "collected_at": "2026-10-15T12:31:08.093093+00:00",
     "document_id": "0ca847028b51340ae381",
     "published_date": "2026-07-20",
     "company": [
@@ -1899,7 +2013,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.640361+00:00",
+    "collected_at": "2026-10-15T12:31:08.092652+00:00",
     "document_id": "0b3ce39cc7e2764e0792",
     "published_date": "2026-07-20",
     "company": [
@@ -1930,7 +2044,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.641307+00:00",
+    "collected_at": "2026-10-15T12:31:08.093655+00:00",
     "document_id": "04e372bc723e0f559205",
     "published_date": "2026-07-20",
     "company": [
@@ -1961,7 +2075,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.641171+00:00",
+    "collected_at": "2026-10-15T12:31:08.093516+00:00",
     "document_id": "004687c3005de73e26e2",
     "published_date": "2026-07-20",
     "company": [
@@ -1980,6 +2094,50 @@
     "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBaVThuanBqR01PYVhrZU5TbzhTanllcVg5YjZzYWxSblBNNDhBVFJIeXQ4VWw5N19xSy1SRWNvLWNnT1JuR01OdlRsR0ZDVHFPZ2FpTk52SjdwYzNSVk92Slg2TW5yZlJwZGRmS09B?oc=5"
   },
   {
+    "id": "6003fd4e131c2c8259b4",
+    "doi": "",
+    "source_type": "news",
+    "source": "OLED-Info",
+    "region": "international",
+    "title": "Samsung Display starts mass producing 1600 nits tandem laptop OLED panels, meeting the new VESA DisplayHDR True Black 1400 certification - OLED-Info",
+    "published_at": "2026-07-19",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbmhjVFJZR2hucVhMMGhDa0lSeDlHVW5iM1lnejJfWGNQX2hGSVBhZFFQMVdsejBiZXFaZGZCZ0ZnaHpHakVLT0E5ZjNCdzliMk9MdW5LaHNJUDN4UXhTNFVyRWFqSVAyZ05pUEZpX2dpcTJPOTdHSktWa1dNUGUydkJKQVR6MkxzWUl0YkVDcGRVY1N0eUpfaEpWbmVlT1czODdnSC1n?oc=5",
+    "summary": "Samsung Display starts mass producing 1600 nits tandem laptop OLED panels, meeting the new VESA DisplayHDR True Black 1400 certification OLED-Info",
+    "technologies": [
+      "초고휘도"
+    ],
+    "collected_at": "2026-10-15T12:31:09.018048+00:00",
+    "document_id": "6003fd4e131c2c8259b4",
+    "published_date": "2026-07-19",
+    "company": [
+      "삼성디스플레이"
+    ],
+    "technology": [
+      "초고휘도"
+    ],
+    "keywords": [
+      "휘도"
+    ],
+    "keyword_scores": {
+      "휘도": 3
+    },
+    "metrics": [
+      {
+        "name": "brightness",
+        "value": 1600.0,
+        "unit": "nits",
+        "context": "Samsung Display starts mass producing 1600 nits tandem laptop OLED panels, meeting the new V"
+      },
+      {
+        "name": "brightness",
+        "value": 1600.0,
+        "unit": "nits",
+        "context": "D-Info Samsung Display starts mass producing 1600 nits tandem laptop OLED panels, meeting the new V"
+      }
+    ],
+    "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbmhjVFJZR2hucVhMMGhDa0lSeDlHVW5iM1lnejJfWGNQX2hGSVBhZFFQMVdsejBiZXFaZGZCZ0ZnaHpHakVLT0E5ZjNCdzliMk9MdW5LaHNJUDN4UXhTNFVyRWFqSVAyZ05pUEZpX2dpcTJPOTdHSktWa1dNUGUydkJKQVR6MkxzWUl0YkVDcGRVY1N0eUpfaEpWbmVlT1czODdnSC1n?oc=5"
+  },
+  {
     "id": "1198ef85b96850cc8a49",
     "doi": "",
     "source_type": "news",
@@ -1992,7 +2150,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-15T12:27:22.638772+00:00",
+    "collected_at": "2026-10-15T12:31:08.091010+00:00",
     "document_id": "1198ef85b96850cc8a49",
     "published_date": "2026-07-09",
     "company": [
@@ -2009,6 +2167,64 @@
     },
     "metrics": [],
     "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA4WXVYeU5xeDBiQlU1SUtSdjFLc2lVLThIblc1d0VYZDJpX3EzcWx0aUYycTdsYnRjblJvdmR4cThHeTFmYWw5WmplNEkzVmdNYm02SWFVdmpvNi1qQ3V5ZkJvbjlIcjBabnhnMNIBckFVX3lxTE1RbHJHLURXUGxteVFWR1pxeUxvejFDLXV4Q1hoYkxkblVFak9ZOGpIZE1la3c1NVh6NDZqLVpmMzUtVnBLejJSbFVCTzBSY3dETXZiR3B5NVcxSWRIYzhqRHpjcWRYV2tXV3JnQTRIN1VUQQ?oc=5"
+  },
+  {
+    "id": "21a7597e2ea4d6f13eee",
+    "doi": "",
+    "source_type": "news",
+    "source": "BigGo Finance",
+    "region": "international",
+    "title": "iPhone Air 2 Battery Jumps 11% to 3500mAh; A20 Chip, CoE OLED Boost Efficiency - BigGo Finance",
+    "published_at": "2026-07-08",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBDbVhRYjFHYXBWUDBacXBlYUNwMXk3aGloZEVJeFZtUmRQOVltYU9DNGtvcDNJS2VfZEc5YTV4ZjJOVzU2YXNPNzVORjhCYndWWXViUWlmVEpDNTM2NWV1VHdZbzhkTGtLQmNHemdZV29Sbm0xX0E?oc=5",
+    "summary": "iPhone Air 2 Battery Jumps 11% to 3500mAh; A20 Chip, CoE OLED Boost Efficiency BigGo Finance",
+    "technologies": [
+      "야외 시인성"
+    ],
+    "collected_at": "2026-10-15T12:31:09.314778+00:00",
+    "document_id": "21a7597e2ea4d6f13eee",
+    "published_date": "2026-07-08",
+    "company": [],
+    "technology": [
+      "야외 시인성"
+    ],
+    "keywords": [
+      "COE display"
+    ],
+    "keyword_scores": {
+      "COE display": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBDbVhRYjFHYXBWUDBacXBlYUNwMXk3aGloZEVJeFZtUmRQOVltYU9DNGtvcDNJS2VfZEc5YTV4ZjJOVzU2YXNPNzVORjhCYndWWXViUWlmVEpDNTM2NWV1VHdZbzhkTGtLQmNHemdZV29Sbm0xX0E?oc=5"
+  },
+  {
+    "id": "dd9178bd46c6e1480b20",
+    "doi": "",
+    "source_type": "news",
+    "source": "Gizmochina",
+    "region": "international",
+    "title": "Samsung demonstrates 40,000-nit ultra-high-brightness RGB OLEDoS microdisplay - Gizmochina",
+    "published_at": "2026-06-17",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOV9DMkJ6RVpzS21YdXFMWkZORUZxdnp5cEhLSFMyWHdVWHhaS1F0ZlFBenhkVEs5NjBDRXZ3amVKSWRPYlJlTEYxdUhZZV9YU2VVT20tOTk5X0UxaFRxZVJ6VnlXN1JmUmp5VW5RTzJrOWk4WFdNX3lvd29nT3VQUE1IQ1VFSlhMNEp3UEFSX2pUYzRGSmR3c2QyYjRDTy00TW43RTZjTGlBMXk0dnllTnZvUm1lQQ?oc=5",
+    "summary": "Samsung demonstrates 40,000-nit ultra-high-brightness RGB OLEDoS microdisplay Gizmochina",
+    "technologies": [
+      "초고휘도"
+    ],
+    "collected_at": "2026-10-15T12:31:08.707056+00:00",
+    "document_id": "dd9178bd46c6e1480b20",
+    "published_date": "2026-06-17",
+    "company": [],
+    "technology": [
+      "초고휘도"
+    ],
+    "keywords": [
+      "휘도"
+    ],
+    "keyword_scores": {
+      "휘도": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOV9DMkJ6RVpzS21YdXFMWkZORUZxdnp5cEhLSFMyWHdVWHhaS1F0ZlFBenhkVEs5NjBDRXZ3amVKSWRPYlJlTEYxdUhZZV9YU2VVT20tOTk5X0UxaFRxZVJ6VnlXN1JmUmp5VW5RTzJrOWk4WFdNX3lvd29nT3VQUE1IQ1VFSlhMNEp3UEFSX2pUYzRGSmR3c2QyYjRDTy00TW43RTZjTGlBMXk0dnllTnZvUm1lQQ?oc=5"
   },
   {
     "id": "378c89a0c39f3571e368",
@@ -2054,7 +2270,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.639257+00:00",
+    "collected_at": "2026-10-15T12:31:08.091520+00:00",
     "document_id": "00cbdcc1dd1680b63740",
     "published_date": "2026-06-09",
     "company": [
@@ -2073,6 +2289,69 @@
     "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1wYUlGTWJSbmo4bVFoSy1JY1hzSHk1R1lUVzUwMjNaMWtWb2JqdE5ISjNWemd0LTVWaWtVWmhIOVRfU1I1RnJwRFZ6eVNCMXZubTI4YzZTYlRYZmJ3eUFCUjdEY9IBZ0FVX3lxTE5TVFp3b2pzc21EbHJ3TW9PNGpmNEhaUjNRZ2J5Rm82M3pHbGtRbEdVdklkVC0tVm5lQmVLRTVoRmtrZTV6bzZHUkNLYV83aHZGZW9hekRlbms3bjhqNG1yYU03dTMwWlE?oc=5"
   },
   {
+    "id": "0e05ccdd84974108307e",
+    "doi": "",
+    "source_type": "news",
+    "source": "Notebookcheck",
+    "region": "international",
+    "title": "Apple Watch to get battery life boost with HMO instead of LTPO OLED display - Notebookcheck",
+    "published_at": "2026-06-03",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ2pHX2xKREJ0N2E1M3piTEVvdmFtbW81UTZ4a0YwT3ZCVU5VWUpJZnhoNTlrdTJ1NWQwS0tpQm1CRGx2Si1CdlFNRV9XcWcyTDloLVp3NUxZTW5jNmg3aHpJY3BfeUhhVVBaQUVBMk02dGIzMnJnSHRBYW0weGoxWkFfcXJlMi0zcVozVE8wRXR1dFQxOVRPMzhicW56Skx4ZW9xMVdTSHMwN1Q2ZGprUWVBVEhjR0p2ZTN5Tw?oc=5",
+    "summary": "Apple Watch to get battery life boost with HMO instead of LTPO OLED display Notebookcheck",
+    "technologies": [
+      "저전력"
+    ],
+    "collected_at": "2026-10-15T12:31:09.017840+00:00",
+    "document_id": "0e05ccdd84974108307e",
+    "published_date": "2026-06-03",
+    "company": [
+      "Apple"
+    ],
+    "technology": [
+      "저전력"
+    ],
+    "keywords": [
+      "LTPO"
+    ],
+    "keyword_scores": {
+      "LTPO": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ2pHX2xKREJ0N2E1M3piTEVvdmFtbW81UTZ4a0YwT3ZCVU5VWUpJZnhoNTlrdTJ1NWQwS0tpQm1CRGx2Si1CdlFNRV9XcWcyTDloLVp3NUxZTW5jNmg3aHpJY3BfeUhhVVBaQUVBMk02dGIzMnJnSHRBYW0weGoxWkFfcXJlMi0zcVozVE8wRXR1dFQxOVRPMzhicW56Skx4ZW9xMVdTSHMwN1Q2ZGprUWVBVEhjR0p2ZTN5Tw?oc=5"
+  },
+  {
+    "id": "d890f799e61ca56f98f6",
+    "doi": "",
+    "source_type": "news",
+    "source": "Tech Times",
+    "region": "international",
+    "title": "LG Display Verifies HMO OLED on Gen-6 Line as Apple Eyes LTPO Successor for Apple Watch - Tech Times",
+    "published_at": "2026-06-02",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbTlndjZZYU1sTUxwOHptNDlfQmhiQ2taeGItNUpmWmU4WnlZNGJ5UlpXT1NRdXFKZkNQQ2JIaDlZQUFGN3VLcklhWVVtS1FCM2p2cC1sZkhmY2xWTE8yYkhnaThmMEppOW55NmFYeVlFcjVxSG5xZ2lIbnYtMmJMbGlqemV1aS05U25IeWlpZXFicEF3NmhEWElUUDFnZmpjeDFYM09FU1ljM1BCcHEwbVNVellkNGlNT0t0YmFIT203akI0NUlhcUxfcVI?oc=5",
+    "summary": "LG Display Verifies HMO OLED on Gen-6 Line as Apple Eyes LTPO Successor for Apple Watch Tech Times",
+    "technologies": [
+      "저전력"
+    ],
+    "collected_at": "2026-10-15T12:31:09.020934+00:00",
+    "document_id": "d890f799e61ca56f98f6",
+    "published_date": "2026-06-02",
+    "company": [
+      "LG디스플레이",
+      "Apple"
+    ],
+    "technology": [
+      "저전력"
+    ],
+    "keywords": [
+      "LTPO"
+    ],
+    "keyword_scores": {
+      "LTPO": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbTlndjZZYU1sTUxwOHptNDlfQmhiQ2taeGItNUpmWmU4WnlZNGJ5UlpXT1NRdXFKZkNQQ2JIaDlZQUFGN3VLcklhWVVtS1FCM2p2cC1sZkhmY2xWTE8yYkhnaThmMEppOW55NmFYeVlFcjVxSG5xZ2lIbnYtMmJMbGlqemV1aS05U25IeWlpZXFicEF3NmhEWElUUDFnZmpjeDFYM09FU1ljM1BCcHEwbVNVellkNGlNT0t0YmFIT203akI0NUlhcUxfcVI?oc=5"
+  },
+  {
     "id": "e1f7a48776693f554739",
     "doi": "10.1002/sdtp.70001_10",
     "source_type": "paper",
@@ -2086,7 +2365,7 @@
       "야외 시인성",
       "제조/공정"
     ],
-    "collected_at": "2026-10-15T12:27:18.981811+00:00",
+    "collected_at": "2026-10-15T12:31:04.366271+00:00",
     "document_id": "e1f7a48776693f554739",
     "published_date": "2026-06-01",
     "company": [],
@@ -2189,7 +2468,7 @@
     "technologies": [
       "제조/공정"
     ],
-    "collected_at": "2026-10-15T12:27:14.685247+00:00",
+    "collected_at": "2026-10-15T12:30:59.211272+00:00",
     "document_id": "a319ad9cecee41a72dd4",
     "published_date": "2026-06-01",
     "company": [],
@@ -2255,7 +2534,7 @@
       "초고휘도",
       "야외 시인성"
     ],
-    "collected_at": "2026-10-15T12:27:18.982276+00:00",
+    "collected_at": "2026-10-15T12:31:04.366743+00:00",
     "document_id": "7f21ff8160c62bd848a0",
     "published_date": "2026-06-01",
     "company": [],
@@ -2502,7 +2781,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-15T12:27:14.685665+00:00",
+    "collected_at": "2026-10-15T12:30:59.211682+00:00",
     "document_id": "1d1162d46eb946a988d0",
     "published_date": "2026-06-01",
     "company": [],
@@ -2566,7 +2845,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-15T12:27:14.685125+00:00",
+    "collected_at": "2026-10-15T12:30:59.211160+00:00",
     "document_id": "16fe0b14ec1a893dc6d9",
     "published_date": "2026-06-01",
     "company": [],
@@ -2590,6 +2869,27 @@
     "source_url": "https://doi.org/10.1002/sdtp.70001_687"
   },
   {
+    "id": "b4243e7f9398b0de3351",
+    "doi": "",
+    "source_type": "news",
+    "source": "finance.biggo.com",
+    "region": "international",
+    "title": "Xiaomi Launches Sub-$100 Smartwatch in Japan, Packs AMOLED Display and 24-Day Battery Life - finance.biggo.com",
+    "published_at": "2026-05-14",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5yMVdnTkdMVU1pVTBWQTRLYTJEZDB6MEVyNE5McmNLcVlyNkhGM1lWaW5kRlZnLUNLdEdnd2xGb0NNd05PY3dQVkVjM0Q1YnlqWHNzU005UnJrTnBvcGx6Yw?oc=5",
+    "summary": "Xiaomi Launches Sub-$100 Smartwatch in Japan, Packs AMOLED Display and 24-Day Battery Life finance.biggo.com",
+    "technologies": [],
+    "collected_at": "2026-10-15T12:31:08.705130+00:00",
+    "document_id": "b4243e7f9398b0de3351",
+    "published_date": "2026-05-14",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5yMVdnTkdMVU1pVTBWQTRLYTJEZDB6MEVyNE5McmNLcVlyNkhGM1lWaW5kRlZnLUNLdEdnd2xGb0NNd05PY3dQVkVjM0Q1YnlqWHNzU005UnJrTnBvcGx6Yw?oc=5"
+  },
+  {
     "id": "f6c093cdeb2ff7ec59bf",
     "doi": "",
     "source_type": "news",
@@ -2602,7 +2902,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-15T12:27:22.637953+00:00",
+    "collected_at": "2026-10-15T12:31:08.090213+00:00",
     "document_id": "f6c093cdeb2ff7ec59bf",
     "published_date": "2026-05-07",
     "company": [
@@ -2633,7 +2933,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.638244+00:00",
+    "collected_at": "2026-10-15T12:31:08.090500+00:00",
     "document_id": "dbccced797d711360d80",
     "published_date": "2026-05-07",
     "company": [
@@ -2664,7 +2964,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.639301+00:00",
+    "collected_at": "2026-10-15T12:31:08.091566+00:00",
     "document_id": "af60fcfb5de0c28c5cc8",
     "published_date": "2026-05-06",
     "company": [
@@ -2695,7 +2995,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.640807+00:00",
+    "collected_at": "2026-10-15T12:31:08.093027+00:00",
     "document_id": "a199a74afe04ce5f9e90",
     "published_date": "2026-05-06",
     "company": [],
@@ -2724,7 +3024,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.641368+00:00",
+    "collected_at": "2026-10-15T12:31:08.093706+00:00",
     "document_id": "6a7f28f968a9b865615d",
     "published_date": "2026-05-06",
     "company": [
@@ -2755,7 +3055,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.639347+00:00",
+    "collected_at": "2026-10-15T12:31:08.091612+00:00",
     "document_id": "e3491e904c20366e31f2",
     "published_date": "2026-05-05",
     "company": [
@@ -2786,7 +3086,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.639208+00:00",
+    "collected_at": "2026-10-15T12:31:08.091470+00:00",
     "document_id": "85565f36b529e4216ade",
     "published_date": "2026-05-05",
     "company": [
@@ -2818,7 +3118,7 @@
       "발광 구조",
       "제조/공정"
     ],
-    "collected_at": "2026-10-15T12:27:22.640593+00:00",
+    "collected_at": "2026-10-15T12:31:08.092837+00:00",
     "document_id": "71bb4813b75be2f11716",
     "published_date": "2026-05-05",
     "company": [
@@ -2853,7 +3153,7 @@
       "초고휘도",
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.639674+00:00",
+    "collected_at": "2026-10-15T12:31:08.091900+00:00",
     "document_id": "1ec4d2d6076c9b8ac433",
     "published_date": "2026-05-05",
     "company": [
@@ -2873,6 +3173,85 @@
     },
     "metrics": [],
     "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNaWJlM3hzNkFieUszMUc3bF91SXNGcm5TRHB0Z0ZTZEpaNGVRdWIxQnRTcTRYa2Z1UFp3MlVFM3FmZmE5VkpCeGp2UDl6TENvMERvUnIzUU90aEkwWE5IbUhKOFFHdWM5cEFRcXJnNm84dGhkR2VXdnhzYzgwNGtuVElR0gGWAUFVX3lxTFB0eGNSblJWeVc5YlRCUWsxNjVpdUVQbTBIR0loeVNUREdKUUhLRnRTRWQyT25iSU9TV3VyR0duSTNjSEZOVjBDODdqOU50X1lHQmFXeHhvRzAzLUhEaG5Jc0h6c1RTU1NxaVBaSU8xODc0Si1lR1ZoVldHMjdITnRmNHp2ZVhEX0w0RlNaN01CQVN6LWN6dw?oc=5"
+  },
+  {
+    "id": "aed5bb42e71eb0c9901d",
+    "doi": "",
+    "source_type": "news",
+    "source": "Gizbot",
+    "region": "international",
+    "title": "OnePlus Watch 4 Launched Globally with LTPO OLED Display, Wear OS 6, Titanium Build: Check Price & Features - Gizbot",
+    "published_at": "2026-04-23",
+    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOaU96eVRiQXhsMUZLcm9VUDRraHhGdV85aUwxdmg0dG5DZ3pkR3NXN19ybnZwMTNaZ2lWcG5xWFZXazF3eWlhWkMwejM0a1R2NUdXOUdzNG1FZUp2TUwzWERNOGNid056d0NKcGhRaWJDWHVXeF85M25xWTgxVXdUcDROeHZuZ0pmeEVZLVU5UkU4TjFaMXBTOHBtbmt3VTVDOFk0SUdGQ2RFZjVWemtmalNlWEN1NmQ1cVAwTFhyRTBDNXhJRHBSWUZmS1EycnpLODl1N3J1LTJYcWVKbjY1MEhBLXdESWRVRk1F?oc=5",
+    "summary": "OnePlus Watch 4 Launched Globally with LTPO OLED Display, Wear OS 6, Titanium Build: Check Price & Features Gizbot",
+    "technologies": [
+      "저전력"
+    ],
+    "collected_at": "2026-10-15T12:31:09.018133+00:00",
+    "document_id": "aed5bb42e71eb0c9901d",
+    "published_date": "2026-04-23",
+    "company": [],
+    "technology": [
+      "저전력"
+    ],
+    "keywords": [
+      "LTPO"
+    ],
+    "keyword_scores": {
+      "LTPO": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOaU96eVRiQXhsMUZLcm9VUDRraHhGdV85aUwxdmg0dG5DZ3pkR3NXN19ybnZwMTNaZ2lWcG5xWFZXazF3eWlhWkMwejM0a1R2NUdXOUdzNG1FZUp2TUwzWERNOGNid056d0NKcGhRaWJDWHVXeF85M25xWTgxVXdUcDROeHZuZ0pmeEVZLVU5UkU4TjFaMXBTOHBtbmt3VTVDOFk0SUdGQ2RFZjVWemtmalNlWEN1NmQ1cVAwTFhyRTBDNXhJRHBSWUZmS1EycnpLODl1N3J1LTJYcWVKbjY1MEhBLXdESWRVRk1F?oc=5"
+  },
+  {
+    "id": "d8be5ccd6c31091adec5",
+    "doi": "",
+    "source_type": "news",
+    "source": "FoneArena.com",
+    "region": "international",
+    "title": "OPPO Watch X3 with 1.5″ LTPO OLED screen, Snapdragon W5 chip, Wear OS 6 + RTOS, titanium case goes global - FoneArena.com",
+    "published_at": "2026-04-21",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPS3NOV0RGV1djdFBRT3RxZjhIUHcwZmpSdUluQm5XQ245a2t3WmZ4STRXMHczSE54WlRaZUdVRkVDYzBQbXJUWGpreUFYVTRMRnV0TTROMGlrZ2J3NDFfdzZ0TVY3LWt0d0dPa2Rlci1tTWJhcmEzYUZVUFFFWG5ZU2cwMNIBiAFBVV95cUxQUC00S3ljdDhvTzNneEZPNGdVcjZKZURNNGJJRU9rZG5CUTFmUTk0WFN3X20yTllOdGlCV1pLZDhEUl8yeEwwSnB5UHNkVjVHSlFycGR5ajRqSURnN2lzdDVUVVhLUVRxekxHSmdzUWlIelZ6a3VtSk1zem5LLUZudzlSV0hMVTlr?oc=5",
+    "summary": "OPPO Watch X3 with 1.5″ LTPO OLED screen, Snapdragon W5 chip, Wear OS 6 + RTOS, titanium case goes global FoneArena.com",
+    "technologies": [
+      "저전력"
+    ],
+    "collected_at": "2026-10-15T12:31:09.018513+00:00",
+    "document_id": "d8be5ccd6c31091adec5",
+    "published_date": "2026-04-21",
+    "company": [],
+    "technology": [
+      "저전력"
+    ],
+    "keywords": [
+      "LTPO"
+    ],
+    "keyword_scores": {
+      "LTPO": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPS3NOV0RGV1djdFBRT3RxZjhIUHcwZmpSdUluQm5XQ245a2t3WmZ4STRXMHczSE54WlRaZUdVRkVDYzBQbXJUWGpreUFYVTRMRnV0TTROMGlrZ2J3NDFfdzZ0TVY3LWt0d0dPa2Rlci1tTWJhcmEzYUZVUFFFWG5ZU2cwMNIBiAFBVV95cUxQUC00S3ljdDhvTzNneEZPNGdVcjZKZURNNGJJRU9rZG5CUTFmUTk0WFN3X20yTllOdGlCV1pLZDhEUl8yeEwwSnB5UHNkVjVHSlFycGR5ajRqSURnN2lzdDVUVVhLUVRxekxHSmdzUWlIelZ6a3VtSk1zem5LLUZudzlSV0hMVTlr?oc=5"
+  },
+  {
+    "id": "083b60b0a20e435b131b",
+    "doi": "",
+    "source_type": "news",
+    "source": "Gagadget.com",
+    "region": "international",
+    "title": "Huawei Unveils Watch Buds 2: Smartwatch and Earbuds Hybrid with Stunning OLED Display and Advanced Features - Gagadget.com",
+    "published_at": "2026-04-20",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSWE0aHRpTWhWUXNOVTN3a013QnZaWUdxTmJwMVdMTW92czR6TXE0MHJoY1lham1YYWFVNV9ubzlCOEdvWG9HV0UtbXhHMUdkMy02c1A2a2c3RW5LUUhEQ3R6cE1VUHZBV1JpRnZhdUJHYWltXzBZd0hBV3otM0ZPbEV5dXllN3JoTko0WTdKM1VHQ2JkNlExLWZzTG5ob3dLWHJxeHBCSWRwM0F6RHBEOU9xRzZoSkEtMGVfdzFsZ19KZDEzekpyQXR2LVczYllsNE4tLdIB2gFBVV95cUxPNkxWZU5adXZyWllIY0tCcGd2UU1rcnJhNzRuM05VWnBEMUp5YzcycUEwWXRrYW5oT1Byajl1b0tyVUNpRWp5WEVjSzJtZjBPQ1hEY2NYU1YySmhTdWUybTNCbjRUcnF2ODBydnR5YUFTLUpIc2w5SERORnQ5NUE3dGNHQVREZUF4dzEwQVlVU25tV2lLQ2Vhb1NUVEN1NzNFSEM2Ul96cUZJUzhTN2txRTFSTWxxRUNzVG1wZUstM1U0WlU1TkdrbGVVSFpSYmtVdWlhaTU5c1FTUQ?oc=5",
+    "summary": "Huawei Unveils Watch Buds 2: Smartwatch and Earbuds Hybrid with Stunning OLED Display and Advanced Features Gagadget.com",
+    "technologies": [],
+    "collected_at": "2026-10-15T12:31:08.705240+00:00",
+    "document_id": "083b60b0a20e435b131b",
+    "published_date": "2026-04-20",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSWE0aHRpTWhWUXNOVTN3a013QnZaWUdxTmJwMVdMTW92czR6TXE0MHJoY1lham1YYWFVNV9ubzlCOEdvWG9HV0UtbXhHMUdkMy02c1A2a2c3RW5LUUhEQ3R6cE1VUHZBV1JpRnZhdUJHYWltXzBZd0hBV3otM0ZPbEV5dXllN3JoTko0WTdKM1VHQ2JkNlExLWZzTG5ob3dLWHJxeHBCSWRwM0F6RHBEOU9xRzZoSkEtMGVfdzFsZ19KZDEzekpyQXR2LVczYllsNE4tLdIB2gFBVV95cUxPNkxWZU5adXZyWllIY0tCcGd2UU1rcnJhNzRuM05VWnBEMUp5YzcycUEwWXRrYW5oT1Byajl1b0tyVUNpRWp5WEVjSzJtZjBPQ1hEY2NYU1YySmhTdWUybTNCbjRUcnF2ODBydnR5YUFTLUpIc2w5SERORnQ5NUE3dGNHQVREZUF4dzEwQVlVU25tV2lLQ2Vhb1NUVEN1NzNFSEM2Ul96cUZJUzhTN2txRTFSTWxxRUNzVG1wZUstM1U0WlU1TkdrbGVVSFpSYmtVdWlhaTU5c1FTUQ?oc=5"
   },
   {
     "id": "f6e45341b9d9c99d30a0",
@@ -2904,6 +3283,56 @@
     },
     "metrics": [],
     "source_url": "https://doi.org/10.1038/s41528-026-00571-3"
+  },
+  {
+    "id": "196a37884557c7bf360a",
+    "doi": "",
+    "source_type": "news",
+    "source": "The Global Energy Association",
+    "region": "international",
+    "title": "Chinese scientists create stretchable OLED display with brightness of conventional displays - The Global Energy Association",
+    "published_at": "2026-04-01",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbDBYQ0FLVkdpLWFST295VkV4STRfbDI3LTk5dWcyWVMtQTJJWW9JVE9Ic0pOOHc1bE5HN2tIbVo1M3ZlSExPdnFrYUxLZm8xUWNDeDVQTDFta2N2cFZnZEc4RlY1dVRXNVJqYmNKTVdWeVU1dmphV3N5MTcxX0dVcF82RXRGMDVUM0tSVE02S0gwVmh4ZzBRc0tYYUg5empGU0RDVEVTX3ZjcDlMT0NHRnNHaTBsaVIzVmV1N05lUkg0QU9qSnBVMTVBdWtMVWY1MWfSAdoBQVVfeXFMTlR2NFoxSks1dnJXZ0lsWWVHTE03b29oeWh0V2gyT1VuVUhLYWxXZHFzcE53SDBEblhVaFRJRXJTMGgxTE5fSzg5Q2xNVmRuU09veEkyQnBZQVhuVWQ5cmNiaU04OUdEU0pXd3ZpZTVhd01YYXNReGJjSF9UaUtDNk9RYmFOWkROaHlkMTBsbHBLUkhCVktVTzlXN3NLOE1sN2NjYkdLV3JHd25sVDhYeWNQM09POW9IWEs3cGpFX3BkbWUwa0JFN2JzTGNhb2dBTVk0LVdUd3VOV2c?oc=5",
+    "summary": "Chinese scientists create stretchable OLED display with brightness of conventional displays The Global Energy Association",
+    "technologies": [],
+    "collected_at": "2026-10-15T12:31:08.705187+00:00",
+    "document_id": "196a37884557c7bf360a",
+    "published_date": "2026-04-01",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbDBYQ0FLVkdpLWFST295VkV4STRfbDI3LTk5dWcyWVMtQTJJWW9JVE9Ic0pOOHc1bE5HN2tIbVo1M3ZlSExPdnFrYUxLZm8xUWNDeDVQTDFta2N2cFZnZEc4RlY1dVRXNVJqYmNKTVdWeVU1dmphV3N5MTcxX0dVcF82RXRGMDVUM0tSVE02S0gwVmh4ZzBRc0tYYUg5empGU0RDVEVTX3ZjcDlMT0NHRnNHaTBsaVIzVmV1N05lUkg0QU9qSnBVMTVBdWtMVWY1MWfSAdoBQVVfeXFMTlR2NFoxSks1dnJXZ0lsWWVHTE03b29oeWh0V2gyT1VuVUhLYWxXZHFzcE53SDBEblhVaFRJRXJTMGgxTE5fSzg5Q2xNVmRuU09veEkyQnBZQVhuVWQ5cmNiaU04OUdEU0pXd3ZpZTVhd01YYXNReGJjSF9UaUtDNk9RYmFOWkROaHlkMTBsbHBLUkhCVktVTzlXN3NLOE1sN2NjYkdLV3JHd25sVDhYeWNQM09POW9IWEs3cGpFX3BkbWUwa0JFN2JzTGNhb2dBTVk0LVdUd3VOV2c?oc=5"
+  },
+  {
+    "id": "e27330d9ef49d0ecb1e3",
+    "doi": "",
+    "source_type": "news",
+    "source": "Nature",
+    "region": "international",
+    "title": "Intrinsically stretchable organic light-emitting-diode with high brightness and stretchability via elastic-microphase-engineered emitter and dual-embedded electrode - Nature",
+    "published_at": "2026-03-25",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5OY1ZZX003SkhzcS1PVU9WcmllWFdSYjB6SWtUQWgyUW1OblZNMzBZOHJsVElLNnBJcmIzQ1ZVc29wcXBTQlJZV2tlQjh4dlF1R2NCVTVZTDRzZzNGNnNz?oc=5",
+    "summary": "Intrinsically stretchable organic light-emitting-diode with high brightness and stretchability via elastic-microphase-engineered emitter and dual-embedded electrode Nature",
+    "technologies": [
+      "초고휘도"
+    ],
+    "collected_at": "2026-10-15T12:31:08.703691+00:00",
+    "document_id": "e27330d9ef49d0ecb1e3",
+    "published_date": "2026-03-25",
+    "company": [],
+    "technology": [
+      "초고휘도"
+    ],
+    "keywords": [
+      "고휘도"
+    ],
+    "keyword_scores": {
+      "고휘도": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5OY1ZZX003SkhzcS1PVU9WcmllWFdSYjB6SWtUQWgyUW1OblZNMzBZOHJsVElLNnBJcmIzQ1ZVc29wcXBTQlJZV2tlQjh4dlF1R2NCVTVZTDRzZzNGNnNz?oc=5"
   },
   {
     "id": "d780723e179937ff7cf8",
@@ -2940,6 +3369,122 @@
     "source_url": "https://www.semanticscholar.org/paper/1ce577b0c4a387f0d46dde74455dc99b10d9998b"
   },
   {
+    "id": "d7eb6ad92084d2eb4ddb",
+    "doi": "",
+    "source_type": "news",
+    "source": "NoypiGeeks",
+    "region": "international",
+    "title": "OPPO Watch X3: TC4 Titanium Alloy, Glucose meter, 1.5″ LTPO OLED, 5-day battery - NoypiGeeks",
+    "published_at": "2026-03-18",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBrOWZPLVdfeThibXlFMHFWbXpVRlJXeFlrcmRoS2MwVENBUldMWXA5T3c1aXRDZUdISWVmMVdrcVI1bk96c3paRVlseVVZOFlsdG81bUlia2ZJMldOV25STGROWQ?oc=5",
+    "summary": "OPPO Watch X3: TC4 Titanium Alloy, Glucose meter, 1.5″ LTPO OLED, 5-day battery NoypiGeeks",
+    "technologies": [
+      "저전력"
+    ],
+    "collected_at": "2026-10-15T12:31:09.021211+00:00",
+    "document_id": "d7eb6ad92084d2eb4ddb",
+    "published_date": "2026-03-18",
+    "company": [],
+    "technology": [
+      "저전력"
+    ],
+    "keywords": [
+      "LTPO"
+    ],
+    "keyword_scores": {
+      "LTPO": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBrOWZPLVdfeThibXlFMHFWbXpVRlJXeFlrcmRoS2MwVENBUldMWXA5T3c1aXRDZUdISWVmMVdrcVI1bk96c3paRVlseVVZOFlsdG81bUlia2ZJMldOV25STGROWQ?oc=5"
+  },
+  {
+    "id": "209e2c566db03c574bca",
+    "doi": "",
+    "source_type": "news",
+    "source": "GIZGUIDE",
+    "region": "international",
+    "title": "OPPO Watch X3 launched: Titanium case, 1.5-inch LTPO OLED screen, Snapdragon W5, and 5 ATM water resistance - GIZGUIDE",
+    "published_at": "2026-03-18",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA3NWZHV3VTT0NjWExBUHZYOEJnWndweXhrTXZTaHphOHNPcUZBSXFVU0NBTmxhREg4clo5STVwZnVOZ0swd1B5NkppOWkyVDFQZ3VzRlhUdVRnZDRwWHZkWFBWRXJfelc4V3hDNw?oc=5",
+    "summary": "OPPO Watch X3 launched: Titanium case, 1.5-inch LTPO OLED screen, Snapdragon W5, and 5 ATM water resistance GIZGUIDE",
+    "technologies": [
+      "저전력"
+    ],
+    "collected_at": "2026-10-15T12:31:09.021092+00:00",
+    "document_id": "209e2c566db03c574bca",
+    "published_date": "2026-03-18",
+    "company": [],
+    "technology": [
+      "저전력"
+    ],
+    "keywords": [
+      "LTPO"
+    ],
+    "keyword_scores": {
+      "LTPO": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA3NWZHV3VTT0NjWExBUHZYOEJnWndweXhrTXZTaHphOHNPcUZBSXFVU0NBTmxhREg4clo5STVwZnVOZ0swd1B5NkppOWkyVDFQZ3VzRlhUdVRnZDRwWHZkWFBWRXJfelc4V3hDNw?oc=5"
+  },
+  {
+    "id": "55260d3a507a49306dc6",
+    "doi": "",
+    "source_type": "news",
+    "source": "Pune Mirror",
+    "region": "international",
+    "title": "iPhone 19e LTPO OLED upgrade promises powerful leap for budget buyers - Pune Mirror",
+    "published_at": "2026-03-17",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5QcFhZTlVZNVFKZU1zTHdjSnhPWWhkekhjb3lzMEcyejRMUzk0ajFscUNXckNBRE5fR1d3YTRkQ0c5YWxZUkNmVy1KSzBLNndpWUFzUENQOFV3cExpcWxJenhFbVBnRTdScXlLOUU1ZUwzeXNObE5R?oc=5",
+    "summary": "iPhone 19e LTPO OLED upgrade promises powerful leap for budget buyers Pune Mirror",
+    "technologies": [
+      "저전력"
+    ],
+    "collected_at": "2026-10-15T12:31:09.021259+00:00",
+    "document_id": "55260d3a507a49306dc6",
+    "published_date": "2026-03-17",
+    "company": [],
+    "technology": [
+      "저전력"
+    ],
+    "keywords": [
+      "LTPO"
+    ],
+    "keyword_scores": {
+      "LTPO": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5QcFhZTlVZNVFKZU1zTHdjSnhPWWhkekhjb3lzMEcyejRMUzk0ajFscUNXckNBRE5fR1d3YTRkQ0c5YWxZUkNmVy1KSzBLNndpWUFzUENQOFV3cExpcWxJenhFbVBnRTdScXlLOUU1ZUwzeXNObE5R?oc=5"
+  },
+  {
+    "id": "29ebbb36c0dbc8c66bdd",
+    "doi": "",
+    "source_type": "news",
+    "source": "FoneArena.com",
+    "region": "international",
+    "title": "OPPO Watch X3 with 1.5″ LTPO OLED screen, Snapdragon W5 chip, titanium case, 5ATM water resistance, and eSIM support announced - FoneArena.com",
+    "published_at": "2026-03-17",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ERjJfSGRMUkNmaVo1NEpDV0d3aW85eEtQMnVjWmg1QUY4MG9VR0RsV0c4dkxNby1na0lGX0xEa3EzTi1Dbk5mVEhpR05pMmVSdzNzRkNmbHpfS1FmNm1FUkRNSXoya3BvNl9ZQTZ4LVM5N1VCLWRqUnI0b9IBgAFBVV95cUxNdnBjQnVVZ2MwMGRDbzBrdzB3elI0S3V1OFA2aXZ5bjlBYm05VjdQQU11dmZwaDZOenV5YlN5bFU1NmtiUXRLc1ZUZmxVczNDV19fbUJObWJKVWtnYTNTdEVncm9mMTYwV3p3dFFlTWhPTUNqam8tNGF6Y2JobXJTWA?oc=5",
+    "summary": "OPPO Watch X3 with 1.5″ LTPO OLED screen, Snapdragon W5 chip, titanium case, 5ATM water resistance, and eSIM support announced FoneArena.com",
+    "technologies": [
+      "저전력"
+    ],
+    "collected_at": "2026-10-15T12:31:09.018266+00:00",
+    "document_id": "29ebbb36c0dbc8c66bdd",
+    "published_date": "2026-03-17",
+    "company": [],
+    "technology": [
+      "저전력"
+    ],
+    "keywords": [
+      "LTPO"
+    ],
+    "keyword_scores": {
+      "LTPO": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ERjJfSGRMUkNmaVo1NEpDV0d3aW85eEtQMnVjWmg1QUY4MG9VR0RsV0c4dkxNby1na0lGX0xEa3EzTi1Dbk5mVEhpR05pMmVSdzNzRkNmbHpfS1FmNm1FUkRNSXoya3BvNl9ZQTZ4LVM5N1VCLWRqUnI0b9IBgAFBVV95cUxNdnBjQnVVZ2MwMGRDbzBrdzB3elI0S3V1OFA2aXZ5bjlBYm05VjdQQU11dmZwaDZOenV5YlN5bFU1NmtiUXRLc1ZUZmxVczNDV19fbUJObWJKVWtnYTNTdEVncm9mMTYwV3p3dFFlTWhPTUNqam8tNGF6Y2JobXJTWA?oc=5"
+  },
+  {
     "id": "964d383ec2c57393d088",
     "doi": "10.1109/i3ctcon68242.2026.11507690",
     "source_type": "paper",
@@ -2974,7 +3519,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.639883+00:00",
+    "collected_at": "2026-10-15T12:31:08.092160+00:00",
     "document_id": "2965183c094441cfea04",
     "published_date": "2026-03-13",
     "company": [
@@ -3005,7 +3550,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-15T12:27:18.982404+00:00",
+    "collected_at": "2026-10-15T12:31:04.366898+00:00",
     "document_id": "432b097efa7eb8953333",
     "published_date": "2026-02-15",
     "company": [],
@@ -3034,7 +3579,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.637687+00:00",
+    "collected_at": "2026-10-15T12:31:08.089943+00:00",
     "document_id": "8fb6863c7a72b1cfe47e",
     "published_date": "2026-02-12",
     "company": [
@@ -3065,7 +3610,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.640684+00:00",
+    "collected_at": "2026-10-15T12:31:08.092932+00:00",
     "document_id": "8313e24a4e252844bc5c",
     "published_date": "2026-02-12",
     "company": [
@@ -3084,6 +3629,37 @@
     "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tcG9jaFNIeElJNlNVZDNZREFpZEhBaHNZU2wyWlRsLTQ3WFVLbG5YTFY4MVZRSVJYQWpWWTlldF9GOFd6NHV5NjByRGtRcTVhZjFiSzduMm5UYmFnLVlYbXk2V0xJTGxqM3hIazdiVjhCQ0E?oc=5"
   },
   {
+    "id": "b1d06da0e6578b983678",
+    "doi": "",
+    "source_type": "news",
+    "source": "OLED-Info",
+    "region": "international",
+    "title": "TCL CSOT develops inkjet printing materials for polarizer-free OLED color filter deposition - OLED-Info",
+    "published_at": "2026-02-08",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdnMwaEVhN18wVi1GSG15SU1BZW1tR0RZaV9ReHdIeDQzb3lPV09xbl9pX1g3TFFieHVhd05zS3dDZjc2VTZiUkhrVW8tVVFWdkQ3NzlOQW51ai1SY0Npem1sU25hTVY1U2tZWl90dUxHbDdPckNqSEQ1US1VTDl3WGlWQWVuZTltMXhuNVdlNVFYcS1uZHZtZlcwdzd1MlJxSzdB?oc=5",
+    "summary": "TCL CSOT develops inkjet printing materials for polarizer-free OLED color filter deposition OLED-Info",
+    "technologies": [
+      "야외 시인성"
+    ],
+    "collected_at": "2026-10-15T12:31:09.315014+00:00",
+    "document_id": "b1d06da0e6578b983678",
+    "published_date": "2026-02-08",
+    "company": [
+      "TCL CSOT"
+    ],
+    "technology": [
+      "야외 시인성"
+    ],
+    "keywords": [
+      "무편광판"
+    ],
+    "keyword_scores": {
+      "무편광판": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdnMwaEVhN18wVi1GSG15SU1BZW1tR0RZaV9ReHdIeDQzb3lPV09xbl9pX1g3TFFieHVhd05zS3dDZjc2VTZiUkhrVW8tVVFWdkQ3NzlOQW51ai1SY0Npem1sU25hTVY1U2tZWl90dUxHbDdPckNqSEQ1US1VTDl3WGlWQWVuZTltMXhuNVdlNVFYcS1uZHZtZlcwdzd1MlJxSzdB?oc=5"
+  },
+  {
     "id": "99aaf93b5e5434f63652",
     "doi": "",
     "source_type": "news",
@@ -3096,7 +3672,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:22.886554+00:00",
+    "collected_at": "2026-10-15T12:31:08.335811+00:00",
     "document_id": "99aaf93b5e5434f63652",
     "published_date": "2026-02-06",
     "company": [],
@@ -3111,6 +3687,27 @@
     },
     "metrics": [],
     "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9GbGtJbE1UMEJkRVlpaWw3TjlkaWpNQmR1M0YtRTcxTjY5R05pLVc0ZVRUYVg2amlxaXliMlBfcUJGRm5ORjE3MVRNMmx5U0U?oc=5"
+  },
+  {
+    "id": "4c0130c0b2448f0d0732",
+    "doi": "",
+    "source_type": "news",
+    "source": "Nokiamob",
+    "region": "international",
+    "title": "HMD Watch X1 and P1 Announced: AMOLED Displays, IP68 Ratings, and 5-Day Battery - Nokiamob",
+    "published_at": "2026-01-26",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQzVYLXBpWXBtSFV2YzhJLXJud3R2SUxBQTliSHNxNXlna2RwTW9oQlR5Nk5KVElDeE9WYlN4Zk1udmpzQmNmUGc3enh3WVg3OGlTNjdCLVdpWTVuRTZLTEtGbktON3FNd1h0TlBLa1dPZXZIR2o3aU5oRXBPSDVtV2xtR3FkTjFubElyTDgxSUJtUQ?oc=5",
+    "summary": "HMD Watch X1 and P1 Announced: AMOLED Displays, IP68 Ratings, and 5-Day Battery Nokiamob",
+    "technologies": [],
+    "collected_at": "2026-10-15T12:31:08.706245+00:00",
+    "document_id": "4c0130c0b2448f0d0732",
+    "published_date": "2026-01-26",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQzVYLXBpWXBtSFV2YzhJLXJud3R2SUxBQTliSHNxNXlna2RwTW9oQlR5Nk5KVElDeE9WYlN4Zk1udmpzQmNmUGc3enh3WVg3OGlTNjdCLVdpWTVuRTZLTEtGbktON3FNd1h0TlBLa1dPZXZIR2o3aU5oRXBPSDVtV2xtR3FkTjFubElyTDgxSUJtUQ?oc=5"
   },
   {
     "id": "2cf1a1279270ef416b17",
@@ -3179,6 +3776,35 @@
     "source_url": "https://doi.org/10.1039/d5mh02129d/v2/review1"
   },
   {
+    "id": "048265396e606fe81ddf",
+    "doi": "",
+    "source_type": "news",
+    "source": "아시아경제",
+    "region": "international",
+    "title": "[Interview] 3M: \"Next-Generation Polarizer-Free OLED... Developing Solutions for Foldables\" [CES 2026] - 아시아경제",
+    "published_at": "2026-01-08",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xeTk2Ykw3RFVvZThrTWw1cl9zYlpfQ2dFOE9GMzFNV21QektXNzVtck1kQ1RPdDlJVExTbHN0V2hlUkJPX3RTSVBNaEF0SmZwVjJrd1BzWU1fdHZJNUp4dW1pZlQ?oc=5",
+    "summary": "[Interview] 3M: \"Next-Generation Polarizer-Free OLED... Developing Solutions for Foldables\" [CES 2026] 아시아경제",
+    "technologies": [
+      "야외 시인성"
+    ],
+    "collected_at": "2026-10-15T12:31:09.315251+00:00",
+    "document_id": "048265396e606fe81ddf",
+    "published_date": "2026-01-08",
+    "company": [],
+    "technology": [
+      "야외 시인성"
+    ],
+    "keywords": [
+      "무편광판"
+    ],
+    "keyword_scores": {
+      "무편광판": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xeTk2Ykw3RFVvZThrTWw1cl9zYlpfQ2dFOE9GMzFNV21QektXNzVtck1kQ1RPdDlJVExTbHN0V2hlUkJPX3RTSVBNaEF0SmZwVjJrd1BzWU1fdHZJNUp4dW1pZlQ?oc=5"
+  },
+  {
     "id": "bb38a293f6596f031ed5",
     "doi": "10.1039/d5mh02129d/v1/decision1",
     "source_type": "paper",
@@ -3201,6 +3827,35 @@
     "source_url": "https://doi.org/10.1039/d5mh02129d/v1/decision1"
   },
   {
+    "id": "8d85128ab5701c0367e5",
+    "doi": "",
+    "source_type": "news",
+    "source": "Nature",
+    "region": "international",
+    "title": "LTPO-based pixel circuit with highly uniform luminance and low flicker for variable refresh rate in AMOLED displays - Nature",
+    "published_at": "2025-12-30",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82QWd4bVhHbDVjdGxsbl9Mb3ZNQTVTeVpGbWJvNUNubUc0YVpwdEhlUFBKR3FIQkhRZjNrdkZrLURHaXExS2lZWGVWSVRmSmg1Q0ZmeVJoSFNNMnVrRnBR?oc=5",
+    "summary": "LTPO-based pixel circuit with highly uniform luminance and low flicker for variable refresh rate in AMOLED displays Nature",
+    "technologies": [
+      "저전력"
+    ],
+    "collected_at": "2026-10-15T12:31:08.704220+00:00",
+    "document_id": "8d85128ab5701c0367e5",
+    "published_date": "2025-12-30",
+    "company": [],
+    "technology": [
+      "저전력"
+    ],
+    "keywords": [
+      "LTPO"
+    ],
+    "keyword_scores": {
+      "LTPO": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82QWd4bVhHbDVjdGxsbl9Mb3ZNQTVTeVpGbWJvNUNubUc0YVpwdEhlUFBKR3FIQkhRZjNrdkZrLURHaXExS2lZWGVWSVRmSmg1Q0ZmeVJoSFNNMnVrRnBR?oc=5"
+  },
+  {
     "id": "59100e3a066fdbd63a00",
     "doi": "",
     "source_type": "news",
@@ -3213,7 +3868,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-15T12:27:22.886996+00:00",
+    "collected_at": "2026-10-15T12:31:08.336248+00:00",
     "document_id": "59100e3a066fdbd63a00",
     "published_date": "2025-12-23",
     "company": [
@@ -3294,7 +3949,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-15T12:27:14.684637+00:00",
+    "collected_at": "2026-10-15T12:30:59.210696+00:00",
     "document_id": "23cd24a59a71dd732beb",
     "published_date": "2025-12-04",
     "company": [],
@@ -3311,6 +3966,35 @@
     "source_url": "https://doi.org/10.36463/idw.2025.0195"
   },
   {
+    "id": "0fad79ae5bb830d4c353",
+    "doi": "",
+    "source_type": "news",
+    "source": "PCGH",
+    "region": "international",
+    "title": "Asus ROG Swift PG27AQWP-W im Test: Ausgezeichneter Tandem-OLED-Monitor - PCGH",
+    "published_at": "2025-12-03",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN2NBalpNQUM4cjNma053YzVRdzM0QkFWQXhrVDAwRThyWmZjcVpxb3p5Szhubkt4UnlYeXB5dUhRbF9NZE1JaHRmY081bWdoWldqZVMxY1V1bU91aVFfQkU0Q0N0Tm9JR2dIRkpvcDFmTVhodkpaTFZNaEZ6c1YzU0tfWXlEcHJ6b1UyclMteFdTYUwyOGVHT3BCSzBnUGx2eDdRVFRnR2MzRTFMY3VXWG5LQWlkVzRU?oc=5",
+    "summary": "Asus ROG Swift PG27AQWP-W im Test: Ausgezeichneter Tandem-OLED-Monitor PCGH",
+    "technologies": [
+      "초고휘도"
+    ],
+    "collected_at": "2026-10-15T12:31:09.020886+00:00",
+    "document_id": "0fad79ae5bb830d4c353",
+    "published_date": "2025-12-03",
+    "company": [],
+    "technology": [
+      "초고휘도"
+    ],
+    "keywords": [
+      "휘도"
+    ],
+    "keyword_scores": {
+      "휘도": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN2NBalpNQUM4cjNma053YzVRdzM0QkFWQXhrVDAwRThyWmZjcVpxb3p5Szhubkt4UnlYeXB5dUhRbF9NZE1JaHRmY081bWdoWldqZVMxY1V1bU91aVFfQkU0Q0N0Tm9JR2dIRkpvcDFmTVhodkpaTFZNaEZ6c1YzU0tfWXlEcHJ6b1UyclMteFdTYUwyOGVHT3BCSzBnUGx2eDdRVFRnR2MzRTFMY3VXWG5LQWlkVzRU?oc=5"
+  },
+  {
     "id": "e0a07dd0a6e8ea05d3e5",
     "doi": "10.47116/apjcri.2025.11.60",
     "source_type": "paper",
@@ -3324,7 +4008,7 @@
       "야외 시인성"
     ],
     "citation_count": 0,
-    "collected_at": "2026-10-15T12:27:38.995058+00:00",
+    "collected_at": "2026-10-15T12:31:25.417025+00:00",
     "document_id": "e0a07dd0a6e8ea05d3e5",
     "published_date": "2025-11-28",
     "company": [],
@@ -3363,6 +4047,85 @@
     "source_url": "https://doi.org/10.1039/d5mh02129d/v1/review1"
   },
   {
+    "id": "3e22bee031bca74ef028",
+    "doi": "",
+    "source_type": "news",
+    "source": "Huawei Central",
+    "region": "international",
+    "title": "Huawei Mate 80 RS could skip tandem OLED for new display tech - Huawei Central",
+    "published_at": "2025-11-13",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdFFkb3N2ZU1COFBDS3BFdFV1MFowVVFhXzlRSDB3cXRYMHlTbTRRTlVObDZIelhDa1VaNkZVQ1JLUEw5MmFVTTRTUmRhYlV3Mm5FY1hBUy1pbWlNU1JkT2lTVmxac0tnZ1R0V2NWdHJVQmtibEc5SEYtazFfd3NmblU3a2Z2OXBnTjdGX1ZwNEk1VHpXS2hN0gGcAUFVX3lxTFBub0tqMjFRbkhjbzN1cTN5ZFBRNGhLRktreXJNbXBxTU1MdTdJMkwtUzNMSnd0TWxvRGFuaUlBY2pLMVFNY1F2ZmNQQ2tHcFdmRFpucGJReExGZVZObGJvS2Zhd25MYmRFb0RJVUlpMGw1OGNWNF8wUTJGcXZsVVdCTUtDWi1GV2F0NWdkQkE3aHhnR1gzbHpjYWUyTg?oc=5",
+    "summary": "Huawei Mate 80 RS could skip tandem OLED for new display tech Huawei Central",
+    "technologies": [
+      "발광 구조"
+    ],
+    "collected_at": "2026-10-15T12:31:09.018189+00:00",
+    "document_id": "3e22bee031bca74ef028",
+    "published_date": "2025-11-13",
+    "company": [],
+    "technology": [
+      "발광 구조"
+    ],
+    "keywords": [
+      "탠덤 OLED"
+    ],
+    "keyword_scores": {
+      "탠덤 OLED": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdFFkb3N2ZU1COFBDS3BFdFV1MFowVVFhXzlRSDB3cXRYMHlTbTRRTlVObDZIelhDa1VaNkZVQ1JLUEw5MmFVTTRTUmRhYlV3Mm5FY1hBUy1pbWlNU1JkT2lTVmxac0tnZ1R0V2NWdHJVQmtibEc5SEYtazFfd3NmblU3a2Z2OXBnTjdGX1ZwNEk1VHpXS2hN0gGcAUFVX3lxTFBub0tqMjFRbkhjbzN1cTN5ZFBRNGhLRktreXJNbXBxTU1MdTdJMkwtUzNMSnd0TWxvRGFuaUlBY2pLMVFNY1F2ZmNQQ2tHcFdmRFpucGJReExGZVZObGJvS2Zhd25MYmRFb0RJVUlpMGw1OGNWNF8wUTJGcXZsVVdCTUtDWi1GV2F0NWdkQkE3aHhnR1gzbHpjYWUyTg?oc=5"
+  },
+  {
+    "id": "af859421342df6efcfba",
+    "doi": "",
+    "source_type": "news",
+    "source": "VideoCardz.com",
+    "region": "international",
+    "title": "ASUS 27-inch Tandem ROG Swift OLED monitors with 720p/720Hz mode officially priced at $1099 - VideoCardz.com",
+    "published_at": "2025-11-07",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYmVzdWNYQ3lvblkzRUxGMm9kb29aMktXdTl0anFYQmZHTnY4bHVfZHdYaUdFUXVvYWdQR2gyX2w3LVVmcjAtOF9tUWwyMWxqd0kxQ051SjluMEhKWVBya1F3NTFKRFhoUy1qWU9lMl95WVlpcHlDX0RiNks3QWdwS1NjSFJkTERza3RTU0JoY2lZVTZESHNEY1loV21SaHRUYnh3LUhWY2toZ2dZN1VkWDNPaUJPakNuTXc?oc=5",
+    "summary": "ASUS 27-inch Tandem ROG Swift OLED monitors with 720p/720Hz mode officially priced at $1099 VideoCardz.com",
+    "technologies": [
+      "초고휘도"
+    ],
+    "collected_at": "2026-10-15T12:31:09.020273+00:00",
+    "document_id": "af859421342df6efcfba",
+    "published_date": "2025-11-07",
+    "company": [],
+    "technology": [
+      "초고휘도"
+    ],
+    "keywords": [
+      "휘도"
+    ],
+    "keyword_scores": {
+      "휘도": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYmVzdWNYQ3lvblkzRUxGMm9kb29aMktXdTl0anFYQmZHTnY4bHVfZHdYaUdFUXVvYWdQR2gyX2w3LVVmcjAtOF9tUWwyMWxqd0kxQ051SjluMEhKWVBya1F3NTFKRFhoUy1qWU9lMl95WVlpcHlDX0RiNks3QWdwS1NjSFJkTERza3RTU0JoY2lZVTZESHNEY1loV21SaHRUYnh3LUhWY2toZ2dZN1VkWDNPaUJPakNuTXc?oc=5"
+  },
+  {
+    "id": "6c1979c78e5adce006ed",
+    "doi": "",
+    "source_type": "news",
+    "source": "Notebookcheck",
+    "region": "international",
+    "title": "Garmin's plans for future smartwatches with extra-bright MicroLED displays - Notebookcheck",
+    "published_at": "2025-11-06",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa3Y3TTJzS3pqSVplY01HVVI2V0VmZXo2YUJmY25jdTBFTjJOaDBpR2RMYl9vdno2RE0yY1ZLTXg0QmlBRkV5OG1ubnpmNV9rWnA1bUtEOEo4ZGZHcmk5aXYwZ3lBSmlkU2ozam1FX2hEM0twbkdBUm5SeUpvM3JpYjNuQUo5MGNiV0NfbTVHTEpQbjY3OXlBN1pITW9ZekF2c2Q5dnhneGpSMFlEbzhpYzIxYndZeENVV25j?oc=5",
+    "summary": "Garmin's plans for future smartwatches with extra-bright MicroLED displays Notebookcheck",
+    "technologies": [],
+    "collected_at": "2026-10-15T12:31:08.704463+00:00",
+    "document_id": "6c1979c78e5adce006ed",
+    "published_date": "2025-11-06",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa3Y3TTJzS3pqSVplY01HVVI2V0VmZXo2YUJmY25jdTBFTjJOaDBpR2RMYl9vdno2RE0yY1ZLTXg0QmlBRkV5OG1ubnpmNV9rWnA1bUtEOEo4ZGZHcmk5aXYwZ3lBSmlkU2ozam1FX2hEM0twbkdBUm5SeUpvM3JpYjNuQUo5MGNiV0NfbTVHTEpQbjY3OXlBN1pITW9ZekF2c2Q5dnhneGpSMFlEbzhpYzIxYndZeENVV25j?oc=5"
+  },
+  {
     "id": "fb479627732082157500",
     "doi": "10.4108/dtip.9843",
     "source_type": "paper",
@@ -3394,6 +4157,35 @@
     "source_url": "https://doi.org/10.4108/dtip.9843"
   },
   {
+    "id": "cf916c124fb15f9fd342",
+    "doi": "",
+    "source_type": "news",
+    "source": "OLED-Info",
+    "region": "international",
+    "title": "Omdia forecasts fast growth for polarizer-free OLED panels - OLED-Info",
+    "published_at": "2025-11-01",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOOFBmNDhMaFVxN3lYVWJjeEk2R2QzRS1FY3g5cWpCWVRmdXZaZk01aXd5Z0N4N0g1OXE1RUtsQlc1Ny1XYl9BdUNCRzVmX1BMc1RkRzFpOHZSaFVXS0xoYTBwNmZJalpHQlIyYXlUQVFtN0NYcTB6ZC0tNW5XMXdYaHdfcGNDT28?oc=5",
+    "summary": "Omdia forecasts fast growth for polarizer-free OLED panels OLED-Info",
+    "technologies": [
+      "야외 시인성"
+    ],
+    "collected_at": "2026-10-15T12:31:09.315801+00:00",
+    "document_id": "cf916c124fb15f9fd342",
+    "published_date": "2025-11-01",
+    "company": [],
+    "technology": [
+      "야외 시인성"
+    ],
+    "keywords": [
+      "무편광판"
+    ],
+    "keyword_scores": {
+      "무편광판": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOOFBmNDhMaFVxN3lYVWJjeEk2R2QzRS1FY3g5cWpCWVRmdXZaZk01aXd5Z0N4N0g1OXE1RUtsQlc1Ny1XYl9BdUNCRzVmX1BMc1RkRzFpOHZSaFVXS0xoYTBwNmZJalpHQlIyYXlUQVFtN0NYcTB6ZC0tNW5XMXdYaHdfcGNDT28?oc=5"
+  },
+  {
     "id": "db8e67e4399610985b7b",
     "doi": "",
     "source_type": "news",
@@ -3406,7 +4198,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-15T12:27:22.888544+00:00",
+    "collected_at": "2026-10-15T12:31:08.337793+00:00",
     "document_id": "db8e67e4399610985b7b",
     "published_date": "2025-09-24",
     "company": [],
@@ -3421,6 +4213,93 @@
     },
     "metrics": [],
     "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBOUzFsWFBoSUNqRWNQOGVQT0t5U3pGaDlMT09YUFE1S29mWldNUEFyTVg1eTJRVWxfelJ0dlNQMEdqeEVLMnlCYkxSTW0?oc=5"
+  },
+  {
+    "id": "5e599a63b1dd2a16444e",
+    "doi": "",
+    "source_type": "news",
+    "source": "iPhone in Canada",
+    "region": "international",
+    "title": "20th Anniversary iPhone May Sport COE OLED Display - iPhone in Canada",
+    "published_at": "2025-09-23",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWVBqc1JyU3NOYkNNN28yVTdSMFd6Qk9ZNnhGdGNzSE1ENXpCcFlwcUU2Sm5xM0ZraDkydGpRSlBBSWRIN0w0TlVLbk53S1E3R1lrUVJmMVkxb25uNEZYM2gtdmJTSWUycXZhR2JsYndCVTN1blBsMlZmaFFwdHI4VS1faElONW95WGc?oc=5",
+    "summary": "20th Anniversary iPhone May Sport COE OLED Display iPhone in Canada",
+    "technologies": [
+      "야외 시인성"
+    ],
+    "collected_at": "2026-10-15T12:31:09.316393+00:00",
+    "document_id": "5e599a63b1dd2a16444e",
+    "published_date": "2025-09-23",
+    "company": [],
+    "technology": [
+      "야외 시인성"
+    ],
+    "keywords": [
+      "COE display"
+    ],
+    "keyword_scores": {
+      "COE display": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWVBqc1JyU3NOYkNNN28yVTdSMFd6Qk9ZNnhGdGNzSE1ENXpCcFlwcUU2Sm5xM0ZraDkydGpRSlBBSWRIN0w0TlVLbk53S1E3R1lrUVJmMVkxb25uNEZYM2gtdmJTSWUycXZhR2JsYndCVTN1blBsMlZmaFFwdHI4VS1faElONW95WGc?oc=5"
+  },
+  {
+    "id": "3779a2fca11d19b36667",
+    "doi": "",
+    "source_type": "news",
+    "source": "Gizmochina",
+    "region": "international",
+    "title": "Galaxy S26 Ultra may finally use Samsung’s M14 OLED panel alongside CoE display tech - Gizmochina",
+    "published_at": "2025-09-22",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdGNHa2tieUkwWWlFXzJYYjRaSlk2dnhXNklrSHpLY3pJMmNWQ1RLUVhLZFZrNExtUzNkNVJ2YVp4RU5oVWVzemFqZU8xZ29NWWZhTlNpNjY3OEpqVzBNYl9oYXRiY1ZFSW1zazBaMTI2cDZCaWpwa2RyZ2JjWmw2SUNwektKejgxRWhBdF9iWmxpdmk4S2pKOWdaUmZ3YzNZT2lDUDc1ZWllUER2aTFIUllyb004LXYxUjBCb1RLOA?oc=5",
+    "summary": "Galaxy S26 Ultra may finally use Samsung’s M14 OLED panel alongside CoE display tech Gizmochina",
+    "technologies": [
+      "야외 시인성"
+    ],
+    "collected_at": "2026-10-15T12:31:09.316936+00:00",
+    "document_id": "3779a2fca11d19b36667",
+    "published_date": "2025-09-22",
+    "company": [],
+    "technology": [
+      "야외 시인성"
+    ],
+    "keywords": [
+      "COE display"
+    ],
+    "keyword_scores": {
+      "COE display": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdGNHa2tieUkwWWlFXzJYYjRaSlk2dnhXNklrSHpLY3pJMmNWQ1RLUVhLZFZrNExtUzNkNVJ2YVp4RU5oVWVzemFqZU8xZ29NWWZhTlNpNjY3OEpqVzBNYl9oYXRiY1ZFSW1zazBaMTI2cDZCaWpwa2RyZ2JjWmw2SUNwektKejgxRWhBdF9iWmxpdmk4S2pKOWdaUmZ3YzNZT2lDUDc1ZWllUER2aTFIUllyb004LXYxUjBCb1RLOA?oc=5"
+  },
+  {
+    "id": "f230fa5034d0208507f2",
+    "doi": "",
+    "source_type": "news",
+    "source": "Sammy Fans",
+    "region": "international",
+    "title": "New report details M14 OLED, COE display for Galaxy S26 Ultra - Sammy Fans",
+    "published_at": "2025-09-21",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQ2Z2MzRiQzN3N0QtaFZXR01fcjVpZUdQUTJjSTJmMEMzYWxtU2RwT3VmMGtEaDd3SmVFekI5NUNNRTBQTDVDVVE0emU3WC0zUDVFb3VfcFJ0aENRNFZTQlFLamxjUXRGWWxQa3FRQlhTaEs1bENhd0xoNHptcm9pZHoxaGpmUUhmN2c40gGQAUFVX3lxTE9WNHpYSXh6VUR1cnNqcEN0bU1yNlM2RlFpSTc2c1l0Y1JSUFB3MDNON3RyR0o5RW1BRlRRVVBKQU84T0dMVXVKZEV5SDhxWHNLa3BQdkJndWk4NWRYdk5zVkpxc1htbjg5aFNhOUxXOE8tcjBnaTQ1a0UyWWtCX052cmhQcFRYTDNYckZqc1UyTQ?oc=5",
+    "summary": "New report details M14 OLED, COE display for Galaxy S26 Ultra Sammy Fans",
+    "technologies": [
+      "야외 시인성"
+    ],
+    "collected_at": "2026-10-15T12:31:09.316879+00:00",
+    "document_id": "f230fa5034d0208507f2",
+    "published_date": "2025-09-21",
+    "company": [],
+    "technology": [
+      "야외 시인성"
+    ],
+    "keywords": [
+      "COE display"
+    ],
+    "keyword_scores": {
+      "COE display": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQ2Z2MzRiQzN3N0QtaFZXR01fcjVpZUdQUTJjSTJmMEMzYWxtU2RwT3VmMGtEaDd3SmVFekI5NUNNRTBQTDVDVVE0emU3WC0zUDVFb3VfcFJ0aENRNFZTQlFLamxjUXRGWWxQa3FRQlhTaEs1bENhd0xoNHptcm9pZHoxaGpmUUhmN2c40gGQAUFVX3lxTE9WNHpYSXh6VUR1cnNqcEN0bU1yNlM2RlFpSTc2c1l0Y1JSUFB3MDNON3RyR0o5RW1BRlRRVVBKQU84T0dMVXVKZEV5SDhxWHNLa3BQdkJndWk4NWRYdk5zVkpxc1htbjg5aFNhOUxXOE8tcjBnaTQ1a0UyWWtCX052cmhQcFRYTDNYckZqc1UyTQ?oc=5"
   },
   {
     "id": "2275fe36198818cb689c",
@@ -3443,6 +4322,137 @@
     "keyword_scores": {},
     "metrics": [],
     "source_url": "https://doi.org/10.1117/12.3064065"
+  },
+  {
+    "id": "026fac1c7f2b301f0522",
+    "doi": "",
+    "source_type": "news",
+    "source": "Tech Edition",
+    "region": "international",
+    "title": "Asus unveils US$4,000 ProArt P16 with 4K tandem OLED and RTX 5090 - Tech Edition",
+    "published_at": "2025-09-13",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQY3l3eGxOZTFvZEduVkpVTFllUEtPdHlxcm5Vd2NMSVpCSUhqSTVQMmNYU1Ywc0VsTEc5WW5Da3NyZUFoQTJBZ0xLQ2VrLVF0V1p2OW15RVUzb3BYNVg4NU9BZTBLM0txbVJlRm5VLUtndVAzckJLVmZpdUR6aGtZVG9RM1lDSk15MElwVG9oTXo?oc=5",
+    "summary": "Asus unveils US$4,000 ProArt P16 with 4K tandem OLED and RTX 5090 Tech Edition",
+    "technologies": [
+      "발광 구조"
+    ],
+    "collected_at": "2026-10-15T12:31:09.020744+00:00",
+    "document_id": "026fac1c7f2b301f0522",
+    "published_date": "2025-09-13",
+    "company": [],
+    "technology": [
+      "발광 구조"
+    ],
+    "keywords": [
+      "탠덤 OLED"
+    ],
+    "keyword_scores": {
+      "탠덤 OLED": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQY3l3eGxOZTFvZEduVkpVTFllUEtPdHlxcm5Vd2NMSVpCSUhqSTVQMmNYU1Ywc0VsTEc5WW5Da3NyZUFoQTJBZ0xLQ2VrLVF0V1p2OW15RVUzb3BYNVg4NU9BZTBLM0txbVJlRm5VLUtndVAzckJLVmZpdUR6aGtZVG9RM1lDSk15MElwVG9oTXo?oc=5"
+  },
+  {
+    "id": "f5230952d51c928465c7",
+    "doi": "",
+    "source_type": "news",
+    "source": "OLED-Info",
+    "region": "international",
+    "title": "Apple introduces its new iPhones and smartwatches, all with LTPO AMOLED displays - OLED-Info",
+    "published_at": "2025-09-10",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeTNucXhRbkN6Qjdoc3ZQaUZjRGJrTExhdE9yakwxTDMxN3h5M29oaUdDMGJORS1qSUlSaFN3UzRSMUZrOHJ0c0h3RnE4N3BXRkhuRndTTDZGUFVIdDA1bFV6WklkT3dHTmpET0NPY3o3RkRVQUJKOUppakx0eWJFMHdOTERlVWpNbGtqWWR1UE9rRFB6dFR4LUdlLUlrMno2Rnc?oc=5",
+    "summary": "Apple introduces its new iPhones and smartwatches, all with LTPO AMOLED displays OLED-Info",
+    "technologies": [
+      "저전력"
+    ],
+    "collected_at": "2026-10-15T12:31:09.018603+00:00",
+    "document_id": "f5230952d51c928465c7",
+    "published_date": "2025-09-10",
+    "company": [
+      "Apple"
+    ],
+    "technology": [
+      "저전력"
+    ],
+    "keywords": [
+      "LTPO"
+    ],
+    "keyword_scores": {
+      "LTPO": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeTNucXhRbkN6Qjdoc3ZQaUZjRGJrTExhdE9yakwxTDMxN3h5M29oaUdDMGJORS1qSUlSaFN3UzRSMUZrOHJ0c0h3RnE4N3BXRkhuRndTTDZGUFVIdDA1bFV6WklkT3dHTmpET0NPY3o3RkRVQUJKOUppakx0eWJFMHdOTERlVWpNbGtqWWR1UE9rRFB6dFR4LUdlLUlrMno2Rnc?oc=5"
+  },
+  {
+    "id": "6f29b330f8fdcc0178b8",
+    "doi": "",
+    "source_type": "news",
+    "source": "Garmin Rumors",
+    "region": "international",
+    "title": "Why Garmin’s First MicroLED Watch Uses More Battery Than Its AMOLED Counterpart - Garmin Rumors",
+    "published_at": "2025-09-05",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWnptS2NiOTZwLTh0aHpkVFJxQ2xLS2FlSEprOEVXWVR0UXJMUWhvRmFuWVBfN2VxT2xRd3VEWGJ5WFZLZkZUVEZRZHloYnBLa21WUGg1ZzBIZVBZaHRNTnVmUk80aVdQeTlqSlIwWVZfT1ZGVHJiNVBmeWkwZTZkOHRUaEZyMkwyTU9VUTZGbEtWdThZYUR3QktvNTZIOWpvaWhNV05oZw?oc=5",
+    "summary": "Why Garmin’s First MicroLED Watch Uses More Battery Than Its AMOLED Counterpart Garmin Rumors",
+    "technologies": [],
+    "collected_at": "2026-10-15T12:31:08.705015+00:00",
+    "document_id": "6f29b330f8fdcc0178b8",
+    "published_date": "2025-09-05",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWnptS2NiOTZwLTh0aHpkVFJxQ2xLS2FlSEprOEVXWVR0UXJMUWhvRmFuWVBfN2VxT2xRd3VEWGJ5WFZLZkZUVEZRZHloYnBLa21WUGg1ZzBIZVBZaHRNTnVmUk80aVdQeTlqSlIwWVZfT1ZGVHJiNVBmeWkwZTZkOHRUaEZyMkwyTU9VUTZGbEtWdThZYUR3QktvNTZIOWpvaWhNV05oZw?oc=5"
+  },
+  {
+    "id": "8cf065f729a2164c0e47",
+    "doi": "",
+    "source_type": "news",
+    "source": "Wareable",
+    "region": "international",
+    "title": "MicroLED smartwatches have arrived: Here's what it means for you - Wareable",
+    "published_at": "2025-09-03",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQkFXNmFLeXlXZnZOU2Vac1FDdTFaLTVxaFFEYVoxcllEVDYwTmRvWGhCNGhtOF9aM0k0WEdKVTJuYTk1VTE3Y2xOV3dNZ0YxbjFVZXVqcmI1SGVyVTJPTHpXNWxUbE4xTW5LRG4xdXFWa1k0NjU3bGtCMUR0WXg3MkNvVlFsVGlFZ2pLX2tGZEd1N2VUZ0JfakF5TW5IMmFVSHJr?oc=5",
+    "summary": "MicroLED smartwatches have arrived: Here's what it means for you Wareable",
+    "technologies": [],
+    "collected_at": "2026-10-15T12:31:08.704361+00:00",
+    "document_id": "8cf065f729a2164c0e47",
+    "published_date": "2025-09-03",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQkFXNmFLeXlXZnZOU2Vac1FDdTFaLTVxaFFEYVoxcllEVDYwTmRvWGhCNGhtOF9aM0k0WEdKVTJuYTk1VTE3Y2xOV3dNZ0YxbjFVZXVqcmI1SGVyVTJPTHpXNWxUbE4xTW5LRG4xdXFWa1k0NjU3bGtCMUR0WXg3MkNvVlFsVGlFZ2pLX2tGZEd1N2VUZ0JfakF5TW5IMmFVSHJr?oc=5"
+  },
+  {
+    "id": "3532d8127872af50c583",
+    "doi": "",
+    "source_type": "news",
+    "source": "OLED-Info",
+    "region": "international",
+    "title": "Garmin launches the first microLED smartwatch, with a round 1.4\" 4,500-nits display - OLED-Info",
+    "published_at": "2025-09-03",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQnc2dm1EUnFwXzNvYUJtZUUzbmlLektaNE12bi1uMUdDZjd0WHZybVdtLWZIQXRRa2gzTXRsVVJYTEMydklKeXFfX1h2Q1RXTmxrTHJfNllobDdvaDJ3YzJhY0Jud0t3SmN4ekpkTWtoc1ZzdUFkNTJwXzNGaFJWUmxrQWtoRFZkc1JEV0x2aVRTcW5BLTc4S0Rn?oc=5",
+    "summary": "Garmin launches the first microLED smartwatch, with a round 1.4\" 4,500-nits display OLED-Info",
+    "technologies": [
+      "초고휘도"
+    ],
+    "collected_at": "2026-10-15T12:31:08.704042+00:00",
+    "document_id": "3532d8127872af50c583",
+    "published_date": "2025-09-03",
+    "company": [],
+    "technology": [
+      "초고휘도"
+    ],
+    "keywords": [
+      "휘도"
+    ],
+    "keyword_scores": {
+      "휘도": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQnc2dm1EUnFwXzNvYUJtZUUzbmlLektaNE12bi1uMUdDZjd0WHZybVdtLWZIQXRRa2gzTXRsVVJYTEMydklKeXFfX1h2Q1RXTmxrTHJfNllobDdvaDJ3YzJhY0Jud0t3SmN4ekpkTWtoc1ZzdUFkNTJwXzNGaFJWUmxrQWtoRFZkc1JEV0x2aVRTcW5BLTc4S0Rn?oc=5"
   },
   {
     "id": "55be3c0bdb734923405b",
@@ -3473,6 +4483,182 @@
     },
     "metrics": [],
     "source_url": "https://www.semanticscholar.org/paper/c9a6e1cfc0d400150a61d2cdcfb7ded12b309ae7"
+  },
+  {
+    "id": "97845e0df19878e14c05",
+    "doi": "",
+    "source_type": "news",
+    "source": "AppleInsider",
+    "region": "international",
+    "title": "iPhone 20 could be next to get Tandem OLED treatment - AppleInsider",
+    "published_at": "2025-08-27",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWG05bTBiZk40NlVWeEU2OEkxVnBUZlo0cF9CSEY4X3U5cDhkUzc4VXkyWWd1aGNVZm5nVGxsWlhVYkZ4UHdyOHEwQUg1OWZBZ1hONGxMTTM5TmdwdUFjQU55MVd2RW1CcXVlRm5CU0NsMVNsSklCckNuS09Bc1NRSDVGSEFnUlNzQU9IZXVlbFVETHBBVXhlRHRoNA?oc=5",
+    "summary": "iPhone 20 could be next to get Tandem OLED treatment AppleInsider",
+    "technologies": [
+      "발광 구조"
+    ],
+    "collected_at": "2026-10-15T12:31:09.018449+00:00",
+    "document_id": "97845e0df19878e14c05",
+    "published_date": "2025-08-27",
+    "company": [
+      "Apple"
+    ],
+    "technology": [
+      "발광 구조"
+    ],
+    "keywords": [
+      "탠덤 OLED"
+    ],
+    "keyword_scores": {
+      "탠덤 OLED": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWG05bTBiZk40NlVWeEU2OEkxVnBUZlo0cF9CSEY4X3U5cDhkUzc4VXkyWWd1aGNVZm5nVGxsWlhVYkZ4UHdyOHEwQUg1OWZBZ1hONGxMTTM5TmdwdUFjQU55MVd2RW1CcXVlRm5CU0NsMVNsSklCckNuS09Bc1NRSDVGSEFnUlNzQU9IZXVlbFVETHBBVXhlRHRoNA?oc=5"
+  },
+  {
+    "id": "859c19efdaab3af65e0a",
+    "doi": "",
+    "source_type": "news",
+    "source": "MacRumors",
+    "region": "international",
+    "title": "Future iPhones Could Adopt Superior Tandem OLED Display Tech - MacRumors",
+    "published_at": "2025-08-04",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNenJwNTNER202cmM0dHNWTkprMzZ3RkRadXl0cmJWYXNCNW9zZFl3SVV2QXNrV3BKYktDMDB6QUlaczFPMmlISWxldkRLWlNJNW1QakNGMVVPemJEbFp4YlJiQlF1SU8zWEkxUVRiNkdzUTV1NVJuYjJ2TnZPbThEUWRDSQ?oc=5",
+    "summary": "Future iPhones Could Adopt Superior Tandem OLED Display Tech MacRumors",
+    "technologies": [
+      "발광 구조"
+    ],
+    "collected_at": "2026-10-15T12:31:09.018363+00:00",
+    "document_id": "859c19efdaab3af65e0a",
+    "published_date": "2025-08-04",
+    "company": [],
+    "technology": [
+      "발광 구조"
+    ],
+    "keywords": [
+      "탠덤 OLED"
+    ],
+    "keyword_scores": {
+      "탠덤 OLED": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNenJwNTNER202cmM0dHNWTkprMzZ3RkRadXl0cmJWYXNCNW9zZFl3SVV2QXNrV3BKYktDMDB6QUlaczFPMmlISWxldkRLWlNJNW1QakNGMVVPemJEbFp4YlJiQlF1SU8zWEkxUVRiNkdzUTV1NVJuYjJ2TnZPbThEUWRDSQ?oc=5"
+  },
+  {
+    "id": "4cc0abc322d3865f27a2",
+    "doi": "",
+    "source_type": "news",
+    "source": "Wccftech",
+    "region": "international",
+    "title": "New Leak Reveals Galaxy S26 Ultra To Feature Larger 6.89-Inch CoE OLED Display With Ultra-Thin Bezels, Brighter Panel, And Improved Battery Efficiency - Wccftech",
+    "published_at": "2025-07-17",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPclkxNnRHbGRzZWlFRHVIajVvVTcyNlA5QWJ5dzJ6OUtGc0RNM0d6U2VrR0RwMnpoWDZVbkc1Ym9Db1N5QmMwZUQxY1NMU1BNQTYxNjB4blBydGRCa2d4c0lzWm92ZUU3WTlabzN0NTB0OVFGYlhLdlhQQktqeEh5bEtncnlMRXZyd1JCQU5DQ1RBZGFCU3RROGRPbjlGakJ6OW96aW8zWnkxX3BNZlVBS1ZxTndqSElpMVdLOdIBwgFBVV95cUxPNXVXRkl3a3pzaDc2Y1dQMUszMjFmcXdfNEhrNS1aZ1MxWGpqMkhKMjFoWndyX3gyMHluRmxDeVBmdG5wMmtqc2NZQUNRdHhqWTNZTmxuY1JMSjVTbHJyM2FwSmtyd0ZmX1RzQ1d2M2NVSko4V3YxTGh1N280SUYwMHVVbGFEWmV3RWVic0hYVFBWeUMwbmxoRmpzLVBwOVZBTlNJY3BhY1MyX2dmR3Y3Q1V3VjZYTEo1TVE3VThuYUFqQQ?oc=5",
+    "summary": "New Leak Reveals Galaxy S26 Ultra To Feature Larger 6.89-Inch CoE OLED Display With Ultra-Thin Bezels, Brighter Panel, And Improved Battery Efficiency Wccftech",
+    "technologies": [
+      "야외 시인성"
+    ],
+    "collected_at": "2026-10-15T12:31:09.315540+00:00",
+    "document_id": "4cc0abc322d3865f27a2",
+    "published_date": "2025-07-17",
+    "company": [],
+    "technology": [
+      "야외 시인성"
+    ],
+    "keywords": [
+      "COE display"
+    ],
+    "keyword_scores": {
+      "COE display": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPclkxNnRHbGRzZWlFRHVIajVvVTcyNlA5QWJ5dzJ6OUtGc0RNM0d6U2VrR0RwMnpoWDZVbkc1Ym9Db1N5QmMwZUQxY1NMU1BNQTYxNjB4blBydGRCa2d4c0lzWm92ZUU3WTlabzN0NTB0OVFGYlhLdlhQQktqeEh5bEtncnlMRXZyd1JCQU5DQ1RBZGFCU3RROGRPbjlGakJ6OW96aW8zWnkxX3BNZlVBS1ZxTndqSElpMVdLOdIBwgFBVV95cUxPNXVXRkl3a3pzaDc2Y1dQMUszMjFmcXdfNEhrNS1aZ1MxWGpqMkhKMjFoWndyX3gyMHluRmxDeVBmdG5wMmtqc2NZQUNRdHhqWTNZTmxuY1JMSjVTbHJyM2FwSmtyd0ZmX1RzQ1d2M2NVSko4V3YxTGh1N280SUYwMHVVbGFEWmV3RWVic0hYVFBWeUMwbmxoRmpzLVBwOVZBTlNJY3BhY1MyX2dmR3Y3Q1V3VjZYTEo1TVE3VThuYUFqQQ?oc=5"
+  },
+  {
+    "id": "2ae41a706f128467706c",
+    "doi": "",
+    "source_type": "news",
+    "source": "Phandroid",
+    "region": "international",
+    "title": "Galaxy S26 Ultra may get brighter CoE OLED display and battery boost - Phandroid",
+    "published_at": "2025-07-15",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNd1ZtbElweUtzbG5qZ0ZTYjlCSFFWUFR5Rmh2SnN1ZnVBUE42bmExZE4wMS1kZE84Y29wWGhMNEpJVUFocGVTUEJWcW9UOEctbkRHak4tMlVheHNuZ0Q3bTJxa2UyT0lkbGJQWGItTEx0S1JoZVZjSUtIZnFHbXpkWnlDbUVDWGVNaXdxeTlnb1lKTS1LT2ZhZVA4SDAwWFNuQmREWtIBqgFBVV95cUxPNUlxMlRyRkhHY196clBKVVZtU1d5akZIM1ZpWV9ZUURORjBIbnpDSVRuQlh5b1pnVWpIYm9UclEyTkFVTWN0YUpudVBGR0tEYnI4SFBBbGpTQU1NZlk1NGpnQUs0dVBfV29QQ2hFYTRmR1l2aS11amhlLThpS1YyMnRRRldBeGluclRNNU82NmFha0FWbUh2R2M1cUV2aThlQWJVbHJqY0tZZw?oc=5",
+    "summary": "Galaxy S26 Ultra may get brighter CoE OLED display and battery boost Phandroid",
+    "technologies": [
+      "야외 시인성"
+    ],
+    "collected_at": "2026-10-15T12:31:09.316205+00:00",
+    "document_id": "2ae41a706f128467706c",
+    "published_date": "2025-07-15",
+    "company": [],
+    "technology": [
+      "야외 시인성"
+    ],
+    "keywords": [
+      "COE display"
+    ],
+    "keyword_scores": {
+      "COE display": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNd1ZtbElweUtzbG5qZ0ZTYjlCSFFWUFR5Rmh2SnN1ZnVBUE42bmExZE4wMS1kZE84Y29wWGhMNEpJVUFocGVTUEJWcW9UOEctbkRHak4tMlVheHNuZ0Q3bTJxa2UyT0lkbGJQWGItTEx0S1JoZVZjSUtIZnFHbXpkWnlDbUVDWGVNaXdxeTlnb1lKTS1LT2ZhZVA4SDAwWFNuQmREWtIBqgFBVV95cUxPNUlxMlRyRkhHY196clBKVVZtU1d5akZIM1ZpWV9ZUURORjBIbnpDSVRuQlh5b1pnVWpIYm9UclEyTkFVTWN0YUpudVBGR0tEYnI4SFBBbGpTQU1NZlk1NGpnQUs0dVBfV29QQ2hFYTRmR1l2aS11amhlLThpS1YyMnRRRldBeGluclRNNU82NmFha0FWbUh2R2M1cUV2aThlQWJVbHJqY0tZZw?oc=5"
+  },
+  {
+    "id": "c020432b030bb13b92ce",
+    "doi": "",
+    "source_type": "news",
+    "source": "Techlusive",
+    "region": "international",
+    "title": "Galaxy S26 Ultra’s New OLED Display Could Outshine iPhone 17 Pro Max: Here’s What CoE OLED Brings to the Table - Techlusive",
+    "published_at": "2025-07-14",
+    "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPTjFvaThoV0swd08tZzQzV2FnT3M1RWNaRXhoTmtkUE1ncW9DZHQ4cWg1eUlJby04Xy15M2JwRTZWYzhxTVhuMkctV3kzZlNHZk1NWEdVamxrbnE3TVBuTkNuUWxHbXJEakQzMGJLVS12dVBiX3poOUpRb0ZBQU9KeC10VHNNZEdncmYxRXJvX3cyVXczd0pkLU1ldWd6cVJOSGh5M1NxLUVpTDlmN2poa19FZjF2ampFQm1zVGVSWHZtOWctaVpYQkpsQ28taHI0cDhyT1JQeFpLODZ2OVh5YnpSaUhNVVZLU2hlMlI1VlhySEkwY1JSVjJaN1lwZFJBNm8xdVZxdVFUZTYtUkxteDNzc295c1lFamY0UkFiY2dUMDctR1VpalpsTWFxWlE4ZlhzODNRU2hhZ9IBvwJBVV95cUxNdFZwVlVaekdJc3NNaTMteHZqR2pmMnh0dzZLbHFsNGZXU3JwN1Z4akxhekJQSVl0OGUxeTQtNkE1elBWZENZZWIyLWVDYnJDQlEydklTcE1UT0dhOS1Pc0tEaFRZT1NLRFNJOVhERnl2aEh4OW9Dc3NscDVwTkF1c0tCMVRyUHg5OWJuWmxQc2tOb2wtX3hYRGF6SW1hcFZsY0p3aEg2ZDl5RURtWWFqZU1QTldJclVvUjNVcDhIYllVSUk3S2ZBZTVzZF9rMTJpeW9jRzFNZG1mMWxHTXhreGlaMU90TEVycE1nRlAxSUFDZjIybGM5S1drZE93UVN0Q3Azdm5EcHlrRFlSZkw2SDFtcjQ0ZGR1RGVUM0w3TnFkTXVyelBOTm80a0dPX0Qxczk2Y2NUS2dYYTNHbTZF?oc=5",
+    "summary": "Galaxy S26 Ultra’s New OLED Display Could Outshine iPhone 17 Pro Max: Here’s What CoE OLED Brings to the Table Techlusive",
+    "technologies": [
+      "야외 시인성"
+    ],
+    "collected_at": "2026-10-15T12:31:09.317010+00:00",
+    "document_id": "c020432b030bb13b92ce",
+    "published_date": "2025-07-14",
+    "company": [],
+    "technology": [
+      "야외 시인성"
+    ],
+    "keywords": [
+      "COE display"
+    ],
+    "keyword_scores": {
+      "COE display": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPTjFvaThoV0swd08tZzQzV2FnT3M1RWNaRXhoTmtkUE1ncW9DZHQ4cWg1eUlJby04Xy15M2JwRTZWYzhxTVhuMkctV3kzZlNHZk1NWEdVamxrbnE3TVBuTkNuUWxHbXJEakQzMGJLVS12dVBiX3poOUpRb0ZBQU9KeC10VHNNZEdncmYxRXJvX3cyVXczd0pkLU1ldWd6cVJOSGh5M1NxLUVpTDlmN2poa19FZjF2ampFQm1zVGVSWHZtOWctaVpYQkpsQ28taHI0cDhyT1JQeFpLODZ2OVh5YnpSaUhNVVZLU2hlMlI1VlhySEkwY1JSVjJaN1lwZFJBNm8xdVZxdVFUZTYtUkxteDNzc295c1lFamY0UkFiY2dUMDctR1VpalpsTWFxWlE4ZlhzODNRU2hhZ9IBvwJBVV95cUxNdFZwVlVaekdJc3NNaTMteHZqR2pmMnh0dzZLbHFsNGZXU3JwN1Z4akxhekJQSVl0OGUxeTQtNkE1elBWZENZZWIyLWVDYnJDQlEydklTcE1UT0dhOS1Pc0tEaFRZT1NLRFNJOVhERnl2aEh4OW9Dc3NscDVwTkF1c0tCMVRyUHg5OWJuWmxQc2tOb2wtX3hYRGF6SW1hcFZsY0p3aEg2ZDl5RURtWWFqZU1QTldJclVvUjNVcDhIYllVSUk3S2ZBZTVzZF9rMTJpeW9jRzFNZG1mMWxHTXhreGlaMU90TEVycE1nRlAxSUFDZjIybGM5S1drZE93UVN0Q3Azdm5EcHlrRFlSZkw2SDFtcjQ0ZGR1RGVUM0w3TnFkTXVyelBOTm80a0dPX0Qxczk2Y2NUS2dYYTNHbTZF?oc=5"
+  },
+  {
+    "id": "965969f71012b37a3acf",
+    "doi": "",
+    "source_type": "news",
+    "source": "SammyGuru",
+    "region": "international",
+    "title": "Galaxy S26 Ultra to Feature Thinner, Brighter and More Efficient CoE OLED Display - SammyGuru",
+    "published_at": "2025-07-14",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTzJYc29IVi1oUkpiNWJNcktnQ0VqQkMtNUhWVGd5RG42NG5EMG1fT1NUcGZjOGNuUW9LN20xLWYyQlpLUnMxaUNOWmxqVFhDUWxaV2REUVh2TXZpM2VFMzY0eDJPaXVud0RGamNlWVFzQW54NHgtdlZmUVpqSTVmMjVEREVPd1RQZHBEU0xuRUg4UDVSUDY3RWo0VVlhdFVhZjVzUzhn?oc=5",
+    "summary": "Galaxy S26 Ultra to Feature Thinner, Brighter and More Efficient CoE OLED Display SammyGuru",
+    "technologies": [
+      "야외 시인성"
+    ],
+    "collected_at": "2026-10-15T12:31:09.315189+00:00",
+    "document_id": "965969f71012b37a3acf",
+    "published_date": "2025-07-14",
+    "company": [],
+    "technology": [
+      "야외 시인성"
+    ],
+    "keywords": [
+      "COE display"
+    ],
+    "keyword_scores": {
+      "COE display": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTzJYc29IVi1oUkpiNWJNcktnQ0VqQkMtNUhWVGd5RG42NG5EMG1fT1NUcGZjOGNuUW9LN20xLWYyQlpLUnMxaUNOWmxqVFhDUWxaV2REUVh2TXZpM2VFMzY0eDJPaXVud0RGamNlWVFzQW54NHgtdlZmUVpqSTVmMjVEREVPd1RQZHBEU0xuRUg4UDVSUDY3RWo0VVlhdFVhZjVzUzhn?oc=5"
   },
   {
     "id": "428a11d6146ad26f4745",
@@ -3509,7 +4695,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-15T12:27:22.887527+00:00",
+    "collected_at": "2026-10-15T12:31:08.336740+00:00",
     "document_id": "d213e8cd38afab2f08a8",
     "published_date": "2025-06-24",
     "company": [
@@ -3570,7 +4756,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-15T12:27:18.981578+00:00",
+    "collected_at": "2026-10-15T12:31:04.366016+00:00",
     "document_id": "9bfdea3ca57e207f0abd",
     "published_date": "2025-06-01",
     "company": [],
@@ -3601,7 +4787,7 @@
       "야외 시인성"
     ],
     "citation_count": 0,
-    "collected_at": "2026-10-15T12:28:12.965833+00:00",
+    "collected_at": "2026-10-15T12:31:59.482323+00:00",
     "document_id": "8f4c6b4917032b041e7f",
     "published_date": "2025-06-01",
     "company": [],
@@ -3665,7 +4851,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-15T12:27:18.982138+00:00",
+    "collected_at": "2026-10-15T12:31:04.366608+00:00",
     "document_id": "4b90979bb535e44eea9c",
     "published_date": "2025-06-01",
     "company": [],
@@ -3682,6 +4868,64 @@
     "source_url": "https://doi.org/10.1002/sdtp.18333"
   },
   {
+    "id": "ccdbfc34c7143cdf5b9f",
+    "doi": "",
+    "source_type": "news",
+    "source": "Notebookcheck",
+    "region": "international",
+    "title": "Huawei's first tandem OLED tablet gets a 2025 refresh with a 50MP camera - Notebookcheck",
+    "published_at": "2025-05-16",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbVoyemFtQmo5ZDhiUVoybnBpcEN6dDhzUzRaX3dreF9iMXRON2IzUE93X0N1VjlpSlF2NjJGMVlUZDQ3dGxWb1o4bHNvR1otWW85M1FIMzgxUnpEazNaY1R2Z3FvSVRKaU15UW9WNjZBckwwZ3ZTVXlmYUtTZXZfSEdlNUpQdE5rVU5uZHJFc1V0UF9keFMzd2RSOWY1X08tNl9RaGNDX3p2Umw1ajZmSWNzMzZWU3BV?oc=5",
+    "summary": "Huawei's first tandem OLED tablet gets a 2025 refresh with a 50MP camera Notebookcheck",
+    "technologies": [
+      "발광 구조"
+    ],
+    "collected_at": "2026-10-15T12:31:09.019393+00:00",
+    "document_id": "ccdbfc34c7143cdf5b9f",
+    "published_date": "2025-05-16",
+    "company": [],
+    "technology": [
+      "발광 구조"
+    ],
+    "keywords": [
+      "탠덤 OLED"
+    ],
+    "keyword_scores": {
+      "탠덤 OLED": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbVoyemFtQmo5ZDhiUVoybnBpcEN6dDhzUzRaX3dreF9iMXRON2IzUE93X0N1VjlpSlF2NjJGMVlUZDQ3dGxWb1o4bHNvR1otWW85M1FIMzgxUnpEazNaY1R2Z3FvSVRKaU15UW9WNjZBckwwZ3ZTVXlmYUtTZXZfSEdlNUpQdE5rVU5uZHJFc1V0UF9keFMzd2RSOWY1X08tNl9RaGNDX3p2Umw1ajZmSWNzMzZWU3BV?oc=5"
+  },
+  {
+    "id": "265bb7b89677a2c4c2eb",
+    "doi": "",
+    "source_type": "news",
+    "source": "FoneArena.com",
+    "region": "international",
+    "title": "HUAWEI MatePad Pro 12.2″ (2025) with Tandem OLED PaperMatte Display announced - FoneArena.com",
+    "published_at": "2025-05-15",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOGdFb2dJNlotMldKdk1oQTBuZUprMjJsLUZWNUJjYlRGZmk1YUY5TC1qaWNNODFWUGhNcllHV0ZSd0piVGhkRENJMU9GT3JIdUt0VUtOOHdCZTZrZWc5ZUs3eFFxcl82MGNja2t0Yk9QVW9IWTdMMlg0UEVURXp3VVFfNEI1QzlFM3BCaEVlR3VuaERIV2psbUNR0gGfAUFVX3lxTE5jS1IwOUNvc3ZwMzhqWEQ0SEdKWURtMGtWX1d6MFRTMjIzMGNFOWk1VklWeml3dmctNEo5M1VUVms0OWQwaWt4YWI2cGdlUzRDeGplVl8zZG1DUFYxWFE4c2xreEhrS1M2VUl2S2lianRUMEZ6VURlLVltVkxyUDdOQVlydWVmTVRsOERaTmVLTUczOTd2SE1pMElyQW1HSQ?oc=5",
+    "summary": "HUAWEI MatePad Pro 12.2″ (2025) with Tandem OLED PaperMatte Display announced FoneArena.com",
+    "technologies": [
+      "발광 구조"
+    ],
+    "collected_at": "2026-10-15T12:31:09.020842+00:00",
+    "document_id": "265bb7b89677a2c4c2eb",
+    "published_date": "2025-05-15",
+    "company": [],
+    "technology": [
+      "발광 구조"
+    ],
+    "keywords": [
+      "탠덤 OLED"
+    ],
+    "keyword_scores": {
+      "탠덤 OLED": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOGdFb2dJNlotMldKdk1oQTBuZUprMjJsLUZWNUJjYlRGZmk1YUY5TC1qaWNNODFWUGhNcllHV0ZSd0piVGhkRENJMU9GT3JIdUt0VUtOOHdCZTZrZWc5ZUs3eFFxcl82MGNja2t0Yk9QVW9IWTdMMlg0UEVURXp3VVFfNEI1QzlFM3BCaEVlR3VuaERIV2psbUNR0gGfAUFVX3lxTE5jS1IwOUNvc3ZwMzhqWEQ0SEdKWURtMGtWX1d6MFRTMjIzMGNFOWk1VklWeml3dmctNEo5M1VUVms0OWQwaWt4YWI2cGdlUzRDeGplVl8zZG1DUFYxWFE4c2xreEhrS1M2VUl2S2lianRUMEZ6VURlLVltVkxyUDdOQVlydWVmTVRsOERaTmVLTUczOTd2SE1pMElyQW1HSQ?oc=5"
+  },
+  {
     "id": "b21c677e9f534f439109",
     "doi": "",
     "source_type": "news",
@@ -3694,7 +4938,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-15T12:27:22.887781+00:00",
+    "collected_at": "2026-10-15T12:31:08.336969+00:00",
     "document_id": "b21c677e9f534f439109",
     "published_date": "2025-05-06",
     "company": [
@@ -3711,6 +4955,150 @@
     },
     "metrics": [],
     "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1OdzBoWTBKU1RmbmhGT2EtWXZiYmhES1psYjhYUjlKNDNYZmMyUGxWX21vUTFGdjZpWGJDamVxaF9aMTJpaUthcTl5b1RzUQ?oc=5"
+  },
+  {
+    "id": "608c5eb5d55d9b9f7e0f",
+    "doi": "",
+    "source_type": "news",
+    "source": "OLED-Info",
+    "region": "international",
+    "title": "Omdia sees an increased adoption of tandem OLED panels in IT devices, but longer-term growth is limited - OLED-Info",
+    "published_at": "2025-04-25",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVWtIZVc3Tmx2dW0zOEJib01RbEFBNF93c041NE5tMEVsZF8yMWZTZ0FUMVQ0bXlhVXNwNUdnM0tpbk5jbmFjUmlLQnhCT3l1WlRNZDhkeF9mZnBSTzRhV1A5Z000Uldxb09NanRzWnZ5YXpGb19hd2FGZnI1ckxvUmhldHIzTVVQMy1xNnB5TlZuU0wya0lLYUlXakpzTjlDN3ZJRkxpOA?oc=5",
+    "summary": "Omdia sees an increased adoption of tandem OLED panels in IT devices, but longer-term growth is limited OLED-Info",
+    "technologies": [
+      "발광 구조"
+    ],
+    "collected_at": "2026-10-15T12:31:09.018737+00:00",
+    "document_id": "608c5eb5d55d9b9f7e0f",
+    "published_date": "2025-04-25",
+    "company": [],
+    "technology": [
+      "발광 구조"
+    ],
+    "keywords": [
+      "탠덤 OLED"
+    ],
+    "keyword_scores": {
+      "탠덤 OLED": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVWtIZVc3Tmx2dW0zOEJib01RbEFBNF93c041NE5tMEVsZF8yMWZTZ0FUMVQ0bXlhVXNwNUdnM0tpbk5jbmFjUmlLQnhCT3l1WlRNZDhkeF9mZnBSTzRhV1A5Z000Uldxb09NanRzWnZ5YXpGb19hd2FGZnI1ckxvUmhldHIzTVVQMy1xNnB5TlZuU0wya0lLYUlXakpzTjlDN3ZJRkxpOA?oc=5"
+  },
+  {
+    "id": "c11e02c5117b4766183a",
+    "doi": "",
+    "source_type": "news",
+    "source": "TweakTown",
+    "region": "international",
+    "title": "Apple's first foldable iPad expected after 2028: new high-end OLED tandem display and COE tech - TweakTown",
+    "published_at": "2025-03-10",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQU2lOM2RIN1ZuS3d6UU5TeWlzZlpMTUhraWRIZk9VRHVDMm1WME5VM0t2VThMdngyVWdWZ2NQWnR5UTFkRjdET290bkhQU2lWR2RsalZsVHBHR1VBazZjbTVLNmRjTzFXWWFjR1UyT29aMi1EU0kzODlxUmh0YlFQWGc0S0ZBSDBnaHVDUXRuUzZXbTRvejR2YjBLN0hSQzNLa253WlMyV21ITW0weXpWNWVrQWxaVUQ4STUyQ2hjakNGZUVQUm9WNEpPUzZ0djJTemxPVlRhd2U?oc=5",
+    "summary": "Apple's first foldable iPad expected after 2028: new high-end OLED tandem display and COE tech TweakTown",
+    "technologies": [],
+    "collected_at": "2026-10-15T12:31:09.315980+00:00",
+    "document_id": "c11e02c5117b4766183a",
+    "published_date": "2025-03-10",
+    "company": [
+      "Apple"
+    ],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQU2lOM2RIN1ZuS3d6UU5TeWlzZlpMTUhraWRIZk9VRHVDMm1WME5VM0t2VThMdngyVWdWZ2NQWnR5UTFkRjdET290bkhQU2lWR2RsalZsVHBHR1VBazZjbTVLNmRjTzFXWWFjR1UyT29aMi1EU0kzODlxUmh0YlFQWGc0S0ZBSDBnaHVDUXRuUzZXbTRvejR2YjBLN0hSQzNLa253WlMyV21ITW0weXpWNWVrQWxaVUQ4STUyQ2hjakNGZUVQUm9WNEpPUzZ0djJTemxPVlRhd2U?oc=5"
+  },
+  {
+    "id": "ee9b8724c72a4fbcd11a",
+    "doi": "",
+    "source_type": "news",
+    "source": "NoypiGeeks",
+    "region": "international",
+    "title": "HONOR Watch 5 Ultra: Titanium alloy, 1.5″ LTPO OLED, ECG, 15-day battery - NoypiGeeks",
+    "published_at": "2025-03-03",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPbFIwdTRHWmRob0FYekluYmp3V3NyMG1Yc1RWTEZ4VXVfREl6RlVsMnUtLXVGejhSTGVEbFoxVmx3QlgxSkItQ3JNekJ2ZFppTTcxQVNxNjRwbjEtRzJOYVZqTHIzcUtHSnpZ?oc=5",
+    "summary": "HONOR Watch 5 Ultra: Titanium alloy, 1.5″ LTPO OLED, ECG, 15-day battery NoypiGeeks",
+    "technologies": [
+      "저전력"
+    ],
+    "collected_at": "2026-10-15T12:31:09.021365+00:00",
+    "document_id": "ee9b8724c72a4fbcd11a",
+    "published_date": "2025-03-03",
+    "company": [],
+    "technology": [
+      "저전력"
+    ],
+    "keywords": [
+      "LTPO"
+    ],
+    "keyword_scores": {
+      "LTPO": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPbFIwdTRHWmRob0FYekluYmp3V3NyMG1Yc1RWTEZ4VXVfREl6RlVsMnUtLXVGejhSTGVEbFoxVmx3QlgxSkItQ3JNekJ2ZFppTTcxQVNxNjRwbjEtRzJOYVZqTHIzcUtHSnpZ?oc=5"
+  },
+  {
+    "id": "bd4ae127febe48c94749",
+    "doi": "",
+    "source_type": "news",
+    "source": "OLED-Info",
+    "region": "international",
+    "title": "Samsung launches a new 5,000 nits AMOLED display, based on its next-gen OCF OLED technology - OLED-Info",
+    "published_at": "2025-02-28",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbnRWbExFS3ZQREhLZlRRR3pXcjZ5ZnlObWpVUW5vX0luSWMyWWxYa19mY0Q2WE5ueGxXY1FFNUtXQndwSTZsR25Fb01fQWI2NGo0bVZpV1UyZmdaVnl2eEk0RDdfWU45UjI2N0Z2eXZBZmpTX2Jjd0JnTmtMUmJ1UU9zc2E3enZOa1FCNXowUVRmTE9TaGFBU3AxZFhXZHBz?oc=5",
+    "summary": "Samsung launches a new 5,000 nits AMOLED display, based on its next-gen OCF OLED technology OLED-Info",
+    "technologies": [
+      "초고휘도"
+    ],
+    "collected_at": "2026-10-15T12:31:08.705800+00:00",
+    "document_id": "bd4ae127febe48c94749",
+    "published_date": "2025-02-28",
+    "company": [],
+    "technology": [
+      "초고휘도"
+    ],
+    "keywords": [
+      "휘도"
+    ],
+    "keyword_scores": {
+      "휘도": 3
+    },
+    "metrics": [
+      {
+        "name": "brightness",
+        "value": 5000.0,
+        "unit": "nits",
+        "context": "Samsung launches a new 5,000 nits AMOLED display, based on its next-gen OCF OL"
+      },
+      {
+        "name": "brightness",
+        "value": 5000.0,
+        "unit": "nits",
+        "context": "echnology - OLED-Info Samsung launches a new 5,000 nits AMOLED display, based on its next-gen OCF OL"
+      }
+    ],
+    "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbnRWbExFS3ZQREhLZlRRR3pXcjZ5ZnlObWpVUW5vX0luSWMyWWxYa19mY0Q2WE5ueGxXY1FFNUtXQndwSTZsR25Fb01fQWI2NGo0bVZpV1UyZmdaVnl2eEk0RDdfWU45UjI2N0Z2eXZBZmpTX2Jjd0JnTmtMUmJ1UU9zc2E3enZOa1FCNXowUVRmTE9TaGFBU3AxZFhXZHBz?oc=5"
+  },
+  {
+    "id": "a0c1d62caa55fe9deb14",
+    "doi": "",
+    "source_type": "news",
+    "source": "DC Rainmaker",
+    "region": "international",
+    "title": "Garmin Instinct 3 (AMOLED & SOLAR) In-Depth Review - DC Rainmaker",
+    "published_at": "2025-01-30",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUmswbGlCNHYyZ3VTYjdmWnZPUkNPNk9KTEVuQUJsQXc2LU1kemJqZ1Q5LURfZWI4UEdxZ1NPU1ctaXBXYTdtNG02eEV6UGpUT2hCUUEta1pjZlhCR3Nia1l5SHVQUWNHT1JFdllOSFU1Sjc1U19weFB3QXVhLTAwS1VUbGctc2w4ajFyamplRGg?oc=5",
+    "summary": "Garmin Instinct 3 (AMOLED & SOLAR) In-Depth Review DC Rainmaker",
+    "technologies": [],
+    "collected_at": "2026-10-15T12:31:08.705329+00:00",
+    "document_id": "a0c1d62caa55fe9deb14",
+    "published_date": "2025-01-30",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUmswbGlCNHYyZ3VTYjdmWnZPUkNPNk9KTEVuQUJsQXc2LU1kemJqZ1Q5LURfZWI4UEdxZ1NPU1ctaXBXYTdtNG02eEV6UGpUT2hCUUEta1pjZlhCR3Nia1l5SHVQUWNHT1JFdllOSFU1Sjc1U19weFB3QXVhLTAwS1VUbGctc2w4ajFyamplRGg?oc=5"
   },
   {
     "id": "afe816623aed76c332da",
@@ -3926,6 +5314,27 @@
     }
   },
   {
+    "id": "a178ed6d5c5ab5da02ff",
+    "doi": "",
+    "source_type": "news",
+    "source": "OLED-Info",
+    "region": "international",
+    "title": "Omdia forecasts fast growth in the adoption of COE technology for smartphone AMOLEDs, mainly foldable ones - OLED-Info",
+    "published_at": "2024-09-03",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNd3ZQLW1fWkJPRXM0YkRMNnRlUlRscm5CZnNPQTlGeExDRUwxNnh5X3VZbmFtNXJJc2oyeXNNUWdQWjFWb2RTUC1ITW0xaE9iZVVYamR2dE1kRUF0TC0yVFg3YUJjQks2RDVTYmx4YXdxNERnY2VIeFdfM280QzIxUENXVS05dlVDX2RHcEc0Q3hMcFB0ZGJ6WHduMlg3UEphLW1NdXRB?oc=5",
+    "summary": "Omdia forecasts fast growth in the adoption of COE technology for smartphone AMOLEDs, mainly foldable ones OLED-Info",
+    "technologies": [],
+    "collected_at": "2026-10-15T12:31:09.315687+00:00",
+    "document_id": "a178ed6d5c5ab5da02ff",
+    "published_date": "2024-09-03",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNd3ZQLW1fWkJPRXM0YkRMNnRlUlRscm5CZnNPQTlGeExDRUwxNnh5X3VZbmFtNXJJc2oyeXNNUWdQWjFWb2RTUC1ITW0xaE9iZVVYamR2dE1kRUF0TC0yVFg3YUJjQks2RDVTYmx4YXdxNERnY2VIeFdfM280QzIxUENXVS05dlVDX2RHcEc0Q3hMcFB0ZGJ6WHduMlg3UEphLW1NdXRB?oc=5"
+  },
+  {
     "id": "f6ebd29556b7c60063d0",
     "doi": "10.1007/s10462-024-10877-1",
     "source_type": "paper",
@@ -4002,7 +5411,7 @@
       "초고휘도",
       "저전력"
     ],
-    "collected_at": "2026-10-15T12:27:14.684605+00:00",
+    "collected_at": "2026-10-15T12:30:59.210658+00:00",
     "document_id": "7380e44968c3125da014",
     "published_date": "2024-08-09",
     "company": [],
@@ -4020,6 +5429,35 @@
     },
     "metrics": [],
     "source_url": "https://doi.org/10.1002/0050083"
+  },
+  {
+    "id": "45b003099dd5a216c0de",
+    "doi": "",
+    "source_type": "news",
+    "source": "MacRumors",
+    "region": "international",
+    "title": "iPad Pro's Tandem OLED Display Tech Could Extend to Future Vision Pro - MacRumors",
+    "published_at": "2024-07-31",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5qajdndE9fMnkyeTVfLWlYdkhQNDFaTEZxcGhSOGFyVnBQUTlwQlItRlRJVDdHZklvdTFpZFREeW03VGdmX3pIdWNPZWxwOTZuNzhPbU9Id0Iwbk1iZVNZWVBCem1rUHRDcEhvaGtOTG9YWTFhVXc?oc=5",
+    "summary": "iPad Pro's Tandem OLED Display Tech Could Extend to Future Vision Pro MacRumors",
+    "technologies": [
+      "발광 구조"
+    ],
+    "collected_at": "2026-10-15T12:31:09.019611+00:00",
+    "document_id": "45b003099dd5a216c0de",
+    "published_date": "2024-07-31",
+    "company": [],
+    "technology": [
+      "발광 구조"
+    ],
+    "keywords": [
+      "탠덤 OLED"
+    ],
+    "keyword_scores": {
+      "탠덤 OLED": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5qajdndE9fMnkyeTVfLWlYdkhQNDFaTEZxcGhSOGFyVnBQUTlwQlItRlRJVDdHZklvdTFpZFREeW03VGdmX3pIdWNPZWxwOTZuNzhPbU9Id0Iwbk1iZVNZWVBCem1rUHRDcEhvaGtOTG9YWTFhVXc?oc=5"
   },
   {
     "id": "34bee9e52a8d5dbe8576",
@@ -4051,6 +5489,37 @@
     "keyword_scores": {
       "고휘도": 1
     }
+  },
+  {
+    "id": "23670bce8e8bf5762e27",
+    "doi": "",
+    "source_type": "news",
+    "source": "MacRumors",
+    "region": "international",
+    "title": "Apple Supplier Unveils 'Industry First' Tandem OLED Laptop Panel - MacRumors",
+    "published_at": "2024-06-25",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVGtUaGxiTjJ6OHpYMDZ0SG8xY3l1cVJyZTJZSkpRX0R6VFhCUi1seXFMTXBoaUhuNURHYkU0dmpDeW9ZdUQxTlN1ekJtWUFNdXAya1hzMG53Mm5JTUdRSFBvYnpSdW5XUUlFLXdfdU8ydW5tWURCdU5SdjItdmVLRXNRWG1XN3Bt?oc=5",
+    "summary": "Apple Supplier Unveils 'Industry First' Tandem OLED Laptop Panel MacRumors",
+    "technologies": [
+      "발광 구조"
+    ],
+    "collected_at": "2026-10-15T12:31:09.018897+00:00",
+    "document_id": "23670bce8e8bf5762e27",
+    "published_date": "2024-06-25",
+    "company": [
+      "Apple"
+    ],
+    "technology": [
+      "발광 구조"
+    ],
+    "keywords": [
+      "탠덤 OLED"
+    ],
+    "keyword_scores": {
+      "탠덤 OLED": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVGtUaGxiTjJ6OHpYMDZ0SG8xY3l1cVJyZTJZSkpRX0R6VFhCUi1seXFMTXBoaUhuNURHYkU0dmpDeW9ZdUQxTlN1ekJtWUFNdXAya1hzMG53Mm5JTUdRSFBvYnpSdW5XUUlFLXdfdU8ydW5tWURCdU5SdjItdmVLRXNRWG1XN3Bt?oc=5"
   },
   {
     "id": "48045c811d2b2937e079",
@@ -4097,7 +5566,7 @@
       "초고휘도"
     ],
     "citation_count": 2,
-    "collected_at": "2026-10-15T12:28:12.966598+00:00",
+    "collected_at": "2026-10-15T12:31:59.483175+00:00",
     "document_id": "dcfe2f3197e9a4d6fb04",
     "published_date": "2024-06-01",
     "company": [],
@@ -4136,7 +5605,7 @@
       "초고휘도",
       "발광 구조"
     ],
-    "collected_at": "2026-10-15T12:27:14.685499+00:00",
+    "collected_at": "2026-10-15T12:30:59.211514+00:00",
     "document_id": "d118d41721fa73af42a1",
     "published_date": "2024-06-01",
     "company": [],
@@ -4335,7 +5804,7 @@
     "url": "https://doi.org/10.1002/sdtp.17460",
     "summary": "The reflection color dispersion phenomenon is more visible on polarizer‐free OLED panel compared to the panel with polarizer. However, the mechanism and detailed analysis of this effect is very limited in previous reports. The panel reflection patterns are usually very sophisticated, which are composed of rings, dots and color distribution (R G B reflection located at different direction of the panel, respectively). In this paper, the causes of the reflection pattern are analyzed in detail and the influential factors of the shape, distribution, color and other characteristics of the reflection pattern are clarified and verified through the comparison of simulation and actual results. Finally",
     "technologies": [],
-    "collected_at": "2026-10-15T12:27:14.685430+00:00",
+    "collected_at": "2026-10-15T12:30:59.211444+00:00",
     "document_id": "29606780307a7b6ff259",
     "published_date": "2024-06-01",
     "company": [],
@@ -4344,6 +5813,122 @@
     "keyword_scores": {},
     "metrics": [],
     "source_url": "https://doi.org/10.1002/sdtp.17460"
+  },
+  {
+    "id": "3b60d4c7b591089bc153",
+    "doi": "",
+    "source_type": "news",
+    "source": "OLED-Info",
+    "region": "international",
+    "title": "Apple announces its 2024 iPad Pro devices, with tandem AMOLED displays - OLED-Info",
+    "published_at": "2024-05-08",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOamZMNmFxa0VfRXVvQWFNaHdCc1NpanVGY0FDLXo1bERYRldXYnh5UEhQYk9NeS1odkF1OTNFczA0bDJYN04xZGpCbmk0djlUUmQyLV9yUExuUVhieVlVNVRaaVBQQ3dGWUpzWkJGUFdmLUNudnoxUTJPcTNoRXM0M2xTeTRuM1BUNEtjNGNEWlpaM2M4?oc=5",
+    "summary": "Apple announces its 2024 iPad Pro devices, with tandem AMOLED displays OLED-Info",
+    "technologies": [],
+    "collected_at": "2026-10-15T12:31:09.018987+00:00",
+    "document_id": "3b60d4c7b591089bc153",
+    "published_date": "2024-05-08",
+    "company": [
+      "Apple"
+    ],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOamZMNmFxa0VfRXVvQWFNaHdCc1NpanVGY0FDLXo1bERYRldXYnh5UEhQYk9NeS1odkF1OTNFczA0bDJYN04xZGpCbmk0djlUUmQyLV9yUExuUVhieVlVNVRaaVBQQ3dGWUpzWkJGUFdmLUNudnoxUTJPcTNoRXM0M2xTeTRuM1BUNEtjNGNEWlpaM2M4?oc=5"
+  },
+  {
+    "id": "cd428d10b8ef1bb64c61",
+    "doi": "",
+    "source_type": "news",
+    "source": "Livemint",
+    "region": "international",
+    "title": "Apple Watch Series 10 to feature LTPO OLED screen for enhanced efficiency and battery life: Report - Livemint",
+    "published_at": "2024-04-10",
+    "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQLWJnZzRDTUF1ZVdfX0VnZUxqakRZU3M0eTZnRFFMc0JFS3FEQmZfRXZqQU5lU1pXZThETnlzNlR1ZjlwSFNxcTJyalZtLWhwV0lsNWxZcFp4SWEyY2cxSVJWei1admtIMzR4M0tCYmgwSHE1aHRDN056R096ZEptM0VLMHJ3Qk1MNV9uQktQaVQwX2pDT1M1cGdPaDhhTzBrSDNLbEFYcGx3bGVzakZTY3RLc3lhWnRrd0FhdjRpcTVhTUxMRE9OSXgyalhpUGFYZ09ja3FwTENRa0tKVDdQbDhOaXhRY3dBblVpZTdhWmdZSkg5blHSAfsBQVVfeXFMUHNfVWlVVHFBV3JrSHFyVG9NZ1Z3Tmc4b21hSUtPYjRuTUhLTWRNSFNpRW9xakZnd1NMVlNKMW1qNC10Y1ctbVVFai16TEZ0T1lNSlp0aDhyMHl3SDRpM2g4Rk00dDRqU19LSXNyb0lQTnhsSDg4Q2JOWmRaZDlQWU1wQ0R0ZzBKcW5wbmh4UWtBUElQYW9oS3B4UGVGS0N5N2pEN19saXphQnA1YThrOWQ5Z2dVZlVCT2J6SW5RVVgzN1R4RVlTMW9Xb3F3MVo2Nl9kWnloeGJvM1VKcDdYYk1mN0lKdjVsdjB2QjRSQmFRQ1Z5SFJtTnZkeDA?oc=5",
+    "summary": "Apple Watch Series 10 to feature LTPO OLED screen for enhanced efficiency and battery life: Report Livemint",
+    "technologies": [
+      "저전력"
+    ],
+    "collected_at": "2026-10-15T12:31:09.021152+00:00",
+    "document_id": "cd428d10b8ef1bb64c61",
+    "published_date": "2024-04-10",
+    "company": [
+      "Apple"
+    ],
+    "technology": [
+      "저전력"
+    ],
+    "keywords": [
+      "LTPO"
+    ],
+    "keyword_scores": {
+      "LTPO": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQLWJnZzRDTUF1ZVdfX0VnZUxqakRZU3M0eTZnRFFMc0JFS3FEQmZfRXZqQU5lU1pXZThETnlzNlR1ZjlwSFNxcTJyalZtLWhwV0lsNWxZcFp4SWEyY2cxSVJWei1admtIMzR4M0tCYmgwSHE1aHRDN056R096ZEptM0VLMHJ3Qk1MNV9uQktQaVQwX2pDT1M1cGdPaDhhTzBrSDNLbEFYcGx3bGVzakZTY3RLc3lhWnRrd0FhdjRpcTVhTUxMRE9OSXgyalhpUGFYZ09ja3FwTENRa0tKVDdQbDhOaXhRY3dBblVpZTdhWmdZSkg5blHSAfsBQVVfeXFMUHNfVWlVVHFBV3JrSHFyVG9NZ1Z3Tmc4b21hSUtPYjRuTUhLTWRNSFNpRW9xakZnd1NMVlNKMW1qNC10Y1ctbVVFai16TEZ0T1lNSlp0aDhyMHl3SDRpM2g4Rk00dDRqU19LSXNyb0lQTnhsSDg4Q2JOWmRaZDlQWU1wQ0R0ZzBKcW5wbmh4UWtBUElQYW9oS3B4UGVGS0N5N2pEN19saXphQnA1YThrOWQ5Z2dVZlVCT2J6SW5RVVgzN1R4RVlTMW9Xb3F3MVo2Nl9kWnloeGJvM1VKcDdYYk1mN0lKdjVsdjB2QjRSQmFRQ1Z5SFJtTnZkeDA?oc=5"
+  },
+  {
+    "id": "a9ecac249ffd3d314cf7",
+    "doi": "",
+    "source_type": "news",
+    "source": "OLED-Info",
+    "region": "international",
+    "title": "Apple develops a higher-efficiency LTPO backplane by adopting IGZO in the driving TFT - OLED-Info",
+    "published_at": "2024-04-10",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdDIzcWlGalpLcnJSY0VFejZfUnM4RE9NUFVjRWY3V2lTTkpfQks2X0FiTGZobEU0ZWRxM2NaZmhxN1ZsMlpkdll2U2hEbG9rczNQSF9ibG4wd09FRi14UDNUX1d1bkg2VGt3VV9ia3NQREZKNVk3Rm5NTmtIQlAyX3YxYWY2Wl9yemJHT2U2OWl1cjlYUkU0QXZMeGJpLXlp?oc=5",
+    "summary": "Apple develops a higher-efficiency LTPO backplane by adopting IGZO in the driving TFT OLED-Info",
+    "technologies": [
+      "저전력"
+    ],
+    "collected_at": "2026-10-15T12:31:09.020049+00:00",
+    "document_id": "a9ecac249ffd3d314cf7",
+    "published_date": "2024-04-10",
+    "company": [
+      "Apple"
+    ],
+    "technology": [
+      "저전력"
+    ],
+    "keywords": [
+      "LTPO"
+    ],
+    "keyword_scores": {
+      "LTPO": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdDIzcWlGalpLcnJSY0VFejZfUnM4RE9NUFVjRWY3V2lTTkpfQks2X0FiTGZobEU0ZWRxM2NaZmhxN1ZsMlpkdll2U2hEbG9rczNQSF9ibG4wd09FRi14UDNUX1d1bkg2VGt3VV9ia3NQREZKNVk3Rm5NTmtIQlAyX3YxYWY2Wl9yemJHT2U2OWl1cjlYUkU0QXZMeGJpLXlp?oc=5"
+  },
+  {
+    "id": "0f762e585cb0037b75f3",
+    "doi": "",
+    "source_type": "news",
+    "source": "Tech Times",
+    "region": "international",
+    "title": "Report: Apple Watch Series 10 to Feature Cutting-Edge, Battery-Saving LTPO OLED Display Tech - Tech Times",
+    "published_at": "2024-04-10",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTVFhV1NyaUpCS3ViOFZpbk44aEV1NEYzR0ZOZVpGMGV2Mk5ZcTVFMGtnX1FJNm10RFRodlJ0Z2F2clhmV2JPV0Y1d2t5dHZUeHJGdmtGSE8yamZzU2NBM1RtMjdEUTVOQTNXX1NQUV9kcnZQSVVFYWx5NmdXeTczM3lLd3pfRlFyQ1F5MmRMUFFvZEg1M2RGLTdJc3ZRcWloWWZiZVdxUnphajF3S2ZRQ0EtYTdaTTM5WUw2SHhYaHVKN3M?oc=5",
+    "summary": "Report: Apple Watch Series 10 to Feature Cutting-Edge, Battery-Saving LTPO OLED Display Tech Tech Times",
+    "technologies": [
+      "저전력"
+    ],
+    "collected_at": "2026-10-15T12:31:09.020986+00:00",
+    "document_id": "0f762e585cb0037b75f3",
+    "published_date": "2024-04-10",
+    "company": [
+      "Apple"
+    ],
+    "technology": [
+      "저전력"
+    ],
+    "keywords": [
+      "LTPO"
+    ],
+    "keyword_scores": {
+      "LTPO": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTVFhV1NyaUpCS3ViOFZpbk44aEV1NEYzR0ZOZVpGMGV2Mk5ZcTVFMGtnX1FJNm10RFRodlJ0Z2F2clhmV2JPV0Y1d2t5dHZUeHJGdmtGSE8yamZzU2NBM1RtMjdEUTVOQTNXX1NQUV9kcnZQSVVFYWx5NmdXeTczM3lLd3pfRlFyQ1F5MmRMUFFvZEg1M2RGLTdJc3ZRcWloWWZiZVdxUnphajF3S2ZRQ0EtYTdaTTM5WUw2SHhYaHVKN3M?oc=5"
   },
   {
     "id": "0f4cf84116b9a58ff0f2",
@@ -4398,7 +5983,7 @@
       "발광 구조"
     ],
     "citation_count": 2,
-    "collected_at": "2026-10-15T12:28:12.967206+00:00",
+    "collected_at": "2026-10-15T12:31:59.483771+00:00",
     "document_id": "9f7dd72118098ec2f6ce",
     "published_date": "2024-03-01",
     "company": [],
@@ -4444,6 +6029,27 @@
     },
     "metrics": [],
     "source_url": "https://doi.org/10.1016/j.iot.2024.101124"
+  },
+  {
+    "id": "f2ccfab7a68ea3322016",
+    "doi": "",
+    "source_type": "news",
+    "source": "Notebookcheck",
+    "region": "international",
+    "title": "CES 2024 | Asus AirVision M1 wearable display debuts with Micro OLED display tech - Notebookcheck",
+    "published_at": "2024-01-11",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSWx6aW82S21QR2pGSHlhWG9qVmJsRWNleXlaY2c0S1JES3h5Mi1jXzVkV28yN1VGZTVwa29EZlR5QmVtLVJyTDBsWHlXd09MaTQ1cTlpOTFwM1RsWUdHaGpYbHNTTC1YYkEyOWhPOVJoR1FJdnZkTGZWNjBXeFBrZHUxbHNOYnVJLXJwYkZqeEVvX2xHRkRhLUlpb0E5bkstUUdNT19peEpVSGZ1WGZDZ3ZkZkk?oc=5",
+    "summary": "CES 2024 | Asus AirVision M1 wearable display debuts with Micro OLED display tech Notebookcheck",
+    "technologies": [],
+    "collected_at": "2026-10-15T12:31:08.706115+00:00",
+    "document_id": "f2ccfab7a68ea3322016",
+    "published_date": "2024-01-11",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSWx6aW82S21QR2pGSHlhWG9qVmJsRWNleXlaY2c0S1JES3h5Mi1jXzVkV28yN1VGZTVwa29EZlR5QmVtLVJyTDBsWHlXd09MaTQ1cTlpOTFwM1RsWUdHaGpYbHNTTC1YYkEyOWhPOVJoR1FJdnZkTGZWNjBXeFBrZHUxbHNOYnVJLXJwYkZqeEVvX2xHRkRhLUlpb0E5bkstUUdNT19peEpVSGZ1WGZDZ3ZkZkk?oc=5"
   },
   {
     "id": "e0db384bad20b2c4757c",
@@ -4498,6 +6104,58 @@
     "source_url": "https://doi.org/10.2139/ssrn.4694105"
   },
   {
+    "id": "ba404cc2555425c15348",
+    "doi": "",
+    "source_type": "news",
+    "source": "Omdia",
+    "region": "international",
+    "title": "A one-layer and simpler polarizer replacement scheme has been developed as an alternative to COE in OLED - Omdia",
+    "published_at": "2023-11-30",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQTzhVRzFPQ2haUTZTRUxuWThKOFFENlBuMFdzQ2xEODROdlFuQWJoWmthV0luUS05WlRZNnVpdW1ldnFGZXd4WE5qUE9SOXREVUg4aERaeG9PWmVSMWltTHlBQ1Y2MkxNODk5dXh6amxMN0FUaDNtZW5HLXJDV2VaMm1FWENoNk5OYW54aUcyVmd2V1RIbHhZOHl6Z1RlRkpvOUlqSUdzQ21hOUg0bHdHQTJ5aU9MdGN6QzBxSnBjcF9xd1ltX2piRFVWX0VYUXdhaWJZR3V6aVRoS0xOSnF1eGdzOEk?oc=5",
+    "summary": "A one-layer and simpler polarizer replacement scheme has been developed as an alternative to COE in OLED Omdia",
+    "technologies": [],
+    "collected_at": "2026-10-15T12:31:09.316030+00:00",
+    "document_id": "ba404cc2555425c15348",
+    "published_date": "2023-11-30",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQTzhVRzFPQ2haUTZTRUxuWThKOFFENlBuMFdzQ2xEODROdlFuQWJoWmthV0luUS05WlRZNnVpdW1ldnFGZXd4WE5qUE9SOXREVUg4aERaeG9PWmVSMWltTHlBQ1Y2MkxNODk5dXh6amxMN0FUaDNtZW5HLXJDV2VaMm1FWENoNk5OYW54aUcyVmd2V1RIbHhZOHl6Z1RlRkpvOUlqSUdzQ21hOUg0bHdHQTJ5aU9MdGN6QzBxSnBjcF9xd1ltX2piRFVWX0VYUXdhaWJZR3V6aVRoS0xOSnF1eGdzOEk?oc=5"
+  },
+  {
+    "id": "c6445dab6bdfb36b5801",
+    "doi": "",
+    "source_type": "news",
+    "source": "GSMArena.com",
+    "region": "international",
+    "title": "BOE details new LTPO OLEDs for OnePlus 12 and Ace 3 - GSMArena.com",
+    "published_at": "2023-10-24",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ2tqQl84dDRsMHZ4Y3lzMDJuSzViTFVMTTBwLVBVNENxWEIxZXJkeG1CNGhycTA0QjVHNzNPeUlQa3I0RzNFcDJBOHhPcXV3d1NvaEtpWU9yZnd4TTQ2ejAzWnFTQk5BRFlwU2lzYVBoZGZhdjVja3NNblJ4T3NGMEVuVm8zdllJMVJGd05BUDBmekdzTFAxWHpRUlBYX0Q1?oc=5",
+    "summary": "BOE details new LTPO OLEDs for OnePlus 12 and Ace 3 GSMArena.com",
+    "technologies": [
+      "저전력"
+    ],
+    "collected_at": "2026-10-15T12:31:09.020701+00:00",
+    "document_id": "c6445dab6bdfb36b5801",
+    "published_date": "2023-10-24",
+    "company": [
+      "BOE"
+    ],
+    "technology": [
+      "저전력"
+    ],
+    "keywords": [
+      "LTPO"
+    ],
+    "keyword_scores": {
+      "LTPO": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ2tqQl84dDRsMHZ4Y3lzMDJuSzViTFVMTTBwLVBVNENxWEIxZXJkeG1CNGhycTA0QjVHNzNPeUlQa3I0RzNFcDJBOHhPcXV3d1NvaEtpWU9yZnd4TTQ2ejAzWnFTQk5BRFlwU2lzYVBoZGZhdjVja3NNblJ4T3NGMEVuVm8zdllJMVJGd05BUDBmekdzTFAxWHpRUlBYX0Q1?oc=5"
+  },
+  {
     "id": "a25c701ab85931291d88",
     "doi": "10.1117/12.2676105",
     "source_type": "paper",
@@ -4550,7 +6208,7 @@
     "url": "https://doi.org/10.1117/12.2686563",
     "summary": "",
     "technologies": [],
-    "collected_at": "2026-10-15T12:27:14.685555+00:00",
+    "collected_at": "2026-10-15T12:30:59.211604+00:00",
     "document_id": "8c84dc803b07d1310a3a",
     "published_date": "2023-08-10",
     "company": [],
@@ -4637,7 +6295,7 @@
     "url": "https://doi.org/10.2139/ssrn.4348537",
     "summary": "",
     "technologies": [],
-    "collected_at": "2026-10-15T12:27:14.685836+00:00",
+    "collected_at": "2026-10-15T12:30:59.211776+00:00",
     "document_id": "8d5fbac1969c6c9738fd",
     "published_date": "2023-01-01",
     "company": [],
