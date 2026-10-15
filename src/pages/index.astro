@@ -95,12 +95,14 @@ const decisionAreas = [
 });
 const buildTime = new Date();
 const nextUpdate = new Date(buildTime);
-nextUpdate.setUTCHours(23, 30, 0, 0);
+nextUpdate.setUTCHours(23, 45, 0, 0);
 if (nextUpdate <= buildTime) nextUpdate.setUTCDate(nextUpdate.getUTCDate() + 1);
 const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
   timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit",
   hour: "2-digit", minute: "2-digit", hour12: false,
 });
+const lastUpdate = (quality as typeof quality & { last_update?: { completed_at: string; new_count: number; new_documents: Item[]; source_errors: number } }).last_update;
+const newDocuments = lastUpdate?.new_documents || [];
 ---
 
 <Layout title="초고휘도 스마트워치 OLED 상용화 전략 분석" description="야외 시인성과 전력 효율을 높이는 스마트워치 OLED 기술을 분석하고, 글로벌 시장을 위한 상용화 방향을 살펴봅니다.">
@@ -113,10 +115,20 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
       <div class="meta">
         <span>마지막 빌드 <time datetime={buildTime.toISOString()}>{koreanDateTime.format(buildTime)}</time> (한국 시간)</span>
         <span>다음 자동 업데이트 예정 <time id="next-update" datetime={nextUpdate.toISOString()}>{koreanDateTime.format(nextUpdate)}</time> (한국 시간)</span>
-        <span>매일 오전 8시 30분 자동 수집 시작 · 수집·배포 상황에 따라 반영이 지연될 수 있습니다.</span>
+        <span>매일 오전 8시 45분 자동 수집 시작 · 수집·배포 상황에 따라 반영이 지연될 수 있습니다.</span>
         <span>수집원: Google 뉴스 국내·영문 해외 RSS · Crossref · arXiv · Semantic Scholar · OpenAlex</span>
       </div>
     </header>
+
+    <section class="panel update-panel" aria-label="최근 업데이트 신규 자료">
+      <h2>최근 업데이트 신규 자료 · {newDocuments.length}건</h2>
+      <p>{lastUpdate ? `${koreanDateTime.format(new Date(lastUpdate.completed_at))} (한국 시간) 수집 완료 · 직전 수집 데이터와 비교` : "다음 수집 완료부터 신규 자료를 집계합니다."}</p>
+      {lastUpdate?.source_errors ? <p>일부 수집원에 오류가 있어 신규 자료가 누락되었을 수 있습니다.</p> : null}
+      <details>
+        <summary>신규 내역 보기 ({newDocuments.length}건)</summary>
+        {newDocuments.length ? <ul>{newDocuments.map((item) => <li><a href={item.url} target="_blank" rel="noreferrer">{item.title}</a><small> · {item.source} · {item.published_at || "날짜 미상"}</small></li>)}</ul> : <p>{lastUpdate ? "이번 업데이트에서 새로 추가된 자료는 0건입니다." : "아직 집계된 신규 자료가 없습니다."}</p>}
+      </details>
+    </section>
 
     <section class="stats" aria-label="요약 지표">
       <article><b>{documents.length}</b><span>전체 문서</span></article>
@@ -308,7 +320,7 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
     if (nextUpdateElement) {
       const now = new Date();
       const next = new Date(now);
-      next.setUTCHours(23, 30, 0, 0);
+      next.setUTCHours(23, 45, 0, 0);
       if (next <= now) next.setUTCDate(next.getUTCDate() + 1);
       nextUpdateElement.dateTime = next.toISOString();
       nextUpdateElement.textContent = new Intl.DateTimeFormat("ko-KR", {
@@ -586,6 +598,12 @@ const koreanDateTime = new Intl.DateTimeFormat("ko-KR", {
 </Layout>
 
 <style>
+  .update-panel { margin-top: 24px; }
+  .update-panel p, .update-panel small { color: var(--text-muted); font-size: .8rem; }
+  .update-panel summary { cursor: pointer; color: var(--brand); padding: 12px 0; }
+  .update-panel ul { max-height: 360px; overflow-y: auto; padding-left: 24px; }
+  .update-panel li { margin: 12px 0; line-height: 1.6; }
+  .update-panel a { color: var(--text); }
   main { width: min(1180px, calc(100% - 32px)); margin: 0 auto; padding: 64px 0 96px; }
   .hero { padding: 44px 0 54px; border-bottom: 1px solid var(--border); }
   .eyebrow { color: var(--text-muted); font-size: .72rem; font-weight: 800; letter-spacing: .18em; display: flex; align-items: center; gap: 10px; }

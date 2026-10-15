@@ -527,8 +527,32 @@ def save(items: list[dict[str, Any]]) -> None:
     temporary.replace(DATA_FILE)
 
 
+def document_identity(item: dict[str, Any]) -> set[str]:
+    identities = {f"{field}:{str(item[field]).strip().lower()}" for field in ("id", "url", "doi") if item.get(field)}
+    title = clean_text(item.get("title"))
+    if title:
+        if item.get("source_type") == "news":
+            identities.add(f"news:{item.get('published_at', '')}:{news_title_fingerprint(title)}")
+        else:
+            identities.add(f"paper:{item.get('published_at', '')[:4]}:{paper_title_fingerprint(title)}")
+    return identities
+
+
+def build_collection_update(existing: list[dict[str, Any]], items: list[dict[str, Any]], errors: list[str]) -> dict[str, Any]:
+    known = set().union(*(document_identity(item) for item in existing))
+    added = [item for item in items if document_identity(item).isdisjoint(known)]
+    return {
+        "completed_at": datetime.now(UTC).isoformat(),
+        "new_count": len(added),
+        "new_documents": added,
+        "source_errors": len(errors),
+    }
+
+
 def save_quality(stats: dict[str, Any], items: list[dict[str, Any]], errors: list[str]) -> None:
+    previous = json.loads(QUALITY_FILE.read_text(encoding="utf-8")) if QUALITY_FILE.exists() else {}
     report = {
+        **({"last_update": previous["last_update"]} if "last_update" in previous else {}),
         **stats,
         "missing_date": sum(not item.get("published_at") for item in items),
         "missing_summary": sum(not item.get("summary") for item in items),
@@ -645,6 +669,7 @@ def main(argv: list[str] | None = None) -> int:
     is_manual = bool(custom_keyword)
     # 정기 수집의 RSS 결과는 최신 제목을 반영하고, 맞춤 수집은 기존 결과에 추가한다.
     existing = [] if args.report_output else load_existing()
+    previous_items = list(existing)
     collected = existing if is_manual or args.reprocess_only else [item for item in existing if item.get("region") != "domestic"]
     paper_queries = [custom_keyword] if is_manual else QUERIES
     scholar_queries = [custom_keyword] if is_manual else SCHOLAR_QUERIES
@@ -702,7 +727,7 @@ def main(argv: list[str] | None = None) -> int:
                 errors.append(f"OpenAlex/{query}: {exc}")
             time.sleep(1.1)
 
-    quality_stats: dict[str, int] = {}
+    quality_stats: dict[str, Any] = {}
     final_items = deduplicate(collected, quality_stats)
     if args.report_output:
         if __package__:
@@ -717,6 +742,8 @@ def main(argv: list[str] | None = None) -> int:
         print(f"Saved standalone HTML report with {len(final_items)} documents to {args.report_output}")
         return 0 if final_items or not errors else 1
     save(final_items)
+    if not args.reprocess_only:
+        quality_stats["last_update"] = build_collection_update(previous_items, final_items, errors)
     save_quality(quality_stats, final_items, errors)
     save_last_manual_collection(args, final_items, errors)
     print(f"Saved {len(final_items)} unique documents to {DATA_FILE}")

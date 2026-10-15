@@ -341,3 +341,13 @@ def test_metrics_distinguish_comparison_values_and_ignore_typographic_duplicates
     assert len(extract_metrics("OLED brightness 1600 nits - News", "OLED brightness 1600 nits News")) == 1
     assert extract_metrics("OLED brightness -3,332 nits.") == []
     assert extract_metrics("OLED brightness 1.5e3 nits.") == []
+def test_collection_update_counts_new_documents_without_recounting_existing_news():
+    old = {"id": "old", "title": "OLED LTPO wearable", "source_type": "news", "published_at": "2026-10-16", "url": "https://example.com/old"}
+    redistributed = {**old, "id": "different", "url": "https://example.com/redistributed"}
+    new = {**old, "id": "new", "title": "New tandem OLED wearable", "url": "https://example.com/new"}
+    update = collect.build_collection_update([old], [redistributed, new], [])
+    assert update["new_count"] == 1
+    assert update["new_documents"] == [new]
+    assert collect.build_collection_update([old], [redistributed], ["source unavailable"])["new_count"] == 0
+    assert collect.build_collection_update([], [], [])["new_documents"] == []
+
