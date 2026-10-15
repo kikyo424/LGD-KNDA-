@@ -65,6 +65,8 @@ npm run build
 
 수집은 매일 한국 시간 오전 8시에 자동 실행됩니다. 기본 OLED·웨어러블·COE 키워드로 뉴스와 논문 메타데이터를 수집하고 중복을 정리한 뒤 사이트를 자동 배포합니다. GitHub Actions 상황에 따라 실행 시간이 지연될 수 있습니다. Crossref의 polite pool을 사용하려면 저장소 Secret에 `CONTACT_EMAIL`을 추가하세요.
 
+코드를 `main`에 푸시하면 기존 저장 자료로 바로 빌드·배포하며 외부 수집을 다시 실행하지 않습니다. 예약 실행과 수동 실행에서는 수집 후 배포합니다. 배포 작업은 마지막에 실제 Pages 주소의 HTML에 연도 동향·기업별 분석·성능 수치의 보기/접기 버튼이 반영됐는지 검사하며, 이전 페이지가 계속 표시되면 검증 실패로 표시합니다.
+
 무료 학술 API를 안정적으로 사용하려면 `Settings > Secrets and variables > Actions`에 다음 Repository secrets를 선택적으로 추가하세요.
 
 ```text

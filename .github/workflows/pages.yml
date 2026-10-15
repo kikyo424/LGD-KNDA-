@@ -32,6 +32,7 @@ jobs:
       - run: python -m pip install -e ".[test]"
       - run: python -m pytest
       - name: Collect metadata
+        if: github.event_name != 'push'
         shell: bash
         env:
           CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
@@ -39,6 +40,7 @@ jobs:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
         run: python scripts/collect.py
       - name: Commit collected metadata
+        if: github.event_name != 'push'
         run: |
           if ! git diff --quiet -- src/data/items.json src/data/collection_quality.json src/data/last_manual_collection.json; then
             git config user.name "github-actions[bot]"
@@ -60,6 +62,8 @@ jobs:
           BASE_PATH: /${{ github.event.repository.name }}
           PUBLIC_REPORT_API_URL: ${{ vars.REPORT_API_URL || 'https://oled-report-service.onrender.com' }}
       - uses: actions/configure-pages@v5
+      - name: Verify collapsed controls in build
+        run: python .github/scripts/verify_pages.py --file dist/index.html
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
@@ -72,9 +76,14 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - uses: actions/checkout@v4
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
         with:
           timeout: 1200000
+      - name: Verify published interface
+        env:
+          PAGES_URL: ${{ steps.deployment.outputs.page_url }}
+        run: python .github/scripts/verify_pages.py --url "$PAGES_URL" --revision "$GITHUB_SHA"
 
