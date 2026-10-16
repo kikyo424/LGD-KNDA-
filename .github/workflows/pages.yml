@@ -1,5 +1,4 @@
 name: Collect and deploy
-run-name: ${{ inputs.update_request && format('Navigator MAP update {0}', inputs.update_request) || github.event.head_commit.message || 'Collect and deploy' }}
 
 on:
   push:
@@ -8,11 +7,6 @@ on:
     # Daily at 09:10 Asia/Seoul (00:10 UTC).
     - cron: "10 0 * * *"
   workflow_dispatch:
-    inputs:
-      update_request:
-        description: "사이트 업데이트 요청 식별자 (일반 수동 실행 시 비워두세요)"
-        required: false
-        type: string
 
 permissions:
   contents: write

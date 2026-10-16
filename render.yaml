@@ -7,9 +7,5 @@ services:
     startCommand: python -m uvicorn scripts.report_server:app --host 0.0.0.0 --port $PORT --workers 1
     healthCheckPath: /health
     envVars:
-      - key: UPDATE_ADMIN_KEY
-        sync: false
-      - key: UPDATE_GITHUB_TOKEN
-        sync: false
       - key: REPORT_ALLOWED_ORIGINS
         value: https://kikyo424.github.io
