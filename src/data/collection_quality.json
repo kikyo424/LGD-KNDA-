@@ -1,47 +1,50 @@
 {
   "last_update": {
-    "completed_at": "2026-10-16T00:09:26.418897+00:00",
+    "completed_at": "2026-10-16T00:22:31.895849+00:00",
     "new_count": 1,
     "new_documents": [
       {
-        "id": "814fb002a18d9fd44c09",
+        "id": "46918192c791852d5f87",
         "doi": "",
         "source_type": "news",
-        "source": "케이벤치",
+        "source": "뉴스웍스",
         "region": "domestic",
-        "title": "'갤럭시S26 울트라' 디스플레이 더 밝고 오래간다.. 차세대 CoE OLED 기술 적용 - 케이벤치",
-        "published_at": "2025-07-14",
-        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9felFVU1FMSTJ5ZF9vdmFIaXhTc3huRlNMUW9nWDlDS3prRmFHV1Y0N09GaG03azhFbGo1UUNTb2JuaS1rbm5xcA?oc=5",
-        "summary": "'갤럭시S26 울트라' 디스플레이 더 밝고 오래간다.. 차세대 CoE OLED 기술 적용 케이벤치",
+        "title": "삼성D·LGD, SID서 차세대 OLED 기술 격돌…3000니트·3세대 탠덤 공개 - 뉴스웍스",
+        "published_at": "2026-05-05",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByUk5INWZyMUVTSWdzNmZZczU5dkJyYkszUzZkLXZMbzJieGduaXdFU290aWROaV8xcktIWVlSM2xJZlF4WFFwQ3JUd00wNlhvWVJRZnBSOFhSeXMtcm5rZGVuNWpTY05DbHQzZlA1c9IBc0FVX3lxTE9ma0M4UmZZTXdNa3h6eEkyT1F5anhWLWw2dU1LT2VkNDBhSUFiVXRxT2poMjlyRFpOcW1kZjM3QzhrMnJkV0tSbVRGdF9ZZ2h6RnlGTGpodDhNSmRSQ2hHMUJKd1Z5YUR1S3JOQk1rMjR5Vnc?oc=5",
+        "summary": "삼성D·LGD, SID서 차세대 OLED 기술 격돌…3000니트·3세대 탠덤 공개 뉴스웍스",
         "technologies": [
-          "야외 시인성"
+          "발광 구조"
         ],
-        "collected_at": "2026-10-16T00:08:34.063391+00:00",
-        "document_id": "814fb002a18d9fd44c09",
-        "published_date": "2025-07-14",
-        "company": [],
+        "collected_at": "2026-10-16T00:21:38.748538+00:00",
+        "document_id": "46918192c791852d5f87",
+        "published_date": "2026-05-05",
+        "company": [
+          "LG디스플레이",
+          "삼성디스플레이"
+        ],
         "technology": [
-          "야외 시인성"
+          "발광 구조"
         ],
         "keywords": [
-          "COE display"
+          "탠덤 OLED"
         ],
         "keyword_scores": {
-          "COE display": 3
+          "탠덤 OLED": 3
         },
         "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9felFVU1FMSTJ5ZF9vdmFIaXhTc3huRlNMUW9nWDlDS3prRmFHV1Y0N09GaG03azhFbGo1UUNTb2JuaS1rbm5xcA?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByUk5INWZyMUVTSWdzNmZZczU5dkJyYkszUzZkLXZMbzJieGduaXdFU290aWROaV8xcktIWVlSM2xJZlF4WFFwQ3JUd00wNlhvWVJRZnBSOFhSeXMtcm5rZGVuNWpTY05DbHQzZlA1c9IBc0FVX3lxTE9ma0M4UmZZTXdNa3h6eEkyT1F5anhWLWw2dU1LT2VkNDBhSUFiVXRxT2poMjlyRFpOcW1kZjM3QzhrMnJkV0tSbVRGdF9ZZ2h6RnlGTGpodDhNSmRSQ2hHMUJKd1Z5YUR1S3JOQk1rMjR5Vnc?oc=5"
       }
     ],
     "source_errors": 3
   },
-  "input": 759,
+  "input": 760,
   "excluded_irrelevant": 357,
   "excluded_before_2023": 106,
   "duplicates_removed": 82,
-  "saved": 214,
+  "saved": 215,
   "missing_date": 0,
   "missing_summary": 22,
   "source_errors": 3,
-  "generated_at": "2026-10-16T00:09:26.419145+00:00"
+  "generated_at": "2026-10-16T00:22:31.896039+00:00"
 }
