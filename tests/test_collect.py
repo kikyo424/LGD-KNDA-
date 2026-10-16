@@ -351,3 +351,21 @@ def test_collection_update_counts_new_documents_without_recounting_existing_news
     assert collect.build_collection_update([old], [redistributed], ["source unavailable"])["new_count"] == 0
     assert collect.build_collection_update([], [], [])["new_documents"] == []
 
+
+def test_every_collection_replaces_previous_new_results_including_zero(monkeypatch, tmp_path):
+    for name in ("DATA_FILE", "QUALITY_FILE", "LAST_MANUAL_FILE"):
+        monkeypatch.setattr(collect, name, tmp_path / f"{name}.json")
+    monkeypatch.setattr(collect, "DOMESTIC_NEWS_QUERIES", ["OLED"])
+    monkeypatch.setattr(collect, "INTERNATIONAL_NEWS_QUERIES", [])
+    document = {"id": "new", "title": "Smartwatch OLED LTPO high brightness", "published_at": "2026-10-16", "source_type": "news", "region": "domestic", "source": "Test", "url": "https://example.com/new", "summary": "Wearable OLED"}
+    monkeypatch.setattr(collect, "fetch_domestic_news", lambda *args: [dict(document)])
+    assert collect.main(["--source", "news"]) == 0
+    first = json.loads(collect.QUALITY_FILE.read_text(encoding="utf-8"))["last_update"]
+    assert first["new_count"] == 1
+    assert first["new_documents"][0]["id"] == "new"
+    assert collect.main(["--source", "news"]) == 0
+    second = json.loads(collect.QUALITY_FILE.read_text(encoding="utf-8"))["last_update"]
+    assert second["new_count"] == 0
+    assert second["new_documents"] == []
+    assert second["completed_at"] != first["completed_at"]
+

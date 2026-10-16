@@ -37,7 +37,24 @@ jobs:
           CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
           SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
-        run: python scripts/collect.py
+        run: |
+          echo "COLLECTION_STARTED_AT=$(date -u +%Y-%m-%dT%H:%M:%S+00:00)" >> "$GITHUB_ENV"
+          python scripts/collect.py
+      - name: Verify latest collection summary
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from datetime import datetime, timedelta, timezone
+          from pathlib import Path
+          report = json.loads(Path("src/data/collection_quality.json").read_text(encoding="utf-8"))
+          update = report["last_update"]
+          assert update["new_count"] == len(update["new_documents"]), "New document count mismatch"
+          assert datetime.fromisoformat(update["completed_at"]) >= datetime.fromisoformat(os.environ["COLLECTION_STARTED_AT"]), "Collection summary is stale"
+          completed = datetime.fromisoformat(update["completed_at"]).astimezone(timezone(timedelta(hours=9)))
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as output:
+              output.write(f"## 최근 업데이트 신규 자료\n\n수집 완료: {completed:%Y-%m-%d %H:%M:%S} (한국 시간)\n\n신규 자료: **{update['new_count']}건**\n\n수집원 오류: {update['source_errors']}건\n")
+          PY
       - name: Commit collected metadata
         run: |
           if ! git diff --quiet -- src/data/items.json src/data/collection_quality.json src/data/last_manual_collection.json; then
