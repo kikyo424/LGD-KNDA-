@@ -1,27 +1,26 @@
 {
   "last_update": {
-    "completed_at": "2026-10-16T00:22:31.895849+00:00",
+    "completed_at": "2026-10-16T00:29:46.221047+00:00",
     "new_count": 1,
     "new_documents": [
       {
-        "id": "46918192c791852d5f87",
+        "id": "c5fe9a3450853f60f9be",
         "doi": "",
         "source_type": "news",
-        "source": "뉴스웍스",
+        "source": "브릿지경제",
         "region": "domestic",
-        "title": "삼성D·LGD, SID서 차세대 OLED 기술 격돌…3000니트·3세대 탠덤 공개 - 뉴스웍스",
-        "published_at": "2026-05-05",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByUk5INWZyMUVTSWdzNmZZczU5dkJyYkszUzZkLXZMbzJieGduaXdFU290aWROaV8xcktIWVlSM2xJZlF4WFFwQ3JUd00wNlhvWVJRZnBSOFhSeXMtcm5rZGVuNWpTY05DbHQzZlA1c9IBc0FVX3lxTE9ma0M4UmZZTXdNa3h6eEkyT1F5anhWLWw2dU1LT2VkNDBhSUFiVXRxT2poMjlyRFpOcW1kZjM3QzhrMnJkV0tSbVRGdF9ZZ2h6RnlGTGpodDhNSmRSQ2hHMUJKd1Z5YUR1S3JOQk1rMjR5Vnc?oc=5",
-        "summary": "삼성D·LGD, SID서 차세대 OLED 기술 격돌…3000니트·3세대 탠덤 공개 뉴스웍스",
+        "title": "LGD “AI 시대 디스플레이 승부처는 전력효율⋯ ‘탠덤 OLED’가 해법” - 브릿지경제",
+        "published_at": "2026-07-21",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB0TTJ1ZWVNMVNvamtrVjFZTWFWYW5lb1BHQkRqTEhtc2dXRmlCOE1VN3hQY2MzNDNrYUdlcUJ1ekJ4RXd4ZFB0eWU3VE54M0RGS0o1eHB2dw?oc=5",
+        "summary": "LGD “AI 시대 디스플레이 승부처는 전력효율⋯ ‘탠덤 OLED’가 해법” 브릿지경제",
         "technologies": [
           "발광 구조"
         ],
-        "collected_at": "2026-10-16T00:21:38.748538+00:00",
-        "document_id": "46918192c791852d5f87",
-        "published_date": "2026-05-05",
+        "collected_at": "2026-10-16T00:28:54.002571+00:00",
+        "document_id": "c5fe9a3450853f60f9be",
+        "published_date": "2026-07-21",
         "company": [
-          "LG디스플레이",
-          "삼성디스플레이"
+          "LG디스플레이"
         ],
         "technology": [
           "발광 구조"
@@ -33,7 +32,7 @@
           "탠덤 OLED": 3
         },
         "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByUk5INWZyMUVTSWdzNmZZczU5dkJyYkszUzZkLXZMbzJieGduaXdFU290aWROaV8xcktIWVlSM2xJZlF4WFFwQ3JUd00wNlhvWVJRZnBSOFhSeXMtcm5rZGVuNWpTY05DbHQzZlA1c9IBc0FVX3lxTE9ma0M4UmZZTXdNa3h6eEkyT1F5anhWLWw2dU1LT2VkNDBhSUFiVXRxT2poMjlyRFpOcW1kZjM3QzhrMnJkV0tSbVRGdF9ZZ2h6RnlGTGpodDhNSmRSQ2hHMUJKd1Z5YUR1S3JOQk1rMjR5Vnc?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB0TTJ1ZWVNMVNvamtrVjFZTWFWYW5lb1BHQkRqTEhtc2dXRmlCOE1VN3hQY2MzNDNrYUdlcUJ1ekJ4RXd4ZFB0eWU3VE54M0RGS0o1eHB2dw?oc=5"
       }
     ],
     "source_errors": 3
@@ -46,5 +45,5 @@
   "missing_date": 0,
   "missing_summary": 22,
   "source_errors": 3,
-  "generated_at": "2026-10-16T00:22:31.896039+00:00"
+  "generated_at": "2026-10-16T00:29:46.221240+00:00"
 }
