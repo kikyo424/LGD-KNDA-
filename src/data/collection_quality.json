@@ -1,17 +1,47 @@
 {
   "last_update": {
-    "completed_at": "2026-10-16T00:07:25.159908+00:00",
-    "new_count": 0,
-    "new_documents": [],
+    "completed_at": "2026-10-16T00:09:26.418897+00:00",
+    "new_count": 1,
+    "new_documents": [
+      {
+        "id": "814fb002a18d9fd44c09",
+        "doi": "",
+        "source_type": "news",
+        "source": "케이벤치",
+        "region": "domestic",
+        "title": "'갤럭시S26 울트라' 디스플레이 더 밝고 오래간다.. 차세대 CoE OLED 기술 적용 - 케이벤치",
+        "published_at": "2025-07-14",
+        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9felFVU1FMSTJ5ZF9vdmFIaXhTc3huRlNMUW9nWDlDS3prRmFHV1Y0N09GaG03azhFbGo1UUNTb2JuaS1rbm5xcA?oc=5",
+        "summary": "'갤럭시S26 울트라' 디스플레이 더 밝고 오래간다.. 차세대 CoE OLED 기술 적용 케이벤치",
+        "technologies": [
+          "야외 시인성"
+        ],
+        "collected_at": "2026-10-16T00:08:34.063391+00:00",
+        "document_id": "814fb002a18d9fd44c09",
+        "published_date": "2025-07-14",
+        "company": [],
+        "technology": [
+          "야외 시인성"
+        ],
+        "keywords": [
+          "COE display"
+        ],
+        "keyword_scores": {
+          "COE display": 3
+        },
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9felFVU1FMSTJ5ZF9vdmFIaXhTc3huRlNMUW9nWDlDS3prRmFHV1Y0N09GaG03azhFbGo1UUNTb2JuaS1rbm5xcA?oc=5"
+      }
+    ],
     "source_errors": 3
   },
-  "input": 761,
-  "excluded_irrelevant": 361,
+  "input": 759,
+  "excluded_irrelevant": 357,
   "excluded_before_2023": 106,
-  "duplicates_removed": 81,
-  "saved": 213,
+  "duplicates_removed": 82,
+  "saved": 214,
   "missing_date": 0,
   "missing_summary": 22,
   "source_errors": 3,
-  "generated_at": "2026-10-16T00:07:25.160096+00:00"
+  "generated_at": "2026-10-16T00:09:26.419145+00:00"
 }
