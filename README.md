@@ -50,16 +50,31 @@ python scripts/collect.py --keyword "wearable OLED 3000 nits" --date-from 2024-0
 
 ## 검증
 
-### 사이트 관리자 업데이트 버튼
+### 외부 예약으로 매일 자동 업데이트
 
-`최근 업데이트 신규 자료 > 관리자 · 지금 업데이트`를 펼쳐 관리자 키를 입력하고 실행합니다. Render 서버가 GitHub Actions에 실행을 요청하며, 요청 접수·수집/배포 진행·완료를 구분해 표시합니다. 성공 후 `최신 자료 새로고침`으로 이번 신규 자료 건수와 목록을 확인합니다. 실패한 실행은 완료로 표시하지 않습니다. 매일 09:10 자동 예약은 유지합니다.
+사이트에는 관리자 입력칸이나 업데이트 실행 버튼이 없습니다. cron-job.org에서 매일 한국 시간 09:10에 Render API를 호출하면 GitHub Actions가 수집·배포를 수행합니다. 예약 서비스 계정에서 아래 작업을 최초 1회 등록해야 하며, 코드 배포만으로 외부 예약이 생성되지는 않습니다.
 
 Render의 기존 `oled-report-service > Environment`에서 다음 두 비밀 환경변수를 설정하고 최신 코드를 배포하세요.
 
-- `UPDATE_ADMIN_KEY`: 길고 무작위인 관리자 전용 키. 사이트에 이 키를 입력합니다. 브라우저 저장소에는 보관하지 않습니다.
+- `UPDATE_ADMIN_KEY`: 길고 무작위인 서버 간 인증키. 아래 예약 작업의 Authorization 헤더에만 등록합니다. 사이트에서 입력할 필요가 없습니다.
 - `UPDATE_GITHUB_TOKEN`: GitHub Fine-grained personal access token. `kikyo424/LGD-KNDA-` 저장소만 선택하고 Repository permissions의 **Actions: Read and write**를 부여합니다. 토큰은 서버에만 저장합니다. 만료되면 Render에서 교체합니다.
 
 `render.yaml`에 두 항목을 비밀 입력으로 선언했습니다. 이미 생성된 서비스는 Render 환경변수에서 직접 추가할 수 있습니다. 이 저장소에 Render가 연결되어 있으면 최신 코드 자동 배포 여부를 확인하고, 자동 배포가 꺼져 있으면 `Manual Deploy > Deploy latest commit`을 실행하세요. 환경변수가 없으면 API는 실행을 거부하고 설정 필요 메시지를 표시합니다. 설정 값을 코드나 채팅에 붙여넣지 마세요.
+
+cron-job.org에서 아래 두 작업을 등록하세요. 시간대는 모두 `Asia/Seoul`이며 매일 반복합니다.
+
+| 작업 | 시간 | 방식 | URL |
+| --- | --- | --- | --- |
+| 서버 깨우기 | 09:07 | GET | `https://oled-report-service.onrender.com/health` |
+| 업데이트 실행 | 09:10 | POST | `https://oled-report-service.onrender.com/updates` |
+
+업데이트 실행 작업의 고급 설정에서 헤더 `Authorization`을 `Bearer <Render의 UPDATE_ADMIN_KEY 값>`으로 설정합니다. 본문은 비워둡니다. GitHub 토큰은 Render에만 저장합니다. 서버 주소를 변경했다면 두 URL을 함께 수정합니다. 서버 깨우기는 무료 Render의 절전 후 첫 응답 지연을 줄이기 위한 보조 요청이며 정시 응답을 보장하지 않습니다.
+
+테스트 실행에서 업데이트 요청이 HTTP 202와 요청 `id`를 반환하는지 확인한 뒤, GitHub Actions의 `Navigator MAP update <id>` 실행이 성공했는지 확인하세요. HTTP 202는 요청 접수이지 배포 완료가 아닙니다. 401은 인증키 불일치, 503은 Render 환경변수 누락, 409는 이미 실행 중이거나 최근 접수한 요청, 502는 GitHub 권한/설정 오류, 504는 GitHub 응답 지연입니다. 응답이 불명확하면 재실행 전에 Actions 기록을 확인합니다. 예약 서비스의 실패 알림과 실행 기록도 활성화하세요.
+
+외부 예약 실행 성공을 확인할 때까지 기존 GitHub 09:10 `schedule`은 임시 예비 경로로 유지합니다. 외부 등록이 확인되면 `.github/workflows/pages.yml`의 `schedule` 블록을 제거하여 예약 경로를 통일합니다. 외부 계정 설정이 안 된 상태에서 예비 경로를 먼저 제거하지 마세요.
+
+공식 설정 문서: https://docs.cron-job.org/creating-cron-jobs.html · https://render.com/docs/free
 
 업데이트 API: `POST /updates`, `GET /updates/{요청UUID}`. 두 요청 모두 `Authorization: Bearer <UPDATE_ADMIN_KEY>` 인증이 필요합니다. 이미 실행 중인 워크플로가 있으면 중복 요청을 거부하고, 접수 후 2분간 추가 요청을 제한합니다. 10분간 인증 실패 5회인 IP는 일시 차단합니다. 제한은 단일 서버 메모리를 사용하며 재시작 시 초기화됩니다. 실행 상태는 요청 UUID가 붙은 GitHub 실행 기록에서 조회하므로 서버 재시작 후에도 다른 실행과 혼동하지 않습니다. 이 기능의 실제 운영 확인에는 Render 비밀 환경변수 설정이 필요합니다.
 
@@ -76,7 +91,7 @@ npm run build
 4. `Actions > Collect and deploy > Run workflow`로 첫 배포를 실행합니다.
 5. 맞춤 수집 서버를 위 절차대로 연결하면 방문자가 사이트에서 HTML 보고서를 직접 다운로드할 수 있습니다.
 
-수집은 매일 한국 시간 오전 9시 10분에 자동 실행되도록 예약되어 있습니다 (`10 0 * * *`, UTC 기준 00:10). 기본 OLED·웨어러블·COE 키워드로 뉴스와 논문 메타데이터를 수집하고 중복을 정리한 뒤 사이트를 자동 배포합니다. GitHub Actions 상황에 따라 실행 시간이 지연될 수 있으며, 사이트에는 수집과 배포가 완료된 뒤 반영됩니다. Crossref의 polite pool을 사용하려면 저장소 Secret에 `CONTACT_EMAIL`을 추가하세요.
+수집 목표 시각은 매일 한국 시간 오전 9시 10분입니다. 위 외부 예약 등록을 완료하면 Render를 통해 실행되며, 기존 GitHub 예약(`10 0 * * *`, UTC 00:10)은 외부 실행 확인 전까지 예비 경로로 유지합니다. 기본 OLED·웨어러블·COE 키워드로 뉴스와 논문 메타데이터를 수집하고 중복을 정리한 뒤 사이트를 자동 배포합니다. 시작 시각은 서비스 상황에 따라 지연될 수 있고, 사이트에는 수집과 배포가 완료된 뒤 반영됩니다. Crossref의 polite pool을 사용하려면 저장소 Secret에 `CONTACT_EMAIL`을 추가하세요.
 
 최근 업데이트 신규 자료는 수집 직전 데이터와 비교해 집계하며, 기존 ID·URL·DOI 또는 동일 제목·발표일로 확인되는 자료는 신규에서 제외합니다. 새 자료가 없으면 0건을 표시합니다. 신규 내역 보기에서 제목을 눌러 원문을 열 수 있으며, 수집 오류가 발생한 경우 함께 안내합니다. 단순 데이터 재처리는 마지막 신규 집계를 유지합니다.
 
