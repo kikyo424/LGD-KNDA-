@@ -1,4 +1,5 @@
 name: Collect and deploy
+run-name: ${{ inputs.update_request && format('Navigator MAP update {0}', inputs.update_request) || github.event.head_commit.message || 'Collect and deploy' }}
 
 on:
   push:
@@ -7,6 +8,11 @@ on:
     # Daily at 09:10 Asia/Seoul (00:10 UTC).
     - cron: "10 0 * * *"
   workflow_dispatch:
+    inputs:
+      update_request:
+        description: "사이트 업데이트 요청 식별자 (일반 수동 실행 시 비워두세요)"
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -62,7 +68,12 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add src/data/items.json src/data/collection_quality.json src/data/last_manual_collection.json
             git commit -m "data: update OLED trend metadata"
-            git push
+            for attempt in 1 2 3; do
+              if git push origin HEAD:main; then break; fi
+              if [[ "$attempt" == "3" ]]; then exit 1; fi
+              git fetch origin main
+              git rebase origin/main
+            done
           fi
       - uses: actions/setup-node@v4
         with:

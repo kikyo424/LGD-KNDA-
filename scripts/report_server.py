@@ -17,6 +17,7 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from pydantic import BaseModel, Field, model_validator
+from scripts.update_api import router as update_router
 
 ROOT = Path(__file__).resolve().parents[1]
 TTL = 3600
@@ -58,7 +59,8 @@ lock = Lock()
 executor = ThreadPoolExecutor(max_workers=2)
 app = FastAPI(title="OLED report service", docs_url=None, redoc_url=None)
 app.add_middleware(CORSMiddleware, allow_origins=ALLOWED_ORIGINS,
-                   allow_methods=["GET", "POST"], allow_headers=["Content-Type"])
+                   allow_methods=["GET", "POST"], allow_headers=["Content-Type", "Authorization"])
+app.include_router(update_router)
 
 
 def cleanup(now: float) -> None:

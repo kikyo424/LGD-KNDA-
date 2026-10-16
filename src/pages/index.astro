@@ -121,6 +121,17 @@ const newDocuments = lastUpdate?.new_documents || [];
     </header>
 
     <section class="panel update-panel" aria-label="최근 업데이트 신규 자료">
+      <details class="manual-update">
+        <summary>관리자 · 지금 업데이트</summary>
+        <form id="update-form" data-update-api={reportApiUrl}>
+          <label>관리자 키 <input id="update-key" type="password" required autocomplete="off" /></label>
+          <button type="submit">지금 업데이트</button>
+        </form>
+        <p>수집·배포 완료까지 잠시 기다려 주세요. 서버 첫 연결에는 시간이 걸릴 수 있습니다.</p>
+        <p id="update-status" role="status" aria-live="polite"></p>
+        <a id="update-run-link" hidden target="_blank" rel="noreferrer">실행 기록 보기</a>
+        <button id="reload-update" type="button" hidden>최신 자료 새로고침</button>
+      </details>
       <h2>최근 업데이트 신규 자료 · {newDocuments.length}건</h2>
       <p>{lastUpdate ? `${koreanDateTime.format(new Date(lastUpdate.completed_at))} (한국 시간) 수집 완료 · 직전 수집 데이터와 비교` : "다음 수집 완료부터 신규 자료를 집계합니다."}</p>
       {lastUpdate?.source_errors ? <p>일부 수집원에 오류가 있어 신규 자료가 누락되었을 수 있습니다.</p> : null}
@@ -316,6 +327,57 @@ const newDocuments = lastUpdate?.new_documents || [];
   </main>
 
   <script>
+    const updateForm = document.querySelector<HTMLFormElement>("#update-form");
+    const updateStatus = document.querySelector<HTMLElement>("#update-status");
+    const updateButton = updateForm?.querySelector<HTMLButtonElement>("button[type=submit]");
+    const runLink = document.querySelector<HTMLAnchorElement>("#update-run-link");
+    const reloadButton = document.querySelector<HTMLButtonElement>("#reload-update");
+    reloadButton?.addEventListener("click", () => location.reload());
+    updateForm?.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      if (!updateButton || updateButton.disabled) return;
+      const keyInput = document.querySelector<HTMLInputElement>("#update-key");
+      const adminKey = keyInput?.value || "";
+      const api = (updateForm.dataset.updateApi || "").replace(/\/$/, "");
+      if (!api || !adminKey) {
+        if (updateStatus) updateStatus.textContent = "서버 연결 설정과 관리자 키를 확인해 주세요.";
+        return;
+      }
+      updateButton.disabled = true;
+      if (runLink) runLink.hidden = true;
+      if (reloadButton) reloadButton.hidden = true;
+      if (updateStatus) updateStatus.textContent = "서버에 연결하고 있습니다. 첫 연결은 약 1분 걸릴 수 있습니다.";
+      const request = async (path: string, method = "GET") => {
+        const response = await fetch(`${api}${path}`, { method, headers: { Authorization: `Bearer ${adminKey}` }, cache: "no-store", signal: AbortSignal.timeout(120000) });
+        const data = await response.json();
+        if (!response.ok) throw new Error(typeof data.detail === "string" ? data.detail : "업데이트 요청을 처리하지 못했습니다.");
+        return data;
+      };
+      try {
+        const job = await request("/updates", "POST");
+        if (keyInput) keyInput.value = "";
+        if (updateStatus) updateStatus.textContent = job.message;
+        for (let attempt = 0; attempt < 80; attempt++) {
+          await new Promise((resolve) => setTimeout(resolve, 15000));
+          const status = await request(`/updates/${encodeURIComponent(job.id)}`);
+          if (updateStatus) updateStatus.textContent = status.message;
+          if (runLink && typeof status.url === "string" && status.url.startsWith("https://github.com/kikyo424/LGD-KNDA-/actions/runs/")) {
+            runLink.href = status.url;
+            runLink.hidden = false;
+          }
+          if (status.state === "completed" || status.state === "failed") {
+            if (reloadButton) reloadButton.hidden = status.state !== "completed";
+            return;
+          }
+        }
+        throw new Error("완료 확인이 지연되고 있습니다. GitHub Actions에서 실행 기록을 확인해 주세요.");
+      } catch (error) {
+        if (updateStatus) updateStatus.textContent = error instanceof Error ? error.message : "연결을 확인하고 다시 시도해 주세요.";
+      } finally {
+        if (keyInput) keyInput.value = "";
+        updateButton.disabled = false;
+      }
+    });
     const nextUpdateElement = document.querySelector<HTMLTimeElement>("#next-update");
     if (nextUpdateElement) {
       const now = new Date();
@@ -599,6 +661,11 @@ const newDocuments = lastUpdate?.new_documents || [];
 
 <style>
   .update-panel { margin-top: 24px; }
+  .manual-update { margin-bottom: 20px; }
+  #update-form { display: flex; flex-wrap: wrap; align-items: end; gap: 12px; }
+  #update-form label { display: grid; gap: 6px; }
+  #update-form input { background: var(--surface); color: var(--text); border: 1px solid var(--border-strong); padding: 10px; }
+  #update-form button, #reload-update { background: var(--brand); color: var(--on-brand); border: 0; padding: 10px 14px; cursor: pointer; }
   .update-panel p, .update-panel small { color: var(--text-muted); font-size: .8rem; }
   .update-panel summary { cursor: pointer; color: var(--brand); padding: 12px 0; }
   .update-panel ul { max-height: 360px; overflow-y: auto; padding-left: 24px; }

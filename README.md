@@ -50,6 +50,19 @@ python scripts/collect.py --keyword "wearable OLED 3000 nits" --date-from 2024-0
 
 ## 검증
 
+### 사이트 관리자 업데이트 버튼
+
+`최근 업데이트 신규 자료 > 관리자 · 지금 업데이트`를 펼쳐 관리자 키를 입력하고 실행합니다. Render 서버가 GitHub Actions에 실행을 요청하며, 요청 접수·수집/배포 진행·완료를 구분해 표시합니다. 성공 후 `최신 자료 새로고침`으로 이번 신규 자료 건수와 목록을 확인합니다. 실패한 실행은 완료로 표시하지 않습니다. 매일 09:10 자동 예약은 유지합니다.
+
+Render의 기존 `oled-report-service > Environment`에서 다음 두 비밀 환경변수를 설정하고 최신 코드를 배포하세요.
+
+- `UPDATE_ADMIN_KEY`: 길고 무작위인 관리자 전용 키. 사이트에 이 키를 입력합니다. 브라우저 저장소에는 보관하지 않습니다.
+- `UPDATE_GITHUB_TOKEN`: GitHub Fine-grained personal access token. `kikyo424/LGD-KNDA-` 저장소만 선택하고 Repository permissions의 **Actions: Read and write**를 부여합니다. 토큰은 서버에만 저장합니다. 만료되면 Render에서 교체합니다.
+
+`render.yaml`에 두 항목을 비밀 입력으로 선언했습니다. 이미 생성된 서비스는 Render 환경변수에서 직접 추가할 수 있습니다. 이 저장소에 Render가 연결되어 있으면 최신 코드 자동 배포 여부를 확인하고, 자동 배포가 꺼져 있으면 `Manual Deploy > Deploy latest commit`을 실행하세요. 환경변수가 없으면 API는 실행을 거부하고 설정 필요 메시지를 표시합니다. 설정 값을 코드나 채팅에 붙여넣지 마세요.
+
+업데이트 API: `POST /updates`, `GET /updates/{요청UUID}`. 두 요청 모두 `Authorization: Bearer <UPDATE_ADMIN_KEY>` 인증이 필요합니다. 이미 실행 중인 워크플로가 있으면 중복 요청을 거부하고, 접수 후 2분간 추가 요청을 제한합니다. 10분간 인증 실패 5회인 IP는 일시 차단합니다. 제한은 단일 서버 메모리를 사용하며 재시작 시 초기화됩니다. 실행 상태는 요청 UUID가 붙은 GitHub 실행 기록에서 조회하므로 서버 재시작 후에도 다른 실행과 혼동하지 않습니다. 이 기능의 실제 운영 확인에는 Render 비밀 환경변수 설정이 필요합니다.
+
 ```bash
 python -m pytest
 npm run build
