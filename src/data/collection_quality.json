@@ -1,49 +1,80 @@
 {
   "last_update": {
-    "completed_at": "2026-10-17T09:22:16.809365+00:00",
-    "new_count": 1,
+    "completed_at": "2026-10-17T09:25:20.024516+00:00",
+    "new_count": 2,
     "new_documents": [
       {
-        "id": "0f22af69864733856c53",
+        "id": "add5308879f1fc889d8e",
         "doi": "",
         "source_type": "news",
-        "source": "스포츠서울",
+        "source": "데일리한국",
         "region": "domestic",
-        "title": "LG디스플레이, OLED 공정 혁신 ‘FLIPP’ 공개…휘도 1.6배·수명 2.4배 - 스포츠서울",
-        "published_at": "2026-10-11",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBhQUc4alBoLW9hZU9aZDg1UXZKR2xHa2FqNWNlZXY3TFZDalpfdDNURTAtTWd4cWtvNEE3dUdHaE9Jakh4SF85cVp1THhUajRJMFdGRkN3dmc?oc=5",
-        "summary": "LG디스플레이, OLED 공정 혁신 ‘FLIPP’ 공개…휘도 1.6배·수명 2.4배 스포츠서울",
+        "title": "LG디스플레이 최영석 '탠덤 OLED 풀라인업으로 AI 시대 전력효율 부응' - 데일리한국",
+        "published_at": "2026-07-21",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8wNUltWTloMGZVaFd5UjVYVzdzM1hLTmwyMXJKU3g5empOTE1hMUdCX1VQSjNNZDlRVVd1b05BSFNCaDU3NTEtTGJkSXc3eWhWeEdPTGRINUJBbFotQW1NWk1rZDg5VmdoM19NN290VdIBc0FVX3lxTE94cmd1Y1BqWUU4UmpROHg5ZkhPWHNGNWo2bEZOX3JfSlF4WDlZd25rc3dOZEdKUVd3cS1GZzhtQkhMZnZ3Nl8wYUhUb2N1OVYwZjQ0ZU9KZjBIeGxJcFlVbHNrMmpmTUkyc0RKTzlqYkVYNzg?oc=5",
+        "summary": "LG디스플레이 최영석 '탠덤 OLED 풀라인업으로 AI 시대 전력효율 부응' 데일리한국",
         "technologies": [
-          "제조/공정"
+          "발광 구조"
         ],
-        "collected_at": "2026-10-17T09:21:24.359259+00:00",
-        "document_id": "0f22af69864733856c53",
-        "published_date": "2026-10-11",
+        "collected_at": "2026-10-17T09:24:26.733238+00:00",
+        "document_id": "add5308879f1fc889d8e",
+        "published_date": "2026-07-21",
         "company": [
           "LG디스플레이"
         ],
         "technology": [
-          "제조/공정"
+          "발광 구조"
         ],
         "keywords": [
-          "제조 공정"
+          "탠덤 OLED"
         ],
         "keyword_scores": {
-          "제조 공정": 3
+          "탠덤 OLED": 3
         },
         "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBhQUc4alBoLW9hZU9aZDg1UXZKR2xHa2FqNWNlZXY3TFZDalpfdDNURTAtTWd4cWtvNEE3dUdHaE9Jakh4SF85cVp1THhUajRJMFdGRkN3dmc?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8wNUltWTloMGZVaFd5UjVYVzdzM1hLTmwyMXJKU3g5empOTE1hMUdCX1VQSjNNZDlRVVd1b05BSFNCaDU3NTEtTGJkSXc3eWhWeEdPTGRINUJBbFotQW1NWk1rZDg5VmdoM19NN290VdIBc0FVX3lxTE94cmd1Y1BqWUU4UmpROHg5ZkhPWHNGNWo2bEZOX3JfSlF4WDlZd25rc3dOZEdKUVd3cS1GZzhtQkhMZnZ3Nl8wYUhUb2N1OVYwZjQ0ZU9KZjBIeGxJcFlVbHNrMmpmTUkyc0RKTzlqYkVYNzg?oc=5"
+      },
+      {
+        "id": "8fb6863c7a72b1cfe47e",
+        "doi": "",
+        "source_type": "news",
+        "source": "삼성디스플레이 뉴스룸",
+        "region": "domestic",
+        "title": "삼성디스플레이, 프리미엄 기술 브랜드 'QD-OLED 펜타 탠덤' 런칭 - 삼성디스플레이 뉴스룸",
+        "published_at": "2026-02-12",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ORkFoOF84a1BMOGtpVjJuYXFzRDhjclNnb09GR1lTb05ZMzVTVklSdy1US0dKRTJlU19DejEwdHc3aGo1My0wTEJ6VWZoSFNMZ1J5dlFzbnlMYU0?oc=5",
+        "summary": "삼성디스플레이, 프리미엄 기술 브랜드 'QD-OLED 펜타 탠덤' 런칭 삼성디스플레이 뉴스룸",
+        "technologies": [
+          "발광 구조"
+        ],
+        "collected_at": "2026-10-17T09:24:26.729067+00:00",
+        "document_id": "8fb6863c7a72b1cfe47e",
+        "published_date": "2026-02-12",
+        "company": [
+          "삼성디스플레이"
+        ],
+        "technology": [
+          "발광 구조"
+        ],
+        "keywords": [
+          "탠덤 OLED"
+        ],
+        "keyword_scores": {
+          "탠덤 OLED": 3
+        },
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ORkFoOF84a1BMOGtpVjJuYXFzRDhjclNnb09GR1lTb05ZMzVTVklSdy1US0dKRTJlU19DejEwdHc3aGo1My0wTEJ6VWZoSFNMZ1J5dlFzbnlMYU0?oc=5"
       }
     ],
     "source_errors": 3
   },
   "input": 764,
-  "excluded_irrelevant": 359,
+  "excluded_irrelevant": 357,
   "excluded_before_2023": 105,
   "duplicates_removed": 82,
-  "saved": 218,
+  "saved": 220,
   "missing_date": 0,
   "missing_summary": 22,
   "source_errors": 3,
-  "generated_at": "2026-10-17T09:22:16.809660+00:00"
+  "generated_at": "2026-10-17T09:25:20.024737+00:00"
 }
