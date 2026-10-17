@@ -1,174 +1,49 @@
 {
   "last_update": {
-    "completed_at": "2026-10-17T04:18:07.327748+00:00",
-    "new_count": 6,
+    "completed_at": "2026-10-17T09:22:16.809365+00:00",
+    "new_count": 1,
     "new_documents": [
       {
-        "id": "7f16d732539f0b34daac",
+        "id": "0f22af69864733856c53",
         "doi": "",
         "source_type": "news",
-        "source": "OLED-Info",
-        "region": "international",
-        "title": "Honor launches its Watch 6 Pro smartwatch, the world's first product to sport an OLED display produced using a lithography process - OLED-Info",
-        "published_at": "2026-09-29",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTThSWFZNUXZtT3U3TGlUUkFHbGNvYnpRa1VFMnZDblNOalhPM0JUVG9xd3VXMV9GZjJPT2tjdVNMTkN1Z3R5RHhXcUtySzlYaVU2UldLRUlJMFVlUjMya203ZV8zbWx6dk5uN0lZWU9LeVg1Z0FaeHZOV3BDVFlsVHg3OVVsa2c1UXE5bjctLVloSTZ1MUNv?oc=5",
-        "summary": "Honor launches its Watch 6 Pro smartwatch, the world's first product to sport an OLED display produced using a lithography process OLED-Info",
-        "technologies": [],
-        "collected_at": "2026-10-17T04:17:22.833967+00:00",
-        "document_id": "7f16d732539f0b34daac",
-        "published_date": "2026-09-29",
-        "company": [],
-        "technology": [],
-        "keywords": [],
-        "keyword_scores": {},
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTThSWFZNUXZtT3U3TGlUUkFHbGNvYnpRa1VFMnZDblNOalhPM0JUVG9xd3VXMV9GZjJPT2tjdVNMTkN1Z3R5RHhXcUtySzlYaVU2UldLRUlJMFVlUjMya203ZV8zbWx6dk5uN0lZWU9LeVg1Z0FaeHZOV3BDVFlsVHg3OVVsa2c1UXE5bjctLVloSTZ1MUNv?oc=5"
-      },
-      {
-        "id": "c5fe9a3450853f60f9be",
-        "doi": "",
-        "source_type": "news",
-        "source": "브릿지경제",
+        "source": "스포츠서울",
         "region": "domestic",
-        "title": "LGD “AI 시대 디스플레이 승부처는 전력효율⋯ ‘탠덤 OLED’가 해법” - 브릿지경제",
-        "published_at": "2026-07-21",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB0TTJ1ZWVNMVNvamtrVjFZTWFWYW5lb1BHQkRqTEhtc2dXRmlCOE1VN3hQY2MzNDNrYUdlcUJ1ekJ4RXd4ZFB0eWU3VE54M0RGS0o1eHB2dw?oc=5",
-        "summary": "LGD “AI 시대 디스플레이 승부처는 전력효율⋯ ‘탠덤 OLED’가 해법” 브릿지경제",
+        "title": "LG디스플레이, OLED 공정 혁신 ‘FLIPP’ 공개…휘도 1.6배·수명 2.4배 - 스포츠서울",
+        "published_at": "2026-10-11",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBhQUc4alBoLW9hZU9aZDg1UXZKR2xHa2FqNWNlZXY3TFZDalpfdDNURTAtTWd4cWtvNEE3dUdHaE9Jakh4SF85cVp1THhUajRJMFdGRkN3dmc?oc=5",
+        "summary": "LG디스플레이, OLED 공정 혁신 ‘FLIPP’ 공개…휘도 1.6배·수명 2.4배 스포츠서울",
         "technologies": [
-          "발광 구조"
+          "제조/공정"
         ],
-        "collected_at": "2026-10-17T04:17:21.939005+00:00",
-        "document_id": "c5fe9a3450853f60f9be",
-        "published_date": "2026-07-21",
+        "collected_at": "2026-10-17T09:21:24.359259+00:00",
+        "document_id": "0f22af69864733856c53",
+        "published_date": "2026-10-11",
         "company": [
           "LG디스플레이"
         ],
         "technology": [
-          "발광 구조"
+          "제조/공정"
         ],
         "keywords": [
-          "탠덤 OLED"
+          "제조 공정"
         ],
         "keyword_scores": {
-          "탠덤 OLED": 3
+          "제조 공정": 3
         },
         "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB0TTJ1ZWVNMVNvamtrVjFZTWFWYW5lb1BHQkRqTEhtc2dXRmlCOE1VN3hQY2MzNDNrYUdlcUJ1ekJ4RXd4ZFB0eWU3VE54M0RGS0o1eHB2dw?oc=5"
-      },
-      {
-        "id": "add5308879f1fc889d8e",
-        "doi": "",
-        "source_type": "news",
-        "source": "데일리한국",
-        "region": "domestic",
-        "title": "LG디스플레이 최영석 '탠덤 OLED 풀라인업으로 AI 시대 전력효율 부응' - 데일리한국",
-        "published_at": "2026-07-21",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8wNUltWTloMGZVaFd5UjVYVzdzM1hLTmwyMXJKU3g5empOTE1hMUdCX1VQSjNNZDlRVVd1b05BSFNCaDU3NTEtTGJkSXc3eWhWeEdPTGRINUJBbFotQW1NWk1rZDg5VmdoM19NN290VdIBc0FVX3lxTE94cmd1Y1BqWUU4UmpROHg5ZkhPWHNGNWo2bEZOX3JfSlF4WDlZd25rc3dOZEdKUVd3cS1GZzhtQkhMZnZ3Nl8wYUhUb2N1OVYwZjQ0ZU9KZjBIeGxJcFlVbHNrMmpmTUkyc0RKTzlqYkVYNzg?oc=5",
-        "summary": "LG디스플레이 최영석 '탠덤 OLED 풀라인업으로 AI 시대 전력효율 부응' 데일리한국",
-        "technologies": [
-          "발광 구조"
-        ],
-        "collected_at": "2026-10-17T04:17:21.939883+00:00",
-        "document_id": "add5308879f1fc889d8e",
-        "published_date": "2026-07-21",
-        "company": [
-          "LG디스플레이"
-        ],
-        "technology": [
-          "발광 구조"
-        ],
-        "keywords": [
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "탠덤 OLED": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8wNUltWTloMGZVaFd5UjVYVzdzM1hLTmwyMXJKU3g5empOTE1hMUdCX1VQSjNNZDlRVVd1b05BSFNCaDU3NTEtTGJkSXc3eWhWeEdPTGRINUJBbFotQW1NWk1rZDg5VmdoM19NN290VdIBc0FVX3lxTE94cmd1Y1BqWUU4UmpROHg5ZkhPWHNGNWo2bEZOX3JfSlF4WDlZd25rc3dOZEdKUVd3cS1GZzhtQkhMZnZ3Nl8wYUhUb2N1OVYwZjQ0ZU9KZjBIeGxJcFlVbHNrMmpmTUkyc0RKTzlqYkVYNzg?oc=5"
-      },
-      {
-        "id": "d5a06ba5907217b71940",
-        "doi": "",
-        "source_type": "news",
-        "source": "메트로신문",
-        "region": "domestic",
-        "title": "삼성디스플레이, 1600니트 '탠덤 OLED' 공급…프리미엄 PC 시장 승부수 - 메트로신문",
-        "published_at": "2026-07-20",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5CZmE5MmFiTmR4aVFGZ3FlZDdFZGsxWXZaMjlQT1ZWSGswdW53TDJSWmVXTmZXMDAzOGw4SHhEa29MNXpWWmFlZ2RqVDNlTi12bmU0TW41SUZkNlJvUkJ6WQ?oc=5",
-        "summary": "삼성디스플레이, 1600니트 '탠덤 OLED' 공급…프리미엄 PC 시장 승부수 메트로신문",
-        "technologies": [
-          "발광 구조"
-        ],
-        "collected_at": "2026-10-17T04:17:21.935636+00:00",
-        "document_id": "d5a06ba5907217b71940",
-        "published_date": "2026-07-20",
-        "company": [
-          "삼성디스플레이"
-        ],
-        "technology": [
-          "발광 구조"
-        ],
-        "keywords": [
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "탠덤 OLED": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5CZmE5MmFiTmR4aVFGZ3FlZDdFZGsxWXZaMjlQT1ZWSGswdW53TDJSWmVXTmZXMDAzOGw4SHhEa29MNXpWWmFlZ2RqVDNlTi12bmU0TW41SUZkNlJvUkJ6WQ?oc=5"
-      },
-      {
-        "id": "af5a4b3617f48aa25536",
-        "doi": "",
-        "source_type": "news",
-        "source": "Garmin Rumors",
-        "region": "international",
-        "title": "Garmin Fenix 8 Pro MicroLED Appears on garmin’s Site— A Smartwatch Breakthrough? - Garmin Rumors",
-        "published_at": "2025-09-02",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdGlZU0ZkVlA1TnFoTEZlSXFxM2ZjbGl5QlE5QmdybGRDUDI0TnVtQml6YkhOU3dqb291QW1vLUxKLVFPNjJna3psdS1wUUt2SFJLLVAzTkRaN3BRWDh2NkRLbUVLamJmMFhvazNjeUxRY3RRREtNWWYtNjZxbkxKWnI0TlVOUFlzZjh6dlMtUUN0alp0WTdhYk92aUFVUV9sX3dTdmxR?oc=5",
-        "summary": "Garmin Fenix 8 Pro MicroLED Appears on garmin’s Site— A Smartwatch Breakthrough? Garmin Rumors",
-        "technologies": [],
-        "collected_at": "2026-10-17T04:17:22.496293+00:00",
-        "document_id": "af5a4b3617f48aa25536",
-        "published_date": "2025-09-02",
-        "company": [],
-        "technology": [],
-        "keywords": [],
-        "keyword_scores": {},
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdGlZU0ZkVlA1TnFoTEZlSXFxM2ZjbGl5QlE5QmdybGRDUDI0TnVtQml6YkhOU3dqb291QW1vLUxKLVFPNjJna3psdS1wUUt2SFJLLVAzTkRaN3BRWDh2NkRLbUVLamJmMFhvazNjeUxRY3RRREtNWWYtNjZxbkxKWnI0TlVOUFlzZjh6dlMtUUN0alp0WTdhYk92aUFVUV9sX3dTdmxR?oc=5"
-      },
-      {
-        "id": "c367ae1c49001506524e",
-        "doi": "",
-        "source_type": "news",
-        "source": "WIRED",
-        "region": "international",
-        "title": "Panasonic’s Z95A OLED TV Brings Searing Brightness and Colors - WIRED",
-        "published_at": "2025-01-12",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBLVHJvaWkwTFBLcHRobXdLWUJwQlR2X0psVFdqSTZtN1VxSEx4c0x1YWNWcFpMVDZoNHd6R25FZDB4T0dZNWhqazZ0R0ZRNy1oNWRFM0V0aFFLSkhMS00tMGZB?oc=5",
-        "summary": "Panasonic’s Z95A OLED TV Brings Searing Brightness and Colors WIRED",
-        "technologies": [],
-        "collected_at": "2026-10-17T04:17:22.496573+00:00",
-        "document_id": "c367ae1c49001506524e",
-        "published_date": "2025-01-12",
-        "company": [],
-        "technology": [],
-        "keywords": [],
-        "keyword_scores": {},
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBLVHJvaWkwTFBLcHRobXdLWUJwQlR2X0psVFdqSTZtN1VxSEx4c0x1YWNWcFpMVDZoNHd6R25FZDB4T0dZNWhqazZ0R0ZRNy1oNWRFM0V0aFFLSkhMS00tMGZB?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBhQUc4alBoLW9hZU9aZDg1UXZKR2xHa2FqNWNlZXY3TFZDalpfdDNURTAtTWd4cWtvNEE3dUdHaE9Jakh4SF85cVp1THhUajRJMFdGRkN3dmc?oc=5"
       }
     ],
-    "source_errors": 5
+    "source_errors": 3
   },
-  "input": 699,
-  "excluded_irrelevant": 268,
-  "excluded_before_2023": 124,
-  "duplicates_removed": 88,
-  "saved": 219,
+  "input": 764,
+  "excluded_irrelevant": 359,
+  "excluded_before_2023": 105,
+  "duplicates_removed": 82,
+  "saved": 218,
   "missing_date": 0,
   "missing_summary": 22,
-  "source_errors": 5,
-  "generated_at": "2026-10-17T04:18:07.327944+00:00"
+  "source_errors": 3,
+  "generated_at": "2026-10-17T09:22:16.809660+00:00"
 }
