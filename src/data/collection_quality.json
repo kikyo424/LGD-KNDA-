@@ -1,23 +1,56 @@
 {
   "last_update": {
-    "completed_at": "2026-10-17T09:25:20.024516+00:00",
-    "new_count": 2,
+    "completed_at": "2026-10-18T04:22:40.942929+00:00",
+    "new_count": 4,
     "new_documents": [
       {
-        "id": "add5308879f1fc889d8e",
+        "id": "89890e1c294fa000d66c",
         "doi": "",
         "source_type": "news",
-        "source": "데일리한국",
+        "source": "Mashable",
+        "region": "international",
+        "title": "Alienware has launched the world's first 39-inch 5K RGB Stripe tandem OLED monitor — where to buy - Mashable",
+        "published_at": "2026-08-28",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMmZhX2kyZDJOa1BBWm5Pb1pMMzdRUlp1d1IwcTVlQzVrODJtNG5xUXRuOHNkMG9WRXBiT1owdzM4UzBZU2RWX2x5bjBMcWhDdWtwSmZZZzBDNXI3QUkwajNlWDk0MGpjUlpQZHUtZnZjWXR5RlBZdTVvbVpxclR2cC00UmxSUQ?oc=5",
+        "summary": "Alienware has launched the world's first 39-inch 5K RGB Stripe tandem OLED monitor — where to buy Mashable",
+        "technologies": [
+          "초고휘도",
+          "발광 구조"
+        ],
+        "collected_at": "2026-10-18T04:21:49.555695+00:00",
+        "document_id": "89890e1c294fa000d66c",
+        "published_date": "2026-08-28",
+        "company": [],
+        "technology": [
+          "초고휘도",
+          "발광 구조"
+        ],
+        "keywords": [
+          "탠덤 OLED",
+          "휘도"
+        ],
+        "keyword_scores": {
+          "탠덤 OLED": 3,
+          "휘도": 3
+        },
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMmZhX2kyZDJOa1BBWm5Pb1pMMzdRUlp1d1IwcTVlQzVrODJtNG5xUXRuOHNkMG9WRXBiT1owdzM4UzBZU2RWX2x5bjBMcWhDdWtwSmZZZzBDNXI3QUkwajNlWDk0MGpjUlpQZHUtZnZjWXR5RlBZdTVvbVpxclR2cC00UmxSUQ?oc=5"
+      },
+      {
+        "id": "c4dcc7921aea36add511",
+        "doi": "",
+        "source_type": "news",
+        "source": "Daum",
         "region": "domestic",
-        "title": "LG디스플레이 최영석 '탠덤 OLED 풀라인업으로 AI 시대 전력효율 부응' - 데일리한국",
+        "title": "LGD 기술 수장 “탠덤 OLED로 디스플레이 성장 이끌 것” - Daum",
         "published_at": "2026-07-21",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8wNUltWTloMGZVaFd5UjVYVzdzM1hLTmwyMXJKU3g5empOTE1hMUdCX1VQSjNNZDlRVVd1b05BSFNCaDU3NTEtTGJkSXc3eWhWeEdPTGRINUJBbFotQW1NWk1rZDg5VmdoM19NN290VdIBc0FVX3lxTE94cmd1Y1BqWUU4UmpROHg5ZkhPWHNGNWo2bEZOX3JfSlF4WDlZd25rc3dOZEdKUVd3cS1GZzhtQkhMZnZ3Nl8wYUhUb2N1OVYwZjQ0ZU9KZjBIeGxJcFlVbHNrMmpmTUkyc0RKTzlqYkVYNzg?oc=5",
-        "summary": "LG디스플레이 최영석 '탠덤 OLED 풀라인업으로 AI 시대 전력효율 부응' 데일리한국",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ieGtGeDhHLUh1MW5rSmhLNnNyUW1vY3ZPSGhONlEzUUN5VHAwc28zRzE1Rml0SUg4T252SzZjVlc4eTROVDBIcjRVLVJIczFreXBjcQ?oc=5",
+        "summary": "LGD 기술 수장 “탠덤 OLED로 디스플레이 성장 이끌 것” Daum",
         "technologies": [
           "발광 구조"
         ],
-        "collected_at": "2026-10-17T09:24:26.733238+00:00",
-        "document_id": "add5308879f1fc889d8e",
+        "collected_at": "2026-10-18T04:21:48.322450+00:00",
+        "document_id": "c4dcc7921aea36add511",
         "published_date": "2026-07-21",
         "company": [
           "LG디스플레이"
@@ -32,27 +65,54 @@
           "탠덤 OLED": 3
         },
         "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8wNUltWTloMGZVaFd5UjVYVzdzM1hLTmwyMXJKU3g5empOTE1hMUdCX1VQSjNNZDlRVVd1b05BSFNCaDU3NTEtTGJkSXc3eWhWeEdPTGRINUJBbFotQW1NWk1rZDg5VmdoM19NN290VdIBc0FVX3lxTE94cmd1Y1BqWUU4UmpROHg5ZkhPWHNGNWo2bEZOX3JfSlF4WDlZd25rc3dOZEdKUVd3cS1GZzhtQkhMZnZ3Nl8wYUhUb2N1OVYwZjQ0ZU9KZjBIeGxJcFlVbHNrMmpmTUkyc0RKTzlqYkVYNzg?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ieGtGeDhHLUh1MW5rSmhLNnNyUW1vY3ZPSGhONlEzUUN5VHAwc28zRzE1Rml0SUg4T252SzZjVlc4eTROVDBIcjRVLVJIczFreXBjcQ?oc=5"
       },
       {
-        "id": "8fb6863c7a72b1cfe47e",
+        "id": "ce88eaa421df3fa924b3",
         "doi": "",
         "source_type": "news",
-        "source": "삼성디스플레이 뉴스룸",
-        "region": "domestic",
-        "title": "삼성디스플레이, 프리미엄 기술 브랜드 'QD-OLED 펜타 탠덤' 런칭 - 삼성디스플레이 뉴스룸",
-        "published_at": "2026-02-12",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ORkFoOF84a1BMOGtpVjJuYXFzRDhjclNnb09GR1lTb05ZMzVTVklSdy1US0dKRTJlU19DejEwdHc3aGo1My0wTEJ6VWZoSFNMZ1J5dlFzbnlMYU0?oc=5",
-        "summary": "삼성디스플레이, 프리미엄 기술 브랜드 'QD-OLED 펜타 탠덤' 런칭 삼성디스플레이 뉴스룸",
+        "source": "Gizbot",
+        "region": "international",
+        "title": "OnePlus Watch 3 Launched with Rotating Crown, LTPO OLED Display, WearOS 5: Check Price, Specs, Features - Gizbot",
+        "published_at": "2025-02-19",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQmlUNkVSWmZkNEdnUW1LN1d2OGRubmxwWW9OQzlLVkZ4cHNLNFAxeElXR21PWTRUeTJSN2VfUUozNVBIMEl4RzdTQ1ZDRTVlTDB3RmFfU29PaWYwSmk3T0pBSTdPeTRXcDZ1WTBsclpDdkJyZWdhbVRLdDZCRXZ3V2k1cU1OSklaWEZadFBoLUwyTWdYNVkyUUVXLU9iQ3NRMmVIQkZUU0RvQVpDcWFld1lOaFNWUDBNNXk2OWRvNk4wRTZ2Wm82RUthN3hzbHNXbXV0WmRSUE44X1pYLThWdQ?oc=5",
+        "summary": "OnePlus Watch 3 Launched with Rotating Crown, LTPO OLED Display, WearOS 5: Check Price, Specs, Features Gizbot",
+        "technologies": [
+          "저전력"
+        ],
+        "collected_at": "2026-10-18T04:21:49.558553+00:00",
+        "document_id": "ce88eaa421df3fa924b3",
+        "published_date": "2025-02-19",
+        "company": [],
+        "technology": [
+          "저전력"
+        ],
+        "keywords": [
+          "LTPO"
+        ],
+        "keyword_scores": {
+          "LTPO": 3
+        },
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQmlUNkVSWmZkNEdnUW1LN1d2OGRubmxwWW9OQzlLVkZ4cHNLNFAxeElXR21PWTRUeTJSN2VfUUozNVBIMEl4RzdTQ1ZDRTVlTDB3RmFfU29PaWYwSmk3T0pBSTdPeTRXcDZ1WTBsclpDdkJyZWdhbVRLdDZCRXZ3V2k1cU1OSklaWEZadFBoLUwyTWdYNVkyUUVXLU9iQ3NRMmVIQkZUU0RvQVpDcWFld1lOaFNWUDBNNXk2OWRvNk4wRTZ2Wm82RUthN3hzbHNXbXV0WmRSUE44X1pYLThWdQ?oc=5"
+      },
+      {
+        "id": "45b734b1eb9b393d2551",
+        "doi": "",
+        "source_type": "news",
+        "source": "Mashable",
+        "region": "international",
+        "title": "iPad Pro 2024 now has 'Tandem OLED': 5 reasons this is a big deal - Mashable",
+        "published_at": "2024-05-07",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9pRk96NzdnSjJ4SUdKaVdLQ1J2T21BVUFWZzlCby1Ra3ZOZlRKWTNGNnBaVGNDSU5vdnhGdmhLMWtfQWVIbDFfRVI4dW9MTzVZVWVvbDZiMk9kWmtKRExSZ3hmRERQaUU3MmxmT3FB?oc=5",
+        "summary": "iPad Pro 2024 now has 'Tandem OLED': 5 reasons this is a big deal Mashable",
         "technologies": [
           "발광 구조"
         ],
-        "collected_at": "2026-10-17T09:24:26.729067+00:00",
-        "document_id": "8fb6863c7a72b1cfe47e",
-        "published_date": "2026-02-12",
-        "company": [
-          "삼성디스플레이"
-        ],
+        "collected_at": "2026-10-18T04:21:49.556281+00:00",
+        "document_id": "45b734b1eb9b393d2551",
+        "published_date": "2024-05-07",
+        "company": [],
         "technology": [
           "발광 구조"
         ],
@@ -63,18 +123,18 @@
           "탠덤 OLED": 3
         },
         "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ORkFoOF84a1BMOGtpVjJuYXFzRDhjclNnb09GR1lTb05ZMzVTVklSdy1US0dKRTJlU19DejEwdHc3aGo1My0wTEJ6VWZoSFNMZ1J5dlFzbnlMYU0?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9pRk96NzdnSjJ4SUdKaVdLQ1J2T21BVUFWZzlCby1Ra3ZOZlRKWTNGNnBaVGNDSU5vdnhGdmhLMWtfQWVIbDFfRVI4dW9MTzVZVWVvbDZiMk9kWmtKRExSZ3hmRERQaUU3MmxmT3FB?oc=5"
       }
     ],
     "source_errors": 3
   },
-  "input": 764,
-  "excluded_irrelevant": 357,
-  "excluded_before_2023": 105,
-  "duplicates_removed": 82,
-  "saved": 220,
+  "input": 761,
+  "excluded_irrelevant": 350,
+  "excluded_before_2023": 104,
+  "duplicates_removed": 83,
+  "saved": 224,
   "missing_date": 0,
   "missing_summary": 22,
   "source_errors": 3,
-  "generated_at": "2026-10-17T09:25:20.024737+00:00"
+  "generated_at": "2026-10-18T04:22:40.943168+00:00"
 }
