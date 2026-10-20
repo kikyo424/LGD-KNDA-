@@ -1,23 +1,54 @@
 {
   "last_update": {
-    "completed_at": "2026-10-19T04:32:19.300826+00:00",
-    "new_count": 1,
+    "completed_at": "2026-10-20T04:41:53.671040+00:00",
+    "new_count": 4,
     "new_documents": [
       {
-        "id": "b06141b0731ac56801da",
+        "id": "30655357197d2a10b857",
         "doi": "",
         "source_type": "news",
-        "source": "디지털데일리",
+        "source": "매일산업뉴스",
         "region": "domestic",
-        "title": "LGD, 美 ‘SID 2026’서 3세대 탠덤 OLED 세계 최초 공개 - 디지털데일리",
-        "published_at": "2026-05-05",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9sUDlIT0lDWjV2Q2tYeWswVjVuTGdUZWZhc2w2WHhZRFN4WkVkbUtQT3VlNXlIRGs1YjZJZGdyTHVtUVFVdk1fRkRLQjhpY1lYNWZuMDE0R0NvTVlJTDNwWEl3?oc=5",
-        "summary": "LGD, 美 ‘SID 2026’서 3세대 탠덤 OLED 세계 최초 공개 디지털데일리",
+        "title": "삼성디스플레이, VESA ‘트루블랙 1400’ 벽 뚫었다… 노트북 탠덤 OLED 본격 공급 - 매일산업뉴스",
+        "published_at": "2026-07-20",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9YR1Uza05VN0hXXzBkd0xoZF9KTkZXR2tkU002X1hJSEhWbzFuVERnV2V1WDV5Y3Z5VzFyUVM1UWtxa1JvbHdoc19YTjhRbVlvQi01S25VUmJUY3FINkpiWWxtaw?oc=5",
+        "summary": "삼성디스플레이, VESA ‘트루블랙 1400’ 벽 뚫었다… 노트북 탠덤 OLED 본격 공급 매일산업뉴스",
         "technologies": [
           "발광 구조"
         ],
-        "collected_at": "2026-10-19T04:31:34.405755+00:00",
-        "document_id": "b06141b0731ac56801da",
+        "collected_at": "2026-10-20T04:41:00.322881+00:00",
+        "document_id": "30655357197d2a10b857",
+        "published_date": "2026-07-20",
+        "company": [
+          "삼성디스플레이"
+        ],
+        "technology": [
+          "발광 구조"
+        ],
+        "keywords": [
+          "탠덤 OLED"
+        ],
+        "keyword_scores": {
+          "탠덤 OLED": 3
+        },
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9YR1Uza05VN0hXXzBkd0xoZF9KTkZXR2tkU002X1hJSEhWbzFuVERnV2V1WDV5Y3Z5VzFyUVM1UWtxa1JvbHdoc19YTjhRbVlvQi01S25VUmJUY3FINkpiWWxtaw?oc=5"
+      },
+      {
+        "id": "ccbb7a6d1749b76aea66",
+        "doi": "",
+        "source_type": "news",
+        "source": "메트로신문",
+        "region": "domestic",
+        "title": "LG디스플레이, 美 SID 참가...3세대 탠덤 OLED 기술 최초 공개 - 메트로신문",
+        "published_at": "2026-05-05",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5EeURNR1J6QjNxUW5kLWV1cXh6SGdkMUVTTm03aWZueTc4cEFRSzU2dTA3Y3hVdVdoS0FncnQ5b0VOOUtHU1NNTlhrZFVySVBYZzZWR2dvcTlmSXp2bHptdg?oc=5",
+        "summary": "LG디스플레이, 美 SID 참가...3세대 탠덤 OLED 기술 최초 공개 메트로신문",
+        "technologies": [
+          "발광 구조"
+        ],
+        "collected_at": "2026-10-20T04:41:00.325207+00:00",
+        "document_id": "ccbb7a6d1749b76aea66",
         "published_date": "2026-05-05",
         "company": [
           "LG디스플레이"
@@ -32,18 +63,80 @@
           "탠덤 OLED": 3
         },
         "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9sUDlIT0lDWjV2Q2tYeWswVjVuTGdUZWZhc2w2WHhZRFN4WkVkbUtQT3VlNXlIRGs1YjZJZGdyTHVtUVFVdk1fRkRLQjhpY1lYNWZuMDE0R0NvTVlJTDNwWEl3?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5EeURNR1J6QjNxUW5kLWV1cXh6SGdkMUVTTm03aWZueTc4cEFRSzU2dTA3Y3hVdVdoS0FncnQ5b0VOOUtHU1NNTlhrZFVySVBYZzZWR2dvcTlmSXp2bHptdg?oc=5"
+      },
+      {
+        "id": "bbd00aa37cca3acd376a",
+        "doi": "",
+        "source_type": "news",
+        "source": "Sammy Fans",
+        "region": "international",
+        "title": "Is Samsung’s Galaxy Watch skipping out on Apple’s LTPO OLED advantage? - Sammy Fans",
+        "published_at": "2024-10-28",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVGZRNi13ZFFxUWNwUTNCNnlaRmdnc2pOZEV1NUhMZDVncV9sY1hzOXFNT3R3RW9RUkpIXzl1cmFsRjRGWXZ4SGlFYVMtYjUwakpKSzNneDhtdS1HYmRhdXc0T0NGSW1ZYkR4S1NKWWlkUGszdXJuZ1Nsc09BajRlT1dibnRaeG5XQ29CUlpMNEFidU9IVlRVWTBIclJKUVFOdG41LTRDU2vSAa4BQVVfeXFMTXBUOVZwUFBtUkMzTm1yUnhaeFFMMGtGRmNBT0NjaVhTYWptY1IzOFRrYVpUakg0MXRneTBLSS04QXpZZ1J2T2piVGY0c3lrMV9FRlcwWFNzX1ROb0ZVZWVQaVhzQWg2eW5CMXF1SjJHclk3RUVBSEpmLUY4WTVUT2FCS1Iyb2dUS2dvUERCWEpsTlBzSWROM1Rkbl90cUdzZ0xLZF9kR1ozREdwRzhR?oc=5",
+        "summary": "Is Samsung’s Galaxy Watch skipping out on Apple’s LTPO OLED advantage? Sammy Fans",
+        "technologies": [
+          "저전력"
+        ],
+        "collected_at": "2026-10-20T04:41:01.477893+00:00",
+        "document_id": "bbd00aa37cca3acd376a",
+        "published_date": "2024-10-28",
+        "company": [
+          "Apple"
+        ],
+        "technology": [
+          "저전력"
+        ],
+        "keywords": [
+          "LTPO"
+        ],
+        "keyword_scores": {
+          "LTPO": 3
+        },
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVGZRNi13ZFFxUWNwUTNCNnlaRmdnc2pOZEV1NUhMZDVncV9sY1hzOXFNT3R3RW9RUkpIXzl1cmFsRjRGWXZ4SGlFYVMtYjUwakpKSzNneDhtdS1HYmRhdXc0T0NGSW1ZYkR4S1NKWWlkUGszdXJuZ1Nsc09BajRlT1dibnRaeG5XQ29CUlpMNEFidU9IVlRVWTBIclJKUVFOdG41LTRDU2vSAa4BQVVfeXFMTXBUOVZwUFBtUkMzTm1yUnhaeFFMMGtGRmNBT0NjaVhTYWptY1IzOFRrYVpUakg0MXRneTBLSS04QXpZZ1J2T2piVGY0c3lrMV9FRlcwWFNzX1ROb0ZVZWVQaVhzQWg2eW5CMXF1SjJHclk3RUVBSEpmLUY4WTVUT2FCS1Iyb2dUS2dvUERCWEpsTlBzSWROM1Rkbl90cUdzZ0xLZF9kR1ozREdwRzhR?oc=5"
+      },
+      {
+        "id": "5061aeaa61c03ab70779",
+        "doi": "",
+        "source_type": "news",
+        "source": "KED Global",
+        "region": "international",
+        "title": "LG Display seeks to supply tandem OLED display to Bentley, Cadillac - KED Global",
+        "published_at": "2024-08-14",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5BR0NUQ1YtaFNkeGpkLV9kdDcta0Jsb1ZQeHpuWFJzaHpnT2Z3Sk9mMEk3UTNldVpONmprTjFwenV5WDdoMUN5ekR5RjcyOWxRWWpPa0ZuSmZNSllURTAxcUhrUGxLV0F1QlBmeWlrZw?oc=5",
+        "summary": "LG Display seeks to supply tandem OLED display to Bentley, Cadillac KED Global",
+        "technologies": [
+          "발광 구조"
+        ],
+        "collected_at": "2026-10-20T04:41:01.072175+00:00",
+        "document_id": "5061aeaa61c03ab70779",
+        "published_date": "2024-08-14",
+        "company": [
+          "LG디스플레이"
+        ],
+        "technology": [
+          "발광 구조"
+        ],
+        "keywords": [
+          "탠덤 OLED"
+        ],
+        "keyword_scores": {
+          "탠덤 OLED": 3
+        },
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5BR0NUQ1YtaFNkeGpkLV9kdDcta0Jsb1ZQeHpuWFJzaHpnT2Z3Sk9mMEk3UTNldVpONmprTjFwenV5WDdoMUN5ekR5RjcyOWxRWWpPa0ZuSmZNSllURTAxcUhrUGxLV0F1QlBmeWlrZw?oc=5"
       }
     ],
-    "source_errors": 2
+    "source_errors": 3
   },
-  "input": 774,
-  "excluded_irrelevant": 356,
-  "excluded_before_2023": 105,
-  "duplicates_removed": 91,
+  "input": 761,
+  "excluded_irrelevant": 357,
+  "excluded_before_2023": 104,
+  "duplicates_removed": 78,
   "saved": 222,
   "missing_date": 0,
   "missing_summary": 22,
-  "source_errors": 2,
-  "generated_at": "2026-10-19T04:32:19.301045+00:00"
+  "source_errors": 3,
+  "generated_at": "2026-10-20T04:41:53.671236+00:00"
 }
