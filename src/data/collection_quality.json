@@ -1,23 +1,184 @@
 {
   "last_update": {
-    "completed_at": "2026-10-20T04:41:53.671040+00:00",
-    "new_count": 4,
+    "completed_at": "2026-10-21T04:36:17.620816+00:00",
+    "new_count": 10,
     "new_documents": [
       {
-        "id": "30655357197d2a10b857",
+        "id": "191d3989ccd3af66e872",
         "doi": "",
         "source_type": "news",
-        "source": "매일산업뉴스",
+        "source": "화이트페이퍼",
         "region": "domestic",
-        "title": "삼성디스플레이, VESA ‘트루블랙 1400’ 벽 뚫었다… 노트북 탠덤 OLED 본격 공급 - 매일산업뉴스",
-        "published_at": "2026-07-20",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9YR1Uza05VN0hXXzBkd0xoZF9KTkZXR2tkU002X1hJSEhWbzFuVERnV2V1WDV5Y3Z5VzFyUVM1UWtxa1JvbHdoc19YTjhRbVlvQi01S25VUmJUY3FINkpiWWxtaw?oc=5",
-        "summary": "삼성디스플레이, VESA ‘트루블랙 1400’ 벽 뚫었다… 노트북 탠덤 OLED 본격 공급 매일산업뉴스",
+        "title": "LG디스플레이, 독일 IFA서 '탠덤 WOLED' 프라이빗 테크 쇼 개최…유럽 현지 공략 - 화이트페이퍼",
+        "published_at": "2026-09-06",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1oMjNmX3hQM0oxRmhvbFQ4Zk9IbDJtNWlLVXJYWnNzODZ6MW51R2RVbDJCaWY1UDZuSXROY3RUNXp1TFRMWTk4eGVSVnVPeXkzeS1Nb0JSdjZEZU5SZm84Vlo2SE42TlJUS25GRjRNVkjSAXNBVV95cUxOQ1haUHZTeDBpVnRCa2JXOEJybl9TTTdvcFl4dzlEWVlIb2ltNk82M2dCcTFOQmZxUWYtR1p0MlZGVEFkZGF3dzFTb2dmYUVTb0psa1VSeFhBbnZXNGRUalhMaXN4UzgydGYyaG1jV1hDQ204?oc=5",
+        "summary": "LG디스플레이, 독일 IFA서 '탠덤 WOLED' 프라이빗 테크 쇼 개최…유럽 현지 공략 화이트페이퍼",
         "technologies": [
           "발광 구조"
         ],
-        "collected_at": "2026-10-20T04:41:00.322881+00:00",
-        "document_id": "30655357197d2a10b857",
+        "collected_at": "2026-10-21T04:35:24.680050+00:00",
+        "document_id": "191d3989ccd3af66e872",
+        "published_date": "2026-09-06",
+        "company": [
+          "LG디스플레이"
+        ],
+        "technology": [
+          "발광 구조"
+        ],
+        "keywords": [
+          "탠덤 OLED"
+        ],
+        "keyword_scores": {
+          "탠덤 OLED": 3
+        },
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1oMjNmX3hQM0oxRmhvbFQ4Zk9IbDJtNWlLVXJYWnNzODZ6MW51R2RVbDJCaWY1UDZuSXROY3RUNXp1TFRMWTk4eGVSVnVPeXkzeS1Nb0JSdjZEZU5SZm84Vlo2SE42TlJUS25GRjRNVkjSAXNBVV95cUxOQ1haUHZTeDBpVnRCa2JXOEJybl9TTTdvcFl4dzlEWVlIb2ltNk82M2dCcTFOQmZxUWYtR1p0MlZGVEFkZGF3dzFTb2dmYUVTb0psa1VSeFhBbnZXNGRUalhMaXN4UzgydGYyaG1jV1hDQ204?oc=5"
+      },
+      {
+        "id": "d604d2e0af0cf462b5ba",
+        "doi": "",
+        "source_type": "news",
+        "source": "파이낸셜포스트",
+        "region": "domestic",
+        "title": "AI 사용 시간 50% 늘린다… LG디스플레이 \"탠덤 OLED가 새 표준\" - 파이낸셜포스트",
+        "published_at": "2026-07-21",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5nNXQ2cmpYLVhicXBsdnpreDNzVlVacC1zTmFmQ09oMnB4NUQybWMyVkpZNEU3TkxjNHRPZ0RVQ0pyekpwSzFIMXdKalBOd3JKdDlMbjY1Y3JBZ2FRTkd6eU96ZlRSS2lxVVljNTNyLVUwUElQ?oc=5",
+        "summary": "AI 사용 시간 50% 늘린다… LG디스플레이 \"탠덤 OLED가 새 표준\" 파이낸셜포스트",
+        "technologies": [
+          "발광 구조"
+        ],
+        "collected_at": "2026-10-21T04:35:24.679786+00:00",
+        "document_id": "d604d2e0af0cf462b5ba",
+        "published_date": "2026-07-21",
+        "company": [
+          "LG디스플레이"
+        ],
+        "technology": [
+          "발광 구조"
+        ],
+        "keywords": [
+          "탠덤 OLED"
+        ],
+        "keyword_scores": {
+          "탠덤 OLED": 3
+        },
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5nNXQ2cmpYLVhicXBsdnpreDNzVlVacC1zTmFmQ09oMnB4NUQybWMyVkpZNEU3TkxjNHRPZ0RVQ0pyekpwSzFIMXdKalBOd3JKdDlMbjY1Y3JBZ2FRTkd6eU96ZlRSS2lxVVljNTNyLVUwUElQ?oc=5"
+      },
+      {
+        "id": "add5308879f1fc889d8e",
+        "doi": "",
+        "source_type": "news",
+        "source": "데일리한국",
+        "region": "domestic",
+        "title": "LG디스플레이 최영석 '탠덤 OLED 풀라인업으로 AI 시대 전력효율 부응' - 데일리한국",
+        "published_at": "2026-07-21",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8wNUltWTloMGZVaFd5UjVYVzdzM1hLTmwyMXJKU3g5empOTE1hMUdCX1VQSjNNZDlRVVd1b05BSFNCaDU3NTEtTGJkSXc3eWhWeEdPTGRINUJBbFotQW1NWk1rZDg5VmdoM19NN290VdIBc0FVX3lxTE94cmd1Y1BqWUU4UmpROHg5ZkhPWHNGNWo2bEZOX3JfSlF4WDlZd25rc3dOZEdKUVd3cS1GZzhtQkhMZnZ3Nl8wYUhUb2N1OVYwZjQ0ZU9KZjBIeGxJcFlVbHNrMmpmTUkyc0RKTzlqYkVYNzg?oc=5",
+        "summary": "LG디스플레이 최영석 '탠덤 OLED 풀라인업으로 AI 시대 전력효율 부응' 데일리한국",
+        "technologies": [
+          "발광 구조"
+        ],
+        "collected_at": "2026-10-21T04:35:24.679587+00:00",
+        "document_id": "add5308879f1fc889d8e",
+        "published_date": "2026-07-21",
+        "company": [
+          "LG디스플레이"
+        ],
+        "technology": [
+          "발광 구조"
+        ],
+        "keywords": [
+          "탠덤 OLED"
+        ],
+        "keyword_scores": {
+          "탠덤 OLED": 3
+        },
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8wNUltWTloMGZVaFd5UjVYVzdzM1hLTmwyMXJKU3g5empOTE1hMUdCX1VQSjNNZDlRVVd1b05BSFNCaDU3NTEtTGJkSXc3eWhWeEdPTGRINUJBbFotQW1NWk1rZDg5VmdoM19NN290VdIBc0FVX3lxTE94cmd1Y1BqWUU4UmpROHg5ZkhPWHNGNWo2bEZOX3JfSlF4WDlZd25rc3dOZEdKUVd3cS1GZzhtQkhMZnZ3Nl8wYUhUb2N1OVYwZjQ0ZU9KZjBIeGxJcFlVbHNrMmpmTUkyc0RKTzlqYkVYNzg?oc=5"
+      },
+      {
+        "id": "88beddd1a578c77a2602",
+        "doi": "",
+        "source_type": "news",
+        "source": "ebn.co.kr",
+        "region": "domestic",
+        "title": "[현장] AI 시대 디스플레이 승부처 '전력 효율·융합'…대세로 떠오른 '탠덤 OLED' - ebn.co.kr",
+        "published_at": "2026-07-21",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HcUVabE5abHY5SS02eV9lVXdQbVhUUjg5MHc0SkI0WWc0bDJjaFh1d1JIMEJ3VURqVmVMaVM2QXZxWHBvMDRHWVpLbk9RZmFyZ3Zxb2lhYnhyaFRGZTEwR1F3ZE9hcVgw?oc=5",
+        "summary": "[현장] AI 시대 디스플레이 승부처 '전력 효율·융합'…대세로 떠오른 '탠덤 OLED' ebn.co.kr",
+        "technologies": [
+          "저전력",
+          "발광 구조"
+        ],
+        "collected_at": "2026-10-21T04:35:24.679689+00:00",
+        "document_id": "88beddd1a578c77a2602",
+        "published_date": "2026-07-21",
+        "company": [],
+        "technology": [
+          "저전력",
+          "발광 구조"
+        ],
+        "keywords": [
+          "전력 효율",
+          "탠덤 OLED"
+        ],
+        "keyword_scores": {
+          "전력 효율": 3,
+          "탠덤 OLED": 3
+        },
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HcUVabE5abHY5SS02eV9lVXdQbVhUUjg5MHc0SkI0WWc0bDJjaFh1d1JIMEJ3VURqVmVMaVM2QXZxWHBvMDRHWVpLbk9RZmFyZ3Zxb2lhYnhyaFRGZTEwR1F3ZE9hcVgw?oc=5"
+      },
+      {
+        "id": "6514d6910cf68c90421a",
+        "doi": "",
+        "source_type": "news",
+        "source": "이투데이",
+        "region": "domestic",
+        "title": "최영석 LGD CTO \"AI 시대 저전력이 경쟁력…탠덤 OLED가 해답\" - 이투데이",
+        "published_at": "2026-07-21",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1jYV9WY0xPa2wwcTVzcUhQakVlWW5DbEI2VFNIRmhMTjBOaXRsZ1RHLUVlbmpUcDRobndmRHo0MzV6bkR4ZzBGY3lMRWdqeHVIUVpGYw?oc=5",
+        "summary": "최영석 LGD CTO \"AI 시대 저전력이 경쟁력…탠덤 OLED가 해답\" 이투데이",
+        "technologies": [
+          "저전력",
+          "발광 구조"
+        ],
+        "collected_at": "2026-10-21T04:35:24.679618+00:00",
+        "document_id": "6514d6910cf68c90421a",
+        "published_date": "2026-07-21",
+        "company": [
+          "LG디스플레이"
+        ],
+        "technology": [
+          "저전력",
+          "발광 구조"
+        ],
+        "keywords": [
+          "전력 효율",
+          "탠덤 OLED"
+        ],
+        "keyword_scores": {
+          "전력 효율": 3,
+          "탠덤 OLED": 3
+        },
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1jYV9WY0xPa2wwcTVzcUhQakVlWW5DbEI2VFNIRmhMTjBOaXRsZ1RHLUVlbmpUcDRobndmRHo0MzV6bkR4ZzBGY3lMRWdqeHVIUVpGYw?oc=5"
+      },
+      {
+        "id": "d19559ebe27b771a783b",
+        "doi": "",
+        "source_type": "news",
+        "source": "컨슈머타임스",
+        "region": "domestic",
+        "title": "삼성디스플레이, '트루블랙 1400' 탠덤 OLED 공급…프리미엄 노트북 시장 정조준 - 컨슈머타임스",
+        "published_at": "2026-07-20",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5MSjAxdFFYWlhxZkE0dnotSjBFQmdmRE43MUtUTGdFUHlnQy13ZGRDTUs1bmZLYkV1eFVxei1hVERJWVhuejRfaEl3UlhVU0ZsWk9WWHh1enZJYVZMMkJLdFFqSXFKU2JudlE?oc=5",
+        "summary": "삼성디스플레이, '트루블랙 1400' 탠덤 OLED 공급…프리미엄 노트북 시장 정조준 컨슈머타임스",
+        "technologies": [
+          "발광 구조"
+        ],
+        "collected_at": "2026-10-21T04:35:24.679752+00:00",
+        "document_id": "d19559ebe27b771a783b",
         "published_date": "2026-07-20",
         "company": [
           "삼성디스플레이"
@@ -32,26 +193,26 @@
           "탠덤 OLED": 3
         },
         "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9YR1Uza05VN0hXXzBkd0xoZF9KTkZXR2tkU002X1hJSEhWbzFuVERnV2V1WDV5Y3Z5VzFyUVM1UWtxa1JvbHdoc19YTjhRbVlvQi01S25VUmJUY3FINkpiWWxtaw?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5MSjAxdFFYWlhxZkE0dnotSjBFQmdmRE43MUtUTGdFUHlnQy13ZGRDTUs1bmZLYkV1eFVxei1hVERJWVhuejRfaEl3UlhVU0ZsWk9WWHh1enZJYVZMMkJLdFFqSXFKU2JudlE?oc=5"
       },
       {
-        "id": "ccbb7a6d1749b76aea66",
+        "id": "c9730e8856f1f61e2b82",
         "doi": "",
         "source_type": "news",
-        "source": "메트로신문",
+        "source": "서울경제TV",
         "region": "domestic",
-        "title": "LG디스플레이, 美 SID 참가...3세대 탠덤 OLED 기술 최초 공개 - 메트로신문",
-        "published_at": "2026-05-05",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5EeURNR1J6QjNxUW5kLWV1cXh6SGdkMUVTTm03aWZueTc4cEFRSzU2dTA3Y3hVdVdoS0FncnQ5b0VOOUtHU1NNTlhrZFVySVBYZzZWR2dvcTlmSXp2bHptdg?oc=5",
-        "summary": "LG디스플레이, 美 SID 참가...3세대 탠덤 OLED 기술 최초 공개 메트로신문",
+        "title": "삼성디스플레이, 노트북용 '탠덤 OLED' 공급…'트루블랙 1400' 충족 - 서울경제TV",
+        "published_at": "2026-07-20",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1RQ2ZkaS1Dc05UclpubnZiajBfRXNIcTVBUEJaVC1XUGUtTkxjSXVaTVZMTnRqQWI4Q1ZfdlBKOHQzcTVsMmdIMEtGT21sNUtHUWVqcjdmblZ4emdkMThCR1I2RzI?oc=5",
+        "summary": "삼성디스플레이, 노트북용 '탠덤 OLED' 공급…'트루블랙 1400' 충족 서울경제TV",
         "technologies": [
           "발광 구조"
         ],
-        "collected_at": "2026-10-20T04:41:00.325207+00:00",
-        "document_id": "ccbb7a6d1749b76aea66",
-        "published_date": "2026-05-05",
+        "collected_at": "2026-10-21T04:35:24.677973+00:00",
+        "document_id": "c9730e8856f1f61e2b82",
+        "published_date": "2026-07-20",
         "company": [
-          "LG디스플레이"
+          "삼성디스플레이"
         ],
         "technology": [
           "발광 구조"
@@ -63,57 +224,26 @@
           "탠덤 OLED": 3
         },
         "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5EeURNR1J6QjNxUW5kLWV1cXh6SGdkMUVTTm03aWZueTc4cEFRSzU2dTA3Y3hVdVdoS0FncnQ5b0VOOUtHU1NNTlhrZFVySVBYZzZWR2dvcTlmSXp2bHptdg?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1RQ2ZkaS1Dc05UclpubnZiajBfRXNIcTVBUEJaVC1XUGUtTkxjSXVaTVZMTnRqQWI4Q1ZfdlBKOHQzcTVsMmdIMEtGT21sNUtHUWVqcjdmblZ4emdkMThCR1I2RzI?oc=5"
       },
       {
-        "id": "bbd00aa37cca3acd376a",
+        "id": "b6c9de7a2c025bb73c32",
         "doi": "",
         "source_type": "news",
-        "source": "Sammy Fans",
-        "region": "international",
-        "title": "Is Samsung’s Galaxy Watch skipping out on Apple’s LTPO OLED advantage? - Sammy Fans",
-        "published_at": "2024-10-28",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVGZRNi13ZFFxUWNwUTNCNnlaRmdnc2pOZEV1NUhMZDVncV9sY1hzOXFNT3R3RW9RUkpIXzl1cmFsRjRGWXZ4SGlFYVMtYjUwakpKSzNneDhtdS1HYmRhdXc0T0NGSW1ZYkR4S1NKWWlkUGszdXJuZ1Nsc09BajRlT1dibnRaeG5XQ29CUlpMNEFidU9IVlRVWTBIclJKUVFOdG41LTRDU2vSAa4BQVVfeXFMTXBUOVZwUFBtUkMzTm1yUnhaeFFMMGtGRmNBT0NjaVhTYWptY1IzOFRrYVpUakg0MXRneTBLSS04QXpZZ1J2T2piVGY0c3lrMV9FRlcwWFNzX1ROb0ZVZWVQaVhzQWg2eW5CMXF1SjJHclk3RUVBSEpmLUY4WTVUT2FCS1Iyb2dUS2dvUERCWEpsTlBzSWROM1Rkbl90cUdzZ0xLZF9kR1ozREdwRzhR?oc=5",
-        "summary": "Is Samsung’s Galaxy Watch skipping out on Apple’s LTPO OLED advantage? Sammy Fans",
-        "technologies": [
-          "저전력"
-        ],
-        "collected_at": "2026-10-20T04:41:01.477893+00:00",
-        "document_id": "bbd00aa37cca3acd376a",
-        "published_date": "2024-10-28",
-        "company": [
-          "Apple"
-        ],
-        "technology": [
-          "저전력"
-        ],
-        "keywords": [
-          "LTPO"
-        ],
-        "keyword_scores": {
-          "LTPO": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVGZRNi13ZFFxUWNwUTNCNnlaRmdnc2pOZEV1NUhMZDVncV9sY1hzOXFNT3R3RW9RUkpIXzl1cmFsRjRGWXZ4SGlFYVMtYjUwakpKSzNneDhtdS1HYmRhdXc0T0NGSW1ZYkR4S1NKWWlkUGszdXJuZ1Nsc09BajRlT1dibnRaeG5XQ29CUlpMNEFidU9IVlRVWTBIclJKUVFOdG41LTRDU2vSAa4BQVVfeXFMTXBUOVZwUFBtUkMzTm1yUnhaeFFMMGtGRmNBT0NjaVhTYWptY1IzOFRrYVpUakg0MXRneTBLSS04QXpZZ1J2T2piVGY0c3lrMV9FRlcwWFNzX1ROb0ZVZWVQaVhzQWg2eW5CMXF1SjJHclk3RUVBSEpmLUY4WTVUT2FCS1Iyb2dUS2dvUERCWEpsTlBzSWROM1Rkbl90cUdzZ0xLZF9kR1ozREdwRzhR?oc=5"
-      },
-      {
-        "id": "5061aeaa61c03ab70779",
-        "doi": "",
-        "source_type": "news",
-        "source": "KED Global",
-        "region": "international",
-        "title": "LG Display seeks to supply tandem OLED display to Bentley, Cadillac - KED Global",
-        "published_at": "2024-08-14",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5BR0NUQ1YtaFNkeGpkLV9kdDcta0Jsb1ZQeHpuWFJzaHpnT2Z3Sk9mMEk3UTNldVpONmprTjFwenV5WDdoMUN5ekR5RjcyOWxRWWpPa0ZuSmZNSllURTAxcUhrUGxLV0F1QlBmeWlrZw?oc=5",
-        "summary": "LG Display seeks to supply tandem OLED display to Bentley, Cadillac KED Global",
+        "source": "파이낸셜포스트",
+        "region": "domestic",
+        "title": "삼성디스플레이, 최고 밝기 1600니트 '탠덤 OLED'로 PC 시장 선점 - 파이낸셜포스트",
+        "published_at": "2026-07-20",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE92X3ZHUjZyY3BHZUdZVHRkSzV1Vk1ZYVoybUFtZ2RGRDVweEF4SG5nUjBveFhhNXRLdzVCMm43VVVhanl1YUNJc3ZaR3VHUDRrdGpHQVJidEthdXYxR09IdTduOTBoMGpjTTRWZ3E3eXdzNVMw?oc=5",
+        "summary": "삼성디스플레이, 최고 밝기 1600니트 '탠덤 OLED'로 PC 시장 선점 파이낸셜포스트",
         "technologies": [
           "발광 구조"
         ],
-        "collected_at": "2026-10-20T04:41:01.072175+00:00",
-        "document_id": "5061aeaa61c03ab70779",
-        "published_date": "2024-08-14",
+        "collected_at": "2026-10-21T04:35:24.679327+00:00",
+        "document_id": "b6c9de7a2c025bb73c32",
+        "published_date": "2026-07-20",
         "company": [
-          "LG디스플레이"
+          "삼성디스플레이"
         ],
         "technology": [
           "발광 구조"
@@ -125,18 +255,80 @@
           "탠덤 OLED": 3
         },
         "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5BR0NUQ1YtaFNkeGpkLV9kdDcta0Jsb1ZQeHpuWFJzaHpnT2Z3Sk9mMEk3UTNldVpONmprTjFwenV5WDdoMUN5ekR5RjcyOWxRWWpPa0ZuSmZNSllURTAxcUhrUGxLV0F1QlBmeWlrZw?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE92X3ZHUjZyY3BHZUdZVHRkSzV1Vk1ZYVoybUFtZ2RGRDVweEF4SG5nUjBveFhhNXRLdzVCMm43VVVhanl1YUNJc3ZaR3VHUDRrdGpHQVJidEthdXYxR09IdTduOTBoMGpjTTRWZ3E3eXdzNVMw?oc=5"
+      },
+      {
+        "id": "7f197590f6f47d52a3eb",
+        "doi": "",
+        "source_type": "news",
+        "source": "엠투데이",
+        "region": "domestic",
+        "title": "삼성디스플레이, 최대 1600니트 탠덤 OLED로 프리미엄 노트북 공략 - 엠투데이",
+        "published_at": "2026-07-20",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1UYzRkYXNfcFRIZ2JWS1Y3OFRUT1hPUXBPSDEyVGhVdzUxWkh5djB0eU1HcFJsbGJpbFVCZ3VhSjZYWTRzem4tTk1mbndvamN0MENUbXJ6T3lOajRLNWtoNVg5aWlPa1FQa0ZtRlJUVQ?oc=5",
+        "summary": "삼성디스플레이, 최대 1600니트 탠덤 OLED로 프리미엄 노트북 공략 엠투데이",
+        "technologies": [
+          "발광 구조"
+        ],
+        "collected_at": "2026-10-21T04:35:24.679456+00:00",
+        "document_id": "7f197590f6f47d52a3eb",
+        "published_date": "2026-07-20",
+        "company": [
+          "삼성디스플레이"
+        ],
+        "technology": [
+          "발광 구조"
+        ],
+        "keywords": [
+          "탠덤 OLED"
+        ],
+        "keyword_scores": {
+          "탠덤 OLED": 3
+        },
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1UYzRkYXNfcFRIZ2JWS1Y3OFRUT1hPUXBPSDEyVGhVdzUxWkh5djB0eU1HcFJsbGJpbFVCZ3VhSjZYWTRzem4tTk1mbndvamN0MENUbXJ6T3lOajRLNWtoNVg5aWlPa1FQa0ZtRlJUVQ?oc=5"
+      },
+      {
+        "id": "0430e53c3a2af37e125f",
+        "doi": "",
+        "source_type": "news",
+        "source": "서울경제",
+        "region": "domestic",
+        "title": "삼성D, ‘트루블랙 1400’ 노트북 탠덤 OLED 공급…‘역대 최고 밝기’ - 서울경제",
+        "published_at": "2026-07-20",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ieWhVcGFpZTRicVJpYkEwUDNGZFMwTlRaZFFxazlsOEpOd3hDVWk2Y21lUE93Rm4tM2dkeVJDMW9zMVpkOEFieFJUZzF1bXEtY1HSAVNBVV95cUxPYnZLX0p5LXBCOHRkR3pSaUNOQ2RUd3F0Nm11WjU4M2VoSWxCVEg2cXc4cDhWcW9EOVd3MXh1SXhwSG9JcDlHRy1PTzJXN3doYjMybw?oc=5",
+        "summary": "삼성D, ‘트루블랙 1400’ 노트북 탠덤 OLED 공급…‘역대 최고 밝기’ 서울경제",
+        "technologies": [
+          "발광 구조"
+        ],
+        "collected_at": "2026-10-21T04:35:24.679847+00:00",
+        "document_id": "0430e53c3a2af37e125f",
+        "published_date": "2026-07-20",
+        "company": [
+          "삼성디스플레이"
+        ],
+        "technology": [
+          "발광 구조"
+        ],
+        "keywords": [
+          "탠덤 OLED"
+        ],
+        "keyword_scores": {
+          "탠덤 OLED": 3
+        },
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ieWhVcGFpZTRicVJpYkEwUDNGZFMwTlRaZFFxazlsOEpOd3hDVWk2Y21lUE93Rm4tM2dkeVJDMW9zMVpkOEFieFJUZzF1bXEtY1HSAVNBVV95cUxPYnZLX0p5LXBCOHRkR3pSaUNOQ2RUd3F0Nm11WjU4M2VoSWxCVEg2cXc4cDhWcW9EOVd3MXh1SXhwSG9JcDlHRy1PTzJXN3doYjMybw?oc=5"
       }
     ],
     "source_errors": 3
   },
-  "input": 761,
-  "excluded_irrelevant": 357,
-  "excluded_before_2023": 104,
-  "duplicates_removed": 78,
-  "saved": 222,
+  "input": 762,
+  "excluded_irrelevant": 358,
+  "excluded_before_2023": 108,
+  "duplicates_removed": 77,
+  "saved": 219,
   "missing_date": 0,
   "missing_summary": 22,
   "source_errors": 3,
-  "generated_at": "2026-10-20T04:41:53.671236+00:00"
+  "generated_at": "2026-10-21T04:36:17.621047+00:00"
 }
