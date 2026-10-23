@@ -1,85 +1,77 @@
 {
   "last_update": {
-    "completed_at": "2026-10-22T04:34:39.302449+00:00",
-    "new_count": 14,
+    "completed_at": "2026-10-23T04:40:01.696217+00:00",
+    "new_count": 7,
     "new_documents": [
       {
-        "id": "27b86797b0b2eb442afe",
+        "id": "0f22af69864733856c53",
         "doi": "",
         "source_type": "news",
-        "source": "지디넷코리아",
+        "source": "스포츠서울",
         "region": "domestic",
-        "title": "머티어리얼사이언스, LGD 납품 목표 '탠덤 OLED CGL 국책과제' 돌입 - 지디넷코리아",
-        "published_at": "2026-10-12",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fYlIxTXU3dHFUQjlOWGgyU0pjVGs1LTBHd0RCTS1KU2lIV0hnWHB2R00wTjdscktGV3ZFVm5USFZHVTRnb2pSLWsycnM3Q1oyaGdFcWVn?oc=5",
-        "summary": "머티어리얼사이언스, LGD 납품 목표 '탠덤 OLED CGL 국책과제' 돌입 지디넷코리아",
+        "title": "LG디스플레이, OLED 공정 혁신 ‘FLIPP’ 공개…휘도 1.6배·수명 2.4배 - 스포츠서울",
+        "published_at": "2026-10-11",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBhQUc4alBoLW9hZU9aZDg1UXZKR2xHa2FqNWNlZXY3TFZDalpfdDNURTAtTWd4cWtvNEE3dUdHaE9Jakh4SF85cVp1THhUajRJMFdGRkN3dmc?oc=5",
+        "summary": "LG디스플레이, OLED 공정 혁신 ‘FLIPP’ 공개…휘도 1.6배·수명 2.4배 스포츠서울",
         "technologies": [
-          "발광 구조"
+          "제조/공정"
         ],
-        "collected_at": "2026-10-22T04:33:46.220194+00:00",
-        "document_id": "27b86797b0b2eb442afe",
-        "published_date": "2026-10-12",
+        "collected_at": "2026-10-23T04:39:20.305691+00:00",
+        "document_id": "0f22af69864733856c53",
+        "published_date": "2026-10-11",
         "company": [
           "LG디스플레이"
         ],
         "technology": [
-          "발광 구조"
+          "제조/공정"
         ],
         "keywords": [
-          "탠덤 OLED"
+          "제조 공정"
         ],
         "keyword_scores": {
-          "탠덤 OLED": 3
+          "제조 공정": 3
         },
         "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fYlIxTXU3dHFUQjlOWGgyU0pjVGs1LTBHd0RCTS1KU2lIV0hnWHB2R00wTjdscktGV3ZFVm5USFZHVTRnb2pSLWsycnM3Q1oyaGdFcWVn?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBhQUc4alBoLW9hZU9aZDg1UXZKR2xHa2FqNWNlZXY3TFZDalpfdDNURTAtTWd4cWtvNEE3dUdHaE9Jakh4SF85cVp1THhUajRJMFdGRkN3dmc?oc=5"
       },
       {
-        "id": "bf8edc709791479c43d0",
+        "id": "745e4726f229a000dc67",
         "doi": "",
         "source_type": "news",
-        "source": "머니투데이",
-        "region": "domestic",
-        "title": "\"전력 30%↓·수명 2배↑\"…LGD \"AI 시대 해법은 탠덤 OLED\" - 머니투데이 - 머니투데이",
-        "published_at": "2026-07-21",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xMGV2VzNBaVFKZkdBUzJMdWlOOEhoblhsd2c5UE5xb0FYOVc2STd3RVJrYzJ3Ym5fQ1Vjd0l0cFBNU1RTRVBCUzlMTGlsZ3BQc0ZKbUtlOTc4blN4VmsyeTZ6cERhV0QtMlUwVtIBckFVX3lxTE9OaEgycGF0NTRCNkFBYUVSZGVNanpmMEdDVGVuV19Qczk5Rnh0cXlZcnVqVXhxMC0wbmpqRzlUNExtaXlSS1RsVmZZRjNXWmFOV3FyOUdxRzZuRTh5UHRaOVUwWks1QWFLTkZ0N0FXWElYZw?oc=5",
-        "summary": "\"전력 30%↓·수명 2배↑\"…LGD \"AI 시대 해법은 탠덤 OLED\" - 머니투데이 머니투데이",
-        "technologies": [
-          "발광 구조"
-        ],
-        "collected_at": "2026-10-22T04:33:46.221637+00:00",
-        "document_id": "bf8edc709791479c43d0",
-        "published_date": "2026-07-21",
+        "source": "HotHardware",
+        "region": "international",
+        "title": "Garmin Fenix 9 Pro Packs AMOLED And Solar Tech To Rival Apple Watch Ultra - HotHardware",
+        "published_at": "2026-08-25",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSEIxWGdpYUxwbE5xSmtMSjhtVUtGQ1VFRFN3TDU3QzRpdkFMbjBEOVNKWTdEWUdhWTZVb0RWT0VBRmNnbE9yRUNlMFBLVjJEU00tTDdHMWdHSndPdW42U25ETE9ER1dEM2NIWGVyUmZra3RPS2lpb3VLVDI5TklfOQ?oc=5",
+        "summary": "Garmin Fenix 9 Pro Packs AMOLED And Solar Tech To Rival Apple Watch Ultra HotHardware",
+        "technologies": [],
+        "collected_at": "2026-10-23T04:39:21.306267+00:00",
+        "document_id": "745e4726f229a000dc67",
+        "published_date": "2026-08-25",
         "company": [
-          "LG디스플레이"
+          "Apple"
         ],
-        "technology": [
-          "발광 구조"
-        ],
-        "keywords": [
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "탠덤 OLED": 3
-        },
+        "technology": [],
+        "keywords": [],
+        "keyword_scores": {},
         "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xMGV2VzNBaVFKZkdBUzJMdWlOOEhoblhsd2c5UE5xb0FYOVc2STd3RVJrYzJ3Ym5fQ1Vjd0l0cFBNU1RTRVBCUzlMTGlsZ3BQc0ZKbUtlOTc4blN4VmsyeTZ6cERhV0QtMlUwVtIBckFVX3lxTE9OaEgycGF0NTRCNkFBYUVSZGVNanpmMEdDVGVuV19Qczk5Rnh0cXlZcnVqVXhxMC0wbmpqRzlUNExtaXlSS1RsVmZZRjNXWmFOV3FyOUdxRzZuRTh5UHRaOVUwWks1QWFLTkZ0N0FXWElYZw?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSEIxWGdpYUxwbE5xSmtMSjhtVUtGQ1VFRFN3TDU3QzRpdkFMbjBEOVNKWTdEWUdhWTZVb0RWT0VBRmNnbE9yRUNlMFBLVjJEU00tTDdHMWdHSndPdW42U25ETE9ER1dEM2NIWGVyUmZra3RPS2lpb3VLVDI5TklfOQ?oc=5"
       },
       {
-        "id": "0b3ce39cc7e2764e0792",
+        "id": "b6c9de7a2c025bb73c32",
         "doi": "",
         "source_type": "news",
-        "source": "뉴시스",
+        "source": "파이낸셜포스트",
         "region": "domestic",
-        "title": "삼성디스플레이, 노트북용 '탠덤 OLED' 공급 본격화…'트루블랙 1400' 시대 연다 - 뉴시스",
+        "title": "삼성디스플레이, 최고 밝기 1600니트 '탠덤 OLED'로 PC 시장 선점 - 파이낸셜포스트",
         "published_at": "2026-07-20",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBhVnRLa2p5T2taVU1TNlRadExKUnFhQm9TTWhkQWpDcm5ZSFZqSU5GVkpOdmMtcmdncVg1WEJpWVhkdkdoM1BnWTNvQ0toUnBWM1FINVlsbjh3V3N3dmQtWdIBeEFVX3lxTE1BcXR1OWxjVlN1Uk1iY0NfRHNPdk5GNFZjNzZlLUpIS1JHcDN2VmJtZXp0a21RTUU0c3ZfNGo1b2VRaU5ZaXhBM1BheWUtcGZVTjE3azNzX3FhRFJudUgtWEdYandGaUI3eEFNNHNJQmlTQy1XTmNFZQ?oc=5",
-        "summary": "삼성디스플레이, 노트북용 '탠덤 OLED' 공급 본격화…'트루블랙 1400' 시대 연다 뉴시스",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE92X3ZHUjZyY3BHZUdZVHRkSzV1Vk1ZYVoybUFtZ2RGRDVweEF4SG5nUjBveFhhNXRLdzVCMm43VVVhanl1YUNJc3ZaR3VHUDRrdGpHQVJidEthdXYxR09IdTduOTBoMGpjTTRWZ3E3eXdzNVMw?oc=5",
+        "summary": "삼성디스플레이, 최고 밝기 1600니트 '탠덤 OLED'로 PC 시장 선점 파이낸셜포스트",
         "technologies": [
           "발광 구조"
         ],
-        "collected_at": "2026-10-22T04:33:46.221955+00:00",
-        "document_id": "0b3ce39cc7e2764e0792",
+        "collected_at": "2026-10-23T04:39:20.691637+00:00",
+        "document_id": "b6c9de7a2c025bb73c32",
         "published_date": "2026-07-20",
         "company": [
           "삼성디스플레이"
@@ -94,26 +86,26 @@
           "탠덤 OLED": 3
         },
         "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBhVnRLa2p5T2taVU1TNlRadExKUnFhQm9TTWhkQWpDcm5ZSFZqSU5GVkpOdmMtcmdncVg1WEJpWVhkdkdoM1BnWTNvQ0toUnBWM1FINVlsbjh3V3N3dmQtWdIBeEFVX3lxTE1BcXR1OWxjVlN1Uk1iY0NfRHNPdk5GNFZjNzZlLUpIS1JHcDN2VmJtZXp0a21RTUU0c3ZfNGo1b2VRaU5ZaXhBM1BheWUtcGZVTjE3azNzX3FhRFJudUgtWEdYandGaUI3eEFNNHNJQmlTQy1XTmNFZQ?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE92X3ZHUjZyY3BHZUdZVHRkSzV1Vk1ZYVoybUFtZ2RGRDVweEF4SG5nUjBveFhhNXRLdzVCMm43VVVhanl1YUNJc3ZaR3VHUDRrdGpHQVJidEthdXYxR09IdTduOTBoMGpjTTRWZ3E3eXdzNVMw?oc=5"
       },
       {
-        "id": "af60fcfb5de0c28c5cc8",
+        "id": "7f197590f6f47d52a3eb",
         "doi": "",
         "source_type": "news",
-        "source": "LG Display Newsroom",
+        "source": "엠투데이",
         "region": "domestic",
-        "title": "[SID 2026] Zone 02. Tandem OLED - LG Display Newsroom",
-        "published_at": "2026-05-06",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4wdDlHaWpzYUczN0d6SFBCNUZyZFA4dEFkRGZjUkhpR1J1cFVVa0duT0gyam9fXzZ6eDZwaE1TNjhXN2VLTmN1LW9ld0ltQ1ZXdS1CRWJYNURxUEVC?oc=5",
-        "summary": "[SID 2026] Zone 02. Tandem OLED LG Display Newsroom",
+        "title": "삼성디스플레이, 최대 1600니트 탠덤 OLED로 프리미엄 노트북 공략 - 엠투데이",
+        "published_at": "2026-07-20",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1UYzRkYXNfcFRIZ2JWS1Y3OFRUT1hPUXBPSDEyVGhVdzUxWkh5djB0eU1HcFJsbGJpbFVCZ3VhSjZYWTRzem4tTk1mbndvamN0MENUbXJ6T3lOajRLNWtoNVg5aWlPa1FQa0ZtRlJUVQ?oc=5",
+        "summary": "삼성디스플레이, 최대 1600니트 탠덤 OLED로 프리미엄 노트북 공략 엠투데이",
         "technologies": [
           "발광 구조"
         ],
-        "collected_at": "2026-10-22T04:33:46.221079+00:00",
-        "document_id": "af60fcfb5de0c28c5cc8",
-        "published_date": "2026-05-06",
+        "collected_at": "2026-10-23T04:39:20.691671+00:00",
+        "document_id": "7f197590f6f47d52a3eb",
+        "published_date": "2026-07-20",
         "company": [
-          "LG디스플레이"
+          "삼성디스플레이"
         ],
         "technology": [
           "발광 구조"
@@ -125,83 +117,23 @@
           "탠덤 OLED": 3
         },
         "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4wdDlHaWpzYUczN0d6SFBCNUZyZFA4dEFkRGZjUkhpR1J1cFVVa0duT0gyam9fXzZ6eDZwaE1TNjhXN2VLTmN1LW9ld0ltQ1ZXdS1CRWJYNURxUEVC?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1UYzRkYXNfcFRIZ2JWS1Y3OFRUT1hPUXBPSDEyVGhVdzUxWkh5djB0eU1HcFJsbGJpbFVCZ3VhSjZYWTRzem4tTk1mbndvamN0MENUbXJ6T3lOajRLNWtoNVg5aWlPa1FQa0ZtRlJUVQ?oc=5"
       },
       {
-        "id": "a199a74afe04ce5f9e90",
+        "id": "ccbb7a6d1749b76aea66",
         "doi": "",
         "source_type": "news",
-        "source": "전자신문",
+        "source": "메트로신문",
         "region": "domestic",
-        "title": "스마트폰 탠덤 OLED 힘주는 중국 - 전자신문",
-        "published_at": "2026-05-06",
-        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE05c3lGbW5lUl9CblJ3eU5IX0lka3U1U2NRV3VlcndmWE51anlGZmI5X1d1VUZWVHhrY09INlJFRGo4WTBmY0pjM0dqZVdKUQ?oc=5",
-        "summary": "스마트폰 탠덤 OLED 힘주는 중국 전자신문",
-        "technologies": [
-          "발광 구조"
-        ],
-        "collected_at": "2026-10-22T04:33:46.222058+00:00",
-        "document_id": "a199a74afe04ce5f9e90",
-        "published_date": "2026-05-06",
-        "company": [],
-        "technology": [
-          "발광 구조"
-        ],
-        "keywords": [
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "탠덤 OLED": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE05c3lGbW5lUl9CblJ3eU5IX0lka3U1U2NRV3VlcndmWE51anlGZmI5X1d1VUZWVHhrY09INlJFRGo4WTBmY0pjM0dqZVdKUQ?oc=5"
-      },
-      {
-        "id": "6a7f28f968a9b865615d",
-        "doi": "",
-        "source_type": "news",
-        "source": "LG Display Newsroom",
-        "region": "domestic",
-        "title": "[SID 2026] Zone 01. Tandem WOLED - LG Display Newsroom - LG Display Newsroom",
-        "published_at": "2026-05-06",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51bDVCRFpVckZRUVVMb0JTZ1k3bzg3YndURURja2xYLS00LU4yUTREYUZkeDdBMUIxWm5WZDFEVGZrUkJTT0hLNlJ0NzQ3M0hBckFmcUY0X2JDZEdJ?oc=5",
-        "summary": "[SID 2026] Zone 01. Tandem WOLED - LG Display Newsroom LG Display Newsroom",
-        "technologies": [
-          "발광 구조"
-        ],
-        "collected_at": "2026-10-22T04:33:46.222356+00:00",
-        "document_id": "6a7f28f968a9b865615d",
-        "published_date": "2026-05-06",
-        "company": [
-          "LG디스플레이"
-        ],
-        "technology": [
-          "발광 구조"
-        ],
-        "keywords": [
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "탠덤 OLED": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51bDVCRFpVckZRUVVMb0JTZ1k3bzg3YndURURja2xYLS00LU4yUTREYUZkeDdBMUIxWm5WZDFEVGZrUkJTT0hLNlJ0NzQ3M0hBckFmcUY0X2JDZEdJ?oc=5"
-      },
-      {
-        "id": "e3491e904c20366e31f2",
-        "doi": "",
-        "source_type": "news",
-        "source": "전자신문",
-        "region": "domestic",
-        "title": "'3세대 탠덤 OLED' LGD, 美 SID서 차세대 디스플레이 신기술 전시 - 전자신문",
+        "title": "LG디스플레이, 美 SID 참가...3세대 탠덤 OLED 기술 최초 공개 - 메트로신문",
         "published_at": "2026-05-05",
-        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE43S3RSQXlueUJHYk5nWWgtZlJQd0c0R1NVbV93R1BMb1BPVjFsWjlUNmhkQllFM1E1Z05WeGFKM091aENwZmNSMnEyLWg1dw?oc=5",
-        "summary": "'3세대 탠덤 OLED' LGD, 美 SID서 차세대 디스플레이 신기술 전시 전자신문",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5EeURNR1J6QjNxUW5kLWV1cXh6SGdkMUVTTm03aWZueTc4cEFRSzU2dTA3Y3hVdVdoS0FncnQ5b0VOOUtHU1NNTlhrZFVySVBYZzZWR2dvcTlmSXp2bHptdg?oc=5",
+        "summary": "LG디스플레이, 美 SID 참가...3세대 탠덤 OLED 기술 최초 공개 메트로신문",
         "technologies": [
           "발광 구조"
         ],
-        "collected_at": "2026-10-22T04:33:46.221130+00:00",
-        "document_id": "e3491e904c20366e31f2",
+        "collected_at": "2026-10-23T04:39:20.691429+00:00",
+        "document_id": "ccbb7a6d1749b76aea66",
         "published_date": "2026-05-05",
         "company": [
           "LG디스플레이"
@@ -216,26 +148,27 @@
           "탠덤 OLED": 3
         },
         "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE43S3RSQXlueUJHYk5nWWgtZlJQd0c0R1NVbV93R1BMb1BPVjFsWjlUNmhkQllFM1E1Z05WeGFKM091aENwZmNSMnEyLWg1dw?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5EeURNR1J6QjNxUW5kLWV1cXh6SGdkMUVTTm03aWZueTc4cEFRSzU2dTA3Y3hVdVdoS0FncnQ5b0VOOUtHU1NNTlhrZFVySVBYZzZWR2dvcTlmSXp2bHptdg?oc=5"
       },
       {
-        "id": "c19e7799bf2d6096ff89",
+        "id": "46918192c791852d5f87",
         "doi": "",
         "source_type": "news",
-        "source": "라이센스뉴스",
+        "source": "뉴스웍스",
         "region": "domestic",
-        "title": "LG디스플레이, '3세대 탠덤 OLED' 최초 공개 - 라이센스뉴스",
+        "title": "삼성D·LGD, SID서 차세대 OLED 기술 격돌…3000니트·3세대 탠덤 공개 - 뉴스웍스",
         "published_at": "2026-05-05",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5YaTBZdi1QdWx1WVgzV3dfNG1xazlfNzh5eW1LbWlGbmc2VXZoZHZwNmpkV1JQYm5wX0ZlUXVhMnVCcmF6T0RWeVJpMDRSX1c4V3hENXBPRkJnNDNpMXVqQlNxYTRhMVpsS0Jj?oc=5",
-        "summary": "LG디스플레이, '3세대 탠덤 OLED' 최초 공개 라이센스뉴스",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByUk5INWZyMUVTSWdzNmZZczU5dkJyYkszUzZkLXZMbzJieGduaXdFU290aWROaV8xcktIWVlSM2xJZlF4WFFwQ3JUd00wNlhvWVJRZnBSOFhSeXMtcm5rZGVuNWpTY05DbHQzZlA1c9IBc0FVX3lxTE9ma0M4UmZZTXdNa3h6eEkyT1F5anhWLWw2dU1LT2VkNDBhSUFiVXRxT2poMjlyRFpOcW1kZjM3QzhrMnJkV0tSbVRGdF9ZZ2h6RnlGTGpodDhNSmRSQ2hHMUJKd1Z5YUR1S3JOQk1rMjR5Vnc?oc=5",
+        "summary": "삼성D·LGD, SID서 차세대 OLED 기술 격돌…3000니트·3세대 탠덤 공개 뉴스웍스",
         "technologies": [
           "발광 구조"
         ],
-        "collected_at": "2026-10-22T04:33:46.222511+00:00",
-        "document_id": "c19e7799bf2d6096ff89",
+        "collected_at": "2026-10-23T04:39:20.691501+00:00",
+        "document_id": "46918192c791852d5f87",
         "published_date": "2026-05-05",
         "company": [
-          "LG디스플레이"
+          "LG디스플레이",
+          "삼성디스플레이"
         ],
         "technology": [
           "발광 구조"
@@ -247,212 +180,49 @@
           "탠덤 OLED": 3
         },
         "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5YaTBZdi1QdWx1WVgzV3dfNG1xazlfNzh5eW1LbWlGbmc2VXZoZHZwNmpkV1JQYm5wX0ZlUXVhMnVCcmF6T0RWeVJpMDRSX1c4V3hENXBPRkJnNDNpMXVqQlNxYTRhMVpsS0Jj?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByUk5INWZyMUVTSWdzNmZZczU5dkJyYkszUzZkLXZMbzJieGduaXdFU290aWROaV8xcktIWVlSM2xJZlF4WFFwQ3JUd00wNlhvWVJRZnBSOFhSeXMtcm5rZGVuNWpTY05DbHQzZlA1c9IBc0FVX3lxTE9ma0M4UmZZTXdNa3h6eEkyT1F5anhWLWw2dU1LT2VkNDBhSUFiVXRxT2poMjlyRFpOcW1kZjM3QzhrMnJkV0tSbVRGdF9ZZ2h6RnlGTGpodDhNSmRSQ2hHMUJKd1Z5YUR1S3JOQk1rMjR5Vnc?oc=5"
       },
       {
-        "id": "b06141b0731ac56801da",
-        "doi": "",
-        "source_type": "news",
-        "source": "디지털데일리",
-        "region": "domestic",
-        "title": "LGD, 美 ‘SID 2026’서 3세대 탠덤 OLED 세계 최초 공개 - 디지털데일리",
-        "published_at": "2026-05-05",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9sUDlIT0lDWjV2Q2tYeWswVjVuTGdUZWZhc2w2WHhZRFN4WkVkbUtQT3VlNXlIRGs1YjZJZGdyTHVtUVFVdk1fRkRLQjhpY1lYNWZuMDE0R0NvTVlJTDNwWEl3?oc=5",
-        "summary": "LGD, 美 ‘SID 2026’서 3세대 탠덤 OLED 세계 최초 공개 디지털데일리",
-        "technologies": [
-          "발광 구조"
-        ],
-        "collected_at": "2026-10-22T04:33:46.222557+00:00",
-        "document_id": "b06141b0731ac56801da",
-        "published_date": "2026-05-05",
-        "company": [
-          "LG디스플레이"
-        ],
-        "technology": [
-          "발광 구조"
-        ],
-        "keywords": [
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "탠덤 OLED": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9sUDlIT0lDWjV2Q2tYeWswVjVuTGdUZWZhc2w2WHhZRFN4WkVkbUtQT3VlNXlIRGs1YjZJZGdyTHVtUVFVdk1fRkRLQjhpY1lYNWZuMDE0R0NvTVlJTDNwWEl3?oc=5"
-      },
-      {
-        "id": "71bb4813b75be2f11716",
+        "id": "f748080984b27528f1ce",
         "doi": "",
         "source_type": "news",
         "source": "지디넷코리아",
         "region": "domestic",
-        "title": "LGD, SID서 3세대 차량 탠덤 OLED 첫 공개...\"연내 양산\" - 지디넷코리아",
-        "published_at": "2026-05-05",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1tNnU3YkxVWkREQll0aEdmT1pKNEk0WkV1d1Y0VTBSalNKTlUzR0gtMlpuanFpdUNmZzczZHF0NThibUVUX0ZUbUFtWjFxaUdaVUdySDl3?oc=5",
-        "summary": "LGD, SID서 3세대 차량 탠덤 OLED 첫 공개...\"연내 양산\" 지디넷코리아",
+        "title": "삼성디스플레이 무편광판 OLED, SID '올해의 디스플레이' 선정 - 지디넷코리아",
+        "published_at": "2025-05-06",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE90eXFNbzVVYUpiWi1zWVFRanVGbGhwWTNrejRsMi1jVGNCQUJFbE1rRTB1X2daX1pBXzh1VGd6ZC1XY3BsdzZJcEhTaEN5cDh3eWNXRlZ3?oc=5",
+        "summary": "삼성디스플레이 무편광판 OLED, SID '올해의 디스플레이' 선정 지디넷코리아",
         "technologies": [
-          "발광 구조",
-          "제조/공정"
+          "야외 시인성"
         ],
-        "collected_at": "2026-10-22T04:33:46.222110+00:00",
-        "document_id": "71bb4813b75be2f11716",
-        "published_date": "2026-05-05",
-        "company": [
-          "LG디스플레이"
-        ],
-        "technology": [
-          "발광 구조",
-          "제조/공정"
-        ],
-        "keywords": [
-          "양산",
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "양산": 3,
-          "탠덤 OLED": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1tNnU3YkxVWkREQll0aEdmT1pKNEk0WkV1d1Y0VTBSalNKTlUzR0gtMlpuanFpdUNmZzczZHF0NThibUVUX0ZUbUFtWjFxaUdaVUdySDl3?oc=5"
-      },
-      {
-        "id": "1ec4d2d6076c9b8ac433",
-        "doi": "",
-        "source_type": "news",
-        "source": "Chosunbiz",
-        "region": "domestic",
-        "title": "LG디스플레이, 고휘도·장수명 3세대 탠덤 OLED 첫선 - 조선비즈 - Chosunbiz",
-        "published_at": "2026-05-05",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNaWJlM3hzNkFieUszMUc3bF91SXNGcm5TRHB0Z0ZTZEpaNGVRdWIxQnRTcTRYa2Z1UFp3MlVFM3FmZmE5VkpCeGp2UDl6TENvMERvUnIzUU90aEkwWE5IbUhKOFFHdWM5cEFRcXJnNm84dGhkR2VXdnhzYzgwNGtuVElR0gGWAUFVX3lxTFB0eGNSblJWeVc5YlRCUWsxNjVpdUVQbTBIR0loeVNUREdKUUhLRnRTRWQyT25iSU9TV3VyR0duSTNjSEZOVjBDODdqOU50X1lHQmFXeHhvRzAzLUhEaG5Jc0h6c1RTU1NxaVBaSU8xODc0Si1lR1ZoVldHMjdITnRmNHp2ZVhEX0w0RlNaN01CQVN6LWN6dw?oc=5",
-        "summary": "LG디스플레이, 고휘도·장수명 3세대 탠덤 OLED 첫선 - 조선비즈 Chosunbiz",
-        "technologies": [
-          "초고휘도",
-          "발광 구조"
-        ],
-        "collected_at": "2026-10-22T04:33:46.221409+00:00",
-        "document_id": "1ec4d2d6076c9b8ac433",
-        "published_date": "2026-05-05",
-        "company": [
-          "LG디스플레이"
-        ],
-        "technology": [
-          "초고휘도",
-          "발광 구조"
-        ],
-        "keywords": [
-          "고휘도",
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "고휘도": 3,
-          "탠덤 OLED": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNaWJlM3hzNkFieUszMUc3bF91SXNGcm5TRHB0Z0ZTZEpaNGVRdWIxQnRTcTRYa2Z1UFp3MlVFM3FmZmE5VkpCeGp2UDl6TENvMERvUnIzUU90aEkwWE5IbUhKOFFHdWM5cEFRcXJnNm84dGhkR2VXdnhzYzgwNGtuVElR0gGWAUFVX3lxTFB0eGNSblJWeVc5YlRCUWsxNjVpdUVQbTBIR0loeVNUREdKUUhLRnRTRWQyT25iSU9TV3VyR0duSTNjSEZOVjBDODdqOU50X1lHQmFXeHhvRzAzLUhEaG5Jc0h6c1RTU1NxaVBaSU8xODc0Si1lR1ZoVldHMjdITnRmNHp2ZVhEX0w0RlNaN01CQVN6LWN6dw?oc=5"
-      },
-      {
-        "id": "2965183c094441cfea04",
-        "doi": "",
-        "source_type": "news",
-        "source": "딜사이트",
-        "region": "domestic",
-        "title": "LGD, OLED 경쟁력 강화…탠덤·차세대 W-OLED 개발 - 딜사이트",
-        "published_at": "2026-03-13",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE52OW1STU8tY19VdW5zeHVYSjhnd1Fyak9tU25WNkJwVEhseDZ4ak5PeTdWNTk0ZmIzNk1iYzNuYmJQNFhMNnNONWtsMC1SLTQ?oc=5",
-        "summary": "LGD, OLED 경쟁력 강화…탠덤·차세대 W-OLED 개발 딜사이트",
-        "technologies": [
-          "발광 구조"
-        ],
-        "collected_at": "2026-10-22T04:33:46.221557+00:00",
-        "document_id": "2965183c094441cfea04",
-        "published_date": "2026-03-13",
-        "company": [
-          "LG디스플레이"
-        ],
-        "technology": [
-          "발광 구조"
-        ],
-        "keywords": [
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "탠덤 OLED": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE52OW1STU8tY19VdW5zeHVYSjhnd1Fyak9tU25WNkJwVEhseDZ4ak5PeTdWNTk0ZmIzNk1iYzNuYmJQNFhMNnNONWtsMC1SLTQ?oc=5"
-      },
-      {
-        "id": "c2d66907e0984a657999",
-        "doi": "",
-        "source_type": "news",
-        "source": "삼성디스플레이 뉴스룸",
-        "region": "domestic",
-        "title": "삼성디스플레이, 프리미엄 기술 브랜드 'QD-OLED 펜타 탠덤' 런칭 - 삼성디스플레이 뉴스룸",
-        "published_at": "2026-02-12",
-        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB4S0NRVDBLaHIxbTdMR1hDLW11RkhJSE1yRlJMSVdZalB3SHJoQ3RmSWFyVXZ5WXJoek84TDZ3eEwtRkpEMkllWGp4M19lZw?oc=5",
-        "summary": "삼성디스플레이, 프리미엄 기술 브랜드 'QD-OLED 펜타 탠덤' 런칭 삼성디스플레이 뉴스룸",
-        "technologies": [
-          "발광 구조"
-        ],
-        "collected_at": "2026-10-22T04:33:46.220375+00:00",
-        "document_id": "c2d66907e0984a657999",
-        "published_date": "2026-02-12",
+        "collected_at": "2026-10-23T04:39:20.957309+00:00",
+        "document_id": "f748080984b27528f1ce",
+        "published_date": "2025-05-06",
         "company": [
           "삼성디스플레이"
         ],
         "technology": [
-          "발광 구조"
+          "야외 시인성"
         ],
         "keywords": [
-          "탠덤 OLED"
+          "무편광판"
         ],
         "keyword_scores": {
-          "탠덤 OLED": 3
+          "무편광판": 3
         },
         "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB4S0NRVDBLaHIxbTdMR1hDLW11RkhJSE1yRlJMSVdZalB3SHJoQ3RmSWFyVXZ5WXJoek84TDZ3eEwtRkpEMkllWGp4M19lZw?oc=5"
-      },
-      {
-        "id": "8313e24a4e252844bc5c",
-        "doi": "",
-        "source_type": "news",
-        "source": "마켓인",
-        "region": "domestic",
-        "title": "삼성디스플레이, 5층 구조 프리미엄 'QD-OLED 펜타 탠덤' 브랜드 론칭 - 마켓인",
-        "published_at": "2026-02-12",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tcG9jaFNIeElJNlNVZDNZREFpZEhBaHNZU2wyWlRsLTQ3WFVLbG5YTFY4MVZRSVJYQWpWWTlldF9GOFd6NHV5NjByRGtRcTVhZjFiSzduMm5UYmFnLVlYbXk2V0xJTGxqM3hIazdiVjhCQ0E?oc=5",
-        "summary": "삼성디스플레이, 5층 구조 프리미엄 'QD-OLED 펜타 탠덤' 브랜드 론칭 마켓인",
-        "technologies": [
-          "발광 구조"
-        ],
-        "collected_at": "2026-10-22T04:33:46.221930+00:00",
-        "document_id": "8313e24a4e252844bc5c",
-        "published_date": "2026-02-12",
-        "company": [
-          "삼성디스플레이"
-        ],
-        "technology": [
-          "발광 구조"
-        ],
-        "keywords": [
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "탠덤 OLED": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tcG9jaFNIeElJNlNVZDNZREFpZEhBaHNZU2wyWlRsLTQ3WFVLbG5YTFY4MVZRSVJYQWpWWTlldF9GOFd6NHV5NjByRGtRcTVhZjFiSzduMm5UYmFnLVlYbXk2V0xJTGxqM3hIazdiVjhCQ0E?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE90eXFNbzVVYUpiWi1zWVFRanVGbGhwWTNrejRsMi1jVGNCQUJFbE1rRTB1X2daX1pBXzh1VGd6ZC1XY3BsdzZJcEhTaEN5cDh3eWNXRlZ3?oc=5"
       }
     ],
-    "source_errors": 3
+    "source_errors": 2
   },
-  "input": 765,
-  "excluded_irrelevant": 357,
-  "excluded_before_2023": 108,
-  "duplicates_removed": 79,
-  "saved": 221,
+  "input": 797,
+  "excluded_irrelevant": 367,
+  "excluded_before_2023": 121,
+  "duplicates_removed": 86,
+  "saved": 223,
   "missing_date": 0,
   "missing_summary": 22,
-  "source_errors": 3,
-  "generated_at": "2026-10-22T04:34:39.302678+00:00"
+  "source_errors": 2,
+  "generated_at": "2026-10-23T04:40:01.696481+00:00"
 }
