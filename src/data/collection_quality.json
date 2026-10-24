@@ -1,228 +1,39 @@
 {
   "last_update": {
-    "completed_at": "2026-10-23T04:40:01.696217+00:00",
-    "new_count": 7,
+    "completed_at": "2026-10-24T04:28:59.427324+00:00",
+    "new_count": 1,
     "new_documents": [
       {
-        "id": "0f22af69864733856c53",
+        "id": "6b95a96368875bf23bd9",
         "doi": "",
         "source_type": "news",
-        "source": "스포츠서울",
-        "region": "domestic",
-        "title": "LG디스플레이, OLED 공정 혁신 ‘FLIPP’ 공개…휘도 1.6배·수명 2.4배 - 스포츠서울",
-        "published_at": "2026-10-11",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBhQUc4alBoLW9hZU9aZDg1UXZKR2xHa2FqNWNlZXY3TFZDalpfdDNURTAtTWd4cWtvNEE3dUdHaE9Jakh4SF85cVp1THhUajRJMFdGRkN3dmc?oc=5",
-        "summary": "LG디스플레이, OLED 공정 혁신 ‘FLIPP’ 공개…휘도 1.6배·수명 2.4배 스포츠서울",
-        "technologies": [
-          "제조/공정"
-        ],
-        "collected_at": "2026-10-23T04:39:20.305691+00:00",
-        "document_id": "0f22af69864733856c53",
-        "published_date": "2026-10-11",
-        "company": [
-          "LG디스플레이"
-        ],
-        "technology": [
-          "제조/공정"
-        ],
-        "keywords": [
-          "제조 공정"
-        ],
-        "keyword_scores": {
-          "제조 공정": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBhQUc4alBoLW9hZU9aZDg1UXZKR2xHa2FqNWNlZXY3TFZDalpfdDNURTAtTWd4cWtvNEE3dUdHaE9Jakh4SF85cVp1THhUajRJMFdGRkN3dmc?oc=5"
-      },
-      {
-        "id": "745e4726f229a000dc67",
-        "doi": "",
-        "source_type": "news",
-        "source": "HotHardware",
+        "source": "CNX Software",
         "region": "international",
-        "title": "Garmin Fenix 9 Pro Packs AMOLED And Solar Tech To Rival Apple Watch Ultra - HotHardware",
-        "published_at": "2026-08-25",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSEIxWGdpYUxwbE5xSmtMSjhtVUtGQ1VFRFN3TDU3QzRpdkFMbjBEOVNKWTdEWUdhWTZVb0RWT0VBRmNnbE9yRUNlMFBLVjJEU00tTDdHMWdHSndPdW42U25ETE9ER1dEM2NIWGVyUmZra3RPS2lpb3VLVDI5TklfOQ?oc=5",
-        "summary": "Garmin Fenix 9 Pro Packs AMOLED And Solar Tech To Rival Apple Watch Ultra HotHardware",
+        "title": "6.67-inch flexible AMOLED display works with Raspberry Pi, LattePanda, and other SBCs with HDMI output - CNX Software",
+        "published_at": "2026-05-08",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTWtQUEdxTjVzSjMyN3FBVDNNc3lMZG1fcFBlcXcwNUk5X0xVQjFub3VsX1V3RHhwSlNacjRlaE9zQmo5b3hvVk1rRjMyWUk3bkJfeXNpcDM2ZHFYYUlqQ0JMSVhPSDVGYzltU1RaSTFWVlhiMlEwQXBxWFhJRVdTUU9teUthc3B2NmZVM2FOaDNGdlRMMVRCTWp1c09DbGhFbFdNSUlnSXB4eC1kbUlZLWRiekI1NUdMMlHSAcIBQVVfeXFMTzhvWlIyQ0piazBpaUxxdXRCcnZmVTJoRHJBRHV4STNqQ0N1VF9SZWttS0IyZXBPRzhvblBUMVd1RHFqd3kxWkdvYUhrbHh6MTlSTzdzT3luQzBiUVdfWG1DV3ZnUF9CYWlzNGRXUDJUMDJjeWo3cmR4RnlkN19iNVNWemRaamg0ZW84Yk1nVWxUVEh5Q0s0N1FOdDc0RE5Pa29Kb1JPUUc4R0J5VDY0MEpDX2p2MDloX0VuNzFUYkprbmc?oc=5",
+        "summary": "6.67-inch flexible AMOLED display works with Raspberry Pi, LattePanda, and other SBCs with HDMI output CNX Software",
         "technologies": [],
-        "collected_at": "2026-10-23T04:39:21.306267+00:00",
-        "document_id": "745e4726f229a000dc67",
-        "published_date": "2026-08-25",
-        "company": [
-          "Apple"
-        ],
+        "collected_at": "2026-10-24T04:28:08.069802+00:00",
+        "document_id": "6b95a96368875bf23bd9",
+        "published_date": "2026-05-08",
+        "company": [],
         "technology": [],
         "keywords": [],
         "keyword_scores": {},
         "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSEIxWGdpYUxwbE5xSmtMSjhtVUtGQ1VFRFN3TDU3QzRpdkFMbjBEOVNKWTdEWUdhWTZVb0RWT0VBRmNnbE9yRUNlMFBLVjJEU00tTDdHMWdHSndPdW42U25ETE9ER1dEM2NIWGVyUmZra3RPS2lpb3VLVDI5TklfOQ?oc=5"
-      },
-      {
-        "id": "b6c9de7a2c025bb73c32",
-        "doi": "",
-        "source_type": "news",
-        "source": "파이낸셜포스트",
-        "region": "domestic",
-        "title": "삼성디스플레이, 최고 밝기 1600니트 '탠덤 OLED'로 PC 시장 선점 - 파이낸셜포스트",
-        "published_at": "2026-07-20",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE92X3ZHUjZyY3BHZUdZVHRkSzV1Vk1ZYVoybUFtZ2RGRDVweEF4SG5nUjBveFhhNXRLdzVCMm43VVVhanl1YUNJc3ZaR3VHUDRrdGpHQVJidEthdXYxR09IdTduOTBoMGpjTTRWZ3E3eXdzNVMw?oc=5",
-        "summary": "삼성디스플레이, 최고 밝기 1600니트 '탠덤 OLED'로 PC 시장 선점 파이낸셜포스트",
-        "technologies": [
-          "발광 구조"
-        ],
-        "collected_at": "2026-10-23T04:39:20.691637+00:00",
-        "document_id": "b6c9de7a2c025bb73c32",
-        "published_date": "2026-07-20",
-        "company": [
-          "삼성디스플레이"
-        ],
-        "technology": [
-          "발광 구조"
-        ],
-        "keywords": [
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "탠덤 OLED": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE92X3ZHUjZyY3BHZUdZVHRkSzV1Vk1ZYVoybUFtZ2RGRDVweEF4SG5nUjBveFhhNXRLdzVCMm43VVVhanl1YUNJc3ZaR3VHUDRrdGpHQVJidEthdXYxR09IdTduOTBoMGpjTTRWZ3E3eXdzNVMw?oc=5"
-      },
-      {
-        "id": "7f197590f6f47d52a3eb",
-        "doi": "",
-        "source_type": "news",
-        "source": "엠투데이",
-        "region": "domestic",
-        "title": "삼성디스플레이, 최대 1600니트 탠덤 OLED로 프리미엄 노트북 공략 - 엠투데이",
-        "published_at": "2026-07-20",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1UYzRkYXNfcFRIZ2JWS1Y3OFRUT1hPUXBPSDEyVGhVdzUxWkh5djB0eU1HcFJsbGJpbFVCZ3VhSjZYWTRzem4tTk1mbndvamN0MENUbXJ6T3lOajRLNWtoNVg5aWlPa1FQa0ZtRlJUVQ?oc=5",
-        "summary": "삼성디스플레이, 최대 1600니트 탠덤 OLED로 프리미엄 노트북 공략 엠투데이",
-        "technologies": [
-          "발광 구조"
-        ],
-        "collected_at": "2026-10-23T04:39:20.691671+00:00",
-        "document_id": "7f197590f6f47d52a3eb",
-        "published_date": "2026-07-20",
-        "company": [
-          "삼성디스플레이"
-        ],
-        "technology": [
-          "발광 구조"
-        ],
-        "keywords": [
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "탠덤 OLED": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1UYzRkYXNfcFRIZ2JWS1Y3OFRUT1hPUXBPSDEyVGhVdzUxWkh5djB0eU1HcFJsbGJpbFVCZ3VhSjZYWTRzem4tTk1mbndvamN0MENUbXJ6T3lOajRLNWtoNVg5aWlPa1FQa0ZtRlJUVQ?oc=5"
-      },
-      {
-        "id": "ccbb7a6d1749b76aea66",
-        "doi": "",
-        "source_type": "news",
-        "source": "메트로신문",
-        "region": "domestic",
-        "title": "LG디스플레이, 美 SID 참가...3세대 탠덤 OLED 기술 최초 공개 - 메트로신문",
-        "published_at": "2026-05-05",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5EeURNR1J6QjNxUW5kLWV1cXh6SGdkMUVTTm03aWZueTc4cEFRSzU2dTA3Y3hVdVdoS0FncnQ5b0VOOUtHU1NNTlhrZFVySVBYZzZWR2dvcTlmSXp2bHptdg?oc=5",
-        "summary": "LG디스플레이, 美 SID 참가...3세대 탠덤 OLED 기술 최초 공개 메트로신문",
-        "technologies": [
-          "발광 구조"
-        ],
-        "collected_at": "2026-10-23T04:39:20.691429+00:00",
-        "document_id": "ccbb7a6d1749b76aea66",
-        "published_date": "2026-05-05",
-        "company": [
-          "LG디스플레이"
-        ],
-        "technology": [
-          "발광 구조"
-        ],
-        "keywords": [
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "탠덤 OLED": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5EeURNR1J6QjNxUW5kLWV1cXh6SGdkMUVTTm03aWZueTc4cEFRSzU2dTA3Y3hVdVdoS0FncnQ5b0VOOUtHU1NNTlhrZFVySVBYZzZWR2dvcTlmSXp2bHptdg?oc=5"
-      },
-      {
-        "id": "46918192c791852d5f87",
-        "doi": "",
-        "source_type": "news",
-        "source": "뉴스웍스",
-        "region": "domestic",
-        "title": "삼성D·LGD, SID서 차세대 OLED 기술 격돌…3000니트·3세대 탠덤 공개 - 뉴스웍스",
-        "published_at": "2026-05-05",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByUk5INWZyMUVTSWdzNmZZczU5dkJyYkszUzZkLXZMbzJieGduaXdFU290aWROaV8xcktIWVlSM2xJZlF4WFFwQ3JUd00wNlhvWVJRZnBSOFhSeXMtcm5rZGVuNWpTY05DbHQzZlA1c9IBc0FVX3lxTE9ma0M4UmZZTXdNa3h6eEkyT1F5anhWLWw2dU1LT2VkNDBhSUFiVXRxT2poMjlyRFpOcW1kZjM3QzhrMnJkV0tSbVRGdF9ZZ2h6RnlGTGpodDhNSmRSQ2hHMUJKd1Z5YUR1S3JOQk1rMjR5Vnc?oc=5",
-        "summary": "삼성D·LGD, SID서 차세대 OLED 기술 격돌…3000니트·3세대 탠덤 공개 뉴스웍스",
-        "technologies": [
-          "발광 구조"
-        ],
-        "collected_at": "2026-10-23T04:39:20.691501+00:00",
-        "document_id": "46918192c791852d5f87",
-        "published_date": "2026-05-05",
-        "company": [
-          "LG디스플레이",
-          "삼성디스플레이"
-        ],
-        "technology": [
-          "발광 구조"
-        ],
-        "keywords": [
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "탠덤 OLED": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByUk5INWZyMUVTSWdzNmZZczU5dkJyYkszUzZkLXZMbzJieGduaXdFU290aWROaV8xcktIWVlSM2xJZlF4WFFwQ3JUd00wNlhvWVJRZnBSOFhSeXMtcm5rZGVuNWpTY05DbHQzZlA1c9IBc0FVX3lxTE9ma0M4UmZZTXdNa3h6eEkyT1F5anhWLWw2dU1LT2VkNDBhSUFiVXRxT2poMjlyRFpOcW1kZjM3QzhrMnJkV0tSbVRGdF9ZZ2h6RnlGTGpodDhNSmRSQ2hHMUJKd1Z5YUR1S3JOQk1rMjR5Vnc?oc=5"
-      },
-      {
-        "id": "f748080984b27528f1ce",
-        "doi": "",
-        "source_type": "news",
-        "source": "지디넷코리아",
-        "region": "domestic",
-        "title": "삼성디스플레이 무편광판 OLED, SID '올해의 디스플레이' 선정 - 지디넷코리아",
-        "published_at": "2025-05-06",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE90eXFNbzVVYUpiWi1zWVFRanVGbGhwWTNrejRsMi1jVGNCQUJFbE1rRTB1X2daX1pBXzh1VGd6ZC1XY3BsdzZJcEhTaEN5cDh3eWNXRlZ3?oc=5",
-        "summary": "삼성디스플레이 무편광판 OLED, SID '올해의 디스플레이' 선정 지디넷코리아",
-        "technologies": [
-          "야외 시인성"
-        ],
-        "collected_at": "2026-10-23T04:39:20.957309+00:00",
-        "document_id": "f748080984b27528f1ce",
-        "published_date": "2025-05-06",
-        "company": [
-          "삼성디스플레이"
-        ],
-        "technology": [
-          "야외 시인성"
-        ],
-        "keywords": [
-          "무편광판"
-        ],
-        "keyword_scores": {
-          "무편광판": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE90eXFNbzVVYUpiWi1zWVFRanVGbGhwWTNrejRsMi1jVGNCQUJFbE1rRTB1X2daX1pBXzh1VGd6ZC1XY3BsdzZJcEhTaEN5cDh3eWNXRlZ3?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTWtQUEdxTjVzSjMyN3FBVDNNc3lMZG1fcFBlcXcwNUk5X0xVQjFub3VsX1V3RHhwSlNacjRlaE9zQmo5b3hvVk1rRjMyWUk3bkJfeXNpcDM2ZHFYYUlqQ0JMSVhPSDVGYzltU1RaSTFWVlhiMlEwQXBxWFhJRVdTUU9teUthc3B2NmZVM2FOaDNGdlRMMVRCTWp1c09DbGhFbFdNSUlnSXB4eC1kbUlZLWRiekI1NUdMMlHSAcIBQVVfeXFMTzhvWlIyQ0piazBpaUxxdXRCcnZmVTJoRHJBRHV4STNqQ0N1VF9SZWttS0IyZXBPRzhvblBUMVd1RHFqd3kxWkdvYUhrbHh6MTlSTzdzT3luQzBiUVdfWG1DV3ZnUF9CYWlzNGRXUDJUMDJjeWo3cmR4RnlkN19iNVNWemRaamg0ZW84Yk1nVWxUVEh5Q0s0N1FOdDc0RE5Pa29Kb1JPUUc4R0J5VDY0MEpDX2p2MDloX0VuNzFUYkprbmc?oc=5"
       }
     ],
-    "source_errors": 2
+    "source_errors": 3
   },
-  "input": 797,
-  "excluded_irrelevant": 367,
-  "excluded_before_2023": 121,
-  "duplicates_removed": 86,
-  "saved": 223,
+  "input": 772,
+  "excluded_irrelevant": 358,
+  "excluded_before_2023": 109,
+  "duplicates_removed": 84,
+  "saved": 221,
   "missing_date": 0,
   "missing_summary": 22,
-  "source_errors": 2,
-  "generated_at": "2026-10-23T04:40:01.696481+00:00"
+  "source_errors": 3,
+  "generated_at": "2026-10-24T04:28:59.427569+00:00"
 }
