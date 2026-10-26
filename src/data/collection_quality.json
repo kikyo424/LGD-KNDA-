@@ -1,151 +1,17 @@
 {
   "last_update": {
-    "completed_at": "2026-10-26T17:31:13.079346+00:00",
-    "new_count": 5,
-    "new_documents": [
-      {
-        "id": "6514d6910cf68c90421a",
-        "doi": "",
-        "source_type": "news",
-        "source": "이투데이",
-        "region": "domestic",
-        "title": "최영석 LGD CTO \"AI 시대 저전력이 경쟁력…탠덤 OLED가 해답\" - 이투데이",
-        "published_at": "2026-07-21",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1jYV9WY0xPa2wwcTVzcUhQakVlWW5DbEI2VFNIRmhMTjBOaXRsZ1RHLUVlbmpUcDRobndmRHo0MzV6bkR4ZzBGY3lMRWdqeHVIUVpGYw?oc=5",
-        "summary": "최영석 LGD CTO \"AI 시대 저전력이 경쟁력…탠덤 OLED가 해답\" 이투데이",
-        "technologies": [
-          "저전력",
-          "발광 구조"
-        ],
-        "collected_at": "2026-10-26T17:30:21.673595+00:00",
-        "document_id": "6514d6910cf68c90421a",
-        "published_date": "2026-07-21",
-        "company": [
-          "LG디스플레이"
-        ],
-        "technology": [
-          "저전력",
-          "발광 구조"
-        ],
-        "keywords": [
-          "전력 효율",
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "전력 효율": 3,
-          "탠덤 OLED": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1jYV9WY0xPa2wwcTVzcUhQakVlWW5DbEI2VFNIRmhMTjBOaXRsZ1RHLUVlbmpUcDRobndmRHo0MzV6bkR4ZzBGY3lMRWdqeHVIUVpGYw?oc=5"
-      },
-      {
-        "id": "08c0a210233b1c1eba23",
-        "doi": "",
-        "source_type": "news",
-        "source": "뉴스1",
-        "region": "domestic",
-        "title": "LG디스플레이, 美서 3세대 탠덤 OLED 공개…미래 기술 선도 - 뉴스1",
-        "published_at": "2026-05-05",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9adk1pMkVqUnFGR3VJMG4xYVBSOGI3M0NPVmRMUGJlTWhqRWd4ZEdZUWxNb21QWTduM0VoR2JxU0paUWMyR2NEWkt6UzRBT05lMHYxbjVlUllkdTczdE1SaS1peGc?oc=5",
-        "summary": "LG디스플레이, 美서 3세대 탠덤 OLED 공개…미래 기술 선도 뉴스1",
-        "technologies": [
-          "발광 구조"
-        ],
-        "collected_at": "2026-10-26T17:30:21.673624+00:00",
-        "document_id": "08c0a210233b1c1eba23",
-        "published_date": "2026-05-05",
-        "company": [
-          "LG디스플레이"
-        ],
-        "technology": [
-          "발광 구조"
-        ],
-        "keywords": [
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "탠덤 OLED": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9adk1pMkVqUnFGR3VJMG4xYVBSOGI3M0NPVmRMUGJlTWhqRWd4ZEdZUWxNb21QWTduM0VoR2JxU0paUWMyR2NEWkt6UzRBT05lMHYxbjVlUllkdTczdE1SaS1peGc?oc=5"
-      },
-      {
-        "id": "6cc22acbaa09d1f3454f",
-        "doi": "",
-        "source_type": "news",
-        "source": "TweakTown",
-        "region": "international",
-        "title": "Stretchable OLED displays can double in size without losing brightness - TweakTown",
-        "published_at": "2026-01-20",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSm13OVVWM1pubURIaUtvb0ZUQnZKT0tqU1BiSm42UkdZN2ZvMHl1VHFrSjhramVQZE0wcDdfc3dMYTdlWTBuRFFHVTlNT3pKaDdsMmE0dzI2TklfOWMyNHVYNG5rVXZZZVdjMXZ5NVhjV3BjUU1fZ1VobTh1SE5rSUQySU83alduR0ZiRHcwTGFGNXkycXJGY2VEaXJSOGt2TkxNOEx6SVZvYXhGMlkyQm9idkZjRDBDSVhN?oc=5",
-        "summary": "Stretchable OLED displays can double in size without losing brightness TweakTown",
-        "technologies": [],
-        "collected_at": "2026-10-26T17:30:22.224154+00:00",
-        "document_id": "6cc22acbaa09d1f3454f",
-        "published_date": "2026-01-20",
-        "company": [],
-        "technology": [],
-        "keywords": [],
-        "keyword_scores": {},
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSm13OVVWM1pubURIaUtvb0ZUQnZKT0tqU1BiSm42UkdZN2ZvMHl1VHFrSjhramVQZE0wcDdfc3dMYTdlWTBuRFFHVTlNT3pKaDdsMmE0dzI2TklfOWMyNHVYNG5rVXZZZVdjMXZ5NVhjV3BjUU1fZ1VobTh1SE5rSUQySU83alduR0ZiRHcwTGFGNXkycXJGY2VEaXJSOGt2TkxNOEx6SVZvYXhGMlkyQm9idkZjRDBDSVhN?oc=5"
-      },
-      {
-        "id": "96a6e45d4252ff056c27",
-        "doi": "",
-        "source_type": "news",
-        "source": "Notebookcheck",
-        "region": "international",
-        "title": "LG Display showcases smartwatch display with 3D rendering using light field technology and OLED - Notebookcheck",
-        "published_at": "2024-05-18",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNX2NyN2tYQzZHenZfZ01qYUYwYXNHb0tKV1h5OVpvWHFIeG1zcWNTcVhZTWxXd3M2WlpQQkhaNlJ2QUdSS3VqQi1wMkMwa2tFaWIxMlNBNVBiNlJHRzF3LUlfY1Y2SWRObmlxRDVHZ2JFVWdyRFFQclNSZDROOXQ3dFhzYmt6bmV5ODNPVzZ3WEgwR3dJa0xvX3p6MDBZUjRzQVhlQ1Ewb2VHN0VJMV9za3ZNbnB1NHFuTVN5MWV3VFR3XzVHNEtDUE5QRUhkeFFwVzQzdG5R?oc=5",
-        "summary": "LG Display showcases smartwatch display with 3D rendering using light field technology and OLED Notebookcheck",
-        "technologies": [],
-        "collected_at": "2026-10-26T17:30:22.224188+00:00",
-        "document_id": "96a6e45d4252ff056c27",
-        "published_date": "2024-05-18",
-        "company": [
-          "LG디스플레이"
-        ],
-        "technology": [],
-        "keywords": [],
-        "keyword_scores": {},
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNX2NyN2tYQzZHenZfZ01qYUYwYXNHb0tKV1h5OVpvWHFIeG1zcWNTcVhZTWxXd3M2WlpQQkhaNlJ2QUdSS3VqQi1wMkMwa2tFaWIxMlNBNVBiNlJHRzF3LUlfY1Y2SWRObmlxRDVHZ2JFVWdyRFFQclNSZDROOXQ3dFhzYmt6bmV5ODNPVzZ3WEgwR3dJa0xvX3p6MDBZUjRzQVhlQ1Ewb2VHN0VJMV9za3ZNbnB1NHFuTVN5MWV3VFR3XzVHNEtDUE5QRUhkeFFwVzQzdG5R?oc=5"
-      },
-      {
-        "id": "833a613b9102923ae169",
-        "doi": "",
-        "source_type": "news",
-        "source": "Wccftech",
-        "region": "international",
-        "title": "2025 Apple Watch Ultra To Feature microLED Display With Enhanced Brightness Compared To OLED - Wccftech",
-        "published_at": "2023-03-14",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcWFZMVNHczRwSXQxejhzSXBFMWtFWmx5NWk2cTY2LVdVSWNXMTJMY0JqVGZwMTcyVzIzQjVlSU42WDlTMlJmZTlpempXOUdXaTZ0b1RaMmJfSExYUFdSUm42TFBKQldkeG5tOGJMamFGN0pHenY2di0yQ2NzV2lHeS1nN09HS19hdmhlem11SnVsWUp5ZjBKbkdmelc5UWVpOG5WMVJtblZ6LTNRenRaRnNEaznSAboBQVVfeXFMTkphbVhaRVNET3hlbTFEZnZMTktWeE1kZWRXV1NOeEE5bDZ1LW9LVkNDckhhSTYyYVFBdk43a1BIdHFSYkw5M09XMjVuMHFsa2tFSmlrN2YxWVczUzFIa1R5OHIxTV8zYjNMVk44Ql9EWXphUTNRZDhiRWI2dWk2ODZHbHloTkpseTlqZlphdnZ5azh6aU5lVXNHLXI4TmVzbXhwQ0YtSGRmSjVzTW9nQzZSQkZrR1J2V09n?oc=5",
-        "summary": "2025 Apple Watch Ultra To Feature microLED Display With Enhanced Brightness Compared To OLED Wccftech",
-        "technologies": [],
-        "collected_at": "2026-10-26T17:30:22.224355+00:00",
-        "document_id": "833a613b9102923ae169",
-        "published_date": "2023-03-14",
-        "company": [
-          "Apple"
-        ],
-        "technology": [],
-        "keywords": [],
-        "keyword_scores": {},
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcWFZMVNHczRwSXQxejhzSXBFMWtFWmx5NWk2cTY2LVdVSWNXMTJMY0JqVGZwMTcyVzIzQjVlSU42WDlTMlJmZTlpempXOUdXaTZ0b1RaMmJfSExYUFdSUm42TFBKQldkeG5tOGJMamFGN0pHenY2di0yQ2NzV2lHeS1nN09HS19hdmhlem11SnVsWUp5ZjBKbkdmelc5UWVpOG5WMVJtblZ6LTNRenRaRnNEaznSAboBQVVfeXFMTkphbVhaRVNET3hlbTFEZnZMTktWeE1kZWRXV1NOeEE5bDZ1LW9LVkNDckhhSTYyYVFBdk43a1BIdHFSYkw5M09XMjVuMHFsa2tFSmlrN2YxWVczUzFIa1R5OHIxTV8zYjNMVk44Ql9EWXphUTNRZDhiRWI2dWk2ODZHbHloTkpseTlqZlphdnZ5azh6aU5lVXNHLXI4TmVzbXhwQ0YtSGRmSjVzTW9nQzZSQkZrR1J2V09n?oc=5"
-      }
-    ],
-    "source_errors": 6
+    "completed_at": "2026-10-26T17:33:29.183515+00:00",
+    "new_count": 0,
+    "new_documents": [],
+    "source_errors": 3
   },
-  "input": 667,
-  "excluded_irrelevant": 312,
-  "excluded_before_2023": 70,
-  "duplicates_removed": 61,
+  "input": 771,
+  "excluded_irrelevant": 357,
+  "excluded_before_2023": 109,
+  "duplicates_removed": 81,
   "saved": 224,
   "missing_date": 0,
   "missing_summary": 22,
-  "source_errors": 6,
-  "generated_at": "2026-10-26T17:31:13.079741+00:00"
+  "source_errors": 3,
+  "generated_at": "2026-10-26T17:33:29.183902+00:00"
 }
