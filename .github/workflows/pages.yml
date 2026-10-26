@@ -19,6 +19,7 @@ concurrency:
 
 env:
   ASTRO_TELEMETRY_DISABLED: "1"
+  TZ: Asia/Seoul
 
 jobs:
   build:
