@@ -1,19 +1,19 @@
 [
   {
-    "id": "f369206c1e9a713570e4",
+    "id": "6f4c358c81a4d7838ad3",
     "doi": "",
     "source_type": "news",
-    "source": "한국아이닷컴",
+    "source": "데일리한국",
     "region": "domestic",
-    "title": "BOE, 1만2000니트 탠덤 OLED로 기술력 과시…삼성·LGD 경쟁 심화 - 한국아이닷컴",
+    "title": "BOE, 1만2000니트 탠덤 OLED로 기술력 과시…삼성·LGD 경쟁 심화 - 데일리한국",
     "published_at": "2026-10-13",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBRSVNyX2djd2xqTTVNMGlWY01RdkxJbmI4ZnFoS1FERXhhTDRORkV3ZjlwWC1vSzNVSTh6SjhqRkNkcTItUG1FOFpjM2NnUkZ3aG9RTktTTTlUUlIwNzhVaWVkNjdJNEE1anZn0gFvQVVfeXFMTzRGYm5UREtRZVo0UEg4a29YakROWm51TExsUGh1TVo0cXJGTG1TcnBZRTNqU0FJM1hMcnNUeldadW9nOGk1YUY5M0R1T2cyS28zWE9NQlBBRkk3MTJUc0FiLTlUWno2aHYtdjd3R05r?oc=5",
-    "summary": "BOE, 1만2000니트 탠덤 OLED로 기술력 과시…삼성·LGD 경쟁 심화 한국아이닷컴",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE51UHIwaDVHbGtrRTlhLXlzclBsZERWazRnZUlNdl9TdVktTng1bjhJQVV4V2FQVTBHdHRJSDVheVZjMEItQlZMM0dnSEZMQ000Y1ZVbjJPUlpiQXZ6M3MyR0FOS2lBVU1za0JpUGY0UdIBc0FVX3lxTE1EM2hsZ05uYWNuNFNNaUN3YUdxTzhiOFI0TFR1cDdOZUtCNUF2dnlTei1YdXhLUnAyY3hnb1B6RGpteS1aYVdBYVhQTTgxdDFUclZUVXB6a19DelR6R1h2Z3JMWFBRTUtPRV9maWlYLVktOWc?oc=5",
+    "summary": "BOE, 1만2000니트 탠덤 OLED로 기술력 과시…삼성·LGD 경쟁 심화 데일리한국",
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.344040+00:00",
-    "document_id": "f369206c1e9a713570e4",
+    "collected_at": "2026-10-27T04:56:31.593035+00:00",
+    "document_id": "6f4c358c81a4d7838ad3",
     "published_date": "2026-10-13",
     "company": [
       "LG디스플레이",
@@ -29,7 +29,7 @@
       "탠덤 OLED": 3
     },
     "metrics": [],
-    "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBRSVNyX2djd2xqTTVNMGlWY01RdkxJbmI4ZnFoS1FERXhhTDRORkV3ZjlwWC1vSzNVSTh6SjhqRkNkcTItUG1FOFpjM2NnUkZ3aG9RTktTTTlUUlIwNzhVaWVkNjdJNEE1anZn0gFvQVVfeXFMTzRGYm5UREtRZVo0UEg4a29YakROWm51TExsUGh1TVo0cXJGTG1TcnBZRTNqU0FJM1hMcnNUeldadW9nOGk1YUY5M0R1T2cyS28zWE9NQlBBRkk3MTJUc0FiLTlUWno2aHYtdjd3R05r?oc=5"
+    "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE51UHIwaDVHbGtrRTlhLXlzclBsZERWazRnZUlNdl9TdVktTng1bjhJQVV4V2FQVTBHdHRJSDVheVZjMEItQlZMM0dnSEZMQ000Y1ZVbjJPUlpiQXZ6M3MyR0FOS2lBVU1za0JpUGY0UdIBc0FVX3lxTE1EM2hsZ05uYWNuNFNNaUN3YUdxTzhiOFI0TFR1cDdOZUtCNUF2dnlTei1YdXhLUnAyY3hnb1B6RGpteS1aYVdBYVhQTTgxdDFUclZUVXB6a19DelR6R1h2Z3JMWFBRTUtPRV9maWlYLVktOWc?oc=5"
   },
   {
     "id": "a3a06e2497a577e0d917",
@@ -44,7 +44,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.345546+00:00",
+    "collected_at": "2026-10-27T04:56:31.595621+00:00",
     "document_id": "a3a06e2497a577e0d917",
     "published_date": "2026-10-12",
     "company": [],
@@ -73,7 +73,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.343747+00:00",
+    "collected_at": "2026-10-27T04:56:31.592836+00:00",
     "document_id": "27b86797b0b2eb442afe",
     "published_date": "2026-10-12",
     "company": [
@@ -104,7 +104,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.343577+00:00",
+    "collected_at": "2026-10-27T04:56:31.592627+00:00",
     "document_id": "7923e06b3dd70f8780ce",
     "published_date": "2026-10-11",
     "company": [
@@ -135,7 +135,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.343836+00:00",
+    "collected_at": "2026-10-27T04:56:31.592940+00:00",
     "document_id": "78d34ff1048dd8dfc53f",
     "published_date": "2026-10-11",
     "company": [
@@ -155,37 +155,6 @@
     "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE40TWsyMEVFR2tMQlVUQ3lLNjJGMTJDc0JaUHg3aUgwVXZ0Q3JTZV9YT0owOE9jNENwSkZiNWhEdzFBSlZoUExaaWhTSnl3WHNnU0VuY2xLeV9kdGtiSlFwWlFB?oc=5"
   },
   {
-    "id": "69cb74d7e0374ef08660",
-    "doi": "",
-    "source_type": "news",
-    "source": "비즈니스포스트",
-    "region": "domestic",
-    "title": "LG디스플레이, 수명·휘도 높이는 차세대 OLED 공정기술 'FLiPP' 개발 - 비즈니스포스트",
-    "published_at": "2026-10-11",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBYUE9DdGJoeUthaWJPRlFfMDc2eUc1T3J4ZUNEbmZFVXRDM2lGVTJQMmVWOTI1QVlOanRMREVic1VDZ2VBa3BmaU9UV0YwblZBTFkyV016TnE5ZjN6OUxUT0V6R2RYRmVYRkZialdzNzNHa2M?oc=5",
-    "summary": "LG디스플레이, 수명·휘도 높이는 차세대 OLED 공정기술 'FLiPP' 개발 비즈니스포스트",
-    "technologies": [
-      "제조/공정"
-    ],
-    "collected_at": "2026-10-26T17:32:35.930791+00:00",
-    "document_id": "69cb74d7e0374ef08660",
-    "published_date": "2026-10-11",
-    "company": [
-      "LG디스플레이"
-    ],
-    "technology": [
-      "제조/공정"
-    ],
-    "keywords": [
-      "제조 공정"
-    ],
-    "keyword_scores": {
-      "제조 공정": 3
-    },
-    "metrics": [],
-    "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBYUE9DdGJoeUthaWJPRlFfMDc2eUc1T3J4ZUNEbmZFVXRDM2lGVTJQMmVWOTI1QVlOanRMREVic1VDZ2VBa3BmaU9UV0YwblZBTFkyV016TnE5ZjN6OUxUT0V6R2RYRmVYRkZialdzNzNHa2M?oc=5"
-  },
-  {
     "id": "68d1e0e980329841e55e",
     "doi": "",
     "source_type": "news",
@@ -196,7 +165,7 @@
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xRzRqeHJxbnBhN0Z0SUszN2VyZTZBYlV6OG11Qk96U3NPVmxiQTFhOE44dXc1ejBobU16cTlXc3YxdzVzNzlHdGNFQWIwZFRWeGItSG9oeWZoa3BQSDZ1Snp2NlVmSXdkalh0UQ?oc=5",
     "summary": "LGD '꿈의 OLED' 플립…FMM 없애고 휘도 최대 1.6배·수명 최대 2.4배 높인 비결은? ER 이코노믹리뷰",
     "technologies": [],
-    "collected_at": "2026-10-26T17:32:35.930701+00:00",
+    "collected_at": "2026-10-27T04:56:31.066161+00:00",
     "document_id": "68d1e0e980329841e55e",
     "published_date": "2026-10-11",
     "company": [
@@ -207,37 +176,6 @@
     "keyword_scores": {},
     "metrics": [],
     "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xRzRqeHJxbnBhN0Z0SUszN2VyZTZBYlV6OG11Qk96U3NPVmxiQTFhOE44dXc1ejBobU16cTlXc3YxdzVzNzlHdGNFQWIwZFRWeGItSG9oeWZoa3BQSDZ1Snp2NlVmSXdkalh0UQ?oc=5"
-  },
-  {
-    "id": "0f22af69864733856c53",
-    "doi": "",
-    "source_type": "news",
-    "source": "스포츠서울",
-    "region": "domestic",
-    "title": "LG디스플레이, OLED 공정 혁신 ‘FLIPP’ 공개…휘도 1.6배·수명 2.4배 - 스포츠서울",
-    "published_at": "2026-10-11",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBhQUc4alBoLW9hZU9aZDg1UXZKR2xHa2FqNWNlZXY3TFZDalpfdDNURTAtTWd4cWtvNEE3dUdHaE9Jakh4SF85cVp1THhUajRJMFdGRkN3dmc?oc=5",
-    "summary": "LG디스플레이, OLED 공정 혁신 ‘FLIPP’ 공개…휘도 1.6배·수명 2.4배 스포츠서울",
-    "technologies": [
-      "제조/공정"
-    ],
-    "collected_at": "2026-10-26T17:32:35.932465+00:00",
-    "document_id": "0f22af69864733856c53",
-    "published_date": "2026-10-11",
-    "company": [
-      "LG디스플레이"
-    ],
-    "technology": [
-      "제조/공정"
-    ],
-    "keywords": [
-      "제조 공정"
-    ],
-    "keyword_scores": {
-      "제조 공정": 3
-    },
-    "metrics": [],
-    "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBhQUc4alBoLW9hZU9aZDg1UXZKR2xHa2FqNWNlZXY3TFZDalpfdDNURTAtTWd4cWtvNEE3dUdHaE9Jakh4SF85cVp1THhUajRJMFdGRkN3dmc?oc=5"
   },
   {
     "id": "2bf04f68d9b8ac3a0f2b",
@@ -252,7 +190,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.345934+00:00",
+    "collected_at": "2026-10-27T04:56:31.594729+00:00",
     "document_id": "2bf04f68d9b8ac3a0f2b",
     "published_date": "2026-10-10",
     "company": [],
@@ -279,7 +217,7 @@
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTThSWFZNUXZtT3U3TGlUUkFHbGNvYnpRa1VFMnZDblNOalhPM0JUVG9xd3VXMV9GZjJPT2tjdVNMTkN1Z3R5RHhXcUtySzlYaVU2UldLRUlJMFVlUjMya203ZV8zbWx6dk5uN0lZWU9LeVg1Z0FaeHZOV3BDVFlsVHg3OVVsa2c1UXE5bjctLVloSTZ1MUNv?oc=5",
     "summary": "Honor launches its Watch 6 Pro smartwatch, the world's first product to sport an OLED display produced using a lithography process OLED-Info",
     "technologies": [],
-    "collected_at": "2026-10-26T17:32:37.329435+00:00",
+    "collected_at": "2026-10-27T04:56:32.587738+00:00",
     "document_id": "7f16d732539f0b34daac",
     "published_date": "2026-09-29",
     "company": [],
@@ -302,7 +240,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-26T17:32:36.627524+00:00",
+    "collected_at": "2026-10-27T04:56:31.844846+00:00",
     "document_id": "e628ee971bfa29736efc",
     "published_date": "2026-09-22",
     "company": [
@@ -333,7 +271,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-26T17:32:37.329644+00:00",
+    "collected_at": "2026-10-27T04:56:32.588012+00:00",
     "document_id": "3a035c1cb83cff10d0da",
     "published_date": "2026-09-10",
     "company": [
@@ -396,7 +334,7 @@
       "초고휘도",
       "저전력"
     ],
-    "collected_at": "2026-10-26T17:32:37.332380+00:00",
+    "collected_at": "2026-10-27T04:56:32.591095+00:00",
     "document_id": "a4a8a677f400d08fe3bb",
     "published_date": "2026-09-08",
     "company": [],
@@ -428,7 +366,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.346139+00:00",
+    "collected_at": "2026-10-27T04:56:31.595576+00:00",
     "document_id": "cb5992b037a35286f945",
     "published_date": "2026-09-07",
     "company": [
@@ -459,7 +397,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.345797+00:00",
+    "collected_at": "2026-10-27T04:56:31.594982+00:00",
     "document_id": "8c547f83e7f6e35e66dd",
     "published_date": "2026-09-06",
     "company": [
@@ -523,7 +461,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.344663+00:00",
+    "collected_at": "2026-10-27T04:56:31.593775+00:00",
     "document_id": "de7beafbde91976241d3",
     "published_date": "2026-08-26",
     "company": [
@@ -552,7 +490,7 @@
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSEIxWGdpYUxwbE5xSmtMSjhtVUtGQ1VFRFN3TDU3QzRpdkFMbjBEOVNKWTdEWUdhWTZVb0RWT0VBRmNnbE9yRUNlMFBLVjJEU00tTDdHMWdHSndPdW42U25ETE9ER1dEM2NIWGVyUmZra3RPS2lpb3VLVDI5TklfOQ?oc=5",
     "summary": "Garmin Fenix 9 Pro Packs AMOLED And Solar Tech To Rival Apple Watch Ultra HotHardware",
     "technologies": [],
-    "collected_at": "2026-10-26T17:32:37.017441+00:00",
+    "collected_at": "2026-10-27T04:56:32.224121+00:00",
     "document_id": "745e4726f229a000dc67",
     "published_date": "2026-08-25",
     "company": [
@@ -598,7 +536,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.343793+00:00",
+    "collected_at": "2026-10-27T04:56:31.592758+00:00",
     "document_id": "8446c6e95f73a5c55cd0",
     "published_date": "2026-08-13",
     "company": [
@@ -629,7 +567,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-26T17:32:37.329892+00:00",
+    "collected_at": "2026-10-27T04:56:32.588275+00:00",
     "document_id": "4d0eefac1dcef5a4fe65",
     "published_date": "2026-08-13",
     "company": [],
@@ -657,7 +595,7 @@
     "summary": "AMOLED has become mainstream in wearable and mobile phone products due to its advantages such as high contrast, wide color gamut, thinness and high screen‐to‐body ratio, and is beginning to expand into medium and large‐sized products. Larger display modules mean longer ELVDD traces, which pose new challenges to the brightness and chromaticity uniformity of the product. At the same time, the application of new technologies may also bring about picture quality issues, such as OLED displays using oxide TFT not lighting up in low brightness (LB) scenarios, etc. This study analyzed the factors affecting LB uniformity compensation and established a new compensation model. The compensation voltage ",
     "technologies": [],
     "citation_count": 0,
-    "collected_at": "2026-10-23T04:39:24.312955+00:00",
+    "collected_at": "2026-10-27T04:56:33.326534+00:00",
     "document_id": "f73247136ea34f1ed6d7",
     "published_date": "2026-08-01",
     "company": [],
@@ -681,7 +619,7 @@
       "초고휘도"
     ],
     "citation_count": 0,
-    "collected_at": "2026-10-23T04:39:24.312446+00:00",
+    "collected_at": "2026-10-27T04:56:33.325953+00:00",
     "document_id": "c381a0ffc7044eb7ff3c",
     "published_date": "2026-08-01",
     "company": [],
@@ -713,7 +651,7 @@
       "발광 구조"
     ],
     "citation_count": 0,
-    "collected_at": "2026-10-17T04:17:47.674366+00:00",
+    "collected_at": "2026-10-27T04:56:36.624483+00:00",
     "document_id": "8815ca1e3c0f05e1ba79",
     "published_date": "2026-08-01",
     "company": [],
@@ -734,6 +672,52 @@
     },
     "metrics": [],
     "source_url": "https://www.semanticscholar.org/paper/07b9b76af75975f7203fc6cb995cf69cd77f3dfd"
+  },
+  {
+    "id": "802d6504ae45a211163e",
+    "doi": "10.1002/sdtp.70003_47",
+    "source_type": "paper",
+    "source": "Semantic Scholar",
+    "region": "international",
+    "title": "21‐2: COE‐Based OLED Display Technology with High Brightness, Wide Color Gamut, and Low Reflectivity Integrated Black",
+    "published_at": "2026-08-01",
+    "url": "https://www.semanticscholar.org/paper/8cf620f2fd91f7a34f2aecc8a9ff364a62f6f729",
+    "summary": "Visionox's Low‐reflectivity COE Flexible AMOLED Technology received the Best New Display Component award at SID Display Week 2025. Building on this achievement, this paper further advances four optical metrics for COE OLED displays—ultra‐low reflectance, optimized reflection hue, ultra‐wide color gamut, and ultra‐high luminance. This work proposes an optimization scheme based on spectral matching between the color filters and the emission spectra of the OLED materials, combined with a refractive‐index transition layer above the color filters, which enables a panel reflectance below 1%, representing an industryleading low‐reflectivity level for current COE solutions. In addition, a newly engi",
+    "technologies": [
+      "초고휘도",
+      "야외 시인성"
+    ],
+    "citation_count": 0,
+    "collected_at": "2026-10-27T04:56:36.624229+00:00",
+    "document_id": "802d6504ae45a211163e",
+    "published_date": "2026-08-01",
+    "company": [],
+    "technology": [
+      "초고휘도",
+      "야외 시인성"
+    ],
+    "keywords": [
+      "COE display",
+      "고휘도",
+      "저반사"
+    ],
+    "keyword_scores": {
+      "COE display": 1,
+      "고휘도": 2,
+      "저반사": 1
+    },
+    "metrics": [
+      {
+        "name": "reflectance",
+        "value": 1.0,
+        "unit": "%",
+        "context": "This work proposes an optimization scheme based on spectral matching between the color filters and the emission spectra of the OLED materials, combined with a refractive‐index transition layer above the color filters, which enables a panel reflectance below 1%, representing an industryleading low‐reflectivity level for current COE solutions.",
+        "target": "패널·디스플레이",
+        "qualifier": "",
+        "conditions": []
+      }
+    ],
+    "source_url": "https://www.semanticscholar.org/paper/8cf620f2fd91f7a34f2aecc8a9ff364a62f6f729"
   },
   {
     "id": "7adab2ec3b1272ea713f",
@@ -770,51 +754,6 @@
     "source_url": "https://www.semanticscholar.org/paper/8aead101ad444cf9ebec467fed43a2b5920fbef2"
   },
   {
-    "id": "3f7164bb6606a3c2ff02",
-    "doi": "10.1002/sdtp.70003_47",
-    "source_type": "paper",
-    "source": "Crossref",
-    "region": "international",
-    "title": "21‐2: COE‐Based OLED Display Technology with High Brightness, Wide Color Gamut, and Low Reflectivity Integrated Black",
-    "published_at": "2026-08-01",
-    "url": "https://doi.org/10.1002/sdtp.70003_47",
-    "summary": "Visionox's Low‐reflectivity COE Flexible AMOLED Technology received the Best New Display Component award at SID Display Week 2025. Building on this achievement, this paper further advances four optical metrics for COE OLED displays—ultra‐low reflectance, optimized reflection hue, ultra‐wide color gamut, and ultra‐high luminance. This work proposes an optimization scheme based on spectral matching between the color filters and the emission spectra of the OLED materials, combined with a refractive‐index transition layer above the color filters, which enables a panel reflectance below 1%, representing an industryleading low‐reflectivity level for current COE solutions. In addition, a newly engi",
-    "technologies": [
-      "초고휘도",
-      "야외 시인성"
-    ],
-    "collected_at": "2026-10-26T17:32:32.494962+00:00",
-    "document_id": "3f7164bb6606a3c2ff02",
-    "published_date": "2026-08-01",
-    "company": [],
-    "technology": [
-      "초고휘도",
-      "야외 시인성"
-    ],
-    "keywords": [
-      "COE display",
-      "고휘도",
-      "저반사"
-    ],
-    "keyword_scores": {
-      "COE display": 1,
-      "고휘도": 2,
-      "저반사": 1
-    },
-    "metrics": [
-      {
-        "name": "reflectance",
-        "value": 1.0,
-        "unit": "%",
-        "context": "This work proposes an optimization scheme based on spectral matching between the color filters and the emission spectra of the OLED materials, combined with a refractive‐index transition layer above the color filters, which enables a panel reflectance below 1%, representing an industryleading low‐reflectivity level for current COE solutions.",
-        "target": "패널·디스플레이",
-        "qualifier": "",
-        "conditions": []
-      }
-    ],
-    "source_url": "https://doi.org/10.1002/sdtp.70003_47"
-  },
-  {
     "id": "398bfcacbf0116a19c00",
     "doi": "10.1002/sdtp.70003_519",
     "source_type": "paper",
@@ -829,7 +768,7 @@
       "저전력"
     ],
     "citation_count": 0,
-    "collected_at": "2026-10-17T04:17:47.673531+00:00",
+    "collected_at": "2026-10-27T04:56:36.623729+00:00",
     "document_id": "398bfcacbf0116a19c00",
     "published_date": "2026-08-01",
     "company": [],
@@ -889,7 +828,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-26T17:32:26.180291+00:00",
+    "collected_at": "2026-10-27T04:55:22.655421+00:00",
     "document_id": "0c7b1b1f67fcc937d861",
     "published_date": "2026-08-01",
     "company": [],
@@ -919,7 +858,7 @@
       "발광 구조",
       "제조/공정"
     ],
-    "collected_at": "2026-10-26T17:32:36.344204+00:00",
+    "collected_at": "2026-10-27T04:56:31.593313+00:00",
     "document_id": "5a9920c7fee00b712b45",
     "published_date": "2026-07-31",
     "company": [
@@ -953,7 +892,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.344709+00:00",
+    "collected_at": "2026-10-27T04:56:31.593855+00:00",
     "document_id": "743a3c7cf023343949cd",
     "published_date": "2026-07-30",
     "company": [
@@ -984,7 +923,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.343955+00:00",
+    "collected_at": "2026-10-27T04:56:31.593174+00:00",
     "document_id": "7a286afc91935cd93c61",
     "published_date": "2026-07-24",
     "company": [
@@ -1013,7 +952,7 @@
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdWs1dW1uM2JJN1RlZEdkalY0c1lMdnhHWGY0ZWZWSUlzTHJtQzJmUUxlc2tHUU1nd3BpQVpZQVFjUGc0cDJPQTBTYzNkMUpxQlBGZkh2ZkJicF9iTnZ2OVBxUk0zajMydkVmT1hpVlZJeE9VanFzM2JkVkZZMXpzQVFkMmN4ampOTFBCbVhVMHBsdEQ4V2FkSjNqb003VEU?oc=5",
     "summary": "Samsung unveils three new OLED foldables and the world's brightest smartwatch OLED-Info",
     "technologies": [],
-    "collected_at": "2026-10-26T17:32:37.330110+00:00",
+    "collected_at": "2026-10-27T04:56:32.588517+00:00",
     "document_id": "f56cf299f5dff2271f21",
     "published_date": "2026-07-23",
     "company": [],
@@ -1036,7 +975,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.345589+00:00",
+    "collected_at": "2026-10-27T04:56:31.594550+00:00",
     "document_id": "4a598cb2197392de714e",
     "published_date": "2026-07-22",
     "company": [
@@ -1067,7 +1006,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.344246+00:00",
+    "collected_at": "2026-10-27T04:56:31.593403+00:00",
     "document_id": "200e3dff05dd337abc15",
     "published_date": "2026-07-22",
     "company": [],
@@ -1097,7 +1036,7 @@
       "저전력",
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.344917+00:00",
+    "collected_at": "2026-10-27T04:56:31.594452+00:00",
     "document_id": "124e84a816662a71b0c9",
     "published_date": "2026-07-22",
     "company": [
@@ -1131,7 +1070,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.344423+00:00",
+    "collected_at": "2026-10-27T04:56:31.593545+00:00",
     "document_id": "0003a656118aad104411",
     "published_date": "2026-07-22",
     "company": [],
@@ -1160,7 +1099,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.345041+00:00",
+    "collected_at": "2026-10-27T04:56:31.593943+00:00",
     "document_id": "dd6321eb33dc7e9cce34",
     "published_date": "2026-07-21",
     "company": [
@@ -1191,7 +1130,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.345295+00:00",
+    "collected_at": "2026-10-27T04:56:31.594212+00:00",
     "document_id": "c4dcc7921aea36add511",
     "published_date": "2026-07-21",
     "company": [
@@ -1222,7 +1161,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.344124+00:00",
+    "collected_at": "2026-10-27T04:56:31.593129+00:00",
     "document_id": "c24b86bd8a7ec04e8efc",
     "published_date": "2026-07-21",
     "company": [
@@ -1241,37 +1180,6 @@
     "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1sOURlTzd6VENNYWw1ZFVieHZDb3BHUGl6bmlUT2FaVk5ObzEtZTQzRVpjcnY4U3NYbE95VUxtc0tDWE5GbzlraTZKS05ZQkpvUUZQVk1rWXpyZzBoRWhBREktQTc4U2w2bUlVazg0MFotZ9IBdkFVX3lxTE9nY0F2Ykd0NmJESjBsakJvTWlMTjBJQTRScm84YUh4Rm9Qb3hsMk52Mng0cWtManJBdl93YVNIbDBMdGFfZnNSdllBM3pHUkZObHZqZ2ZmR0NJbWU5Ny0ydGVpS3R6NDA3YjFKeFV4RWxhNkZvMEE?oc=5"
   },
   {
-    "id": "add5308879f1fc889d8e",
-    "doi": "",
-    "source_type": "news",
-    "source": "데일리한국",
-    "region": "domestic",
-    "title": "LG디스플레이 최영석 '탠덤 OLED 풀라인업으로 AI 시대 전력효율 부응' - 데일리한국",
-    "published_at": "2026-07-21",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8wNUltWTloMGZVaFd5UjVYVzdzM1hLTmwyMXJKU3g5empOTE1hMUdCX1VQSjNNZDlRVVd1b05BSFNCaDU3NTEtTGJkSXc3eWhWeEdPTGRINUJBbFotQW1NWk1rZDg5VmdoM19NN290VdIBc0FVX3lxTE94cmd1Y1BqWUU4UmpROHg5ZkhPWHNGNWo2bEZOX3JfSlF4WDlZd25rc3dOZEdKUVd3cS1GZzhtQkhMZnZ3Nl8wYUhUb2N1OVYwZjQ0ZU9KZjBIeGxJcFlVbHNrMmpmTUkyc0RKTzlqYkVYNzg?oc=5",
-    "summary": "LG디스플레이 최영석 '탠덤 OLED 풀라인업으로 AI 시대 전력효율 부응' 데일리한국",
-    "technologies": [
-      "발광 구조"
-    ],
-    "collected_at": "2026-10-26T17:32:36.347729+00:00",
-    "document_id": "add5308879f1fc889d8e",
-    "published_date": "2026-07-21",
-    "company": [
-      "LG디스플레이"
-    ],
-    "technology": [
-      "발광 구조"
-    ],
-    "keywords": [
-      "탠덤 OLED"
-    ],
-    "keyword_scores": {
-      "탠덤 OLED": 3
-    },
-    "metrics": [],
-    "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8wNUltWTloMGZVaFd5UjVYVzdzM1hLTmwyMXJKU3g5empOTE1hMUdCX1VQSjNNZDlRVVd1b05BSFNCaDU3NTEtTGJkSXc3eWhWeEdPTGRINUJBbFotQW1NWk1rZDg5VmdoM19NN290VdIBc0FVX3lxTE94cmd1Y1BqWUU4UmpROHg5ZkhPWHNGNWo2bEZOX3JfSlF4WDlZd25rc3dOZEdKUVd3cS1GZzhtQkhMZnZ3Nl8wYUhUb2N1OVYwZjQ0ZU9KZjBIeGxJcFlVbHNrMmpmTUkyc0RKTzlqYkVYNzg?oc=5"
-  },
-  {
     "id": "aa1fa64cbd8c85af59bc",
     "doi": "",
     "source_type": "news",
@@ -1284,7 +1192,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.344163+00:00",
+    "collected_at": "2026-10-27T04:56:31.593268+00:00",
     "document_id": "aa1fa64cbd8c85af59bc",
     "published_date": "2026-07-21",
     "company": [
@@ -1316,7 +1224,7 @@
       "저전력",
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.347529+00:00",
+    "collected_at": "2026-10-27T04:56:31.597268+00:00",
     "document_id": "88beddd1a578c77a2602",
     "published_date": "2026-07-21",
     "company": [],
@@ -1348,7 +1256,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.346099+00:00",
+    "collected_at": "2026-10-27T04:56:31.595256+00:00",
     "document_id": "6efb038d9d47cb5c7880",
     "published_date": "2026-07-21",
     "company": [
@@ -1380,7 +1288,7 @@
       "저전력",
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.346402+00:00",
+    "collected_at": "2026-10-27T04:56:31.595445+00:00",
     "document_id": "6aa938d965e52177b46a",
     "published_date": "2026-07-21",
     "company": [
@@ -1414,7 +1322,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.344505+00:00",
+    "collected_at": "2026-10-27T04:56:31.593728+00:00",
     "document_id": "656dc45956ffbe0e685a",
     "published_date": "2026-07-21",
     "company": [
@@ -1446,7 +1354,7 @@
       "저전력",
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.347772+00:00",
+    "collected_at": "2026-10-27T04:56:31.597134+00:00",
     "document_id": "6514d6910cf68c90421a",
     "published_date": "2026-07-21",
     "company": [
@@ -1480,7 +1388,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.344327+00:00",
+    "collected_at": "2026-10-27T04:56:31.593492+00:00",
     "document_id": "46e6f55aed26f50aa42e",
     "published_date": "2026-07-21",
     "company": [
@@ -1499,50 +1407,19 @@
     "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE04MEZSRWVsb0dQV0tLZTRmMkZyYW9IR3pyWUxpcVozLUdjZ2tDXzFxcGlEb0RVZXlCZDU2MnRYUGtKV1VFVDc1Zm5GVkVNUQ?oc=5"
   },
   {
-    "id": "3836022939c61bab9897",
-    "doi": "",
-    "source_type": "news",
-    "source": "Investing.com 한국어",
-    "region": "domestic",
-    "title": "[현장] 최영석 LGD CTO \"AI 전력난, ’탠덤 OLED’가 구원투수…글로벌 표준 될 것\" By EBN - Investing.com 한국어",
-    "published_at": "2026-07-21",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tZ1d1U1J4dDFBaTZNWS1nRWw0a3ptWnNXdXprczZMZlJkS1hFU2FUY3I0WUdIcHZWYk5MeUVRZklIbU5kRnFxcmgyakxFRFFzVzkxSVJkUWk3WkhNSlN2bWszVm9yajdEeTRvVTN3bHY?oc=5",
-    "summary": "[현장] 최영석 LGD CTO \"AI 전력난, ’탠덤 OLED’가 구원투수…글로벌 표준 될 것\" By EBN Investing.com 한국어",
-    "technologies": [
-      "발광 구조"
-    ],
-    "collected_at": "2026-10-26T17:32:36.345891+00:00",
-    "document_id": "3836022939c61bab9897",
-    "published_date": "2026-07-21",
-    "company": [
-      "LG디스플레이"
-    ],
-    "technology": [
-      "발광 구조"
-    ],
-    "keywords": [
-      "탠덤 OLED"
-    ],
-    "keyword_scores": {
-      "탠덤 OLED": 3
-    },
-    "metrics": [],
-    "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tZ1d1U1J4dDFBaTZNWS1nRWw0a3ptWnNXdXprczZMZlJkS1hFU2FUY3I0WUdIcHZWYk5MeUVRZklIbU5kRnFxcmgyakxFRFFzVzkxSVJkUWk3WkhNSlN2bWszVm9yajdEeTRvVTN3bHY?oc=5"
-  },
-  {
     "id": "33ece2bfb5b6ad9c64ed",
     "doi": "",
     "source_type": "news",
-    "source": "ebn.co.kr",
+    "source": "www.ebn.co.kr",
     "region": "domestic",
-    "title": "[현장] 최영석 LGD CTO \"AI 전력난, '탠덤 OLED'가 구원투수…글로벌 표준 될 것\" - ebn.co.kr",
+    "title": "[현장] 최영석 LGD CTO \"AI 전력난, '탠덤 OLED'가 구원투수…글로벌 표준 될 것\" - www.ebn.co.kr",
     "published_at": "2026-07-21",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5uTFRnRFNDTjJhOHM1WVg1aG5ERVNVNVRJSXZsUUtpMWtEUjVPUGEybFlVRGRRZU5KdHpReHBfbm5PQjJCVl91NUJwUUl0OHdaOTI3d2hPaEFPeHdIaC0zYlA4SVU3M25p?oc=5",
-    "summary": "[현장] 최영석 LGD CTO \"AI 전력난, '탠덤 OLED'가 구원투수…글로벌 표준 될 것\" ebn.co.kr",
+    "summary": "[현장] 최영석 LGD CTO \"AI 전력난, '탠덤 OLED'가 구원투수…글로벌 표준 될 것\" www.ebn.co.kr",
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.345713+00:00",
+    "collected_at": "2026-10-27T04:56:31.595306+00:00",
     "document_id": "33ece2bfb5b6ad9c64ed",
     "published_date": "2026-07-21",
     "company": [
@@ -1573,7 +1450,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.344081+00:00",
+    "collected_at": "2026-10-27T04:56:31.593223+00:00",
     "document_id": "13fbae0757e019c11ccc",
     "published_date": "2026-07-21",
     "company": [
@@ -1604,7 +1481,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.345468+00:00",
+    "collected_at": "2026-10-27T04:56:31.594595+00:00",
     "document_id": "0f308223cf8e07d7074e",
     "published_date": "2026-07-21",
     "company": [
@@ -1623,37 +1500,6 @@
     "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5oYjlzTzRyMEdpM1pHREN3aEotcS03UG1oSEI5bTFrMi1WTXFCZVpvSFZDWEtjSTFpdG9qbHVndTFRR2dkMVlFbnpzUDFkdEg0dlJvODhqcUUzRUo2UEk5eTJB?oc=5"
   },
   {
-    "id": "d5a06ba5907217b71940",
-    "doi": "",
-    "source_type": "news",
-    "source": "메트로신문",
-    "region": "domestic",
-    "title": "삼성디스플레이, 1600니트 '탠덤 OLED' 공급…프리미엄 PC 시장 승부수 - 메트로신문",
-    "published_at": "2026-07-20",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5CZmE5MmFiTmR4aVFGZ3FlZDdFZGsxWXZaMjlQT1ZWSGswdW53TDJSWmVXTmZXMDAzOGw4SHhEa29MNXpWWmFlZ2RqVDNlTi12bmU0TW41SUZkNlJvUkJ6WQ?oc=5",
-    "summary": "삼성디스플레이, 1600니트 '탠덤 OLED' 공급…프리미엄 PC 시장 승부수 메트로신문",
-    "technologies": [
-      "발광 구조"
-    ],
-    "collected_at": "2026-10-26T17:32:36.343915+00:00",
-    "document_id": "d5a06ba5907217b71940",
-    "published_date": "2026-07-20",
-    "company": [
-      "삼성디스플레이"
-    ],
-    "technology": [
-      "발광 구조"
-    ],
-    "keywords": [
-      "탠덤 OLED"
-    ],
-    "keyword_scores": {
-      "탠덤 OLED": 3
-    },
-    "metrics": [],
-    "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5CZmE5MmFiTmR4aVFGZ3FlZDdFZGsxWXZaMjlQT1ZWSGswdW53TDJSWmVXTmZXMDAzOGw4SHhEa29MNXpWWmFlZ2RqVDNlTi12bmU0TW41SUZkNlJvUkJ6WQ?oc=5"
-  },
-  {
     "id": "c9730e8856f1f61e2b82",
     "doi": "",
     "source_type": "news",
@@ -1666,7 +1512,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.345081+00:00",
+    "collected_at": "2026-10-27T04:56:31.594638+00:00",
     "document_id": "c9730e8856f1f61e2b82",
     "published_date": "2026-07-20",
     "company": [
@@ -1697,7 +1543,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.345128+00:00",
+    "collected_at": "2026-10-27T04:56:31.594503+00:00",
     "document_id": "c1926277cb2e2a581b05",
     "published_date": "2026-07-20",
     "company": [
@@ -1728,7 +1574,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.347228+00:00",
+    "collected_at": "2026-10-27T04:56:31.596909+00:00",
     "document_id": "b6c9de7a2c025bb73c32",
     "published_date": "2026-07-20",
     "company": [
@@ -1759,7 +1605,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.344466+00:00",
+    "collected_at": "2026-10-27T04:56:31.593358+00:00",
     "document_id": "88c1e7fc9492be1a3c6a",
     "published_date": "2026-07-20",
     "company": [
@@ -1790,7 +1636,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.344746+00:00",
+    "collected_at": "2026-10-27T04:56:31.593986+00:00",
     "document_id": "888b04c409006fa25b44",
     "published_date": "2026-07-20",
     "company": [
@@ -1821,7 +1667,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.346015+00:00",
+    "collected_at": "2026-10-27T04:56:31.595671+00:00",
     "document_id": "5df35a6a165da82df27e",
     "published_date": "2026-07-20",
     "company": [
@@ -1852,7 +1698,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.346272+00:00",
+    "collected_at": "2026-10-27T04:56:31.595164+00:00",
     "document_id": "50f28e17be5f26bfa071",
     "published_date": "2026-07-20",
     "company": [
@@ -1884,7 +1730,7 @@
       "발광 구조",
       "제조/공정"
     ],
-    "collected_at": "2026-10-26T17:32:36.346897+00:00",
+    "collected_at": "2026-10-27T04:56:31.596216+00:00",
     "document_id": "45ce29bc5014ed7d7cb0",
     "published_date": "2026-07-20",
     "company": [
@@ -1918,7 +1764,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.344960+00:00",
+    "collected_at": "2026-10-27T04:56:31.594031+00:00",
     "document_id": "376c63f4d8e922a003b5",
     "published_date": "2026-07-20",
     "company": [
@@ -1949,7 +1795,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.345255+00:00",
+    "collected_at": "2026-10-27T04:56:31.594893+00:00",
     "document_id": "30655357197d2a10b857",
     "published_date": "2026-07-20",
     "company": [
@@ -1980,7 +1826,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.343994+00:00",
+    "collected_at": "2026-10-27T04:56:31.593080+00:00",
     "document_id": "2dddef001100fabe6809",
     "published_date": "2026-07-20",
     "company": [
@@ -2011,7 +1857,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.346313+00:00",
+    "collected_at": "2026-10-27T04:56:31.595210+00:00",
     "document_id": "234e70b666dee7c34fb2",
     "published_date": "2026-07-20",
     "company": [
@@ -2042,7 +1888,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.346656+00:00",
+    "collected_at": "2026-10-27T04:56:31.596397+00:00",
     "document_id": "0ca847028b51340ae381",
     "published_date": "2026-07-20",
     "company": [
@@ -2073,7 +1919,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.346445+00:00",
+    "collected_at": "2026-10-27T04:56:31.596125+00:00",
     "document_id": "0b3ce39cc7e2764e0792",
     "published_date": "2026-07-20",
     "company": [
@@ -2104,7 +1950,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.347143+00:00",
+    "collected_at": "2026-10-27T04:56:31.595837+00:00",
     "document_id": "04e372bc723e0f559205",
     "published_date": "2026-07-20",
     "company": [
@@ -2176,7 +2022,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-26T17:32:36.344830+00:00",
+    "collected_at": "2026-10-27T04:56:31.594261+00:00",
     "document_id": "1198ef85b96850cc8a49",
     "published_date": "2026-07-09",
     "company": [
@@ -2207,7 +2053,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-26T17:32:37.690819+00:00",
+    "collected_at": "2026-10-27T04:56:32.847432+00:00",
     "document_id": "21a7597e2ea4d6f13eee",
     "published_date": "2026-07-08",
     "company": [],
@@ -2236,7 +2082,7 @@
     "technologies": [
       "초고휘도"
     ],
-    "collected_at": "2026-10-26T17:32:37.020565+00:00",
+    "collected_at": "2026-10-27T04:56:32.227602+00:00",
     "document_id": "dd9178bd46c6e1480b20",
     "published_date": "2026-06-17",
     "company": [],
@@ -2296,7 +2142,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.344874+00:00",
+    "collected_at": "2026-10-27T04:56:31.594121+00:00",
     "document_id": "00cbdcc1dd1680b63740",
     "published_date": "2026-06-09",
     "company": [
@@ -2327,7 +2173,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-26T17:32:37.329551+00:00",
+    "collected_at": "2026-10-27T04:56:32.587902+00:00",
     "document_id": "0e05ccdd84974108307e",
     "published_date": "2026-06-03",
     "company": [
@@ -2358,7 +2204,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-26T17:32:37.332341+00:00",
+    "collected_at": "2026-10-27T04:56:32.591051+00:00",
     "document_id": "d890f799e61ca56f98f6",
     "published_date": "2026-06-02",
     "company": [
@@ -2391,7 +2237,7 @@
       "야외 시인성",
       "제조/공정"
     ],
-    "collected_at": "2026-10-26T17:32:32.494805+00:00",
+    "collected_at": "2026-10-27T04:55:57.753294+00:00",
     "document_id": "e1f7a48776693f554739",
     "published_date": "2026-06-01",
     "company": [],
@@ -2427,7 +2273,7 @@
       "저전력"
     ],
     "citation_count": 0,
-    "collected_at": "2026-10-17T04:17:47.673616+00:00",
+    "collected_at": "2026-10-27T04:56:36.623824+00:00",
     "document_id": "d7fbb841b97b50375759",
     "published_date": "2026-06-01",
     "company": [],
@@ -2497,7 +2343,7 @@
     "technologies": [
       "제조/공정"
     ],
-    "collected_at": "2026-10-26T17:32:26.180479+00:00",
+    "collected_at": "2026-10-27T04:55:22.655611+00:00",
     "document_id": "a319ad9cecee41a72dd4",
     "published_date": "2026-06-01",
     "company": [],
@@ -2563,7 +2409,7 @@
       "초고휘도",
       "야외 시인성"
     ],
-    "collected_at": "2026-10-26T17:32:32.495228+00:00",
+    "collected_at": "2026-10-27T04:55:57.753750+00:00",
     "document_id": "7f21ff8160c62bd848a0",
     "published_date": "2026-06-01",
     "company": [],
@@ -2621,7 +2467,7 @@
       "발광 구조"
     ],
     "citation_count": 0,
-    "collected_at": "2026-10-17T04:17:47.673720+00:00",
+    "collected_at": "2026-10-27T04:56:36.623922+00:00",
     "document_id": "76d63ff3f5f7bac80a23",
     "published_date": "2026-06-01",
     "company": [],
@@ -2690,7 +2536,7 @@
     "summary": "The vast amount of biological mysteries and biomedical challenges faced by humans provide a prominent drive for seamlessly merging electronics with biological living systems (e.g. human bodies) to achieve long‐term stable functions. Towards this trend, one of the key requirements for electronics is to possess biomimetic form factors in various aspects for achieving long‐term biocompatibility. For light‐emitting devices such as OLED, biomimetic stretchability is highly needed for use as conformable wearable displays and implanted light sources for biostimulation. In this talk, I will introduce our research in realizing stretchable properties onto OLED, based on a “first‐principle” approach fo",
     "technologies": [],
     "citation_count": 0,
-    "collected_at": "2026-10-23T04:39:24.312751+00:00",
+    "collected_at": "2026-10-27T04:56:33.326289+00:00",
     "document_id": "5047a84c4533a2f4e32e",
     "published_date": "2026-06-01",
     "company": [],
@@ -2714,7 +2560,7 @@
       "초고휘도"
     ],
     "citation_count": 0,
-    "collected_at": "2026-10-17T04:17:47.675013+00:00",
+    "collected_at": "2026-10-27T04:56:36.625068+00:00",
     "document_id": "4eb98a4626b16694cd20",
     "published_date": "2026-06-01",
     "company": [],
@@ -2781,7 +2627,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-26T17:32:26.180861+00:00",
+    "collected_at": "2026-10-27T04:55:22.656010+00:00",
     "document_id": "1d1162d46eb946a988d0",
     "published_date": "2026-06-01",
     "company": [],
@@ -2838,7 +2684,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-26T17:32:26.180359+00:00",
+    "collected_at": "2026-10-27T04:55:22.655491+00:00",
     "document_id": "16fe0b14ec1a893dc6d9",
     "published_date": "2026-06-01",
     "company": [],
@@ -2867,7 +2713,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-26T17:32:32.495453+00:00",
+    "collected_at": "2026-10-27T04:55:57.753975+00:00",
     "document_id": "09ab737728b26b3e8bcf",
     "published_date": "2026-06-01",
     "company": [],
@@ -2915,7 +2761,7 @@
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTWtQUEdxTjVzSjMyN3FBVDNNc3lMZG1fcFBlcXcwNUk5X0xVQjFub3VsX1V3RHhwSlNacjRlaE9zQmo5b3hvVk1rRjMyWUk3bkJfeXNpcDM2ZHFYYUlqQ0JMSVhPSDVGYzltU1RaSTFWVlhiMlEwQXBxWFhJRVdTUU9teUthc3B2NmZVM2FOaDNGdlRMMVRCTWp1c09DbGhFbFdNSUlnSXB4eC1kbUlZLWRiekI1NUdMMlHSAcIBQVVfeXFMTzhvWlIyQ0piazBpaUxxdXRCcnZmVTJoRHJBRHV4STNqQ0N1VF9SZWttS0IyZXBPRzhvblBUMVd1RHFqd3kxWkdvYUhrbHh6MTlSTzdzT3luQzBiUVdfWG1DV3ZnUF9CYWlzNGRXUDJUMDJjeWo3cmR4RnlkN19iNVNWemRaamg0ZW84Yk1nVWxUVEh5Q0s0N1FOdDc0RE5Pa29Kb1JPUUc4R0J5VDY0MEpDX2p2MDloX0VuNzFUYkprbmc?oc=5",
     "summary": "6.67-inch flexible AMOLED display works with Raspberry Pi, LattePanda, and other SBCs with HDMI output CNX Software",
     "technologies": [],
-    "collected_at": "2026-10-26T17:32:37.019789+00:00",
+    "collected_at": "2026-10-27T04:56:32.226934+00:00",
     "document_id": "6b95a96368875bf23bd9",
     "published_date": "2026-05-08",
     "company": [],
@@ -2938,7 +2784,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-26T17:32:36.343875+00:00",
+    "collected_at": "2026-10-27T04:56:31.592985+00:00",
     "document_id": "f6c093cdeb2ff7ec59bf",
     "published_date": "2026-05-07",
     "company": [
@@ -2969,7 +2815,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.346349+00:00",
+    "collected_at": "2026-10-27T04:56:31.595533+00:00",
     "document_id": "a199a74afe04ce5f9e90",
     "published_date": "2026-05-06",
     "company": [],
@@ -2998,7 +2844,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.345001+00:00",
+    "collected_at": "2026-10-27T04:56:31.594305+00:00",
     "document_id": "e3491e904c20366e31f2",
     "published_date": "2026-05-05",
     "company": [
@@ -3029,7 +2875,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.346935+00:00",
+    "collected_at": "2026-10-27T04:56:31.596521+00:00",
     "document_id": "c19e7799bf2d6096ff89",
     "published_date": "2026-05-05",
     "company": [
@@ -3048,6 +2894,37 @@
     "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5YaTBZdi1QdWx1WVgzV3dfNG1xazlfNzh5eW1LbWlGbmc2VXZoZHZwNmpkV1JQYm5wX0ZlUXVhMnVCcmF6T0RWeVJpMDRSX1c4V3hENXBPRkJnNDNpMXVqQlNxYTRhMVpsS0Jj?oc=5"
   },
   {
+    "id": "b06141b0731ac56801da",
+    "doi": "",
+    "source_type": "news",
+    "source": "디지털데일리",
+    "region": "domestic",
+    "title": "LGD, 美 ‘SID 2026’서 3세대 탠덤 OLED 세계 최초 공개 - 디지털데일리",
+    "published_at": "2026-05-05",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9sUDlIT0lDWjV2Q2tYeWswVjVuTGdUZWZhc2w2WHhZRFN4WkVkbUtQT3VlNXlIRGs1YjZJZGdyTHVtUVFVdk1fRkRLQjhpY1lYNWZuMDE0R0NvTVlJTDNwWEl3?oc=5",
+    "summary": "LGD, 美 ‘SID 2026’서 3세대 탠덤 OLED 세계 최초 공개 디지털데일리",
+    "technologies": [
+      "발광 구조"
+    ],
+    "collected_at": "2026-10-27T04:56:31.597090+00:00",
+    "document_id": "b06141b0731ac56801da",
+    "published_date": "2026-05-05",
+    "company": [
+      "LG디스플레이"
+    ],
+    "technology": [
+      "발광 구조"
+    ],
+    "keywords": [
+      "탠덤 OLED"
+    ],
+    "keyword_scores": {
+      "탠덤 OLED": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9sUDlIT0lDWjV2Q2tYeWswVjVuTGdUZWZhc2w2WHhZRFN4WkVkbUtQT3VlNXlIRGs1YjZJZGdyTHVtUVFVdk1fRkRLQjhpY1lYNWZuMDE0R0NvTVlJTDNwWEl3?oc=5"
+  },
+  {
     "id": "71bb4813b75be2f11716",
     "doi": "",
     "source_type": "news",
@@ -3061,7 +2938,7 @@
       "발광 구조",
       "제조/공정"
     ],
-    "collected_at": "2026-10-26T17:32:36.346696+00:00",
+    "collected_at": "2026-10-27T04:56:31.596308+00:00",
     "document_id": "71bb4813b75be2f11716",
     "published_date": "2026-05-05",
     "company": [
@@ -3095,7 +2972,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.347410+00:00",
+    "collected_at": "2026-10-27T04:56:31.597043+00:00",
     "document_id": "46918192c791852d5f87",
     "published_date": "2026-05-05",
     "company": [
@@ -3128,7 +3005,7 @@
       "초고휘도",
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.345172+00:00",
+    "collected_at": "2026-10-27T04:56:31.594360+00:00",
     "document_id": "1ec4d2d6076c9b8ac433",
     "published_date": "2026-05-05",
     "company": [
@@ -3150,37 +3027,6 @@
     "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNaWJlM3hzNkFieUszMUc3bF91SXNGcm5TRHB0Z0ZTZEpaNGVRdWIxQnRTcTRYa2Z1UFp3MlVFM3FmZmE5VkpCeGp2UDl6TENvMERvUnIzUU90aEkwWE5IbUhKOFFHdWM5cEFRcXJnNm84dGhkR2VXdnhzYzgwNGtuVElR0gGWAUFVX3lxTFB0eGNSblJWeVc5YlRCUWsxNjVpdUVQbTBIR0loeVNUREdKUUhLRnRTRWQyT25iSU9TV3VyR0duSTNjSEZOVjBDODdqOU50X1lHQmFXeHhvRzAzLUhEaG5Jc0h6c1RTU1NxaVBaSU8xODc0Si1lR1ZoVldHMjdITnRmNHp2ZVhEX0w0RlNaN01CQVN6LWN6dw?oc=5"
   },
   {
-    "id": "08c0a210233b1c1eba23",
-    "doi": "",
-    "source_type": "news",
-    "source": "뉴스1",
-    "region": "domestic",
-    "title": "LG디스플레이, 美서 3세대 탠덤 OLED 공개…미래 기술 선도 - 뉴스1",
-    "published_at": "2026-05-05",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9adk1pMkVqUnFGR3VJMG4xYVBSOGI3M0NPVmRMUGJlTWhqRWd4ZEdZUWxNb21QWTduM0VoR2JxU0paUWMyR2NEWkt6UzRBT05lMHYxbjVlUllkdTczdE1SaS1peGc?oc=5",
-    "summary": "LG디스플레이, 美서 3세대 탠덤 OLED 공개…미래 기술 선도 뉴스1",
-    "technologies": [
-      "발광 구조"
-    ],
-    "collected_at": "2026-10-26T17:32:36.347810+00:00",
-    "document_id": "08c0a210233b1c1eba23",
-    "published_date": "2026-05-05",
-    "company": [
-      "LG디스플레이"
-    ],
-    "technology": [
-      "발광 구조"
-    ],
-    "keywords": [
-      "탠덤 OLED"
-    ],
-    "keyword_scores": {
-      "탠덤 OLED": 3
-    },
-    "metrics": [],
-    "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9adk1pMkVqUnFGR3VJMG4xYVBSOGI3M0NPVmRMUGJlTWhqRWd4ZEdZUWxNb21QWTduM0VoR2JxU0paUWMyR2NEWkt6UzRBT05lMHYxbjVlUllkdTczdE1SaS1peGc?oc=5"
-  },
-  {
     "id": "aed5bb42e71eb0c9901d",
     "doi": "",
     "source_type": "news",
@@ -3193,7 +3039,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-26T17:32:37.329777+00:00",
+    "collected_at": "2026-10-27T04:56:32.588160+00:00",
     "document_id": "aed5bb42e71eb0c9901d",
     "published_date": "2026-04-23",
     "company": [],
@@ -3222,7 +3068,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-26T17:32:37.329844+00:00",
+    "collected_at": "2026-10-27T04:56:32.588228+00:00",
     "document_id": "d8be5ccd6c31091adec5",
     "published_date": "2026-04-21",
     "company": [],
@@ -3249,7 +3095,7 @@
     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSWE0aHRpTWhWUXNOVTN3a013QnZaWUdxTmJwMVdMTW92czR6TXE0MHJoY1lham1YYWFVNV9ubzlCOEdvWG9HV0UtbXhHMUdkMy02c1A2a2c3RW5LUUhEQ3R6cE1VUHZBV1JpRnZhdUJHYWltXzBZd0hBV3otM0ZPbEV5dXllN3JoTko0WTdKM1VHQ2JkNlExLWZzTG5ob3dLWHJxeHBCSWRwM0F6RHBEOU9xRzZoSkEtMGVfdzFsZ19KZDEzekpyQXR2LVczYllsNE4tLdIB2gFBVV95cUxPNkxWZU5adXZyWllIY0tCcGd2UU1rcnJhNzRuM05VWnBEMUp5YzcycUEwWXRrYW5oT1Byajl1b0tyVUNpRWp5WEVjSzJtZjBPQ1hEY2NYU1YySmhTdWUybTNCbjRUcnF2ODBydnR5YUFTLUpIc2w5SERORnQ5NUE3dGNHQVREZUF4dzEwQVlVU25tV2lLQ2Vhb1NUVEN1NzNFSEM2Ul96cUZJUzhTN2txRTFSTWxxRUNzVG1wZUstM1U0WlU1TkdrbGVVSFpSYmtVdWlhaTU5c1FTUQ?oc=5",
     "summary": "Huawei Unveils Watch Buds 2: Smartwatch and Earbuds Hybrid with Stunning OLED Display and Advanced Features Gagadget.com",
     "technologies": [],
-    "collected_at": "2026-10-26T17:32:37.018971+00:00",
+    "collected_at": "2026-10-27T04:56:32.225762+00:00",
     "document_id": "083b60b0a20e435b131b",
     "published_date": "2026-04-20",
     "company": [],
@@ -3301,7 +3147,7 @@
     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbDBYQ0FLVkdpLWFST295VkV4STRfbDI3LTk5dWcyWVMtQTJJWW9JVE9Ic0pOOHc1bE5HN2tIbVo1M3ZlSExPdnFrYUxLZm8xUWNDeDVQTDFta2N2cFZnZEc4RlY1dVRXNVJqYmNKTVdWeVU1dmphV3N5MTcxX0dVcF82RXRGMDVUM0tSVE02S0gwVmh4ZzBRc0tYYUg5empGU0RDVEVTX3ZjcDlMT0NHRnNHaTBsaVIzVmV1N05lUkg0QU9qSnBVMTVBdWtMVWY1MWfSAdoBQVVfeXFMTlR2NFoxSks1dnJXZ0lsWWVHTE03b29oeWh0V2gyT1VuVUhLYWxXZHFzcE53SDBEblhVaFRJRXJTMGgxTE5fSzg5Q2xNVmRuU09veEkyQnBZQVhuVWQ5cmNiaU04OUdEU0pXd3ZpZTVhd01YYXNReGJjSF9UaUtDNk9RYmFOWkROaHlkMTBsbHBLUkhCVktVTzlXN3NLOE1sN2NjYkdLV3JHd25sVDhYeWNQM09POW9IWEs3cGpFX3BkbWUwa0JFN2JzTGNhb2dBTVk0LVdUd3VOV2c?oc=5",
     "summary": "Chinese scientists create stretchable OLED display with brightness of conventional displays The Global Energy Association",
     "technologies": [],
-    "collected_at": "2026-10-26T17:32:37.018922+00:00",
+    "collected_at": "2026-10-27T04:56:32.225710+00:00",
     "document_id": "196a37884557c7bf360a",
     "published_date": "2026-04-01",
     "company": [],
@@ -3324,7 +3170,7 @@
     "technologies": [
       "초고휘도"
     ],
-    "collected_at": "2026-10-26T17:32:37.018732+00:00",
+    "collected_at": "2026-10-27T04:56:32.225510+00:00",
     "document_id": "e27330d9ef49d0ecb1e3",
     "published_date": "2026-03-25",
     "company": [],
@@ -3355,7 +3201,7 @@
       "발광 구조"
     ],
     "citation_count": 3,
-    "collected_at": "2026-10-23T04:39:24.312860+00:00",
+    "collected_at": "2026-10-27T04:56:33.326420+00:00",
     "document_id": "d780723e179937ff7cf8",
     "published_date": "2026-03-25",
     "company": [],
@@ -3387,7 +3233,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-26T17:32:37.332481+00:00",
+    "collected_at": "2026-10-27T04:56:32.591194+00:00",
     "document_id": "d7eb6ad92084d2eb4ddb",
     "published_date": "2026-03-18",
     "company": [],
@@ -3416,7 +3262,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-26T17:32:37.332434+00:00",
+    "collected_at": "2026-10-27T04:56:32.591142+00:00",
     "document_id": "209e2c566db03c574bca",
     "published_date": "2026-03-18",
     "company": [],
@@ -3445,7 +3291,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-26T17:32:37.332572+00:00",
+    "collected_at": "2026-10-27T04:56:32.591292+00:00",
     "document_id": "55260d3a507a49306dc6",
     "published_date": "2026-03-17",
     "company": [],
@@ -3474,7 +3320,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-26T17:32:37.330069+00:00",
+    "collected_at": "2026-10-27T04:56:32.588471+00:00",
     "document_id": "29ebbb36c0dbc8c66bdd",
     "published_date": "2026-03-17",
     "company": [],
@@ -3525,7 +3371,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.345427+00:00",
+    "collected_at": "2026-10-27T04:56:31.594162+00:00",
     "document_id": "2965183c094441cfea04",
     "published_date": "2026-03-13",
     "company": [
@@ -3556,7 +3402,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.347660+00:00",
+    "collected_at": "2026-10-27T04:56:31.596706+00:00",
     "document_id": "970b922f3c4bfa8c6c4e",
     "published_date": "2026-03-04",
     "company": [
@@ -3587,7 +3433,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-22T04:33:39.226589+00:00",
+    "collected_at": "2026-10-27T04:55:57.753909+00:00",
     "document_id": "432b097efa7eb8953333",
     "published_date": "2026-02-15",
     "company": [],
@@ -3604,6 +3450,37 @@
     "source_url": "https://doi.org/10.1109/isscc49663.2026.11409115"
   },
   {
+    "id": "ed53547b2876235304d1",
+    "doi": "",
+    "source_type": "news",
+    "source": "연합뉴스",
+    "region": "domestic",
+    "title": "삼성D, 광효율 1.3배 높인 프리미엄 'QD-OLED 펜타 탠덤' 론칭 - 연합뉴스",
+    "published_at": "2026-02-12",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9EQ3RJdG1NLWhjWEQtcHd1NmlUZDZRNzBmUWxSdzZnQnd5Wlc4ZmtWSU94SXM0aGJXNG9KaVh3NjgtMExRZnBfWlZSQmVXajNlX3BFTXhDUHd0bm_SAWBBVV95cUxONG9GeHZ2em5UVzNmdzRKRkkyeDd1cjMtNGtQS2IzM1JLd1E2X3BlVWdHOXlvQnp6TEtQcXN6czE1cklVY3ZWYUxLOXZuX0xUdHgxTGhlLXA0c1ZzUXJjaHI?oc=5",
+    "summary": "삼성D, 광효율 1.3배 높인 프리미엄 'QD-OLED 펜타 탠덤' 론칭 연합뉴스",
+    "technologies": [
+      "발광 구조"
+    ],
+    "collected_at": "2026-10-27T04:56:31.597221+00:00",
+    "document_id": "ed53547b2876235304d1",
+    "published_date": "2026-02-12",
+    "company": [
+      "삼성디스플레이"
+    ],
+    "technology": [
+      "발광 구조"
+    ],
+    "keywords": [
+      "탠덤 OLED"
+    ],
+    "keyword_scores": {
+      "탠덤 OLED": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9EQ3RJdG1NLWhjWEQtcHd1NmlUZDZRNzBmUWxSdzZnQnd5Wlc4ZmtWSU94SXM0aGJXNG9KaVh3NjgtMExRZnBfWlZSQmVXajNlX3BFTXhDUHd0bm_SAWBBVV95cUxONG9GeHZ2em5UVzNmdzRKRkkyeDd1cjMtNGtQS2IzM1JLd1E2X3BlVWdHOXlvQnp6TEtQcXN6czE1cklVY3ZWYUxLOXZuX0xUdHgxTGhlLXA0c1ZzUXJjaHI?oc=5"
+  },
+  {
     "id": "c2d66907e0984a657999",
     "doi": "",
     "source_type": "news",
@@ -3616,7 +3493,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.346819+00:00",
+    "collected_at": "2026-10-27T04:56:31.595716+00:00",
     "document_id": "c2d66907e0984a657999",
     "published_date": "2026-02-12",
     "company": [
@@ -3647,7 +3524,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.345975+00:00",
+    "collected_at": "2026-10-27T04:56:31.595114+00:00",
     "document_id": "8313e24a4e252844bc5c",
     "published_date": "2026-02-12",
     "company": [
@@ -3709,7 +3586,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:36.627432+00:00",
+    "collected_at": "2026-10-27T04:56:31.844716+00:00",
     "document_id": "99aaf93b5e5434f63652",
     "published_date": "2026-02-06",
     "company": [],
@@ -3736,7 +3613,7 @@
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQzVYLXBpWXBtSFV2YzhJLXJud3R2SUxBQTliSHNxNXlna2RwTW9oQlR5Nk5KVElDeE9WYlN4Zk1udmpzQmNmUGc3enh3WVg3OGlTNjdCLVdpWTVuRTZLTEtGbktON3FNd1h0TlBLa1dPZXZIR2o3aU5oRXBPSDVtV2xtR3FkTjFubElyTDgxSUJtUQ?oc=5",
     "summary": "HMD Watch X1 and P1 Announced: AMOLED Displays, IP68 Ratings, and 5-Day Battery Nokiamob",
     "technologies": [],
-    "collected_at": "2026-10-26T17:32:37.019830+00:00",
+    "collected_at": "2026-10-27T04:56:32.226724+00:00",
     "document_id": "4c0130c0b2448f0d0732",
     "published_date": "2026-01-26",
     "company": [],
@@ -3897,7 +3774,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-26T17:32:37.017816+00:00",
+    "collected_at": "2026-10-27T04:56:32.224536+00:00",
     "document_id": "8d85128ab5701c0367e5",
     "published_date": "2025-12-30",
     "company": [],
@@ -3926,7 +3803,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-26T17:32:36.627738+00:00",
+    "collected_at": "2026-10-27T04:56:31.844993+00:00",
     "document_id": "59100e3a066fdbd63a00",
     "published_date": "2025-12-23",
     "company": [
@@ -4007,7 +3884,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-26T17:32:26.179970+00:00",
+    "collected_at": "2026-10-27T04:55:22.655091+00:00",
     "document_id": "23cd24a59a71dd732beb",
     "published_date": "2025-12-04",
     "company": [],
@@ -4066,7 +3943,7 @@
       "야외 시인성"
     ],
     "citation_count": 0,
-    "collected_at": "2026-10-26T17:32:53.954383+00:00",
+    "collected_at": "2026-10-27T04:56:35.072567+00:00",
     "document_id": "e0a07dd0a6e8ea05d3e5",
     "published_date": "2025-11-28",
     "company": [],
@@ -4117,7 +3994,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:37.331668+00:00",
+    "collected_at": "2026-10-27T04:56:32.590172+00:00",
     "document_id": "3e22bee031bca74ef028",
     "published_date": "2025-11-13",
     "company": [],
@@ -4146,7 +4023,7 @@
     "technologies": [
       "초고휘도"
     ],
-    "collected_at": "2026-10-26T17:32:37.331365+00:00",
+    "collected_at": "2026-10-27T04:56:32.589833+00:00",
     "document_id": "af859421342df6efcfba",
     "published_date": "2025-11-07",
     "company": [],
@@ -4173,7 +4050,7 @@
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa3Y3TTJzS3pqSVplY01HVVI2V0VmZXo2YUJmY25jdTBFTjJOaDBpR2RMYl9vdno2RE0yY1ZLTXg0QmlBRkV5OG1ubnpmNV9rWnA1bUtEOEo4ZGZHcmk5aXYwZ3lBSmlkU2ozam1FX2hEM0twbkdBUm5SeUpvM3JpYjNuQUo5MGNiV0NfbTVHTEpQbjY3OXlBN1pITW9ZekF2c2Q5dnhneGpSMFlEbzhpYzIxYndZeENVV25j?oc=5",
     "summary": "Garmin's plans for future smartwatches with extra-bright MicroLED displays Notebookcheck",
     "technologies": [],
-    "collected_at": "2026-10-26T17:32:37.018150+00:00",
+    "collected_at": "2026-10-27T04:56:32.224944+00:00",
     "document_id": "6c1979c78e5adce006ed",
     "published_date": "2025-11-06",
     "company": [],
@@ -4256,7 +4133,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-26T17:32:37.692039+00:00",
+    "collected_at": "2026-10-27T04:56:32.847626+00:00",
     "document_id": "5e599a63b1dd2a16444e",
     "published_date": "2025-09-23",
     "company": [],
@@ -4285,7 +4162,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-26T17:32:37.692533+00:00",
+    "collected_at": "2026-10-27T04:56:32.847811+00:00",
     "document_id": "3779a2fca11d19b36667",
     "published_date": "2025-09-22",
     "company": [],
@@ -4314,7 +4191,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-26T17:32:37.692481+00:00",
+    "collected_at": "2026-10-27T04:56:32.847725+00:00",
     "document_id": "f230fa5034d0208507f2",
     "published_date": "2025-09-21",
     "company": [],
@@ -4365,7 +4242,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:37.332121+00:00",
+    "collected_at": "2026-10-27T04:56:32.590681+00:00",
     "document_id": "026fac1c7f2b301f0522",
     "published_date": "2025-09-13",
     "company": [],
@@ -4394,7 +4271,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-26T17:32:37.330190+00:00",
+    "collected_at": "2026-10-27T04:56:32.588606+00:00",
     "document_id": "f5230952d51c928465c7",
     "published_date": "2025-09-10",
     "company": [
@@ -4423,7 +4300,7 @@
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWnptS2NiOTZwLTh0aHpkVFJxQ2xLS2FlSEprOEVXWVR0UXJMUWhvRmFuWVBfN2VxT2xRd3VEWGJ5WFZLZkZUVEZRZHloYnBLa21WUGg1ZzBIZVBZaHRNTnVmUk80aVdQeTlqSlIwWVZfT1ZGVHJiNVBmeWkwZTZkOHRUaEZyMkwyTU9VUTZGbEtWdThZYUR3QktvNTZIOWpvaWhNV05oZw?oc=5",
     "summary": "Why Garmin’s First MicroLED Watch Uses More Battery Than Its AMOLED Counterpart Garmin Rumors",
     "technologies": [],
-    "collected_at": "2026-10-26T17:32:37.018783+00:00",
+    "collected_at": "2026-10-27T04:56:32.225565+00:00",
     "document_id": "6f29b330f8fdcc0178b8",
     "published_date": "2025-09-05",
     "company": [],
@@ -4444,7 +4321,7 @@
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQkFXNmFLeXlXZnZOU2Vac1FDdTFaLTVxaFFEYVoxcllEVDYwTmRvWGhCNGhtOF9aM0k0WEdKVTJuYTk1VTE3Y2xOV3dNZ0YxbjFVZXVqcmI1SGVyVTJPTHpXNWxUbE4xTW5LRG4xdXFWa1k0NjU3bGtCMUR0WXg3MkNvVlFsVGlFZ2pLX2tGZEd1N2VUZ0JfakF5TW5IMmFVSHJr?oc=5",
     "summary": "MicroLED smartwatches have arrived: Here's what it means for you Wareable",
     "technologies": [],
-    "collected_at": "2026-10-26T17:32:37.018069+00:00",
+    "collected_at": "2026-10-27T04:56:32.224853+00:00",
     "document_id": "8cf065f729a2164c0e47",
     "published_date": "2025-09-03",
     "company": [],
@@ -4467,7 +4344,7 @@
     "technologies": [
       "초고휘도"
     ],
-    "collected_at": "2026-10-26T17:32:37.018110+00:00",
+    "collected_at": "2026-10-27T04:56:32.224900+00:00",
     "document_id": "3532d8127872af50c583",
     "published_date": "2025-09-03",
     "company": [],
@@ -4518,7 +4395,7 @@
       "발광 구조"
     ],
     "citation_count": 10,
-    "collected_at": "2026-10-17T04:17:47.673842+00:00",
+    "collected_at": "2026-10-27T04:56:36.624013+00:00",
     "document_id": "55be3c0bdb734923405b",
     "published_date": "2025-09-02",
     "company": [],
@@ -4547,7 +4424,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:37.330009+00:00",
+    "collected_at": "2026-10-27T04:56:32.588402+00:00",
     "document_id": "97845e0df19878e14c05",
     "published_date": "2025-08-27",
     "company": [
@@ -4578,7 +4455,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:37.329971+00:00",
+    "collected_at": "2026-10-27T04:56:32.588360+00:00",
     "document_id": "859c19efdaab3af65e0a",
     "published_date": "2025-08-04",
     "company": [],
@@ -4665,7 +4542,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-26T17:32:37.692597+00:00",
+    "collected_at": "2026-10-27T04:56:32.847895+00:00",
     "document_id": "c020432b030bb13b92ce",
     "published_date": "2025-07-14",
     "company": [],
@@ -4694,7 +4571,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-26T17:32:37.690994+00:00",
+    "collected_at": "2026-10-27T04:56:32.847532+00:00",
     "document_id": "965969f71012b37a3acf",
     "published_date": "2025-07-14",
     "company": [],
@@ -4745,7 +4622,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-26T17:32:36.627930+00:00",
+    "collected_at": "2026-10-27T04:56:31.845208+00:00",
     "document_id": "d213e8cd38afab2f08a8",
     "published_date": "2025-06-24",
     "company": [
@@ -4806,7 +4683,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-26T17:32:32.494626+00:00",
+    "collected_at": "2026-10-27T04:55:57.753098+00:00",
     "document_id": "9bfdea3ca57e207f0abd",
     "published_date": "2025-06-01",
     "company": [],
@@ -4837,7 +4714,7 @@
       "야외 시인성"
     ],
     "citation_count": 0,
-    "collected_at": "2026-10-26T17:33:28.010402+00:00",
+    "collected_at": "2026-10-27T04:56:54.708543+00:00",
     "document_id": "8f4c6b4917032b041e7f",
     "published_date": "2025-06-01",
     "company": [],
@@ -4901,7 +4778,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-26T17:32:32.495111+00:00",
+    "collected_at": "2026-10-27T04:55:57.753597+00:00",
     "document_id": "4b90979bb535e44eea9c",
     "published_date": "2025-06-01",
     "company": [],
@@ -4930,7 +4807,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:37.330847+00:00",
+    "collected_at": "2026-10-27T04:56:32.589256+00:00",
     "document_id": "ccdbfc34c7143cdf5b9f",
     "published_date": "2025-05-16",
     "company": [],
@@ -4959,7 +4836,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:37.332296+00:00",
+    "collected_at": "2026-10-27T04:56:32.590905+00:00",
     "document_id": "265bb7b89677a2c4c2eb",
     "published_date": "2025-05-15",
     "company": [],
@@ -4988,7 +4865,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-26T17:32:36.628203+00:00",
+    "collected_at": "2026-10-27T04:56:31.845466+00:00",
     "document_id": "f748080984b27528f1ce",
     "published_date": "2025-05-06",
     "company": [
@@ -5005,6 +4882,37 @@
     },
     "metrics": [],
     "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE90eXFNbzVVYUpiWi1zWVFRanVGbGhwWTNrejRsMi1jVGNCQUJFbE1rRTB1X2daX1pBXzh1VGd6ZC1XY3BsdzZJcEhTaEN5cDh3eWNXRlZ3?oc=5"
+  },
+  {
+    "id": "b21c677e9f534f439109",
+    "doi": "",
+    "source_type": "news",
+    "source": "전자신문",
+    "region": "domestic",
+    "title": "삼성D 무편광판 OLED, SID서 '올해의 디스플레이' 수상 - 전자신문",
+    "published_at": "2025-05-06",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1OdzBoWTBKU1RmbmhGT2EtWXZiYmhES1psYjhYUjlKNDNYZmMyUGxWX21vUTFGdjZpWGJDamVxaF9aMTJpaUthcTl5b1RzUQ?oc=5",
+    "summary": "삼성D 무편광판 OLED, SID서 '올해의 디스플레이' 수상 전자신문",
+    "technologies": [
+      "야외 시인성"
+    ],
+    "collected_at": "2026-10-27T04:56:31.845548+00:00",
+    "document_id": "b21c677e9f534f439109",
+    "published_date": "2025-05-06",
+    "company": [
+      "삼성디스플레이"
+    ],
+    "technology": [
+      "야외 시인성"
+    ],
+    "keywords": [
+      "무편광판"
+    ],
+    "keyword_scores": {
+      "무편광판": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1OdzBoWTBKU1RmbmhGT2EtWXZiYmhES1psYjhYUjlKNDNYZmMyUGxWX21vUTFGdjZpWGJDamVxaF9aMTJpaUthcTl5b1RzUQ?oc=5"
   },
   {
     "id": "608c5eb5d55d9b9f7e0f",
@@ -5166,7 +5074,7 @@
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUmswbGlCNHYyZ3VTYjdmWnZPUkNPNk9KTEVuQUJsQXc2LU1kemJqZ1Q5LURfZWI4UEdxZ1NPU1ctaXBXYTdtNG02eEV6UGpUT2hCUUEta1pjZlhCR3Nia1l5SHVQUWNHT1JFdllOSFU1Sjc1U19weFB3QXVhLTAwS1VUbGctc2w4ajFyamplRGg?oc=5",
     "summary": "Garmin Instinct 3 (AMOLED & SOLAR) In-Depth Review DC Rainmaker",
     "technologies": [],
-    "collected_at": "2026-10-26T17:32:37.019010+00:00",
+    "collected_at": "2026-10-27T04:56:32.225850+00:00",
     "document_id": "a0c1d62caa55fe9deb14",
     "published_date": "2025-01-30",
     "company": [],
@@ -5392,7 +5300,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-26T17:32:37.332534+00:00",
+    "collected_at": "2026-10-27T04:56:32.591248+00:00",
     "document_id": "bbd00aa37cca3acd376a",
     "published_date": "2024-10-28",
     "company": [
@@ -5475,7 +5383,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:37.330886+00:00",
+    "collected_at": "2026-10-27T04:56:32.589302+00:00",
     "document_id": "5061aeaa61c03ab70779",
     "published_date": "2024-08-14",
     "company": [
@@ -5570,7 +5478,7 @@
       "초고휘도",
       "저전력"
     ],
-    "collected_at": "2026-10-26T17:32:26.179939+00:00",
+    "collected_at": "2026-10-27T04:55:22.655053+00:00",
     "document_id": "7380e44968c3125da014",
     "published_date": "2024-08-09",
     "company": [],
@@ -5602,7 +5510,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:37.331321+00:00",
+    "collected_at": "2026-10-27T04:56:32.589764+00:00",
     "document_id": "45b003099dd5a216c0de",
     "published_date": "2024-07-31",
     "company": [],
@@ -5662,7 +5570,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:37.330449+00:00",
+    "collected_at": "2026-10-27T04:56:32.588737+00:00",
     "document_id": "23670bce8e8bf5762e27",
     "published_date": "2024-06-25",
     "company": [
@@ -5712,63 +5620,22 @@
     "source_url": "https://doi.org/10.1002/admt.202400111"
   },
   {
-    "id": "dcfe2f3197e9a4d6fb04",
-    "doi": "10.1002/sdtp.17496",
-    "source_type": "paper",
-    "source": "OpenAlex",
-    "region": "international",
-    "title": "19‐3: Distinguished Paper: High‐Luminance, Large‐Size 4K OLED Microdisplays for VR/MR Applications",
-    "published_at": "2024-06-01",
-    "url": "https://doi.org/10.1002/sdtp.17496",
-    "summary": "1.3″ 4K full‐color OLED microdisplay, which is able to realize peak brightness more than 10,000 nits together with appropriate operational lifetime of OLED devices, is introduced by addressing key technologies and challenges to develop advanced OLED microdisplay panels expecting application to the high‐quality AR/VR/MR head‐mounted displays",
-    "technologies": [
-      "초고휘도"
-    ],
-    "citation_count": 2,
-    "collected_at": "2026-10-26T17:33:28.011177+00:00",
-    "document_id": "dcfe2f3197e9a4d6fb04",
-    "published_date": "2024-06-01",
-    "company": [],
-    "technology": [
-      "초고휘도"
-    ],
-    "keywords": [
-      "고휘도",
-      "휘도"
-    ],
-    "keyword_scores": {
-      "고휘도": 1,
-      "휘도": 1
-    },
-    "metrics": [
-      {
-        "name": "brightness",
-        "value": 10000.0,
-        "unit": "nits",
-        "context": "1.3″ 4K full‐color OLED microdisplay, which is able to realize peak brightness more than 10,000 nits together with appropriate operational lifetime of OLED devices, is introduced by addressing key technologies and challenges to develop advanced OLED microdisplay panels expecting application to the high‐quality AR/VR/MR head‐mounted displays",
-        "target": "타 기기 관련",
-        "qualifier": "최대 휘도 언급",
-        "conditions": []
-      }
-    ],
-    "source_url": "https://doi.org/10.1002/sdtp.17496"
-  },
-  {
-    "id": "d118d41721fa73af42a1",
+    "id": "fe2ad03ba859e69d3a8a",
     "doi": "10.1002/sdtp.17693",
     "source_type": "paper",
-    "source": "Crossref",
+    "source": "Semantic Scholar",
     "region": "international",
     "title": "69‐3: A 6,000 nits Ultra‐high Brightness and Wide BT.2020 Color Gamut Wearable Tandem OLED Display",
     "published_at": "2024-06-01",
-    "url": "https://doi.org/10.1002/sdtp.17693",
+    "url": "https://www.semanticscholar.org/paper/94f2be16983ae74f26bf1aec16794585cc4ed112",
     "summary": "In this study, a wearable 1.64‐inch panel with 3‐stack RGB tandem OLED device structure is fabricated, which combined ultra‐high brightness of 6, 000 nits and 97.4% BT.2020 color gamut. As the panel is composed of 3‐stack tandem OLED structure, it also gains an long lifetime.",
     "technologies": [
       "초고휘도",
       "발광 구조"
     ],
-    "collected_at": "2026-10-26T17:32:26.180725+00:00",
-    "document_id": "d118d41721fa73af42a1",
+    "citation_count": 1,
+    "collected_at": "2026-10-27T04:56:33.325845+00:00",
+    "document_id": "fe2ad03ba859e69d3a8a",
     "published_date": "2024-06-01",
     "company": [],
     "technology": [
@@ -5796,7 +5663,49 @@
         "conditions": []
       }
     ],
-    "source_url": "https://doi.org/10.1002/sdtp.17693"
+    "source_url": "https://www.semanticscholar.org/paper/94f2be16983ae74f26bf1aec16794585cc4ed112"
+  },
+  {
+    "id": "dcfe2f3197e9a4d6fb04",
+    "doi": "10.1002/sdtp.17496",
+    "source_type": "paper",
+    "source": "OpenAlex",
+    "region": "international",
+    "title": "19‐3: Distinguished Paper: High‐Luminance, Large‐Size 4K OLED Microdisplays for VR/MR Applications",
+    "published_at": "2024-06-01",
+    "url": "https://doi.org/10.1002/sdtp.17496",
+    "summary": "1.3″ 4K full‐color OLED microdisplay, which is able to realize peak brightness more than 10,000 nits together with appropriate operational lifetime of OLED devices, is introduced by addressing key technologies and challenges to develop advanced OLED microdisplay panels expecting application to the high‐quality AR/VR/MR head‐mounted displays",
+    "technologies": [
+      "초고휘도"
+    ],
+    "citation_count": 2,
+    "collected_at": "2026-10-27T04:56:54.709293+00:00",
+    "document_id": "dcfe2f3197e9a4d6fb04",
+    "published_date": "2024-06-01",
+    "company": [],
+    "technology": [
+      "초고휘도"
+    ],
+    "keywords": [
+      "고휘도",
+      "휘도"
+    ],
+    "keyword_scores": {
+      "고휘도": 1,
+      "휘도": 1
+    },
+    "metrics": [
+      {
+        "name": "brightness",
+        "value": 10000.0,
+        "unit": "nits",
+        "context": "1.3″ 4K full‐color OLED microdisplay, which is able to realize peak brightness more than 10,000 nits together with appropriate operational lifetime of OLED devices, is introduced by addressing key technologies and challenges to develop advanced OLED microdisplay panels expecting application to the high‐quality AR/VR/MR head‐mounted displays",
+        "target": "타 기기 관련",
+        "qualifier": "최대 휘도 언급",
+        "conditions": []
+      }
+    ],
+    "source_url": "https://doi.org/10.1002/sdtp.17496"
   },
   {
     "id": "d118d41721fa73af42a1",
@@ -5857,7 +5766,7 @@
       "야외 시인성"
     ],
     "citation_count": 2,
-    "collected_at": "2026-10-23T04:39:24.312514+00:00",
+    "collected_at": "2026-10-27T04:56:33.326042+00:00",
     "document_id": "4024cf0642780f5539bf",
     "published_date": "2024-06-01",
     "company": [],
@@ -5917,7 +5826,7 @@
       "제조/공정"
     ],
     "citation_count": 3,
-    "collected_at": "2026-10-17T04:17:47.673429+00:00",
+    "collected_at": "2026-10-27T04:56:36.623611+00:00",
     "document_id": "2c2ad7ab873ed59283f5",
     "published_date": "2024-06-01",
     "company": [],
@@ -5970,7 +5879,7 @@
     "url": "https://doi.org/10.1002/sdtp.17460",
     "summary": "The reflection color dispersion phenomenon is more visible on polarizer‐free OLED panel compared to the panel with polarizer. However, the mechanism and detailed analysis of this effect is very limited in previous reports. The panel reflection patterns are usually very sophisticated, which are composed of rings, dots and color distribution (R G B reflection located at different direction of the panel, respectively). In this paper, the causes of the reflection pattern are analyzed in detail and the influential factors of the shape, distribution, color and other characteristics of the reflection pattern are clarified and verified through the comparison of simulation and actual results. Finally",
     "technologies": [],
-    "collected_at": "2026-10-26T17:32:26.180636+00:00",
+    "collected_at": "2026-10-27T04:55:22.655754+00:00",
     "document_id": "29606780307a7b6ff259",
     "published_date": "2024-06-01",
     "company": [],
@@ -6014,7 +5923,7 @@
     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOamZMNmFxa0VfRXVvQWFNaHdCc1NpanVGY0FDLXo1bERYRldXYnh5UEhQYk9NeS1odkF1OTNFczA0bDJYN04xZGpCbmk0djlUUmQyLV9yUExuUVhieVlVNVRaaVBQQ3dGWUpzWkJGUFdmLUNudnoxUTJPcTNoRXM0M2xTeTRuM1BUNEtjNGNEWlpaM2M4?oc=5",
     "summary": "Apple announces its 2024 iPad Pro devices, with tandem AMOLED displays OLED-Info",
     "technologies": [],
-    "collected_at": "2026-10-26T17:32:37.330608+00:00",
+    "collected_at": "2026-10-27T04:56:32.588988+00:00",
     "document_id": "3b60d4c7b591089bc153",
     "published_date": "2024-05-08",
     "company": [
@@ -6099,7 +6008,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-26T17:32:37.331202+00:00",
+    "collected_at": "2026-10-27T04:56:32.589630+00:00",
     "document_id": "a9ecac249ffd3d314cf7",
     "published_date": "2024-04-10",
     "company": [
@@ -6201,7 +6110,7 @@
       "발광 구조"
     ],
     "citation_count": 2,
-    "collected_at": "2026-10-26T17:33:28.011787+00:00",
+    "collected_at": "2026-10-27T04:56:54.709878+00:00",
     "document_id": "9f7dd72118098ec2f6ce",
     "published_date": "2024-03-01",
     "company": [],
@@ -6259,7 +6168,7 @@
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSWx6aW82S21QR2pGSHlhWG9qVmJsRWNleXlaY2c0S1JES3h5Mi1jXzVkV28yN1VGZTVwa29EZlR5QmVtLVJyTDBsWHlXd09MaTQ1cTlpOTFwM1RsWUdHaGpYbHNTTC1YYkEyOWhPOVJoR1FJdnZkTGZWNjBXeFBrZHUxbHNOYnVJLXJwYkZqeEVvX2xHRkRhLUlpb0E5bkstUUdNT19peEpVSGZ1WGZDZ3ZkZkk?oc=5",
     "summary": "CES 2024 | Asus AirVision M1 wearable display debuts with Micro OLED display tech Notebookcheck",
     "technologies": [],
-    "collected_at": "2026-10-26T17:32:37.019654+00:00",
+    "collected_at": "2026-10-27T04:56:32.226557+00:00",
     "document_id": "f2ccfab7a68ea3322016",
     "published_date": "2024-01-11",
     "company": [],
@@ -6426,7 +6335,7 @@
     "url": "https://doi.org/10.1117/12.2686563",
     "summary": "",
     "technologies": [],
-    "collected_at": "2026-10-26T17:32:26.180792+00:00",
+    "collected_at": "2026-10-27T04:55:22.655905+00:00",
     "document_id": "8c84dc803b07d1310a3a",
     "published_date": "2023-08-10",
     "company": [],
@@ -6506,6 +6415,27 @@
     "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcWFZMVNHczRwSXQxejhzSXBFMWtFWmx5NWk2cTY2LVdVSWNXMTJMY0JqVGZwMTcyVzIzQjVlSU42WDlTMlJmZTlpempXOUdXaTZ0b1RaMmJfSExYUFdSUm42TFBKQldkeG5tOGJMamFGN0pHenY2di0yQ2NzV2lHeS1nN09HS19hdmhlem11SnVsWUp5ZjBKbkdmelc5UWVpOG5WMVJtblZ6LTNRenRaRnNEaznSAboBQVVfeXFMTkphbVhaRVNET3hlbTFEZnZMTktWeE1kZWRXV1NOeEE5bDZ1LW9LVkNDckhhSTYyYVFBdk43a1BIdHFSYkw5M09XMjVuMHFsa2tFSmlrN2YxWVczUzFIa1R5OHIxTV8zYjNMVk44Ql9EWXphUTNRZDhiRWI2dWk2ODZHbHloTkpseTlqZlphdnZ5azh6aU5lVXNHLXI4TmVzbXhwQ0YtSGRmSjVzTW9nQzZSQkZrR1J2V09n?oc=5"
   },
   {
+    "id": "5ef21cd02a90d7687a3c",
+    "doi": "",
+    "source_type": "news",
+    "source": "디일렉",
+    "region": "domestic",
+    "title": "\"스마트워치 마이크로 LED 목표가격, OLED의 2배 웃돌 것\" - 디일렉",
+    "published_at": "2023-01-19",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51RjBDdVJEYzRwX0xINXcwSHZmMjk4UTh6cXdJZllMSm1XZTdXM2RUX205aEtKRlVON0JNR0oyMVJrc1BVMVM1UnJlLU9HbXF1N2NhMHY5V3NDNjUtVVdZTEFGTkZXZw?oc=5",
+    "summary": "\"스마트워치 마이크로 LED 목표가격, OLED의 2배 웃돌 것\" 디일렉",
+    "technologies": [],
+    "collected_at": "2026-10-27T04:56:31.066082+00:00",
+    "document_id": "5ef21cd02a90d7687a3c",
+    "published_date": "2023-01-19",
+    "company": [],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51RjBDdVJEYzRwX0xINXcwSHZmMjk4UTh6cXdJZllMSm1XZTdXM2RUX205aEtKRlVON0JNR0oyMVJrc1BVMVM1UnJlLU9HbXF1N2NhMHY5V3NDNjUtVVdZTEFGTkZXZw?oc=5"
+  },
+  {
     "id": "c791eb13723d785f750a",
     "doi": "",
     "source_type": "news",
@@ -6559,7 +6489,7 @@
     "url": "https://doi.org/10.2139/ssrn.4348537",
     "summary": "",
     "technologies": [],
-    "collected_at": "2026-10-26T17:32:26.180956+00:00",
+    "collected_at": "2026-10-27T04:55:22.656099+00:00",
     "document_id": "8d5fbac1969c6c9738fd",
     "published_date": "2023-01-01",
     "company": [],

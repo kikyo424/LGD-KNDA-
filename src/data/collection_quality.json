@@ -1,17 +1,132 @@
 {
   "last_update": {
-    "completed_at": "2026-10-26T17:33:29.183515+00:00",
-    "new_count": 0,
-    "new_documents": [],
-    "source_errors": 3
+    "completed_at": "2026-10-27T04:56:55.885068+00:00",
+    "new_count": 4,
+    "new_documents": [
+      {
+        "id": "b06141b0731ac56801da",
+        "doi": "",
+        "source_type": "news",
+        "source": "디지털데일리",
+        "region": "domestic",
+        "title": "LGD, 美 ‘SID 2026’서 3세대 탠덤 OLED 세계 최초 공개 - 디지털데일리",
+        "published_at": "2026-05-05",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9sUDlIT0lDWjV2Q2tYeWswVjVuTGdUZWZhc2w2WHhZRFN4WkVkbUtQT3VlNXlIRGs1YjZJZGdyTHVtUVFVdk1fRkRLQjhpY1lYNWZuMDE0R0NvTVlJTDNwWEl3?oc=5",
+        "summary": "LGD, 美 ‘SID 2026’서 3세대 탠덤 OLED 세계 최초 공개 디지털데일리",
+        "technologies": [
+          "발광 구조"
+        ],
+        "collected_at": "2026-10-27T04:56:31.597090+00:00",
+        "document_id": "b06141b0731ac56801da",
+        "published_date": "2026-05-05",
+        "company": [
+          "LG디스플레이"
+        ],
+        "technology": [
+          "발광 구조"
+        ],
+        "keywords": [
+          "탠덤 OLED"
+        ],
+        "keyword_scores": {
+          "탠덤 OLED": 3
+        },
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9sUDlIT0lDWjV2Q2tYeWswVjVuTGdUZWZhc2w2WHhZRFN4WkVkbUtQT3VlNXlIRGs1YjZJZGdyTHVtUVFVdk1fRkRLQjhpY1lYNWZuMDE0R0NvTVlJTDNwWEl3?oc=5"
+      },
+      {
+        "id": "ed53547b2876235304d1",
+        "doi": "",
+        "source_type": "news",
+        "source": "연합뉴스",
+        "region": "domestic",
+        "title": "삼성D, 광효율 1.3배 높인 프리미엄 'QD-OLED 펜타 탠덤' 론칭 - 연합뉴스",
+        "published_at": "2026-02-12",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9EQ3RJdG1NLWhjWEQtcHd1NmlUZDZRNzBmUWxSdzZnQnd5Wlc4ZmtWSU94SXM0aGJXNG9KaVh3NjgtMExRZnBfWlZSQmVXajNlX3BFTXhDUHd0bm_SAWBBVV95cUxONG9GeHZ2em5UVzNmdzRKRkkyeDd1cjMtNGtQS2IzM1JLd1E2X3BlVWdHOXlvQnp6TEtQcXN6czE1cklVY3ZWYUxLOXZuX0xUdHgxTGhlLXA0c1ZzUXJjaHI?oc=5",
+        "summary": "삼성D, 광효율 1.3배 높인 프리미엄 'QD-OLED 펜타 탠덤' 론칭 연합뉴스",
+        "technologies": [
+          "발광 구조"
+        ],
+        "collected_at": "2026-10-27T04:56:31.597221+00:00",
+        "document_id": "ed53547b2876235304d1",
+        "published_date": "2026-02-12",
+        "company": [
+          "삼성디스플레이"
+        ],
+        "technology": [
+          "발광 구조"
+        ],
+        "keywords": [
+          "탠덤 OLED"
+        ],
+        "keyword_scores": {
+          "탠덤 OLED": 3
+        },
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9EQ3RJdG1NLWhjWEQtcHd1NmlUZDZRNzBmUWxSdzZnQnd5Wlc4ZmtWSU94SXM0aGJXNG9KaVh3NjgtMExRZnBfWlZSQmVXajNlX3BFTXhDUHd0bm_SAWBBVV95cUxONG9GeHZ2em5UVzNmdzRKRkkyeDd1cjMtNGtQS2IzM1JLd1E2X3BlVWdHOXlvQnp6TEtQcXN6czE1cklVY3ZWYUxLOXZuX0xUdHgxTGhlLXA0c1ZzUXJjaHI?oc=5"
+      },
+      {
+        "id": "b21c677e9f534f439109",
+        "doi": "",
+        "source_type": "news",
+        "source": "전자신문",
+        "region": "domestic",
+        "title": "삼성D 무편광판 OLED, SID서 '올해의 디스플레이' 수상 - 전자신문",
+        "published_at": "2025-05-06",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1OdzBoWTBKU1RmbmhGT2EtWXZiYmhES1psYjhYUjlKNDNYZmMyUGxWX21vUTFGdjZpWGJDamVxaF9aMTJpaUthcTl5b1RzUQ?oc=5",
+        "summary": "삼성D 무편광판 OLED, SID서 '올해의 디스플레이' 수상 전자신문",
+        "technologies": [
+          "야외 시인성"
+        ],
+        "collected_at": "2026-10-27T04:56:31.845548+00:00",
+        "document_id": "b21c677e9f534f439109",
+        "published_date": "2025-05-06",
+        "company": [
+          "삼성디스플레이"
+        ],
+        "technology": [
+          "야외 시인성"
+        ],
+        "keywords": [
+          "무편광판"
+        ],
+        "keyword_scores": {
+          "무편광판": 3
+        },
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1OdzBoWTBKU1RmbmhGT2EtWXZiYmhES1psYjhYUjlKNDNYZmMyUGxWX21vUTFGdjZpWGJDamVxaF9aMTJpaUthcTl5b1RzUQ?oc=5"
+      },
+      {
+        "id": "5ef21cd02a90d7687a3c",
+        "doi": "",
+        "source_type": "news",
+        "source": "디일렉",
+        "region": "domestic",
+        "title": "\"스마트워치 마이크로 LED 목표가격, OLED의 2배 웃돌 것\" - 디일렉",
+        "published_at": "2023-01-19",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51RjBDdVJEYzRwX0xINXcwSHZmMjk4UTh6cXdJZllMSm1XZTdXM2RUX205aEtKRlVON0JNR0oyMVJrc1BVMVM1UnJlLU9HbXF1N2NhMHY5V3NDNjUtVVdZTEFGTkZXZw?oc=5",
+        "summary": "\"스마트워치 마이크로 LED 목표가격, OLED의 2배 웃돌 것\" 디일렉",
+        "technologies": [],
+        "collected_at": "2026-10-27T04:56:31.066082+00:00",
+        "document_id": "5ef21cd02a90d7687a3c",
+        "published_date": "2023-01-19",
+        "company": [],
+        "technology": [],
+        "keywords": [],
+        "keyword_scores": {},
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51RjBDdVJEYzRwX0xINXcwSHZmMjk4UTh6cXdJZllMSm1XZTdXM2RUX205aEtKRlVON0JNR0oyMVJrc1BVMVM1UnJlLU9HbXF1N2NhMHY5V3NDNjUtVVdZTEFGTkZXZw?oc=5"
+      }
+    ],
+    "source_errors": 4
   },
-  "input": 771,
-  "excluded_irrelevant": 357,
-  "excluded_before_2023": 109,
-  "duplicates_removed": 81,
-  "saved": 224,
+  "input": 660,
+  "excluded_irrelevant": 222,
+  "excluded_before_2023": 126,
+  "duplicates_removed": 90,
+  "saved": 222,
   "missing_date": 0,
   "missing_summary": 22,
-  "source_errors": 3,
-  "generated_at": "2026-10-26T17:33:29.183902+00:00"
+  "source_errors": 4,
+  "generated_at": "2026-10-27T04:56:55.885252+00:00"
 }
