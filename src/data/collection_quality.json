@@ -1,85 +1,23 @@
 {
   "last_update": {
-    "completed_at": "2026-10-27T15:20:56.202894+00:00",
-    "new_count": 7,
+    "completed_at": "2026-10-27T15:23:38.689186+00:00",
+    "new_count": 1,
     "new_documents": [
       {
-        "id": "6c56395286e3ed466b54",
+        "id": "92daf6f4697e71b7579b",
         "doi": "",
         "source_type": "news",
-        "source": "Notebookcheck",
-        "region": "international",
-        "title": "Apple MacBook Ultra: production of 2.5 million tandem OLED panels said to begin shortly - Notebookcheck",
-        "published_at": "2026-07-28",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVEhVTEJRSnp4Y0N4S1ZRb1NMRU5GdGV2QUZSdUJGVnJfeXBYNGhWOHJUcWcwVGJGMkF4RFFvenBmMEl2WlVKZEI0X2ljTC1hdV9HUDk1YkcySURrQ3hBdlRqcWhJdGFPdFd5MGtxaF96WE1YRlIyWHJITVp4MHFyZ25xZVpxMkszVkd5NWpOWi1JNnpwdzYxRmR1VFB6c1J5ckRuVFVfTmFzQTd4ZFItRzh1eDFHZXRodE9ZRWo0N1ppLXJaeE9lamF0QQ?oc=5",
-        "summary": "Apple MacBook Ultra: production of 2.5 million tandem OLED panels said to begin shortly Notebookcheck",
-        "technologies": [
-          "발광 구조"
-        ],
-        "collected_at": "2026-10-27T15:20:11.506747+00:00",
-        "document_id": "6c56395286e3ed466b54",
-        "published_date": "2026-07-28",
-        "company": [
-          "Apple"
-        ],
-        "technology": [
-          "발광 구조"
-        ],
-        "keywords": [
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "탠덤 OLED": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVEhVTEJRSnp4Y0N4S1ZRb1NMRU5GdGV2QUZSdUJGVnJfeXBYNGhWOHJUcWcwVGJGMkF4RFFvenBmMEl2WlVKZEI0X2ljTC1hdV9HUDk1YkcySURrQ3hBdlRqcWhJdGFPdFd5MGtxaF96WE1YRlIyWHJITVp4MHFyZ25xZVpxMkszVkd5NWpOWi1JNnpwdzYxRmR1VFB6c1J5ckRuVFVfTmFzQTd4ZFItRzh1eDFHZXRodE9ZRWo0N1ppLXJaeE9lamF0QQ?oc=5"
-      },
-      {
-        "id": "add5308879f1fc889d8e",
-        "doi": "",
-        "source_type": "news",
-        "source": "데일리한국",
+        "source": "파이낸셜포스트",
         "region": "domestic",
-        "title": "LG디스플레이 최영석 '탠덤 OLED 풀라인업으로 AI 시대 전력효율 부응' - 데일리한국",
-        "published_at": "2026-07-21",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8wNUltWTloMGZVaFd5UjVYVzdzM1hLTmwyMXJKU3g5empOTE1hMUdCX1VQSjNNZDlRVVd1b05BSFNCaDU3NTEtTGJkSXc3eWhWeEdPTGRINUJBbFotQW1NWk1rZDg5VmdoM19NN290VdIBc0FVX3lxTE94cmd1Y1BqWUU4UmpROHg5ZkhPWHNGNWo2bEZOX3JfSlF4WDlZd25rc3dOZEdKUVd3cS1GZzhtQkhMZnZ3Nl8wYUhUb2N1OVYwZjQ0ZU9KZjBIeGxJcFlVbHNrMmpmTUkyc0RKTzlqYkVYNzg?oc=5",
-        "summary": "LG디스플레이 최영석 '탠덤 OLED 풀라인업으로 AI 시대 전력효율 부응' 데일리한국",
-        "technologies": [
-          "발광 구조"
-        ],
-        "collected_at": "2026-10-27T15:20:10.495276+00:00",
-        "document_id": "add5308879f1fc889d8e",
-        "published_date": "2026-07-21",
-        "company": [
-          "LG디스플레이"
-        ],
-        "technology": [
-          "발광 구조"
-        ],
-        "keywords": [
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "탠덤 OLED": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8wNUltWTloMGZVaFd5UjVYVzdzM1hLTmwyMXJKU3g5empOTE1hMUdCX1VQSjNNZDlRVVd1b05BSFNCaDU3NTEtTGJkSXc3eWhWeEdPTGRINUJBbFotQW1NWk1rZDg5VmdoM19NN290VdIBc0FVX3lxTE94cmd1Y1BqWUU4UmpROHg5ZkhPWHNGNWo2bEZOX3JfSlF4WDlZd25rc3dOZEdKUVd3cS1GZzhtQkhMZnZ3Nl8wYUhUb2N1OVYwZjQ0ZU9KZjBIeGxJcFlVbHNrMmpmTUkyc0RKTzlqYkVYNzg?oc=5"
-      },
-      {
-        "id": "08c0a210233b1c1eba23",
-        "doi": "",
-        "source_type": "news",
-        "source": "뉴스1",
-        "region": "domestic",
-        "title": "LG디스플레이, 美서 3세대 탠덤 OLED 공개…미래 기술 선도 - 뉴스1",
+        "title": "[SID 2026] \"1만 5000시간 구동 가능\" LGD, 차세대 탠덤 OLED 공개 - 파이낸셜포스트",
         "published_at": "2026-05-05",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9adk1pMkVqUnFGR3VJMG4xYVBSOGI3M0NPVmRMUGJlTWhqRWd4ZEdZUWxNb21QWTduM0VoR2JxU0paUWMyR2NEWkt6UzRBT05lMHYxbjVlUllkdTczdE1SaS1peGc?oc=5",
-        "summary": "LG디스플레이, 美서 3세대 탠덤 OLED 공개…미래 기술 선도 뉴스1",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE10SEZoOUF5c29SV0FZN21GMHlRTGF4VnhDWWJjUl8xZXBvanl4VU5LZW1FRVBfdkl4YmFrRlp2WGVFZFNuTUxqZnNfR1huYmlSbGZoOTU4eHpDQ21Xa19FTU84MlhKczZjRDZLNXdoUDRqZnlF?oc=5",
+        "summary": "[SID 2026] \"1만 5000시간 구동 가능\" LGD, 차세대 탠덤 OLED 공개 파이낸셜포스트",
         "technologies": [
           "발광 구조"
         ],
-        "collected_at": "2026-10-27T15:20:10.495298+00:00",
-        "document_id": "08c0a210233b1c1eba23",
+        "collected_at": "2026-10-27T15:22:45.576082+00:00",
+        "document_id": "92daf6f4697e71b7579b",
         "published_date": "2026-05-05",
         "company": [
           "LG디스플레이"
@@ -94,192 +32,18 @@
           "탠덤 OLED": 3
         },
         "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9adk1pMkVqUnFGR3VJMG4xYVBSOGI3M0NPVmRMUGJlTWhqRWd4ZEdZUWxNb21QWTduM0VoR2JxU0paUWMyR2NEWkt6UzRBT05lMHYxbjVlUllkdTczdE1SaS1peGc?oc=5"
-      },
-      {
-        "id": "b447887012955d00b83a",
-        "doi": "",
-        "source_type": "news",
-        "source": "Pocket-lint",
-        "region": "international",
-        "title": "What everyone needs to know about Tandem OLED and WOLED TVs - Pocket-lint",
-        "published_at": "2025-12-29",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5iUEVXV2trUkJaUDZ1T29lUXljVGJSSEprMWtickdZVDZ2b1hxTW13VXZXSzhYRjZNSC1yOUVuY0ZRVU1KNnJTeUlfNko4Unl2cnZOMExSRXhMSW1VTVRGSTQ3MkE5bk10RE51Z3J4NDF1cjNHb1E?oc=5",
-        "summary": "What everyone needs to know about Tandem OLED and WOLED TVs Pocket-lint",
-        "technologies": [
-          "발광 구조"
-        ],
-        "collected_at": "2026-10-27T15:20:11.506450+00:00",
-        "document_id": "b447887012955d00b83a",
-        "published_date": "2025-12-29",
-        "company": [],
-        "technology": [
-          "발광 구조"
-        ],
-        "keywords": [
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "탠덤 OLED": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5iUEVXV2trUkJaUDZ1T29lUXljVGJSSEprMWtickdZVDZ2b1hxTW13VXZXSzhYRjZNSC1yOUVuY0ZRVU1KNnJTeUlfNko4Unl2cnZOMExSRXhMSW1VTVRGSTQ3MkE5bk10RE51Z3J4NDF1cjNHb1E?oc=5"
-      },
-      {
-        "id": "9676572634f22b487ae3",
-        "doi": "",
-        "source_type": "news",
-        "source": "What Hi-Fi?",
-        "region": "international",
-        "title": "Primary RGB Tandem OLED TV tech explained: how it works, why it’s better than MLA and how it compares with QD-OLED - What Hi-Fi?",
-        "published_at": "2025-08-27",
-        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOZkFRaDNfZDhNNHNpcXhaZEM0X1c5eDJLSS1YaDQ4eFRLS01oX1JXbGRGQnhzOThINGpPUnMtc2hvd3BrTXh4NWFIR3NhZUY1aWNRaVZuZjFyOG1pYndQZU9rT3l3SGJzbmQzZVg1TE5jQ3RzRWFjR1pfUzE0R0VmM0poem4zMWNIU2Y4ZE93eFlLT2dWTUUwdS1yTF9PZFEyRG11UnppVzNHTGc3UGJrMkU3V2ZubnJIR19SOXU0a0Q3R1R0eVNid1h1QUY3Y29SQng4UFA0dmFmVnFMelVhSEMyT3I3RDVqYlVBUjlfcmdJQmc2UUE?oc=5",
-        "summary": "Primary RGB Tandem OLED TV tech explained: how it works, why it’s better than MLA and how it compares with QD-OLED What Hi-Fi?",
-        "technologies": [
-          "발광 구조"
-        ],
-        "collected_at": "2026-10-27T15:20:11.506605+00:00",
-        "document_id": "9676572634f22b487ae3",
-        "published_date": "2025-08-27",
-        "company": [],
-        "technology": [
-          "발광 구조"
-        ],
-        "keywords": [
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "탠덤 OLED": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOZkFRaDNfZDhNNHNpcXhaZEM0X1c5eDJLSS1YaDQ4eFRLS01oX1JXbGRGQnhzOThINGpPUnMtc2hvd3BrTXh4NWFIR3NhZUY1aWNRaVZuZjFyOG1pYndQZU9rT3l3SGJzbmQzZVg1TE5jQ3RzRWFjR1pfUzE0R0VmM0poem4zMWNIU2Y4ZE93eFlLT2dWTUUwdS1yTF9PZFEyRG11UnppVzNHTGc3UGJrMkU3V2ZubnJIR19SOXU0a0Q3R1R0eVNid1h1QUY3Y29SQng4UFA0dmFmVnFMelVhSEMyT3I3RDVqYlVBUjlfcmdJQmc2UUE?oc=5"
-      },
-      {
-        "id": "ac17f661a31e77d87bc8",
-        "doi": "",
-        "source_type": "news",
-        "source": "Gadgets 360",
-        "region": "international",
-        "title": "Apple Reportedly Evaluates Tandem OLED Technology for Future iPhone Models - Gadgets 360",
-        "published_at": "2025-08-05",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVm5MWnhFWTUwaU1QR2ctdEJEZ18weloxRW1OeTBFRVE2VTRqRHNGLW5hRFd0VW9wZUl0TnFZNkJEeHRKSHdyTmNXcU1zT19JY1ZocjdBSTk1NmFVSkFJOVFEaTlLRFZwQ0tTMFk4SUlVZ1FvUERiM2FWUjhFWWVralhJV3gzemc3YzVsV2V6RVR5WVVSTjYyLU9MaDRMcU9rd2RaLWln0gGrAUFVX3lxTE0tR3pWb2VPUVVENzBhQnU0Qm5qeFhQLUlCcnBXMDJiV2FsNktOYnBpLVJydURXU1BpLU9fV2lZRjlwWFhVbm56eGZyMzJwandVaEdKSjFDZkRKb2R4WGctSnNzbXQxTjRQUzJXMEF1cFJWZENBelZhOW5fV2syMHB2OTQ1NzhNckppaGRhSmtqUkdZVWlZT2dJS3RqSTE3ckJSX2pzUnR5aUJ1RQ?oc=5",
-        "summary": "Apple Reportedly Evaluates Tandem OLED Technology for Future iPhone Models Gadgets 360",
-        "technologies": [
-          "발광 구조"
-        ],
-        "collected_at": "2026-10-27T15:20:11.506997+00:00",
-        "document_id": "ac17f661a31e77d87bc8",
-        "published_date": "2025-08-05",
-        "company": [
-          "Apple"
-        ],
-        "technology": [
-          "발광 구조"
-        ],
-        "keywords": [
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "탠덤 OLED": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVm5MWnhFWTUwaU1QR2ctdEJEZ18weloxRW1OeTBFRVE2VTRqRHNGLW5hRFd0VW9wZUl0TnFZNkJEeHRKSHdyTmNXcU1zT19JY1ZocjdBSTk1NmFVSkFJOVFEaTlLRFZwQ0tTMFk4SUlVZ1FvUERiM2FWUjhFWWVralhJV3gzemc3YzVsV2V6RVR5WVVSTjYyLU9MaDRMcU9rd2RaLWln0gGrAUFVX3lxTE0tR3pWb2VPUVVENzBhQnU0Qm5qeFhQLUlCcnBXMDJiV2FsNktOYnBpLVJydURXU1BpLU9fV2lZRjlwWFhVbm56eGZyMzJwandVaEdKSjFDZkRKb2R4WGctSnNzbXQxTjRQUzJXMEF1cFJWZENBelZhOW5fV2syMHB2OTQ1NzhNckppaGRhSmtqUkdZVWlZT2dJS3RqSTE3ckJSX2pzUnR5aUJ1RQ?oc=5"
-      },
-      {
-        "id": "3037f89d3ba2467a65f8",
-        "doi": "",
-        "source_type": "news",
-        "source": "What Hi-Fi?",
-        "region": "international",
-        "title": "What is tandem OLED screen tech? How does it work? - What Hi-Fi?",
-        "published_at": "2024-05-24",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ2pZTFlGNHp0WFF2ckNVRXNVVkN6NGFfYTc5b0R1Zk1JR2NJa0lLZ0xwSV9fZGM4MklETGxlb1htcHBWbFlza1B5NmdpcWdzVTNRT0xEelh4SmlqY1paa2Q1RHp2bGhLYUVOZTFCdlhGaEhNZFdtX0plQ2M4QVBScnFfU3hHblE?oc=5",
-        "summary": "What is tandem OLED screen tech? How does it work? What Hi-Fi?",
-        "technologies": [
-          "발광 구조"
-        ],
-        "collected_at": "2026-10-27T15:20:11.506316+00:00",
-        "document_id": "3037f89d3ba2467a65f8",
-        "published_date": "2024-05-24",
-        "company": [],
-        "technology": [
-          "발광 구조"
-        ],
-        "keywords": [
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "탠덤 OLED": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ2pZTFlGNHp0WFF2ckNVRXNVVkN6NGFfYTc5b0R1Zk1JR2NJa0lLZ0xwSV9fZGM4MklETGxlb1htcHBWbFlza1B5NmdpcWdzVTNRT0xEelh4SmlqY1paa2Q1RHp2bGhLYUVOZTFCdlhGaEhNZFdtX0plQ2M4QVBScnFfU3hHblE?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE10SEZoOUF5c29SV0FZN21GMHlRTGF4VnhDWWJjUl8xZXBvanl4VU5LZW1FRVBfdkl4YmFrRlp2WGVFZFNuTUxqZnNfR1huYmlSbGZoOTU4eHpDQ21Xa19FTU84MlhKczZjRDZLNXdoUDRqZnlF?oc=5"
       }
     ],
-    "source_errors": 2
+    "source_errors": 3
   },
-  "input": 793,
-  "excluded_irrelevant": 328,
-  "excluded_before_2023": 100,
-  "duplicates_removed": 135,
-  "saved": 277,
+  "input": 780,
+  "excluded_irrelevant": 287,
+  "excluded_before_2023": 84,
+  "duplicates_removed": 131,
+  "saved": 278,
   "missing_date": 0,
   "missing_summary": 22,
-  "source_errors": 2,
-  "generated_at": "2026-10-27T15:20:56.203124+00:00",
-  "historical_recovery": {
-    "completed_at": "2026-10-27T15:21:26.751498+00:00",
-    "recovered_count": 47,
-    "document_ids": [
-      "69cb74d7e0374ef08660",
-      "0f22af69864733856c53",
-      "191d3989ccd3af66e872",
-      "7d10ffaab2790469cc59",
-      "d28beb46e7261bdc51b9",
-      "9714d0fef747dfec0583",
-      "d604d2e0af0cf462b5ba",
-      "c5fe9a3450853f60f9be",
-      "bf8edc709791479c43d0",
-      "bbc35be53d6d605a43ef",
-      "3836022939c61bab9897",
-      "ed4b70c81f06b09ce770",
-      "e82f61a6cd89b0313da7",
-      "d5a06ba5907217b71940",
-      "d19559ebe27b771a783b",
-      "7f197590f6f47d52a3eb",
-      "43d43f233f5464ecf122",
-      "3771747d9d8556a19cc8",
-      "1f501d005906262a7b47",
-      "0430e53c3a2af37e125f",
-      "004687c3005de73e26e2",
-      "dbccced797d711360d80",
-      "af60fcfb5de0c28c5cc8",
-      "6a7f28f968a9b865615d",
-      "ccbb7a6d1749b76aea66",
-      "85565f36b529e4216ade",
-      "c46291152f6f9ad2820c",
-      "becbed5643ee00520e2a",
-      "9cf408b95ae8b393e004",
-      "7e0778aad54606bbdbb5",
-      "29bc6211e6ccf73bc077",
-      "4416296de70b21ce3756",
-      "db8e67e4399610985b7b",
-      "9b401be25308936e17c5",
-      "5b8d8764f16d1bcb9f35",
-      "1df24f100d0a250dabcc",
-      "814fb002a18d9fd44c09",
-      "e12892a9043361c18ac7",
-      "e4f47e150b2a5bbd5d3e",
-      "ca63d4b912d4a25af105",
-      "0fe0e98ae5f85f2c87f0",
-      "80f0a5fd420087baff59",
-      "bcddc7dcd624d62e1624",
-      "b63052f9a3369b621b84",
-      "5afe76b9c3a1d0a4166a",
-      "60850d9dd288eb2775a2",
-      "e6659e7df0c10f3deee2"
-    ],
-    "reason": "Restored domestic news omitted during regular RSS replacement; explicit deletions and custom collections excluded.",
-    "previous_total": 230,
-    "restored_total": 277
-  }
+  "source_errors": 3,
+  "generated_at": "2026-10-27T15:23:38.689447+00:00"
 }
