@@ -1,7 +1,36 @@
 import json
+import pytest
 
 import scripts.collect as collect
 from scripts.collect import deduplicate, extract_companies, extract_keyword_scores, extract_keywords, extract_metrics, in_date_range, is_relevant, news_title_fingerprint, normalize_date, paper_title_fingerprint, parse_args, parse_arxiv, parse_crossref, parse_openalex, parse_rss, parse_semantic_scholar, tag_technologies
+
+
+@pytest.mark.parametrize("result", ["empty", "error", "duplicate_and_new"])
+def test_regular_news_collection_preserves_existing_documents(monkeypatch, tmp_path, result):
+    for name in ("DATA_FILE", "QUALITY_FILE", "LAST_MANUAL_FILE"):
+        monkeypatch.setattr(collect, name, tmp_path / f"{name}.json")
+    monkeypatch.setattr(collect, "DOMESTIC_NEWS_QUERIES", ["OLED"])
+    monkeypatch.setattr(collect, "INTERNATIONAL_NEWS_QUERIES", [])
+    domestic = {"id": "domestic", "title": "Smartwatch OLED LTPO high brightness", "published_at": "2026-10-16", "source_type": "news", "region": "domestic", "source": "Test", "url": "https://example.com/domestic", "summary": "Wearable OLED"}
+    foreign = {**domestic, "id": "foreign", "title": "Foreign smartwatch OLED tandem technology", "region": "international", "url": "https://example.com/foreign"}
+    collect.save([domestic, foreign])
+
+    def fetch(*args):
+        if result == "error":
+            raise collect.httpx.ConnectError("Unavailable")
+        if result == "empty":
+            return []
+        return [dict(domestic), {**domestic, "id": "new", "title": "New smartwatch OLED manufacturing process", "url": "https://example.com/new"}]
+
+    monkeypatch.setattr(collect, "fetch_domestic_news", fetch)
+    assert collect.main(["--source", "news"]) == 0
+    assert {item["id"] for item in collect.load_existing()} == (
+        {"domestic", "foreign", "new"} if result == "duplicate_and_new" else {"domestic", "foreign"}
+    )
+    quality = json.loads(collect.QUALITY_FILE.read_text())
+    assert quality["source_errors"] == (1 if result == "error" else 0)
+    assert quality["duplicates_removed"] == (1 if result == "duplicate_and_new" else 0)
+    assert quality["last_update"]["new_count"] == (1 if result == "duplicate_and_new" else 0)
 
 
 def test_clear_last_manual_collection_preserves_a_valid_empty_summary(monkeypatch, tmp_path):

@@ -667,10 +667,10 @@ def main(argv: list[str] | None = None) -> int:
         return 0
     custom_keyword = clean_text(args.keyword)
     is_manual = bool(custom_keyword)
-    # 정기 수집의 RSS 결과는 최신 제목을 반영하고, 맞춤 수집은 기존 결과에 추가한다.
+    # 국내·해외 모두 기존 자료에 누적한다. RSS 누락·수집 실패로 기존 자료를 지우지 않는다.
     existing = [] if args.report_output else load_existing()
     previous_items = list(existing)
-    collected = existing if is_manual or args.reprocess_only else [item for item in existing if item.get("region") != "domestic"]
+    collected = list(existing)
     paper_queries = [custom_keyword] if is_manual else QUERIES
     scholar_queries = [custom_keyword] if is_manual else SCHOLAR_QUERIES
     news_queries = [custom_keyword] if is_manual else DOMESTIC_NEWS_QUERIES
