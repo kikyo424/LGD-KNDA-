@@ -1,26 +1,101 @@
 {
   "last_update": {
-    "completed_at": "2026-10-27T15:23:38.689186+00:00",
-    "new_count": 1,
+    "completed_at": "2026-10-28T05:30:47.477867+00:00",
+    "new_count": 4,
     "new_documents": [
       {
-        "id": "92daf6f4697e71b7579b",
+        "id": "118323f730a4413d5270",
         "doi": "",
         "source_type": "news",
-        "source": "파이낸셜포스트",
-        "region": "domestic",
-        "title": "[SID 2026] \"1만 5000시간 구동 가능\" LGD, 차세대 탠덤 OLED 공개 - 파이낸셜포스트",
-        "published_at": "2026-05-05",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE10SEZoOUF5c29SV0FZN21GMHlRTGF4VnhDWWJjUl8xZXBvanl4VU5LZW1FRVBfdkl4YmFrRlp2WGVFZFNuTUxqZnNfR1huYmlSbGZoOTU4eHpDQ21Xa19FTU84MlhKczZjRDZLNXdoUDRqZnlF?oc=5",
-        "summary": "[SID 2026] \"1만 5000시간 구동 가능\" LGD, 차세대 탠덤 OLED 공개 파이낸셜포스트",
+        "source": "Forbes",
+        "region": "international",
+        "title": "LG Display Develops New OLED Panels With More Brightness And Longer Lifespans - Forbes",
+        "published_at": "2026-08-19",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMjExRlJOZlRaNEdxN3o4RkExNVFzcEtoTWM2RFFvS3JrVkFPOXA5YjNPM2t4X2xLdXRheElZdmxGYk04ZmxycFEwSHhRM0ZXMkJISmJQWGZzX1ZjcmUtWUQ3dGxWOEdzWEktcmR3ODlycTVyNkpnNGlJVkd4WHNRNi12Y1lhb0JRVndEUTRsek51aEJVb2hqT3NmNlFuaHFHUjZfMUVnYnhtT2xqbmEzZ1l3bWZRTkpJRXZDVFB0VnJheklCeG92YQ?oc=5",
+        "summary": "LG Display Develops New OLED Panels With More Brightness And Longer Lifespans Forbes",
+        "technologies": [],
+        "collected_at": "2026-10-28T05:30:03.545952+00:00",
+        "document_id": "118323f730a4413d5270",
+        "published_date": "2026-08-19",
+        "company": [
+          "LG디스플레이"
+        ],
+        "technology": [],
+        "keywords": [],
+        "keyword_scores": {},
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMjExRlJOZlRaNEdxN3o4RkExNVFzcEtoTWM2RFFvS3JrVkFPOXA5YjNPM2t4X2xLdXRheElZdmxGYk04ZmxycFEwSHhRM0ZXMkJISmJQWGZzX1ZjcmUtWUQ3dGxWOEdzWEktcmR3ODlycTVyNkpnNGlJVkd4WHNRNi12Y1lhb0JRVndEUTRsek51aEJVb2hqT3NmNlFuaHFHUjZfMUVnYnhtT2xqbmEzZ1l3bWZRTkpJRXZDVFB0VnJheklCeG92YQ?oc=5"
+      },
+      {
+        "id": "7a9e4dab988002e55084",
+        "doi": "",
+        "source_type": "news",
+        "source": "Samsung Display Newsroom",
+        "region": "international",
+        "title": "Why Five Layers? Inside Samsung Display's QD-OLED Penta Tandem - Samsung Display Newsroom",
+        "published_at": "2026-03-25",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE43UVNjdjVZR21zVzd5LUxLbldSZXo4ZGR5TGRIUnI1ZUhocEc3N1pYdnlSTTg3S1A4dUJVVklkUmhWSG9haFJlTk5rQmprbE1Q?oc=5",
+        "summary": "Why Five Layers? Inside Samsung Display's QD-OLED Penta Tandem Samsung Display Newsroom",
+        "technologies": [],
+        "collected_at": "2026-10-28T05:30:03.875532+00:00",
+        "document_id": "7a9e4dab988002e55084",
+        "published_date": "2026-03-25",
+        "company": [
+          "삼성디스플레이"
+        ],
+        "technology": [],
+        "keywords": [],
+        "keyword_scores": {},
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE43UVNjdjVZR21zVzd5LUxLbldSZXo4ZGR5TGRIUnI1ZUhocEc3N1pYdnlSTTg3S1A4dUJVVklkUmhWSG9haFJlTk5rQmprbE1Q?oc=5"
+      },
+      {
+        "id": "2918ddc5d3e2fb7117da",
+        "doi": "",
+        "source_type": "news",
+        "source": "Expert Reviews",
+        "region": "international",
+        "title": "What is Primary RGB Tandem OLED? - Expert Reviews",
+        "published_at": "2025-04-20",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObTI0ck94UVF5ZUM4cHJRU0ZOdGxBb0Y5cGF2ZjhaRW1jMTdtVDk3akNaaFJBRG02OXhMSnl0M3hsNVBteWlyZTdDTzkyVjEzT01JZ19abjJNc094UGdaV0o0bzJIRXdUNkZCTENab0ZsQXMxMG93T2E2S09LRm93T25vTG53al9wcnA3T0IyanFYSnl5?oc=5",
+        "summary": "What is Primary RGB Tandem OLED? Expert Reviews",
         "technologies": [
           "발광 구조"
         ],
-        "collected_at": "2026-10-27T15:22:45.576082+00:00",
-        "document_id": "92daf6f4697e71b7579b",
-        "published_date": "2026-05-05",
+        "collected_at": "2026-10-28T05:30:03.875996+00:00",
+        "document_id": "2918ddc5d3e2fb7117da",
+        "published_date": "2025-04-20",
+        "company": [],
+        "technology": [
+          "발광 구조"
+        ],
+        "keywords": [
+          "탠덤 OLED"
+        ],
+        "keyword_scores": {
+          "탠덤 OLED": 3
+        },
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObTI0ck94UVF5ZUM4cHJRU0ZOdGxBb0Y5cGF2ZjhaRW1jMTdtVDk3akNaaFJBRG02OXhMSnl0M3hsNVBteWlyZTdDTzkyVjEzT01JZ19abjJNc094UGdaV0o0bzJIRXdUNkZCTENab0ZsQXMxMG93T2E2S09LRm93T25vTG53al9wcnA3T0IyanFYSnl5?oc=5"
+      },
+      {
+        "id": "4272511441b10d47dbe1",
+        "doi": "",
+        "source_type": "news",
+        "source": "Notebookcheck",
+        "region": "international",
+        "title": "LG announces that new Apple iPad Pro tandem OLED displays will soon be headed to laptops - Notebookcheck",
+        "published_at": "2024-06-24",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeWc4VDFpQ3JSN0tkbzRBQXhzOVJ6SEJDWmUtUnBweGZaQVZRSnZDMDBicU9VbXdDUGg3TnVPaTBpS1hOZFZwQlZQSXRnNmJPbzhNUWRpaEFjeXd4OThhOTRkejdZdXpSTmNzd2Q1djBDSTFObGxidGNJVGhlakpGcXppUFE1Q1NzNFNVa1dJWG1KMEZSMGpTT0Rvd1ZWT0dzYmsyc2hZbkRFMU1TUWlCZEZvb3V3Y0RyNWZoeURsX2tFX3U0T09OOTNNY1Y?oc=5",
+        "summary": "LG announces that new Apple iPad Pro tandem OLED displays will soon be headed to laptops Notebookcheck",
+        "technologies": [
+          "발광 구조"
+        ],
+        "collected_at": "2026-10-28T05:30:03.875719+00:00",
+        "document_id": "4272511441b10d47dbe1",
+        "published_date": "2024-06-24",
         "company": [
-          "LG디스플레이"
+          "Apple"
         ],
         "technology": [
           "발광 구조"
@@ -32,18 +107,18 @@
           "탠덤 OLED": 3
         },
         "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE10SEZoOUF5c29SV0FZN21GMHlRTGF4VnhDWWJjUl8xZXBvanl4VU5LZW1FRVBfdkl4YmFrRlp2WGVFZFNuTUxqZnNfR1huYmlSbGZoOTU4eHpDQ21Xa19FTU84MlhKczZjRDZLNXdoUDRqZnlF?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeWc4VDFpQ3JSN0tkbzRBQXhzOVJ6SEJDWmUtUnBweGZaQVZRSnZDMDBicU9VbXdDUGg3TnVPaTBpS1hOZFZwQlZQSXRnNmJPbzhNUWRpaEFjeXd4OThhOTRkejdZdXpSTmNzd2Q1djBDSTFObGxidGNJVGhlakpGcXppUFE1Q1NzNFNVa1dJWG1KMEZSMGpTT0Rvd1ZWT0dzYmsyc2hZbkRFMU1TUWlCZEZvb3V3Y0RyNWZoeURsX2tFX3U0T09OOTNNY1Y?oc=5"
       }
     ],
-    "source_errors": 3
+    "source_errors": 2
   },
-  "input": 780,
-  "excluded_irrelevant": 287,
-  "excluded_before_2023": 84,
-  "duplicates_removed": 131,
-  "saved": 278,
+  "input": 791,
+  "excluded_irrelevant": 295,
+  "excluded_before_2023": 89,
+  "duplicates_removed": 125,
+  "saved": 282,
   "missing_date": 0,
   "missing_summary": 22,
-  "source_errors": 3,
-  "generated_at": "2026-10-27T15:23:38.689447+00:00"
+  "source_errors": 2,
+  "generated_at": "2026-10-28T05:30:47.478101+00:00"
 }

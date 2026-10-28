@@ -12,7 +12,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.571648+00:00",
+    "collected_at": "2026-10-28T05:30:02.867089+00:00",
     "document_id": "6f4c358c81a4d7838ad3",
     "published_date": "2026-10-13",
     "company": [
@@ -44,7 +44,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.575273+00:00",
+    "collected_at": "2026-10-28T05:30:02.871399+00:00",
     "document_id": "a3a06e2497a577e0d917",
     "published_date": "2026-10-12",
     "company": [],
@@ -73,7 +73,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.571546+00:00",
+    "collected_at": "2026-10-28T05:30:02.866907+00:00",
     "document_id": "27b86797b0b2eb442afe",
     "published_date": "2026-10-12",
     "company": [
@@ -135,7 +135,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.571307+00:00",
+    "collected_at": "2026-10-28T05:30:02.866744+00:00",
     "document_id": "7923e06b3dd70f8780ce",
     "published_date": "2026-10-11",
     "company": [
@@ -166,7 +166,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.571598+00:00",
+    "collected_at": "2026-10-28T05:30:02.867027+00:00",
     "document_id": "78d34ff1048dd8dfc53f",
     "published_date": "2026-10-11",
     "company": [
@@ -198,7 +198,7 @@
     "technologies": [
       "제조/공정"
     ],
-    "collected_at": "2026-10-26T17:32:35.930791+00:00",
+    "collected_at": "2026-10-28T05:30:02.455204+00:00",
     "document_id": "69cb74d7e0374ef08660",
     "published_date": "2026-10-11",
     "company": [
@@ -227,7 +227,7 @@
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xRzRqeHJxbnBhN0Z0SUszN2VyZTZBYlV6OG11Qk96U3NPVmxiQTFhOE44dXc1ejBobU16cTlXc3YxdzVzNzlHdGNFQWIwZFRWeGItSG9oeWZoa3BQSDZ1Snp2NlVmSXdkalh0UQ?oc=5",
     "summary": "LGD '꿈의 OLED' 플립…FMM 없애고 휘도 최대 1.6배·수명 최대 2.4배 높인 비결은? ER 이코노믹리뷰",
     "technologies": [],
-    "collected_at": "2026-10-27T15:22:45.157631+00:00",
+    "collected_at": "2026-10-28T05:30:02.455128+00:00",
     "document_id": "68d1e0e980329841e55e",
     "published_date": "2026-10-11",
     "company": [
@@ -283,7 +283,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.573991+00:00",
+    "collected_at": "2026-10-28T05:30:02.869718+00:00",
     "document_id": "2bf04f68d9b8ac3a0f2b",
     "published_date": "2026-10-10",
     "company": [],
@@ -333,7 +333,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-27T15:22:45.881102+00:00",
+    "collected_at": "2026-10-28T05:30:03.202253+00:00",
     "document_id": "e628ee971bfa29736efc",
     "published_date": "2026-09-22",
     "company": [
@@ -459,7 +459,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.574085+00:00",
+    "collected_at": "2026-10-28T05:30:02.869524+00:00",
     "document_id": "cb5992b037a35286f945",
     "published_date": "2026-09-07",
     "company": [
@@ -490,7 +490,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.573733+00:00",
+    "collected_at": "2026-10-28T05:30:02.869145+00:00",
     "document_id": "8c547f83e7f6e35e66dd",
     "published_date": "2026-09-06",
     "company": [
@@ -585,7 +585,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.572335+00:00",
+    "collected_at": "2026-10-28T05:30:02.867701+00:00",
     "document_id": "de7beafbde91976241d3",
     "published_date": "2026-08-26",
     "company": [
@@ -627,6 +627,29 @@
     "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSEIxWGdpYUxwbE5xSmtMSjhtVUtGQ1VFRFN3TDU3QzRpdkFMbjBEOVNKWTdEWUdhWTZVb0RWT0VBRmNnbE9yRUNlMFBLVjJEU00tTDdHMWdHSndPdW42U25ETE9ER1dEM2NIWGVyUmZra3RPS2lpb3VLVDI5TklfOQ?oc=5"
   },
   {
+    "id": "118323f730a4413d5270",
+    "doi": "",
+    "source_type": "news",
+    "source": "Forbes",
+    "region": "international",
+    "title": "LG Display Develops New OLED Panels With More Brightness And Longer Lifespans - Forbes",
+    "published_at": "2026-08-19",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMjExRlJOZlRaNEdxN3o4RkExNVFzcEtoTWM2RFFvS3JrVkFPOXA5YjNPM2t4X2xLdXRheElZdmxGYk04ZmxycFEwSHhRM0ZXMkJISmJQWGZzX1ZjcmUtWUQ3dGxWOEdzWEktcmR3ODlycTVyNkpnNGlJVkd4WHNRNi12Y1lhb0JRVndEUTRsek51aEJVb2hqT3NmNlFuaHFHUjZfMUVnYnhtT2xqbmEzZ1l3bWZRTkpJRXZDVFB0VnJheklCeG92YQ?oc=5",
+    "summary": "LG Display Develops New OLED Panels With More Brightness And Longer Lifespans Forbes",
+    "technologies": [],
+    "collected_at": "2026-10-28T05:30:03.545952+00:00",
+    "document_id": "118323f730a4413d5270",
+    "published_date": "2026-08-19",
+    "company": [
+      "LG디스플레이"
+    ],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMjExRlJOZlRaNEdxN3o4RkExNVFzcEtoTWM2RFFvS3JrVkFPOXA5YjNPM2t4X2xLdXRheElZdmxGYk04ZmxycFEwSHhRM0ZXMkJISmJQWGZzX1ZjcmUtWUQ3dGxWOEdzWEktcmR3ODlycTVyNkpnNGlJVkd4WHNRNi12Y1lhb0JRVndEUTRsek51aEJVb2hqT3NmNlFuaHFHUjZfMUVnYnhtT2xqbmEzZ1l3bWZRTkpJRXZDVFB0VnJheklCeG92YQ?oc=5"
+  },
+  {
     "id": "7723cfa26c40df7b2c8b",
     "doi": "",
     "source_type": "news",
@@ -660,7 +683,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.571495+00:00",
+    "collected_at": "2026-10-28T05:30:02.866957+00:00",
     "document_id": "8446c6e95f73a5c55cd0",
     "published_date": "2026-08-13",
     "company": [
@@ -812,7 +835,7 @@
       "야외 시인성"
     ],
     "citation_count": 0,
-    "collected_at": "2026-10-19T04:32:16.684027+00:00",
+    "collected_at": "2026-10-28T05:30:44.484785+00:00",
     "document_id": "7adab2ec3b1272ea713f",
     "published_date": "2026-08-01",
     "company": [],
@@ -845,7 +868,7 @@
       "초고휘도",
       "야외 시인성"
     ],
-    "collected_at": "2026-10-27T15:22:41.761738+00:00",
+    "collected_at": "2026-10-28T05:29:57.459165+00:00",
     "document_id": "3f7164bb6606a3c2ff02",
     "published_date": "2026-08-01",
     "company": [],
@@ -951,7 +974,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-27T15:22:37.280081+00:00",
+    "collected_at": "2026-10-28T05:29:52.484697+00:00",
     "document_id": "0c7b1b1f67fcc937d861",
     "published_date": "2026-08-01",
     "company": [],
@@ -1012,7 +1035,7 @@
       "발광 구조",
       "제조/공정"
     ],
-    "collected_at": "2026-10-27T15:22:45.572013+00:00",
+    "collected_at": "2026-10-28T05:30:02.867415+00:00",
     "document_id": "5a9920c7fee00b712b45",
     "published_date": "2026-07-31",
     "company": [
@@ -1046,7 +1069,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.572564+00:00",
+    "collected_at": "2026-10-28T05:30:02.868139+00:00",
     "document_id": "743a3c7cf023343949cd",
     "published_date": "2026-07-30",
     "company": [
@@ -1077,7 +1100,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:20:11.506747+00:00",
+    "collected_at": "2026-10-28T05:30:03.875351+00:00",
     "document_id": "6c56395286e3ed466b54",
     "published_date": "2026-07-28",
     "company": [
@@ -1108,7 +1131,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.571835+00:00",
+    "collected_at": "2026-10-28T05:30:02.867319+00:00",
     "document_id": "7a286afc91935cd93c61",
     "published_date": "2026-07-24",
     "company": [
@@ -1220,7 +1243,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.573498+00:00",
+    "collected_at": "2026-10-28T05:30:02.869026+00:00",
     "document_id": "4a598cb2197392de714e",
     "published_date": "2026-07-22",
     "company": [
@@ -1251,7 +1274,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.572062+00:00",
+    "collected_at": "2026-10-28T05:30:02.867461+00:00",
     "document_id": "200e3dff05dd337abc15",
     "published_date": "2026-07-22",
     "company": [],
@@ -1281,7 +1304,7 @@
       "저전력",
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.572802+00:00",
+    "collected_at": "2026-10-28T05:30:02.868277+00:00",
     "document_id": "124e84a816662a71b0c9",
     "published_date": "2026-07-22",
     "company": [
@@ -1315,7 +1338,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.572292+00:00",
+    "collected_at": "2026-10-28T05:30:02.867834+00:00",
     "document_id": "0003a656118aad104411",
     "published_date": "2026-07-22",
     "company": [],
@@ -1344,7 +1367,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.572970+00:00",
+    "collected_at": "2026-10-28T05:30:02.868367+00:00",
     "document_id": "dd6321eb33dc7e9cce34",
     "published_date": "2026-07-21",
     "company": [
@@ -1437,7 +1460,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.573308+00:00",
+    "collected_at": "2026-10-28T05:30:02.868600+00:00",
     "document_id": "c4dcc7921aea36add511",
     "published_date": "2026-07-21",
     "company": [
@@ -1468,7 +1491,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.571905+00:00",
+    "collected_at": "2026-10-28T05:30:02.867370+00:00",
     "document_id": "c24b86bd8a7ec04e8efc",
     "published_date": "2026-07-21",
     "company": [
@@ -1565,7 +1588,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.575876+00:00",
+    "collected_at": "2026-10-28T05:30:02.871539+00:00",
     "document_id": "add5308879f1fc889d8e",
     "published_date": "2026-07-21",
     "company": [
@@ -1596,7 +1619,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.571964+00:00",
+    "collected_at": "2026-10-28T05:30:02.867505+00:00",
     "document_id": "aa1fa64cbd8c85af59bc",
     "published_date": "2026-07-21",
     "company": [
@@ -1628,7 +1651,7 @@
       "저전력",
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.575678+00:00",
+    "collected_at": "2026-10-28T05:30:02.871308+00:00",
     "document_id": "88beddd1a578c77a2602",
     "published_date": "2026-07-21",
     "company": [],
@@ -1660,7 +1683,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.574041+00:00",
+    "collected_at": "2026-10-28T05:30:02.869575+00:00",
     "document_id": "6efb038d9d47cb5c7880",
     "published_date": "2026-07-21",
     "company": [
@@ -1692,7 +1715,7 @@
       "저전력",
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.574277+00:00",
+    "collected_at": "2026-10-28T05:30:02.869854+00:00",
     "document_id": "6aa938d965e52177b46a",
     "published_date": "2026-07-21",
     "company": [
@@ -1726,7 +1749,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.572380+00:00",
+    "collected_at": "2026-10-28T05:30:02.868033+00:00",
     "document_id": "656dc45956ffbe0e685a",
     "published_date": "2026-07-21",
     "company": [
@@ -1792,7 +1815,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.572200+00:00",
+    "collected_at": "2026-10-28T05:30:02.867549+00:00",
     "document_id": "46e6f55aed26f50aa42e",
     "published_date": "2026-07-21",
     "company": [
@@ -1854,7 +1877,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.573638+00:00",
+    "collected_at": "2026-10-28T05:30:02.869096+00:00",
     "document_id": "33ece2bfb5b6ad9c64ed",
     "published_date": "2026-07-21",
     "company": [
@@ -1885,7 +1908,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.571789+00:00",
+    "collected_at": "2026-10-28T05:30:02.867269+00:00",
     "document_id": "13fbae0757e019c11ccc",
     "published_date": "2026-07-21",
     "company": [
@@ -1916,7 +1939,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.573165+00:00",
+    "collected_at": "2026-10-28T05:30:02.868872+00:00",
     "document_id": "0f308223cf8e07d7074e",
     "published_date": "2026-07-21",
     "company": [
@@ -2071,7 +2094,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.573015+00:00",
+    "collected_at": "2026-10-28T05:30:02.868692+00:00",
     "document_id": "c9730e8856f1f61e2b82",
     "published_date": "2026-07-20",
     "company": [
@@ -2102,7 +2125,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.573217+00:00",
+    "collected_at": "2026-10-28T05:30:02.868828+00:00",
     "document_id": "c1926277cb2e2a581b05",
     "published_date": "2026-07-20",
     "company": [
@@ -2133,7 +2156,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.575361+00:00",
+    "collected_at": "2026-10-28T05:30:02.871000+00:00",
     "document_id": "b6c9de7a2c025bb73c32",
     "published_date": "2026-07-20",
     "company": [
@@ -2164,7 +2187,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.572110+00:00",
+    "collected_at": "2026-10-28T05:30:02.867747+00:00",
     "document_id": "88c1e7fc9492be1a3c6a",
     "published_date": "2026-07-20",
     "company": [
@@ -2195,7 +2218,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.572664+00:00",
+    "collected_at": "2026-10-28T05:30:02.868182+00:00",
     "document_id": "888b04c409006fa25b44",
     "published_date": "2026-07-20",
     "company": [
@@ -2257,7 +2280,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.573823+00:00",
+    "collected_at": "2026-10-28T05:30:02.869806+00:00",
     "document_id": "5df35a6a165da82df27e",
     "published_date": "2026-07-20",
     "company": [
@@ -2288,7 +2311,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.574463+00:00",
+    "collected_at": "2026-10-28T05:30:02.870280+00:00",
     "document_id": "50f28e17be5f26bfa071",
     "published_date": "2026-07-20",
     "company": [
@@ -2320,7 +2343,7 @@
       "발광 구조",
       "제조/공정"
     ],
-    "collected_at": "2026-10-27T15:22:45.574960+00:00",
+    "collected_at": "2026-10-28T05:30:02.871123+00:00",
     "document_id": "45ce29bc5014ed7d7cb0",
     "published_date": "2026-07-20",
     "company": [
@@ -2416,7 +2439,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.572851+00:00",
+    "collected_at": "2026-10-28T05:30:02.868412+00:00",
     "document_id": "376c63f4d8e922a003b5",
     "published_date": "2026-07-20",
     "company": [
@@ -2478,7 +2501,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.571743+00:00",
+    "collected_at": "2026-10-28T05:30:02.867182+00:00",
     "document_id": "2dddef001100fabe6809",
     "published_date": "2026-07-20",
     "company": [
@@ -2509,7 +2532,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.574228+00:00",
+    "collected_at": "2026-10-28T05:30:02.870134+00:00",
     "document_id": "234e70b666dee7c34fb2",
     "published_date": "2026-07-20",
     "company": [
@@ -2540,7 +2563,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-23T04:39:20.690043+00:00",
+    "collected_at": "2026-10-28T05:30:02.869287+00:00",
     "document_id": "1f501d005906262a7b47",
     "published_date": "2026-07-20",
     "company": [
@@ -2571,7 +2594,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.575052+00:00",
+    "collected_at": "2026-10-28T05:30:02.870648+00:00",
     "document_id": "0ca847028b51340ae381",
     "published_date": "2026-07-20",
     "company": [
@@ -2602,7 +2625,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.574329+00:00",
+    "collected_at": "2026-10-28T05:30:02.870422+00:00",
     "document_id": "0b3ce39cc7e2764e0792",
     "published_date": "2026-07-20",
     "company": [
@@ -2633,7 +2656,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.574838+00:00",
+    "collected_at": "2026-10-28T05:30:02.870696+00:00",
     "document_id": "04e372bc723e0f559205",
     "published_date": "2026-07-20",
     "company": [
@@ -2767,7 +2790,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-27T15:22:45.572620+00:00",
+    "collected_at": "2026-10-28T05:30:02.867970+00:00",
     "document_id": "1198ef85b96850cc8a49",
     "published_date": "2026-07-09",
     "company": [
@@ -2798,7 +2821,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-27T15:22:46.868938+00:00",
+    "collected_at": "2026-10-28T05:30:04.145442+00:00",
     "document_id": "21a7597e2ea4d6f13eee",
     "published_date": "2026-07-08",
     "company": [],
@@ -2887,7 +2910,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.572755+00:00",
+    "collected_at": "2026-10-28T05:30:02.868230+00:00",
     "document_id": "00cbdcc1dd1680b63740",
     "published_date": "2026-06-09",
     "company": [
@@ -2918,7 +2941,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-27T15:22:46.611981+00:00",
+    "collected_at": "2026-10-28T05:30:03.874379+00:00",
     "document_id": "0e05ccdd84974108307e",
     "published_date": "2026-06-03",
     "company": [
@@ -2969,41 +2992,6 @@
     "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbTlndjZZYU1sTUxwOHptNDlfQmhiQ2taeGItNUpmWmU4WnlZNGJ5UlpXT1NRdXFKZkNQQ2JIaDlZQUFGN3VLcklhWVVtS1FCM2p2cC1sZkhmY2xWTE8yYkhnaThmMEppOW55NmFYeVlFcjVxSG5xZ2lIbnYtMmJMbGlqemV1aS05U25IeWlpZXFicEF3NmhEWElUUDFnZmpjeDFYM09FU1ljM1BCcHEwbVNVellkNGlNT0t0YmFIT203akI0NUlhcUxfcVI?oc=5"
   },
   {
-    "id": "e1f7a48776693f554739",
-    "doi": "10.1002/sdtp.70001_10",
-    "source_type": "paper",
-    "source": "Crossref",
-    "region": "international",
-    "title": "3‐1: Invited Paper: Polarizer‐free, High‐efficiency OLED Display Architecture Integrating Both Color Filters on Encapsulation (COE) and Microlens Array (MLA)",
-    "published_at": "2026-06-01",
-    "url": "https://doi.org/10.1002/sdtp.70001_10",
-    "summary": "We propose a high‐efficiency, polarizer free OLED pixel architecture integrating both the color filters on encapsulation (COE) and the microlens array (MLA). Such design could simultaneously eliminate the circular polarizer (CP) for high contrast, optimize ambient‐reflection color to meet D65 L*a*b* targets, and enhance forward emission intensity, as validated by the hybrid multi‐scale optical simulation framework combining wave‐ and geometric‐optics.",
-    "technologies": [
-      "야외 시인성",
-      "제조/공정"
-    ],
-    "collected_at": "2026-10-27T15:22:41.761574+00:00",
-    "document_id": "e1f7a48776693f554739",
-    "published_date": "2026-06-01",
-    "company": [],
-    "technology": [
-      "야외 시인성",
-      "제조/공정"
-    ],
-    "keywords": [
-      "MLA",
-      "무편광판",
-      "봉지 공정"
-    ],
-    "keyword_scores": {
-      "MLA": 3,
-      "무편광판": 1,
-      "봉지 공정": 3
-    },
-    "metrics": [],
-    "source_url": "https://doi.org/10.1002/sdtp.70001_10"
-  },
-  {
     "id": "d7fbb841b97b50375759",
     "doi": "10.1002/sdtp.70001_691",
     "source_type": "paper",
@@ -3048,6 +3036,40 @@
     "source_url": "https://www.semanticscholar.org/paper/1d740d9449ba82de2fdcc8e377ab1211a96d8b87"
   },
   {
+    "id": "a37896ceb65e3fb6736c",
+    "doi": "10.1002/sdtp.70001_248",
+    "source_type": "paper",
+    "source": "Semantic Scholar",
+    "region": "international",
+    "title": "66‐1: Research on Residual Characteristics of Low‐Temperature Curable Black Matrix for COE Technology Applied in OLED Display",
+    "published_at": "2026-06-01",
+    "url": "https://www.semanticscholar.org/paper/e8a764eec8b7c33412f8a2538f27022e1c86b582",
+    "summary": "Low‐temperature curable black matrix (BM) acrylic photoresist is one of the key materials enabling the color filter on encapsulation (COE) technology. In OLED panels, BM is typically fabricated on inorganic silicon nitride (SiN) or organic over coating (OC) substrates with pixel hole patterns. This study reveals the presence of residues in the pixel hole area of BM on different substrates, confirming that the residues originate from the BM material itself. Furthermore, mechanisms of BM Residue formation and improvement are clarified: the residue is primarily determined by the polarity difference between BM and substrate molecules. The smaller the polarity difference, the more residues are ge",
+    "technologies": [
+      "초고휘도",
+      "야외 시인성"
+    ],
+    "citation_count": 0,
+    "collected_at": "2026-10-28T05:30:44.484705+00:00",
+    "document_id": "a37896ceb65e3fb6736c",
+    "published_date": "2026-06-01",
+    "company": [],
+    "technology": [
+      "초고휘도",
+      "야외 시인성"
+    ],
+    "keywords": [
+      "COE display",
+      "휘도"
+    ],
+    "keyword_scores": {
+      "COE display": 1,
+      "휘도": 1
+    },
+    "metrics": [],
+    "source_url": "https://www.semanticscholar.org/paper/e8a764eec8b7c33412f8a2538f27022e1c86b582"
+  },
+  {
     "id": "a319ad9cecee41a72dd4",
     "source_type": "paper",
     "source": "Crossref",
@@ -3088,7 +3110,7 @@
     "technologies": [
       "제조/공정"
     ],
-    "collected_at": "2026-10-27T15:22:37.280302+00:00",
+    "collected_at": "2026-10-28T05:29:52.484876+00:00",
     "document_id": "a319ad9cecee41a72dd4",
     "published_date": "2026-06-01",
     "company": [],
@@ -3119,7 +3141,7 @@
       "야외 시인성"
     ],
     "citation_count": 0,
-    "collected_at": "2026-10-19T04:32:16.684335+00:00",
+    "collected_at": "2026-10-28T05:30:44.485093+00:00",
     "document_id": "8e56a0357a6ddb11bf56",
     "published_date": "2026-06-01",
     "company": [],
@@ -3139,39 +3161,6 @@
     },
     "metrics": [],
     "source_url": "https://www.semanticscholar.org/paper/bc3457b8364e3ea5090d9dd94221e042bb0b3791"
-  },
-  {
-    "id": "7f21ff8160c62bd848a0",
-    "doi": "10.1002/sdtp.70001_248",
-    "source_type": "paper",
-    "source": "Crossref",
-    "region": "international",
-    "title": "66‐1: Research on Residual Characteristics of Low‐Temperature Curable Black Matrix for COE Technology Applied in OLED Display",
-    "published_at": "2026-06-01",
-    "url": "https://doi.org/10.1002/sdtp.70001_248",
-    "summary": "Low‐temperature curable black matrix (BM) acrylic photoresist is one of the key materials enabling the color filter on encapsulation (COE) technology. In OLED panels, BM is typically fabricated on inorganic silicon nitride (SiN) or organic over coating (OC) substrates with pixel hole patterns. This study reveals the presence of residues in the pixel hole area of BM on different substrates, confirming that the residues originate from the BM material itself. Furthermore, mechanisms of BM Residue formation and improvement are clarified: the residue is primarily determined by the polarity difference between BM and substrate molecules. The smaller the polarity difference, the more residues are ge",
-    "technologies": [
-      "초고휘도",
-      "야외 시인성"
-    ],
-    "collected_at": "2026-10-27T15:22:41.762054+00:00",
-    "document_id": "7f21ff8160c62bd848a0",
-    "published_date": "2026-06-01",
-    "company": [],
-    "technology": [
-      "초고휘도",
-      "야외 시인성"
-    ],
-    "keywords": [
-      "COE display",
-      "휘도"
-    ],
-    "keyword_scores": {
-      "COE display": 1,
-      "휘도": 1
-    },
-    "metrics": [],
-    "source_url": "https://doi.org/10.1002/sdtp.70001_248"
   },
   {
     "id": "7ed1b4c5e49613703ee6",
@@ -3332,6 +3321,72 @@
     "source_url": "https://www.semanticscholar.org/paper/94476c96c7615a28e65cec37c599cefa2caf641d"
   },
   {
+    "id": "4cc836717c0bfce9ddec",
+    "doi": "10.1002/sdtp.70001_10",
+    "source_type": "paper",
+    "source": "Semantic Scholar",
+    "region": "international",
+    "title": "3‐1: Invited Paper: Polarizer‐free, High‐efficiency OLED Display Architecture Integrating Both Color Filters on Encapsulation (COE) and Microlens Array (MLA)",
+    "published_at": "2026-06-01",
+    "url": "https://www.semanticscholar.org/paper/b144825eb10f392900df9a511e313c1e419a3f86",
+    "summary": "We propose a high‐efficiency, polarizer free OLED pixel architecture integrating both the color filters on encapsulation (COE) and the microlens array (MLA). Such design could simultaneously eliminate the circular polarizer (CP) for high contrast, optimize ambient‐reflection color to meet D65 L*a*b* targets, and enhance forward emission intensity, as validated by the hybrid multi‐scale optical simulation framework combining wave‐ and geometric‐optics.",
+    "technologies": [
+      "야외 시인성",
+      "제조/공정"
+    ],
+    "citation_count": 0,
+    "collected_at": "2026-10-28T05:30:44.484600+00:00",
+    "document_id": "4cc836717c0bfce9ddec",
+    "published_date": "2026-06-01",
+    "company": [],
+    "technology": [
+      "야외 시인성",
+      "제조/공정"
+    ],
+    "keywords": [
+      "MLA",
+      "무편광판",
+      "봉지 공정"
+    ],
+    "keyword_scores": {
+      "MLA": 3,
+      "무편광판": 1,
+      "봉지 공정": 3
+    },
+    "metrics": [],
+    "source_url": "https://www.semanticscholar.org/paper/b144825eb10f392900df9a511e313c1e419a3f86"
+  },
+  {
+    "id": "227e372ff400bfe4cc0e",
+    "doi": "10.1002/sdtp.70001_11",
+    "source_type": "paper",
+    "source": "Semantic Scholar",
+    "region": "international",
+    "title": "3‐2: Development of Inkjet‐Printable Materials for Color Filters in COE OLED Displays",
+    "published_at": "2026-06-01",
+    "url": "https://www.semanticscholar.org/paper/8b7314331bcb60c32ed9be5a3bc5d3638c8aa169",
+    "summary": "This research developed a novel Inkjet Printing (IJP) material for Color Filter on Encapsulation (COE) displays. Optical simulation guided the material design, and printing trials on a 326 PPI substrate successfully produced functional samples. These samples achieved a 30% power reduction and a reflectance of 6.41%, meeting technical standards. The IJP‐COE process simplifies manufacturing, boosts material utilization, cuts costs, and increases capacity, establishing a foundation for advanced display technology.",
+    "technologies": [
+      "야외 시인성"
+    ],
+    "citation_count": 0,
+    "collected_at": "2026-10-28T05:30:44.484852+00:00",
+    "document_id": "227e372ff400bfe4cc0e",
+    "published_date": "2026-06-01",
+    "company": [],
+    "technology": [
+      "야외 시인성"
+    ],
+    "keywords": [
+      "COE display"
+    ],
+    "keyword_scores": {
+      "COE display": 3
+    },
+    "metrics": [],
+    "source_url": "https://www.semanticscholar.org/paper/8b7314331bcb60c32ed9be5a3bc5d3638c8aa169"
+  },
+  {
     "id": "1d1162d46eb946a988d0",
     "source_type": "paper",
     "source": "Crossref",
@@ -3372,7 +3427,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-27T15:22:37.280731+00:00",
+    "collected_at": "2026-10-28T05:29:52.485307+00:00",
     "document_id": "1d1162d46eb946a988d0",
     "published_date": "2026-06-01",
     "company": [],
@@ -3429,7 +3484,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-27T15:22:37.280164+00:00",
+    "collected_at": "2026-10-28T05:29:52.484774+00:00",
     "document_id": "16fe0b14ec1a893dc6d9",
     "published_date": "2026-06-01",
     "company": [],
@@ -3444,35 +3499,6 @@
     },
     "metrics": [],
     "source_url": "https://doi.org/10.1002/sdtp.70001_687"
-  },
-  {
-    "id": "09ab737728b26b3e8bcf",
-    "doi": "10.1002/sdtp.70001_11",
-    "source_type": "paper",
-    "source": "Crossref",
-    "region": "international",
-    "title": "3‐2: Development of Inkjet‐Printable Materials for Color Filters in COE OLED Displays",
-    "published_at": "2026-06-01",
-    "url": "https://doi.org/10.1002/sdtp.70001_11",
-    "summary": "This research developed a novel Inkjet Printing (IJP) material for Color Filter on Encapsulation (COE) displays. Optical simulation guided the material design, and printing trials on a 326 PPI substrate successfully produced functional samples. These samples achieved a 30% power reduction and a reflectance of 6.41%, meeting technical standards. The IJP‐COE process simplifies manufacturing, boosts material utilization, cuts costs, and increases capacity, establishing a foundation for advanced display technology.",
-    "technologies": [
-      "야외 시인성"
-    ],
-    "collected_at": "2026-10-27T15:22:41.762244+00:00",
-    "document_id": "09ab737728b26b3e8bcf",
-    "published_date": "2026-06-01",
-    "company": [],
-    "technology": [
-      "야외 시인성"
-    ],
-    "keywords": [
-      "COE display"
-    ],
-    "keyword_scores": {
-      "COE display": 3
-    },
-    "metrics": [],
-    "source_url": "https://doi.org/10.1002/sdtp.70001_11"
   },
   {
     "id": "b4243e7f9398b0de3351",
@@ -3529,7 +3555,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-27T15:22:45.571693+00:00",
+    "collected_at": "2026-10-28T05:30:02.867136+00:00",
     "document_id": "f6c093cdeb2ff7ec59bf",
     "published_date": "2026-05-07",
     "company": [
@@ -3622,7 +3648,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.574372+00:00",
+    "collected_at": "2026-10-28T05:30:02.869760+00:00",
     "document_id": "a199a74afe04ce5f9e90",
     "published_date": "2026-05-06",
     "company": [],
@@ -3682,7 +3708,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.572921+00:00",
+    "collected_at": "2026-10-28T05:30:02.868322+00:00",
     "document_id": "e3491e904c20366e31f2",
     "published_date": "2026-05-05",
     "company": [
@@ -3869,7 +3895,7 @@
       "발광 구조",
       "제조/공정"
     ],
-    "collected_at": "2026-10-27T15:22:45.574649+00:00",
+    "collected_at": "2026-10-28T05:30:02.870233+00:00",
     "document_id": "71bb4813b75be2f11716",
     "published_date": "2026-05-05",
     "company": [
@@ -3903,7 +3929,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.575546+00:00",
+    "collected_at": "2026-10-28T05:30:02.871176+00:00",
     "document_id": "46918192c791852d5f87",
     "published_date": "2026-05-05",
     "company": [
@@ -3936,7 +3962,7 @@
       "초고휘도",
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.573066+00:00",
+    "collected_at": "2026-10-28T05:30:02.868508+00:00",
     "document_id": "1ec4d2d6076c9b8ac433",
     "published_date": "2026-05-05",
     "company": [
@@ -3970,7 +3996,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.575945+00:00",
+    "collected_at": "2026-10-28T05:30:02.871582+00:00",
     "document_id": "08c0a210233b1c1eba23",
     "published_date": "2026-05-05",
     "company": [
@@ -4183,6 +4209,29 @@
     "source_url": "https://www.semanticscholar.org/paper/1ce577b0c4a387f0d46dde74455dc99b10d9998b"
   },
   {
+    "id": "7a9e4dab988002e55084",
+    "doi": "",
+    "source_type": "news",
+    "source": "Samsung Display Newsroom",
+    "region": "international",
+    "title": "Why Five Layers? Inside Samsung Display's QD-OLED Penta Tandem - Samsung Display Newsroom",
+    "published_at": "2026-03-25",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE43UVNjdjVZR21zVzd5LUxLbldSZXo4ZGR5TGRIUnI1ZUhocEc3N1pYdnlSTTg3S1A4dUJVVklkUmhWSG9haFJlTk5rQmprbE1Q?oc=5",
+    "summary": "Why Five Layers? Inside Samsung Display's QD-OLED Penta Tandem Samsung Display Newsroom",
+    "technologies": [],
+    "collected_at": "2026-10-28T05:30:03.875532+00:00",
+    "document_id": "7a9e4dab988002e55084",
+    "published_date": "2026-03-25",
+    "company": [
+      "삼성디스플레이"
+    ],
+    "technology": [],
+    "keywords": [],
+    "keyword_scores": {},
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE43UVNjdjVZR21zVzd5LUxLbldSZXo4ZGR5TGRIUnI1ZUhocEc3N1pYdnlSTTg3S1A4dUJVVklkUmhWSG9haFJlTk5rQmprbE1Q?oc=5"
+  },
+  {
     "id": "d7eb6ad92084d2eb4ddb",
     "doi": "",
     "source_type": "news",
@@ -4282,7 +4331,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-27T15:22:46.612568+00:00",
+    "collected_at": "2026-10-28T05:30:03.874649+00:00",
     "document_id": "29ebbb36c0dbc8c66bdd",
     "published_date": "2026-03-17",
     "company": [],
@@ -4333,7 +4382,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.573449+00:00",
+    "collected_at": "2026-10-28T05:30:02.868550+00:00",
     "document_id": "2965183c094441cfea04",
     "published_date": "2026-03-13",
     "company": [
@@ -4364,7 +4413,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.575819+00:00",
+    "collected_at": "2026-10-28T05:30:02.871354+00:00",
     "document_id": "970b922f3c4bfa8c6c4e",
     "published_date": "2026-03-04",
     "company": [
@@ -4395,7 +4444,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-27T15:22:41.762175+00:00",
+    "collected_at": "2026-10-28T05:29:57.459613+00:00",
     "document_id": "432b097efa7eb8953333",
     "published_date": "2026-02-15",
     "company": [],
@@ -4486,7 +4535,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.574791+00:00",
+    "collected_at": "2026-10-28T05:30:02.870327+00:00",
     "document_id": "c2d66907e0984a657999",
     "published_date": "2026-02-12",
     "company": [
@@ -4517,7 +4566,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.573867+00:00",
+    "collected_at": "2026-10-28T05:30:02.869364+00:00",
     "document_id": "8313e24a4e252844bc5c",
     "published_date": "2026-02-12",
     "company": [
@@ -4579,7 +4628,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:45.880939+00:00",
+    "collected_at": "2026-10-28T05:30:03.202144+00:00",
     "document_id": "99aaf93b5e5434f63652",
     "published_date": "2026-02-06",
     "company": [],
@@ -4649,7 +4698,7 @@
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSm13OVVWM1pubURIaUtvb0ZUQnZKT0tqU1BiSm42UkdZN2ZvMHl1VHFrSjhramVQZE0wcDdfc3dMYTdlWTBuRFFHVTlNT3pKaDdsMmE0dzI2TklfOWMyNHVYNG5rVXZZZVdjMXZ5NVhjV3BjUU1fZ1VobTh1SE5rSUQySU83alduR0ZiRHcwTGFGNXkycXJGY2VEaXJSOGt2TkxNOEx6SVZvYXhGMlkyQm9idkZjRDBDSVhN?oc=5",
     "summary": "Stretchable OLED displays can double in size without losing brightness TweakTown",
     "technologies": [],
-    "collected_at": "2026-10-27T15:22:46.245313+00:00",
+    "collected_at": "2026-10-28T05:30:03.546208+00:00",
     "document_id": "6cc22acbaa09d1f3454f",
     "published_date": "2026-01-20",
     "company": [],
@@ -4767,7 +4816,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-27T15:22:46.244654+00:00",
+    "collected_at": "2026-10-28T05:30:03.545563+00:00",
     "document_id": "8d85128ab5701c0367e5",
     "published_date": "2025-12-30",
     "company": [],
@@ -4796,7 +4845,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:20:11.506450+00:00",
+    "collected_at": "2026-10-28T05:30:03.874744+00:00",
     "document_id": "b447887012955d00b83a",
     "published_date": "2025-12-29",
     "company": [],
@@ -4825,7 +4874,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-27T15:22:45.881348+00:00",
+    "collected_at": "2026-10-28T05:30:03.202498+00:00",
     "document_id": "59100e3a066fdbd63a00",
     "published_date": "2025-12-23",
     "company": [
@@ -5030,7 +5079,7 @@
     "technologies": [
       "저전력"
     ],
-    "collected_at": "2026-10-27T15:22:37.279674+00:00",
+    "collected_at": "2026-10-28T05:29:52.484364+00:00",
     "document_id": "23cd24a59a71dd732beb",
     "published_date": "2025-12-04",
     "company": [],
@@ -5089,7 +5138,7 @@
       "야외 시인성"
     ],
     "citation_count": 0,
-    "collected_at": "2026-10-27T15:23:03.402315+00:00",
+    "collected_at": "2026-10-28T05:30:20.313287+00:00",
     "document_id": "e0a07dd0a6e8ea05d3e5",
     "published_date": "2025-11-28",
     "company": [],
@@ -5140,7 +5189,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:46.614334+00:00",
+    "collected_at": "2026-10-28T05:30:03.875770+00:00",
     "document_id": "3e22bee031bca74ef028",
     "published_date": "2025-11-13",
     "company": [],
@@ -5339,7 +5388,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-27T15:22:46.869168+00:00",
+    "collected_at": "2026-10-28T05:30:04.145690+00:00",
     "document_id": "5e599a63b1dd2a16444e",
     "published_date": "2025-09-23",
     "company": [],
@@ -5368,7 +5417,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-27T15:22:46.869341+00:00",
+    "collected_at": "2026-10-28T05:30:04.145853+00:00",
     "document_id": "3779a2fca11d19b36667",
     "published_date": "2025-09-22",
     "company": [],
@@ -5397,7 +5446,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-27T15:22:46.869273+00:00",
+    "collected_at": "2026-10-28T05:30:04.145788+00:00",
     "document_id": "f230fa5034d0208507f2",
     "published_date": "2025-09-21",
     "company": [],
@@ -5581,7 +5630,7 @@
     "technologies": [
       "초고휘도"
     ],
-    "collected_at": "2026-10-27T15:22:46.244855+00:00",
+    "collected_at": "2026-10-28T05:30:03.545811+00:00",
     "document_id": "3532d8127872af50c583",
     "published_date": "2025-09-03",
     "company": [],
@@ -5661,7 +5710,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:46.612493+00:00",
+    "collected_at": "2026-10-28T05:30:03.874931+00:00",
     "document_id": "97845e0df19878e14c05",
     "published_date": "2025-08-27",
     "company": [
@@ -5692,7 +5741,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:20:11.506605+00:00",
+    "collected_at": "2026-10-28T05:30:03.875065+00:00",
     "document_id": "9676572634f22b487ae3",
     "published_date": "2025-08-27",
     "company": [],
@@ -5752,7 +5801,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:20:11.506997+00:00",
+    "collected_at": "2026-10-28T05:30:03.876085+00:00",
     "document_id": "ac17f661a31e77d87bc8",
     "published_date": "2025-08-05",
     "company": [
@@ -5814,7 +5863,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:46.612450+00:00",
+    "collected_at": "2026-10-28T05:30:03.874699+00:00",
     "document_id": "859c19efdaab3af65e0a",
     "published_date": "2025-08-04",
     "company": [],
@@ -5901,7 +5950,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-27T15:22:46.869424+00:00",
+    "collected_at": "2026-10-28T05:30:04.145928+00:00",
     "document_id": "c020432b030bb13b92ce",
     "published_date": "2025-07-14",
     "company": [],
@@ -5930,7 +5979,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-27T15:22:46.869067+00:00",
+    "collected_at": "2026-10-28T05:30:04.145599+00:00",
     "document_id": "965969f71012b37a3acf",
     "published_date": "2025-07-14",
     "company": [],
@@ -6041,7 +6090,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-27T15:22:45.881571+00:00",
+    "collected_at": "2026-10-28T05:30:03.202713+00:00",
     "document_id": "d213e8cd38afab2f08a8",
     "published_date": "2025-06-24",
     "company": [
@@ -6073,7 +6122,7 @@
       "야외 시인성"
     ],
     "citation_count": 4,
-    "collected_at": "2026-10-19T04:32:16.684448+00:00",
+    "collected_at": "2026-10-28T05:30:44.485196+00:00",
     "document_id": "ae672c37a450f96aac77",
     "published_date": "2025-06-01",
     "company": [],
@@ -6102,7 +6151,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-27T15:22:41.761390+00:00",
+    "collected_at": "2026-10-28T05:29:57.458801+00:00",
     "document_id": "9bfdea3ca57e207f0abd",
     "published_date": "2025-06-01",
     "company": [],
@@ -6133,7 +6182,7 @@
       "야외 시인성"
     ],
     "citation_count": 0,
-    "collected_at": "2026-10-27T15:23:37.503437+00:00",
+    "collected_at": "2026-10-28T05:30:46.289758+00:00",
     "document_id": "8f4c6b4917032b041e7f",
     "published_date": "2025-06-01",
     "company": [],
@@ -6166,7 +6215,7 @@
       "야외 시인성"
     ],
     "citation_count": 0,
-    "collected_at": "2026-10-19T04:32:16.684214+00:00",
+    "collected_at": "2026-10-28T05:30:44.484970+00:00",
     "document_id": "4e3e6eec11887f3de603",
     "published_date": "2025-06-01",
     "company": [],
@@ -6197,7 +6246,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-27T15:22:41.761916+00:00",
+    "collected_at": "2026-10-28T05:29:57.459321+00:00",
     "document_id": "4b90979bb535e44eea9c",
     "published_date": "2025-06-01",
     "company": [],
@@ -6226,7 +6275,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:46.613397+00:00",
+    "collected_at": "2026-10-28T05:30:03.875115+00:00",
     "document_id": "ccdbfc34c7143cdf5b9f",
     "published_date": "2025-05-16",
     "company": [],
@@ -6284,7 +6333,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-27T15:22:45.881916+00:00",
+    "collected_at": "2026-10-28T05:30:03.203132+00:00",
     "document_id": "f748080984b27528f1ce",
     "published_date": "2025-05-06",
     "company": [
@@ -6315,7 +6364,7 @@
     "technologies": [
       "야외 시인성"
     ],
-    "collected_at": "2026-10-27T15:22:45.881977+00:00",
+    "collected_at": "2026-10-28T05:30:03.203039+00:00",
     "document_id": "b21c677e9f534f439109",
     "published_date": "2025-05-06",
     "company": [
@@ -6392,6 +6441,35 @@
     },
     "metrics": [],
     "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE56UF9ocXRaWXdRVTdpZGJLS3B1ZVNqMkszRUJKZG4yUm9BTGU0ajdvQzNPT1puejRwbDc2S0tsTkI1MXkzZk9iX0Q1aHhEWS1heDFndmhfSTRaNERjYXNUaU0wWE4wQQ?oc=5"
+  },
+  {
+    "id": "2918ddc5d3e2fb7117da",
+    "doi": "",
+    "source_type": "news",
+    "source": "Expert Reviews",
+    "region": "international",
+    "title": "What is Primary RGB Tandem OLED? - Expert Reviews",
+    "published_at": "2025-04-20",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObTI0ck94UVF5ZUM4cHJRU0ZOdGxBb0Y5cGF2ZjhaRW1jMTdtVDk3akNaaFJBRG02OXhMSnl0M3hsNVBteWlyZTdDTzkyVjEzT01JZ19abjJNc094UGdaV0o0bzJIRXdUNkZCTENab0ZsQXMxMG93T2E2S09LRm93T25vTG53al9wcnA3T0IyanFYSnl5?oc=5",
+    "summary": "What is Primary RGB Tandem OLED? Expert Reviews",
+    "technologies": [
+      "발광 구조"
+    ],
+    "collected_at": "2026-10-28T05:30:03.875996+00:00",
+    "document_id": "2918ddc5d3e2fb7117da",
+    "published_date": "2025-04-20",
+    "company": [],
+    "technology": [
+      "발광 구조"
+    ],
+    "keywords": [
+      "탠덤 OLED"
+    ],
+    "keyword_scores": {
+      "탠덤 OLED": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObTI0ck94UVF5ZUM4cHJRU0ZOdGxBb0Y5cGF2ZjhaRW1jMTdtVDk3akNaaFJBRG02OXhMSnl0M3hsNVBteWlyZTdDTzkyVjEzT01JZ19abjJNc094UGdaV0o0bzJIRXdUNkZCTENab0ZsQXMxMG93T2E2S09LRm93T25vTG53al9wcnA3T0IyanFYSnl5?oc=5"
   },
   {
     "id": "c11e02c5117b4766183a",
@@ -6524,7 +6602,7 @@
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUmswbGlCNHYyZ3VTYjdmWnZPUkNPNk9KTEVuQUJsQXc2LU1kemJqZ1Q5LURfZWI4UEdxZ1NPU1ctaXBXYTdtNG02eEV6UGpUT2hCUUEta1pjZlhCR3Nia1l5SHVQUWNHT1JFdllOSFU1Sjc1U19weFB3QXVhLTAwS1VUbGctc2w4ajFyamplRGg?oc=5",
     "summary": "Garmin Instinct 3 (AMOLED & SOLAR) In-Depth Review DC Rainmaker",
     "technologies": [],
-    "collected_at": "2026-10-27T15:22:46.245118+00:00",
+    "collected_at": "2026-10-28T05:30:03.546295+00:00",
     "document_id": "a0c1d62caa55fe9deb14",
     "published_date": "2025-01-30",
     "company": [],
@@ -6960,7 +7038,7 @@
       "초고휘도",
       "저전력"
     ],
-    "collected_at": "2026-10-27T15:22:37.279636+00:00",
+    "collected_at": "2026-10-28T05:29:52.484333+00:00",
     "document_id": "7380e44968c3125da014",
     "published_date": "2024-08-09",
     "company": [],
@@ -6992,7 +7070,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:46.613980+00:00",
+    "collected_at": "2026-10-28T05:30:03.875488+00:00",
     "document_id": "45b003099dd5a216c0de",
     "published_date": "2024-07-31",
     "company": [],
@@ -7119,7 +7197,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:46.612839+00:00",
+    "collected_at": "2026-10-28T05:30:03.874974+00:00",
     "document_id": "23670bce8e8bf5762e27",
     "published_date": "2024-06-25",
     "company": [
@@ -7173,6 +7251,37 @@
     "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBjOU45OWJHajNqWUlRVE9fSElnX1R1cXh5SzRtQkJVR3pMclk3LV9Rel9Vc19haEFWdDdkQ0tqMXQ5UlI1cm0yU0ZJa0U4RkxsZ045c2ZOQjdNSk5INTAtWmhMdmpDZw?oc=5"
   },
   {
+    "id": "4272511441b10d47dbe1",
+    "doi": "",
+    "source_type": "news",
+    "source": "Notebookcheck",
+    "region": "international",
+    "title": "LG announces that new Apple iPad Pro tandem OLED displays will soon be headed to laptops - Notebookcheck",
+    "published_at": "2024-06-24",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeWc4VDFpQ3JSN0tkbzRBQXhzOVJ6SEJDWmUtUnBweGZaQVZRSnZDMDBicU9VbXdDUGg3TnVPaTBpS1hOZFZwQlZQSXRnNmJPbzhNUWRpaEFjeXd4OThhOTRkejdZdXpSTmNzd2Q1djBDSTFObGxidGNJVGhlakpGcXppUFE1Q1NzNFNVa1dJWG1KMEZSMGpTT0Rvd1ZWT0dzYmsyc2hZbkRFMU1TUWlCZEZvb3V3Y0RyNWZoeURsX2tFX3U0T09OOTNNY1Y?oc=5",
+    "summary": "LG announces that new Apple iPad Pro tandem OLED displays will soon be headed to laptops Notebookcheck",
+    "technologies": [
+      "발광 구조"
+    ],
+    "collected_at": "2026-10-28T05:30:03.875719+00:00",
+    "document_id": "4272511441b10d47dbe1",
+    "published_date": "2024-06-24",
+    "company": [
+      "Apple"
+    ],
+    "technology": [
+      "발광 구조"
+    ],
+    "keywords": [
+      "탠덤 OLED"
+    ],
+    "keyword_scores": {
+      "탠덤 OLED": 3
+    },
+    "metrics": [],
+    "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeWc4VDFpQ3JSN0tkbzRBQXhzOVJ6SEJDWmUtUnBweGZaQVZRSnZDMDBicU9VbXdDUGg3TnVPaTBpS1hOZFZwQlZQSXRnNmJPbzhNUWRpaEFjeXd4OThhOTRkejdZdXpSTmNzd2Q1djBDSTFObGxidGNJVGhlakpGcXppUFE1Q1NzNFNVa1dJWG1KMEZSMGpTT0Rvd1ZWT0dzYmsyc2hZbkRFMU1TUWlCZEZvb3V3Y0RyNWZoeURsX2tFX3U0T09OOTNNY1Y?oc=5"
+  },
+  {
     "id": "48045c811d2b2937e079",
     "doi": "10.1002/admt.202400111",
     "source_type": "paper",
@@ -7217,7 +7326,7 @@
       "초고휘도"
     ],
     "citation_count": 2,
-    "collected_at": "2026-10-27T15:23:37.504194+00:00",
+    "collected_at": "2026-10-28T05:30:46.290502+00:00",
     "document_id": "dcfe2f3197e9a4d6fb04",
     "published_date": "2024-06-01",
     "company": [],
@@ -7259,7 +7368,7 @@
       "초고휘도",
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:22:37.280572+00:00",
+    "collected_at": "2026-10-28T05:29:52.485161+00:00",
     "document_id": "d118d41721fa73af42a1",
     "published_date": "2024-06-01",
     "company": [],
@@ -7462,7 +7571,7 @@
     "url": "https://doi.org/10.1002/sdtp.17460",
     "summary": "The reflection color dispersion phenomenon is more visible on polarizer‐free OLED panel compared to the panel with polarizer. However, the mechanism and detailed analysis of this effect is very limited in previous reports. The panel reflection patterns are usually very sophisticated, which are composed of rings, dots and color distribution (R G B reflection located at different direction of the panel, respectively). In this paper, the causes of the reflection pattern are analyzed in detail and the influential factors of the shape, distribution, color and other characteristics of the reflection pattern are clarified and verified through the comparison of simulation and actual results. Finally",
     "technologies": [],
-    "collected_at": "2026-10-27T15:22:37.280460+00:00",
+    "collected_at": "2026-10-28T05:29:52.485059+00:00",
     "document_id": "29606780307a7b6ff259",
     "published_date": "2024-06-01",
     "company": [],
@@ -7516,7 +7625,7 @@
     "technologies": [
       "발광 구조"
     ],
-    "collected_at": "2026-10-27T15:20:11.506316+00:00",
+    "collected_at": "2026-10-28T05:30:03.874481+00:00",
     "document_id": "3037f89d3ba2467a65f8",
     "published_date": "2024-05-24",
     "company": [],
@@ -7543,7 +7652,7 @@
     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNX2NyN2tYQzZHenZfZ01qYUYwYXNHb0tKV1h5OVpvWHFIeG1zcWNTcVhZTWxXd3M2WlpQQkhaNlJ2QUdSS3VqQi1wMkMwa2tFaWIxMlNBNVBiNlJHRzF3LUlfY1Y2SWRObmlxRDVHZ2JFVWdyRFFQclNSZDROOXQ3dFhzYmt6bmV5ODNPVzZ3WEgwR3dJa0xvX3p6MDBZUjRzQVhlQ1Ewb2VHN0VJMV9za3ZNbnB1NHFuTVN5MWV3VFR3XzVHNEtDUE5QRUhkeFFwVzQzdG5R?oc=5",
     "summary": "LG Display showcases smartwatch display with 3D rendering using light field technology and OLED Notebookcheck",
     "technologies": [],
-    "collected_at": "2026-10-27T15:22:46.245363+00:00",
+    "collected_at": "2026-10-28T05:30:03.546432+00:00",
     "document_id": "96a6e45d4252ff056c27",
     "published_date": "2024-05-18",
     "company": [
@@ -7785,7 +7894,7 @@
       "발광 구조"
     ],
     "citation_count": 2,
-    "collected_at": "2026-10-27T15:23:37.504761+00:00",
+    "collected_at": "2026-10-28T05:30:46.291078+00:00",
     "document_id": "9f7dd72118098ec2f6ce",
     "published_date": "2024-03-01",
     "company": [],
@@ -8072,7 +8181,7 @@
     "url": "https://doi.org/10.1117/12.2686563",
     "summary": "",
     "technologies": [],
-    "collected_at": "2026-10-27T15:22:37.280613+00:00",
+    "collected_at": "2026-10-28T05:29:52.485200+00:00",
     "document_id": "8c84dc803b07d1310a3a",
     "published_date": "2023-08-10",
     "company": [],
@@ -8162,7 +8271,7 @@
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51RjBDdVJEYzRwX0xINXcwSHZmMjk4UTh6cXdJZllMSm1XZTdXM2RUX205aEtKRlVON0JNR0oyMVJrc1BVMVM1UnJlLU9HbXF1N2NhMHY5V3NDNjUtVVdZTEFGTkZXZw?oc=5",
     "summary": "\"스마트워치 마이크로 LED 목표가격, OLED의 2배 웃돌 것\" 디일렉",
     "technologies": [],
-    "collected_at": "2026-10-27T15:22:45.157553+00:00",
+    "collected_at": "2026-10-28T05:30:02.455487+00:00",
     "document_id": "5ef21cd02a90d7687a3c",
     "published_date": "2023-01-19",
     "company": [],
@@ -8226,7 +8335,7 @@
     "url": "https://doi.org/10.2139/ssrn.4348537",
     "summary": "",
     "technologies": [],
-    "collected_at": "2026-10-27T15:22:37.280828+00:00",
+    "collected_at": "2026-10-28T05:29:52.485396+00:00",
     "document_id": "8d5fbac1969c6c9738fd",
     "published_date": "2023-01-01",
     "company": [],
