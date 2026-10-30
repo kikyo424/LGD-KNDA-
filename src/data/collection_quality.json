@@ -1,186 +1,51 @@
 {
   "last_update": {
-    "completed_at": "2026-10-29T05:39:32.756669+00:00",
-    "new_count": 5,
+    "completed_at": "2026-10-30T05:38:23.407223+00:00",
+    "new_count": 1,
     "new_documents": [
       {
-        "id": "a446f1b4612a25c9551c",
+        "id": "97dc1549a790a0b2dc37",
         "doi": "",
         "source_type": "news",
-        "source": "더팩트",
-        "region": "domestic",
-        "title": "삼성디스플레이, 노트북용 탠덤 OLED 글로벌 공급 - 더팩트",
-        "published_at": "2026-07-20",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Sa1d5VjBWMmhQVzJDc2pwTGQ1M1plRHlXMU1LYzkyQzNlSHY5YlNpZTBJc29QVkZOemxlZUQ4aWRDOExkbjR4VnhXYndSdTNlVlJvdDJxSkQ4QdIBVEFVX3lxTE0xSDhZTWdlWEkyMk5SM05Id3ozdHkzQU5TNkxqai1KcWR5eEg3bXBDZ1dCWGxEeUdzUU9BdERjZmhVOXhRUDJDT0dKcE1TOFJnY3pmMw?oc=5",
-        "summary": "삼성디스플레이, 노트북용 탠덤 OLED 글로벌 공급 더팩트",
-        "technologies": [
-          "발광 구조"
-        ],
-        "collected_at": "2026-10-29T05:38:40.893327+00:00",
-        "document_id": "a446f1b4612a25c9551c",
-        "published_date": "2026-07-20",
-        "company": [
-          "삼성디스플레이"
-        ],
-        "technology": [
-          "발광 구조"
-        ],
-        "keywords": [
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "탠덤 OLED": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Sa1d5VjBWMmhQVzJDc2pwTGQ1M1plRHlXMU1LYzkyQzNlSHY5YlNpZTBJc29QVkZOemxlZUQ4aWRDOExkbjR4VnhXYndSdTNlVlJvdDJxSkQ4QdIBVEFVX3lxTE0xSDhZTWdlWEkyMk5SM05Id3ozdHkzQU5TNkxqai1KcWR5eEg3bXBDZ1dCWGxEeUdzUU9BdERjZmhVOXhRUDJDT0dKcE1TOFJnY3pmMw?oc=5"
-      },
-      {
-        "id": "a91bc2acc2de29f57352",
-        "doi": "",
-        "source_type": "news",
-        "source": "케이벤치",
-        "region": "domestic",
-        "title": "LG디스플레이, 3세대 탠덤 OLED 기술 개발 성공.. 수명·소비 전력 18% 향상 - 케이벤치",
-        "published_at": "2026-05-06",
-        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0xb0FlNm1nWkJIS2hVT3E2NzJ1VUlXSE5fMUwyNXZuSWtVTHNFb1lRSkxfMVI2ZjNpOGVGVUhYSEkza1Jtck1IUg?oc=5",
-        "summary": "LG디스플레이, 3세대 탠덤 OLED 기술 개발 성공.. 수명·소비 전력 18% 향상 케이벤치",
-        "technologies": [
-          "발광 구조"
-        ],
-        "collected_at": "2026-10-29T05:38:40.895226+00:00",
-        "document_id": "a91bc2acc2de29f57352",
-        "published_date": "2026-05-06",
-        "company": [
-          "LG디스플레이"
-        ],
-        "technology": [
-          "발광 구조"
-        ],
-        "keywords": [
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "탠덤 OLED": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0xb0FlNm1nWkJIS2hVT3E2NzJ1VUlXSE5fMUwyNXZuSWtVTHNFb1lRSkxfMVI2ZjNpOGVGVUhYSEkza1Jtck1IUg?oc=5"
-      },
-      {
-        "id": "6ff1ce376b1b7e7711c5",
-        "doi": "",
-        "source_type": "news",
-        "source": "Notebookcheck",
+        "source": "Pokde.Net",
         "region": "international",
-        "title": "AOC releases new tandem OLED gaming monitor with remarkable 1300 nits of peak brightness - Notebookcheck",
-        "published_at": "2026-03-15",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPazd1UHRMbjZpQjZ6cWFCN1ZPX0w4SlQzTFY4N3gwVVlsbHlEQ3lsWkIzZ2kzZWxlSmhsUDdrb21DWGVadTcxS0RRNU9XRHdTbEdiWENLNktpWjNjQTI5a0RENzg2b1BZSXNCcWZlS1ZuTmUyUUEyZnd0Zk0tZ19wZTJaZ1JSd3R5QUh2N1FlSEI0aHQ2SzQ2enBDaE9ncUdYdjFEZndmbDY1dlRLN1ZqN1dDMXYyQmhQWXBLLUw5NnBxWTJJMm01bHZsbkVwdw?oc=5",
-        "summary": "AOC releases new tandem OLED gaming monitor with remarkable 1300 nits of peak brightness Notebookcheck",
+        "title": "GIGABYTE MO27Q28G Gaming Monitor With Tandem OLED Panel Now Available - Pokde.Net",
+        "published_at": "2025-09-30",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16c2VqVGdTd0lIelBBS1ZVOVh0ZEdfNXNTenMwbUlxTERoWW52QVJ5SldJUGNQWFltdEN6Nm9ncE52QTNzRU9Ra04xOFc4ZHZ3Ynh2MTh5aUtYREJ4dTlVakdFZnhDdWdrbzNnZzR0cnVpcGtxRWc?oc=5",
+        "summary": "GIGABYTE MO27Q28G Gaming Monitor With Tandem OLED Panel Now Available Pokde.Net",
         "technologies": [
           "초고휘도",
           "발광 구조"
         ],
-        "collected_at": "2026-10-29T05:38:41.528715+00:00",
-        "document_id": "6ff1ce376b1b7e7711c5",
-        "published_date": "2026-03-15",
+        "collected_at": "2026-10-30T05:37:45.906105+00:00",
+        "document_id": "97dc1549a790a0b2dc37",
+        "published_date": "2025-09-30",
         "company": [],
         "technology": [
           "초고휘도",
           "발광 구조"
         ],
         "keywords": [
-          "고휘도",
           "탠덤 OLED",
           "휘도"
         ],
         "keyword_scores": {
-          "고휘도": 3,
           "탠덤 OLED": 3,
           "휘도": 3
         },
-        "metrics": [
-          {
-            "name": "brightness",
-            "value": 1300.0,
-            "unit": "nits",
-            "context": "AOC releases new tandem OLED gaming monitor with remarkable 1300 nits of peak brightness - Notebookcheck",
-            "target": "타 기기 관련",
-            "qualifier": "최대 휘도 언급",
-            "conditions": []
-          }
-        ],
-        "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPazd1UHRMbjZpQjZ6cWFCN1ZPX0w4SlQzTFY4N3gwVVlsbHlEQ3lsWkIzZ2kzZWxlSmhsUDdrb21DWGVadTcxS0RRNU9XRHdTbEdiWENLNktpWjNjQTI5a0RENzg2b1BZSXNCcWZlS1ZuTmUyUUEyZnd0Zk0tZ19wZTJaZ1JSd3R5QUh2N1FlSEI0aHQ2SzQ2enBDaE9ncUdYdjFEZndmbDY1dlRLN1ZqN1dDMXYyQmhQWXBLLUw5NnBxWTJJMm01bHZsbkVwdw?oc=5"
-      },
-      {
-        "id": "92da746704ac0ebf498a",
-        "doi": "10.2991/978-94-6463-986-5_68",
-        "source_type": "paper",
-        "source": "OpenAlex",
-        "region": "international",
-        "title": "Comparative Analysis of Electronic Display Technologies and Their Application Scenarios",
-        "published_at": "2026-01-01",
-        "url": "https://doi.org/10.2991/978-94-6463-986-5_68",
-        "summary": "Recent advances in display technology have led to Liquid Crystal Display (LCD), Organic Light-Emitting Diode (OLED), Mini Light-Emitting Diode (Mini-LED), and Micro Light-Emitting Diode (Micro-LED) as the competing and complementing solutions.Their light-emission processes, physical principles, and performance parameters, e.g.brightness, contrast, power consumption and life time, vary significantly among the involved technologies.We discuss their working principles: LCD modulates liquid crystal (LC) with Mini-LED backlight to achieve better local dimming, OLED uses self-emissive organic layers with high contrast and flexibility, and Micro-LED adopts microscopic inorganic emitters with high b",
-        "technologies": [
-          "저전력"
-        ],
-        "citation_count": 0,
-        "collected_at": "2026-10-29T05:38:57.934533+00:00",
-        "document_id": "92da746704ac0ebf498a",
-        "published_date": "2026-01-01",
-        "company": [],
-        "technology": [
-          "저전력"
-        ],
-        "keywords": [
-          "전력 효율"
-        ],
-        "keyword_scores": {
-          "전력 효율": 1
-        },
         "metrics": [],
-        "source_url": "https://doi.org/10.2991/978-94-6463-986-5_68"
-      },
-      {
-        "id": "78fe3dd7e980bd3c1a5d",
-        "doi": "",
-        "source_type": "news",
-        "source": "Tom's Guide",
-        "region": "international",
-        "title": "LG Display teases next generation of OLED TV technology — meet Tandem WOLED - Tom's Guide",
-        "published_at": "2025-12-22",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZXNlS1FCSTB5YUQxWDE5V0Y4U1VNOWNLV1o0Q3J5bFBxbE9HSjVqNTViYlV3YkdmNm1fbHljWjNHVEdtbHozWUlvWmtvbTJuaDVsZ1hBcnVLZWFJRXQxaHpTTFAyUjlnYnZkaE1xUkQxNGktT2t1WVRyMkgtcjlxcjh3RzVxYUFUOV90Q0hOWGNFTlI5dE5sdXNUZjc0dkc3THd4bUYwRWpkVDgyR216UHNTRkg?oc=5",
-        "summary": "LG Display teases next generation of OLED TV technology — meet Tandem WOLED Tom's Guide",
-        "technologies": [
-          "발광 구조"
-        ],
-        "collected_at": "2026-10-29T05:38:41.853517+00:00",
-        "document_id": "78fe3dd7e980bd3c1a5d",
-        "published_date": "2025-12-22",
-        "company": [
-          "LG디스플레이"
-        ],
-        "technology": [
-          "발광 구조"
-        ],
-        "keywords": [
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "탠덤 OLED": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZXNlS1FCSTB5YUQxWDE5V0Y4U1VNOWNLV1o0Q3J5bFBxbE9HSjVqNTViYlV3YkdmNm1fbHljWjNHVEdtbHozWUlvWmtvbTJuaDVsZ1hBcnVLZWFJRXQxaHpTTFAyUjlnYnZkaE1xUkQxNGktT2t1WVRyMkgtcjlxcjh3RzVxYUFUOV90Q0hOWGNFTlI5dE5sdXNUZjc0dkc3THd4bUYwRWpkVDgyR216UHNTRkg?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16c2VqVGdTd0lIelBBS1ZVOVh0ZEdfNXNTenMwbUlxTERoWW52QVJ5SldJUGNQWFltdEN6Nm9ncE52QTNzRU9Ra04xOFc4ZHZ3Ynh2MTh5aUtYREJ4dTlVakdFZnhDdWdrbzNnZzR0cnVpcGtxRWc?oc=5"
       }
     ],
-    "source_errors": 3
+    "source_errors": 2
   },
-  "input": 834,
-  "excluded_irrelevant": 323,
-  "excluded_before_2023": 97,
-  "duplicates_removed": 125,
-  "saved": 289,
+  "input": 932,
+  "excluded_irrelevant": 365,
+  "excluded_before_2023": 121,
+  "duplicates_removed": 156,
+  "saved": 290,
   "missing_date": 0,
   "missing_summary": 22,
-  "source_errors": 3,
-  "generated_at": "2026-10-29T05:39:32.756898+00:00"
+  "source_errors": 2,
+  "generated_at": "2026-10-30T05:38:23.407467+00:00"
 }
