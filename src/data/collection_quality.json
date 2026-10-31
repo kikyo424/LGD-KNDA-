@@ -1,51 +1,80 @@
 {
   "last_update": {
-    "completed_at": "2026-10-30T05:38:23.407223+00:00",
-    "new_count": 1,
+    "completed_at": "2026-10-31T05:28:46.738672+00:00",
+    "new_count": 2,
     "new_documents": [
       {
-        "id": "97dc1549a790a0b2dc37",
+        "id": "5cb22c632d5c2258cf30",
         "doi": "",
         "source_type": "news",
-        "source": "Pokde.Net",
-        "region": "international",
-        "title": "GIGABYTE MO27Q28G Gaming Monitor With Tandem OLED Panel Now Available - Pokde.Net",
-        "published_at": "2025-09-30",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16c2VqVGdTd0lIelBBS1ZVOVh0ZEdfNXNTenMwbUlxTERoWW52QVJ5SldJUGNQWFltdEN6Nm9ncE52QTNzRU9Ra04xOFc4ZHZ3Ynh2MTh5aUtYREJ4dTlVakdFZnhDdWdrbzNnZzR0cnVpcGtxRWc?oc=5",
-        "summary": "GIGABYTE MO27Q28G Gaming Monitor With Tandem OLED Panel Now Available Pokde.Net",
+        "source": "KIPOST",
+        "region": "domestic",
+        "title": "中 비전옥스, ‘무(無)FMM ViP+탠덤’ 스마트워치용 OLED 양산…아너 워치 6 프로에 공급하며 상용화 진전 - KIPOST",
+        "published_at": "2026-09-30",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxY3M4YzhaaGlQcHJBYWkxQjRCMWowT3BsVWFyaFhpNXprcGkxdmxuS0UyZVBYekQ2aE4yYktPa2FOeVQ0VU5Wa2Y3aDIwWnNneks2a2N4VkZESzZsVWwxcmlCZUxqODYy0gFsQVVfeXFMUGtZd2RKdWhoUElHUUpGUkdDRjBwTTVYZzJUdjNkckNUakR5bkVwV0dNUllzaUtic2Q0S2hGMEJSX3JEVTlJQjY5LU4wVXh1Y1R6bnZLMmg1Z09kTmhyTW0tTGZHeGhteWJVQVJD?oc=5",
+        "summary": "中 비전옥스, ‘무(無)FMM ViP+탠덤’ 스마트워치용 OLED 양산…아너 워치 6 프로에 공급하며 상용화 진전 KIPOST",
         "technologies": [
-          "초고휘도",
-          "발광 구조"
+          "발광 구조",
+          "제조/공정"
         ],
-        "collected_at": "2026-10-30T05:37:45.906105+00:00",
-        "document_id": "97dc1549a790a0b2dc37",
-        "published_date": "2025-09-30",
+        "collected_at": "2026-10-31T05:28:19.012525+00:00",
+        "document_id": "5cb22c632d5c2258cf30",
+        "published_date": "2026-09-30",
         "company": [],
         "technology": [
-          "초고휘도",
+          "발광 구조",
+          "제조/공정"
+        ],
+        "keywords": [
+          "양산",
+          "탠덤 OLED"
+        ],
+        "keyword_scores": {
+          "양산": 3,
+          "탠덤 OLED": 3
+        },
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxY3M4YzhaaGlQcHJBYWkxQjRCMWowT3BsVWFyaFhpNXprcGkxdmxuS0UyZVBYekQ2aE4yYktPa2FOeVQ0VU5Wa2Y3aDIwWnNneks2a2N4VkZESzZsVWwxcmlCZUxqODYy0gFsQVVfeXFMUGtZd2RKdWhoUElHUUpGUkdDRjBwTTVYZzJUdjNkckNUakR5bkVwV0dNUllzaUtic2Q0S2hGMEJSX3JEVTlJQjY5LU4wVXh1Y1R6bnZLMmg1Z09kTmhyTW0tTGZHeGhteWJVQVJD?oc=5"
+      },
+      {
+        "id": "b591545d51b6ce11b46e",
+        "doi": "",
+        "source_type": "news",
+        "source": "BusinessLine",
+        "region": "international",
+        "title": "Asus Pad T3201: The joys of an advanced Tandem OLED display - BusinessLine",
+        "published_at": "2026-08-26",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcWFsbExRUllCYnotX1Y0T3hPRmhMWjNmS2k5TTlnODNhR3YxUUFwTGx5MWhBSlFBVWU4MmVlWWwwVjFHOHBMc3NGVDkzQURZVkxHbUVlaEFjSVhkYkhtMFNEVEtqUkI3ZURhckJtYkNNam1BSkxmNEdMRTZzbkFkWVpmYU91alZYZlVaM3BwSHBNQ3R6RlVYaUR2cE5SQU41Vi1YcmY4VGZXNk40RDRhUHBxeFFiZDlINmc2YVlhV3U4YTctS2hsLUdYT3JfOGpkS1HSAdgBQVVfeXFMT05IdGp4djg5dDloNlNsWElweEhOWGVKYUstVzQ0UkFkSjRVc1dLVWl5MUtPZ2RLN0ZMY2VGaE5GczB6cUNSS3lLeURwdm5HcGxmQ0c0TEpINkk0QmNqZkhpcmF6TW5HUjhINnZUdFZOb3dZanc2N0JKMVFUemxERURqTmlXYnZGTjUxNHFUZFNIVWh0ZWJ1M1dVT3dhV3JOVk1ycVdWalRlZW4xM0wyVThidmEwWnhMSHNOV2FQUXBBc0haVW0zWDdzRXBNQVZnRnd2VU03cFhu?oc=5",
+        "summary": "Asus Pad T3201: The joys of an advanced Tandem OLED display BusinessLine",
+        "technologies": [
+          "발광 구조"
+        ],
+        "collected_at": "2026-10-31T05:28:20.429399+00:00",
+        "document_id": "b591545d51b6ce11b46e",
+        "published_date": "2026-08-26",
+        "company": [],
+        "technology": [
           "발광 구조"
         ],
         "keywords": [
-          "탠덤 OLED",
-          "휘도"
+          "탠덤 OLED"
         ],
         "keyword_scores": {
-          "탠덤 OLED": 3,
-          "휘도": 3
+          "탠덤 OLED": 3
         },
         "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16c2VqVGdTd0lIelBBS1ZVOVh0ZEdfNXNTenMwbUlxTERoWW52QVJ5SldJUGNQWFltdEN6Nm9ncE52QTNzRU9Ra04xOFc4ZHZ3Ynh2MTh5aUtYREJ4dTlVakdFZnhDdWdrbzNnZzR0cnVpcGtxRWc?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcWFsbExRUllCYnotX1Y0T3hPRmhMWjNmS2k5TTlnODNhR3YxUUFwTGx5MWhBSlFBVWU4MmVlWWwwVjFHOHBMc3NGVDkzQURZVkxHbUVlaEFjSVhkYkhtMFNEVEtqUkI3ZURhckJtYkNNam1BSkxmNEdMRTZzbkFkWVpmYU91alZYZlVaM3BwSHBNQ3R6RlVYaUR2cE5SQU41Vi1YcmY4VGZXNk40RDRhUHBxeFFiZDlINmc2YVlhV3U4YTctS2hsLUdYT3JfOGpkS1HSAdgBQVVfeXFMT05IdGp4djg5dDloNlNsWElweEhOWGVKYUstVzQ0UkFkSjRVc1dLVWl5MUtPZ2RLN0ZMY2VGaE5GczB6cUNSS3lLeURwdm5HcGxmQ0c0TEpINkk0QmNqZkhpcmF6TW5HUjhINnZUdFZOb3dZanc2N0JKMVFUemxERURqTmlXYnZGTjUxNHFUZFNIVWh0ZWJ1M1dVT3dhV3JOVk1ycVdWalRlZW4xM0wyVThidmEwWnhMSHNOV2FQUXBBc0haVW0zWDdzRXBNQVZnRnd2VU03cFhu?oc=5"
       }
     ],
-    "source_errors": 2
+    "source_errors": 1
   },
-  "input": 932,
-  "excluded_irrelevant": 365,
-  "excluded_before_2023": 121,
-  "duplicates_removed": 156,
-  "saved": 290,
+  "input": 942,
+  "excluded_irrelevant": 372,
+  "excluded_before_2023": 113,
+  "duplicates_removed": 165,
+  "saved": 292,
   "missing_date": 0,
   "missing_summary": 22,
-  "source_errors": 2,
-  "generated_at": "2026-10-30T05:38:23.407467+00:00"
+  "source_errors": 1,
+  "generated_at": "2026-10-31T05:28:46.738870+00:00"
 }
