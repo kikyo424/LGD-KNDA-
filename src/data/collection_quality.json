@@ -1,80 +1,152 @@
 {
   "last_update": {
-    "completed_at": "2026-10-31T05:28:46.738672+00:00",
-    "new_count": 2,
+    "completed_at": "2026-11-01T05:54:10.173418+00:00",
+    "new_count": 4,
     "new_documents": [
       {
-        "id": "5cb22c632d5c2258cf30",
+        "id": "226d342b9c1f59ea82c9",
         "doi": "",
         "source_type": "news",
-        "source": "KIPOST",
+        "source": "LG Display Newsroom",
         "region": "domestic",
-        "title": "中 비전옥스, ‘무(無)FMM ViP+탠덤’ 스마트워치용 OLED 양산…아너 워치 6 프로에 공급하며 상용화 진전 - KIPOST",
-        "published_at": "2026-09-30",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxY3M4YzhaaGlQcHJBYWkxQjRCMWowT3BsVWFyaFhpNXprcGkxdmxuS0UyZVBYekQ2aE4yYktPa2FOeVQ0VU5Wa2Y3aDIwWnNneks2a2N4VkZESzZsVWwxcmlCZUxqODYy0gFsQVVfeXFMUGtZd2RKdWhoUElHUUpGUkdDRjBwTTVYZzJUdjNkckNUakR5bkVwV0dNUllzaUtic2Q0S2hGMEJSX3JEVTlJQjY5LU4wVXh1Y1R6bnZLMmg1Z09kTmhyTW0tTGZHeGhteWJVQVJD?oc=5",
-        "summary": "中 비전옥스, ‘무(無)FMM ViP+탠덤’ 스마트워치용 OLED 양산…아너 워치 6 프로에 공급하며 상용화 진전 KIPOST",
+        "title": "LG디스플레이 태블릿용 탠덤 OLED, 세계 최고 기술력으로 디스플레이를 혁신한다 - LG Display Newsroom",
+        "published_at": "2025-11-24",
+        "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxOakRyVzhUV2JzaUdMVTNfdC1rZk0zNnlkcExYbUZOZHlHc2E1Q1ItbC02aTExZjdXVm5aOW53WmJvUjRteDk0R000c2ZQLXVwOFg5cE5MX2ZZYzNMeHFMbnFob1hoYlhJRnNXRWNsNmVIYk51MlJUUW9weWt3dWloUGdkX0xja2MxUVFTMDNZNUFYV2tRRUY1WGFpdk1Eb0ZDNlhzTkF4T2xtWk54WUI3cnVNczZRZWdWbXZmSGVycTgxMEtHTEtBZDY2RWhqc2phSTlfYjMzd0dlYnZmTVFMeXdLSVEtX2JtUnJTUG5IT3ZyN2FGd0s0MTNVZW93M1lHWHJ0enlWNGViOURHZUJISzlQT3RuZU9rZ3V4bTZqX1VYcDhhLXBrOElDdDk4NVAyYlFBVnU5bUhSeHFJT2xLNTRQZnNOcFlLdmtF?oc=5",
+        "summary": "LG디스플레이 태블릿용 탠덤 OLED, 세계 최고 기술력으로 디스플레이를 혁신한다 LG Display Newsroom",
         "technologies": [
-          "발광 구조",
-          "제조/공정"
+          "발광 구조"
         ],
-        "collected_at": "2026-10-31T05:28:19.012525+00:00",
-        "document_id": "5cb22c632d5c2258cf30",
-        "published_date": "2026-09-30",
-        "company": [],
+        "collected_at": "2026-11-01T05:53:17.586524+00:00",
+        "document_id": "226d342b9c1f59ea82c9",
+        "published_date": "2025-11-24",
+        "company": [
+          "LG디스플레이"
+        ],
         "technology": [
-          "발광 구조",
-          "제조/공정"
+          "발광 구조"
         ],
         "keywords": [
-          "양산",
           "탠덤 OLED"
         ],
         "keyword_scores": {
-          "양산": 3,
           "탠덤 OLED": 3
         },
         "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxY3M4YzhaaGlQcHJBYWkxQjRCMWowT3BsVWFyaFhpNXprcGkxdmxuS0UyZVBYekQ2aE4yYktPa2FOeVQ0VU5Wa2Y3aDIwWnNneks2a2N4VkZESzZsVWwxcmlCZUxqODYy0gFsQVVfeXFMUGtZd2RKdWhoUElHUUpGUkdDRjBwTTVYZzJUdjNkckNUakR5bkVwV0dNUllzaUtic2Q0S2hGMEJSX3JEVTlJQjY5LU4wVXh1Y1R6bnZLMmg1Z09kTmhyTW0tTGZHeGhteWJVQVJD?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxOakRyVzhUV2JzaUdMVTNfdC1rZk0zNnlkcExYbUZOZHlHc2E1Q1ItbC02aTExZjdXVm5aOW53WmJvUjRteDk0R000c2ZQLXVwOFg5cE5MX2ZZYzNMeHFMbnFob1hoYlhJRnNXRWNsNmVIYk51MlJUUW9weWt3dWloUGdkX0xja2MxUVFTMDNZNUFYV2tRRUY1WGFpdk1Eb0ZDNlhzTkF4T2xtWk54WUI3cnVNczZRZWdWbXZmSGVycTgxMEtHTEtBZDY2RWhqc2phSTlfYjMzd0dlYnZmTVFMeXdLSVEtX2JtUnJTUG5IT3ZyN2FGd0s0MTNVZW93M1lHWHJ0enlWNGViOURHZUJISzlQT3RuZU9rZ3V4bTZqX1VYcDhhLXBrOElDdDk4NVAyYlFBVnU5bUhSeHFJT2xLNTRQZnNOcFlLdmtF?oc=5"
       },
       {
-        "id": "b591545d51b6ce11b46e",
+        "id": "2b8d39f11a6315541f3b",
         "doi": "",
         "source_type": "news",
-        "source": "BusinessLine",
-        "region": "international",
-        "title": "Asus Pad T3201: The joys of an advanced Tandem OLED display - BusinessLine",
-        "published_at": "2026-08-26",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcWFsbExRUllCYnotX1Y0T3hPRmhMWjNmS2k5TTlnODNhR3YxUUFwTGx5MWhBSlFBVWU4MmVlWWwwVjFHOHBMc3NGVDkzQURZVkxHbUVlaEFjSVhkYkhtMFNEVEtqUkI3ZURhckJtYkNNam1BSkxmNEdMRTZzbkFkWVpmYU91alZYZlVaM3BwSHBNQ3R6RlVYaUR2cE5SQU41Vi1YcmY4VGZXNk40RDRhUHBxeFFiZDlINmc2YVlhV3U4YTctS2hsLUdYT3JfOGpkS1HSAdgBQVVfeXFMT05IdGp4djg5dDloNlNsWElweEhOWGVKYUstVzQ0UkFkSjRVc1dLVWl5MUtPZ2RLN0ZMY2VGaE5GczB6cUNSS3lLeURwdm5HcGxmQ0c0TEpINkk0QmNqZkhpcmF6TW5HUjhINnZUdFZOb3dZanc2N0JKMVFUemxERURqTmlXYnZGTjUxNHFUZFNIVWh0ZWJ1M1dVT3dhV3JOVk1ycVdWalRlZW4xM0wyVThidmEwWnhMSHNOV2FQUXBBc0haVW0zWDdzRXBNQVZnRnd2VU03cFhu?oc=5",
-        "summary": "Asus Pad T3201: The joys of an advanced Tandem OLED display BusinessLine",
+        "source": "뉴스핌",
+        "region": "domestic",
+        "title": "삼성·LG디스플레이, LTPO로 中 추격 견제…OLED 주도권 방어전 - 뉴스핌",
+        "published_at": "2025-07-21",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1aNWhtdjlmREZNTVJFbWd4bkYtei1QX2NSdnV5LUF6eTJvbW12NXhBQ0lPM0pUQWxhOWI2YmY4bkR1Z1Z3aTVKbGRmSHhWQkJibkM4b0ZoTzE4N3Nv?oc=5",
+        "summary": "삼성·LG디스플레이, LTPO로 中 추격 견제…OLED 주도권 방어전 뉴스핌",
         "technologies": [
-          "발광 구조"
+          "저전력"
         ],
-        "collected_at": "2026-10-31T05:28:20.429399+00:00",
-        "document_id": "b591545d51b6ce11b46e",
-        "published_date": "2026-08-26",
-        "company": [],
+        "collected_at": "2026-11-01T05:53:17.586683+00:00",
+        "document_id": "2b8d39f11a6315541f3b",
+        "published_date": "2025-07-21",
+        "company": [
+          "LG디스플레이"
+        ],
         "technology": [
-          "발광 구조"
+          "저전력"
         ],
         "keywords": [
-          "탠덤 OLED"
+          "LTPO"
         ],
         "keyword_scores": {
-          "탠덤 OLED": 3
+          "LTPO": 3
         },
         "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcWFsbExRUllCYnotX1Y0T3hPRmhMWjNmS2k5TTlnODNhR3YxUUFwTGx5MWhBSlFBVWU4MmVlWWwwVjFHOHBMc3NGVDkzQURZVkxHbUVlaEFjSVhkYkhtMFNEVEtqUkI3ZURhckJtYkNNam1BSkxmNEdMRTZzbkFkWVpmYU91alZYZlVaM3BwSHBNQ3R6RlVYaUR2cE5SQU41Vi1YcmY4VGZXNk40RDRhUHBxeFFiZDlINmc2YVlhV3U4YTctS2hsLUdYT3JfOGpkS1HSAdgBQVVfeXFMT05IdGp4djg5dDloNlNsWElweEhOWGVKYUstVzQ0UkFkSjRVc1dLVWl5MUtPZ2RLN0ZMY2VGaE5GczB6cUNSS3lLeURwdm5HcGxmQ0c0TEpINkk0QmNqZkhpcmF6TW5HUjhINnZUdFZOb3dZanc2N0JKMVFUemxERURqTmlXYnZGTjUxNHFUZFNIVWh0ZWJ1M1dVT3dhV3JOVk1ycVdWalRlZW4xM0wyVThidmEwWnhMSHNOV2FQUXBBc0haVW0zWDdzRXBNQVZnRnd2VU03cFhu?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1aNWhtdjlmREZNTVJFbWd4bkYtei1QX2NSdnV5LUF6eTJvbW12NXhBQ0lPM0pUQWxhOWI2YmY4bkR1Z1Z3aTVKbGRmSHhWQkJibkM4b0ZoTzE4N3Nv?oc=5"
+      },
+      {
+        "id": "50144c4329747e16a644",
+        "doi": "",
+        "source_type": "news",
+        "source": "뉴스핌",
+        "region": "domestic",
+        "title": "'中에 안뺏긴다'…삼성·LG디스플레이, LTPO OLED 기술 선도 - 뉴스핌",
+        "published_at": "2024-08-31",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5iOUpFMno4cmhnRk15U0hiSV9lRE8wb0pPQlptbHh3QkgyQW9GeXhxQ19QT0dhOVlqSnp2SFkydnN5YzNDc3liMXdFanVjUFBTX1d5bkVSYzU0SUV1?oc=5",
+        "summary": "'中에 안뺏긴다'…삼성·LG디스플레이, LTPO OLED 기술 선도 뉴스핌",
+        "technologies": [
+          "저전력"
+        ],
+        "collected_at": "2026-11-01T05:53:17.586706+00:00",
+        "document_id": "50144c4329747e16a644",
+        "published_date": "2024-08-31",
+        "company": [
+          "LG디스플레이"
+        ],
+        "technology": [
+          "저전력"
+        ],
+        "keywords": [
+          "LTPO"
+        ],
+        "keyword_scores": {
+          "LTPO": 3
+        },
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5iOUpFMno4cmhnRk15U0hiSV9lRE8wb0pPQlptbHh3QkgyQW9GeXhxQ19QT0dhOVlqSnp2SFkydnN5YzNDc3liMXdFanVjUFBTX1d5bkVSYzU0SUV1?oc=5"
+      },
+      {
+        "id": "74136769d87e88ecc406",
+        "doi": "",
+        "source_type": "news",
+        "source": "ZDNET",
+        "region": "international",
+        "title": "CES 2023: LG Display launches new OLED panels with top brightness of 2,100 nits - ZDNET",
+        "published_at": "2023-01-05",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdE1pWlRkRk15aGhIVFJNS0p3dUI1Q2xzUVpxdmRJVFdxaWY1ZzV6TTRlZDk4MXZGR2JBcFlUN2JobHk5TnJVWXZid09LQ0lCWl9tcFdteS1Hb05oQmJCUjg1UWgwcUsycDE0aGRwZ3NNUzBfQ05ndDlxSm93dFpaLVdkdWlQSGtyN2RHeGt2cHoxVkVYOUlwYWd0Y1lVQW5PR0pkNldjeVZ4bFdz?oc=5",
+        "summary": "CES 2023: LG Display launches new OLED panels with top brightness of 2,100 nits ZDNET",
+        "technologies": [
+          "초고휘도"
+        ],
+        "collected_at": "2026-11-01T05:53:18.257742+00:00",
+        "document_id": "74136769d87e88ecc406",
+        "published_date": "2023-01-05",
+        "company": [
+          "LG디스플레이"
+        ],
+        "technology": [
+          "초고휘도"
+        ],
+        "keywords": [
+          "휘도"
+        ],
+        "keyword_scores": {
+          "휘도": 3
+        },
+        "metrics": [
+          {
+            "name": "brightness",
+            "value": 2100.0,
+            "unit": "nits",
+            "context": "CES 2023: LG Display launches new OLED panels with top brightness of 2,100 nits - ZDNET",
+            "target": "패널·디스플레이",
+            "qualifier": "",
+            "conditions": []
+          }
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdE1pWlRkRk15aGhIVFJNS0p3dUI1Q2xzUVpxdmRJVFdxaWY1ZzV6TTRlZDk4MXZGR2JBcFlUN2JobHk5TnJVWXZid09LQ0lCWl9tcFdteS1Hb05oQmJCUjg1UWgwcUsycDE0aGRwZ3NNUzBfQ05ndDlxSm93dFpaLVdkdWlQSGtyN2RHeGt2cHoxVkVYOUlwYWd0Y1lVQW5PR0pkNldjeVZ4bFdz?oc=5"
       }
     ],
-    "source_errors": 1
+    "source_errors": 3
   },
-  "input": 942,
-  "excluded_irrelevant": 372,
-  "excluded_before_2023": 113,
-  "duplicates_removed": 165,
-  "saved": 292,
+  "input": 842,
+  "excluded_irrelevant": 309,
+  "excluded_before_2023": 112,
+  "duplicates_removed": 125,
+  "saved": 296,
   "missing_date": 0,
   "missing_summary": 22,
-  "source_errors": 1,
-  "generated_at": "2026-10-31T05:28:46.738870+00:00"
+  "source_errors": 3,
+  "generated_at": "2026-11-01T05:54:10.173600+00:00"
 }
