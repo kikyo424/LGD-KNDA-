@@ -1,27 +1,25 @@
 {
   "last_update": {
-    "completed_at": "2026-11-01T05:54:10.173418+00:00",
-    "new_count": 4,
+    "completed_at": "2026-11-02T05:54:19.627577+00:00",
+    "new_count": 1,
     "new_documents": [
       {
-        "id": "226d342b9c1f59ea82c9",
+        "id": "3b9c7b53e16d0ae8766c",
         "doi": "",
         "source_type": "news",
-        "source": "LG Display Newsroom",
-        "region": "domestic",
-        "title": "LG디스플레이 태블릿용 탠덤 OLED, 세계 최고 기술력으로 디스플레이를 혁신한다 - LG Display Newsroom",
-        "published_at": "2025-11-24",
-        "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxOakRyVzhUV2JzaUdMVTNfdC1rZk0zNnlkcExYbUZOZHlHc2E1Q1ItbC02aTExZjdXVm5aOW53WmJvUjRteDk0R000c2ZQLXVwOFg5cE5MX2ZZYzNMeHFMbnFob1hoYlhJRnNXRWNsNmVIYk51MlJUUW9weWt3dWloUGdkX0xja2MxUVFTMDNZNUFYV2tRRUY1WGFpdk1Eb0ZDNlhzTkF4T2xtWk54WUI3cnVNczZRZWdWbXZmSGVycTgxMEtHTEtBZDY2RWhqc2phSTlfYjMzd0dlYnZmTVFMeXdLSVEtX2JtUnJTUG5IT3ZyN2FGd0s0MTNVZW93M1lHWHJ0enlWNGViOURHZUJISzlQT3RuZU9rZ3V4bTZqX1VYcDhhLXBrOElDdDk4NVAyYlFBVnU5bUhSeHFJT2xLNTRQZnNOcFlLdmtF?oc=5",
-        "summary": "LG디스플레이 태블릿용 탠덤 OLED, 세계 최고 기술력으로 디스플레이를 혁신한다 LG Display Newsroom",
+        "source": "PhoneArena",
+        "region": "international",
+        "title": "Is the iPad Pro Ultra Retina XDR tandem OLED the world's best display indeed? - PhoneArena",
+        "published_at": "2024-05-07",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOGlyUDlBOFNEbVo0QkNoemt2V3NVUDhaaV83aGltOUJuQV94dm1Dem1wTThwTGJTYUJ0aG5oLV9VM2JnX1FiQzlxaTlIZWxXYVBITUJVYUlTSkFaTHhOOEoydVZ6a3FEbDhRQ09qQTVrMnJxeHgtcG9kRlVpR3RDYjlGSG5UYm5WeGZZYkl5UGgzRXpE?oc=5",
+        "summary": "Is the iPad Pro Ultra Retina XDR tandem OLED the world's best display indeed? PhoneArena",
         "technologies": [
           "발광 구조"
         ],
-        "collected_at": "2026-11-01T05:53:17.586524+00:00",
-        "document_id": "226d342b9c1f59ea82c9",
-        "published_date": "2025-11-24",
-        "company": [
-          "LG디스플레이"
-        ],
+        "collected_at": "2026-11-02T05:53:35.691053+00:00",
+        "document_id": "3b9c7b53e16d0ae8766c",
+        "published_date": "2024-05-07",
+        "company": [],
         "technology": [
           "발광 구조"
         ],
@@ -32,121 +30,18 @@
           "탠덤 OLED": 3
         },
         "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxOakRyVzhUV2JzaUdMVTNfdC1rZk0zNnlkcExYbUZOZHlHc2E1Q1ItbC02aTExZjdXVm5aOW53WmJvUjRteDk0R000c2ZQLXVwOFg5cE5MX2ZZYzNMeHFMbnFob1hoYlhJRnNXRWNsNmVIYk51MlJUUW9weWt3dWloUGdkX0xja2MxUVFTMDNZNUFYV2tRRUY1WGFpdk1Eb0ZDNlhzTkF4T2xtWk54WUI3cnVNczZRZWdWbXZmSGVycTgxMEtHTEtBZDY2RWhqc2phSTlfYjMzd0dlYnZmTVFMeXdLSVEtX2JtUnJTUG5IT3ZyN2FGd0s0MTNVZW93M1lHWHJ0enlWNGViOURHZUJISzlQT3RuZU9rZ3V4bTZqX1VYcDhhLXBrOElDdDk4NVAyYlFBVnU5bUhSeHFJT2xLNTRQZnNOcFlLdmtF?oc=5"
-      },
-      {
-        "id": "2b8d39f11a6315541f3b",
-        "doi": "",
-        "source_type": "news",
-        "source": "뉴스핌",
-        "region": "domestic",
-        "title": "삼성·LG디스플레이, LTPO로 中 추격 견제…OLED 주도권 방어전 - 뉴스핌",
-        "published_at": "2025-07-21",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1aNWhtdjlmREZNTVJFbWd4bkYtei1QX2NSdnV5LUF6eTJvbW12NXhBQ0lPM0pUQWxhOWI2YmY4bkR1Z1Z3aTVKbGRmSHhWQkJibkM4b0ZoTzE4N3Nv?oc=5",
-        "summary": "삼성·LG디스플레이, LTPO로 中 추격 견제…OLED 주도권 방어전 뉴스핌",
-        "technologies": [
-          "저전력"
-        ],
-        "collected_at": "2026-11-01T05:53:17.586683+00:00",
-        "document_id": "2b8d39f11a6315541f3b",
-        "published_date": "2025-07-21",
-        "company": [
-          "LG디스플레이"
-        ],
-        "technology": [
-          "저전력"
-        ],
-        "keywords": [
-          "LTPO"
-        ],
-        "keyword_scores": {
-          "LTPO": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1aNWhtdjlmREZNTVJFbWd4bkYtei1QX2NSdnV5LUF6eTJvbW12NXhBQ0lPM0pUQWxhOWI2YmY4bkR1Z1Z3aTVKbGRmSHhWQkJibkM4b0ZoTzE4N3Nv?oc=5"
-      },
-      {
-        "id": "50144c4329747e16a644",
-        "doi": "",
-        "source_type": "news",
-        "source": "뉴스핌",
-        "region": "domestic",
-        "title": "'中에 안뺏긴다'…삼성·LG디스플레이, LTPO OLED 기술 선도 - 뉴스핌",
-        "published_at": "2024-08-31",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5iOUpFMno4cmhnRk15U0hiSV9lRE8wb0pPQlptbHh3QkgyQW9GeXhxQ19QT0dhOVlqSnp2SFkydnN5YzNDc3liMXdFanVjUFBTX1d5bkVSYzU0SUV1?oc=5",
-        "summary": "'中에 안뺏긴다'…삼성·LG디스플레이, LTPO OLED 기술 선도 뉴스핌",
-        "technologies": [
-          "저전력"
-        ],
-        "collected_at": "2026-11-01T05:53:17.586706+00:00",
-        "document_id": "50144c4329747e16a644",
-        "published_date": "2024-08-31",
-        "company": [
-          "LG디스플레이"
-        ],
-        "technology": [
-          "저전력"
-        ],
-        "keywords": [
-          "LTPO"
-        ],
-        "keyword_scores": {
-          "LTPO": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5iOUpFMno4cmhnRk15U0hiSV9lRE8wb0pPQlptbHh3QkgyQW9GeXhxQ19QT0dhOVlqSnp2SFkydnN5YzNDc3liMXdFanVjUFBTX1d5bkVSYzU0SUV1?oc=5"
-      },
-      {
-        "id": "74136769d87e88ecc406",
-        "doi": "",
-        "source_type": "news",
-        "source": "ZDNET",
-        "region": "international",
-        "title": "CES 2023: LG Display launches new OLED panels with top brightness of 2,100 nits - ZDNET",
-        "published_at": "2023-01-05",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdE1pWlRkRk15aGhIVFJNS0p3dUI1Q2xzUVpxdmRJVFdxaWY1ZzV6TTRlZDk4MXZGR2JBcFlUN2JobHk5TnJVWXZid09LQ0lCWl9tcFdteS1Hb05oQmJCUjg1UWgwcUsycDE0aGRwZ3NNUzBfQ05ndDlxSm93dFpaLVdkdWlQSGtyN2RHeGt2cHoxVkVYOUlwYWd0Y1lVQW5PR0pkNldjeVZ4bFdz?oc=5",
-        "summary": "CES 2023: LG Display launches new OLED panels with top brightness of 2,100 nits ZDNET",
-        "technologies": [
-          "초고휘도"
-        ],
-        "collected_at": "2026-11-01T05:53:18.257742+00:00",
-        "document_id": "74136769d87e88ecc406",
-        "published_date": "2023-01-05",
-        "company": [
-          "LG디스플레이"
-        ],
-        "technology": [
-          "초고휘도"
-        ],
-        "keywords": [
-          "휘도"
-        ],
-        "keyword_scores": {
-          "휘도": 3
-        },
-        "metrics": [
-          {
-            "name": "brightness",
-            "value": 2100.0,
-            "unit": "nits",
-            "context": "CES 2023: LG Display launches new OLED panels with top brightness of 2,100 nits - ZDNET",
-            "target": "패널·디스플레이",
-            "qualifier": "",
-            "conditions": []
-          }
-        ],
-        "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdE1pWlRkRk15aGhIVFJNS0p3dUI1Q2xzUVpxdmRJVFdxaWY1ZzV6TTRlZDk4MXZGR2JBcFlUN2JobHk5TnJVWXZid09LQ0lCWl9tcFdteS1Hb05oQmJCUjg1UWgwcUsycDE0aGRwZ3NNUzBfQ05ndDlxSm93dFpaLVdkdWlQSGtyN2RHeGt2cHoxVkVYOUlwYWd0Y1lVQW5PR0pkNldjeVZ4bFdz?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOGlyUDlBOFNEbVo0QkNoemt2V3NVUDhaaV83aGltOUJuQV94dm1Dem1wTThwTGJTYUJ0aG5oLV9VM2JnX1FiQzlxaTlIZWxXYVBITUJVYUlTSkFaTHhOOEoydVZ6a3FEbDhRQ09qQTVrMnJxeHgtcG9kRlVpR3RDYjlGSG5UYm5WeGZZYkl5UGgzRXpE?oc=5"
       }
     ],
-    "source_errors": 3
+    "source_errors": 2
   },
-  "input": 842,
-  "excluded_irrelevant": 309,
-  "excluded_before_2023": 112,
-  "duplicates_removed": 125,
-  "saved": 296,
+  "input": 834,
+  "excluded_irrelevant": 304,
+  "excluded_before_2023": 116,
+  "duplicates_removed": 117,
+  "saved": 297,
   "missing_date": 0,
   "missing_summary": 22,
-  "source_errors": 3,
-  "generated_at": "2026-11-01T05:54:10.173600+00:00"
+  "source_errors": 2,
+  "generated_at": "2026-11-02T05:54:19.627834+00:00"
 }
