@@ -1,47 +1,17 @@
 {
   "last_update": {
-    "completed_at": "2026-11-02T05:54:19.627577+00:00",
-    "new_count": 1,
-    "new_documents": [
-      {
-        "id": "3b9c7b53e16d0ae8766c",
-        "doi": "",
-        "source_type": "news",
-        "source": "PhoneArena",
-        "region": "international",
-        "title": "Is the iPad Pro Ultra Retina XDR tandem OLED the world's best display indeed? - PhoneArena",
-        "published_at": "2024-05-07",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOGlyUDlBOFNEbVo0QkNoemt2V3NVUDhaaV83aGltOUJuQV94dm1Dem1wTThwTGJTYUJ0aG5oLV9VM2JnX1FiQzlxaTlIZWxXYVBITUJVYUlTSkFaTHhOOEoydVZ6a3FEbDhRQ09qQTVrMnJxeHgtcG9kRlVpR3RDYjlGSG5UYm5WeGZZYkl5UGgzRXpE?oc=5",
-        "summary": "Is the iPad Pro Ultra Retina XDR tandem OLED the world's best display indeed? PhoneArena",
-        "technologies": [
-          "발광 구조"
-        ],
-        "collected_at": "2026-11-02T05:53:35.691053+00:00",
-        "document_id": "3b9c7b53e16d0ae8766c",
-        "published_date": "2024-05-07",
-        "company": [],
-        "technology": [
-          "발광 구조"
-        ],
-        "keywords": [
-          "탠덤 OLED"
-        ],
-        "keyword_scores": {
-          "탠덤 OLED": 3
-        },
-        "metrics": [],
-        "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOGlyUDlBOFNEbVo0QkNoemt2V3NVUDhaaV83aGltOUJuQV94dm1Dem1wTThwTGJTYUJ0aG5oLV9VM2JnX1FiQzlxaTlIZWxXYVBITUJVYUlTSkFaTHhOOEoydVZ6a3FEbDhRQ09qQTVrMnJxeHgtcG9kRlVpR3RDYjlGSG5UYm5WeGZZYkl5UGgzRXpE?oc=5"
-      }
-    ],
-    "source_errors": 2
+    "completed_at": "2026-11-03T06:38:57.084939+00:00",
+    "new_count": 0,
+    "new_documents": [],
+    "source_errors": 3
   },
-  "input": 834,
-  "excluded_irrelevant": 304,
-  "excluded_before_2023": 116,
-  "duplicates_removed": 117,
+  "input": 922,
+  "excluded_irrelevant": 370,
+  "excluded_before_2023": 104,
+  "duplicates_removed": 151,
   "saved": 297,
   "missing_date": 0,
   "missing_summary": 22,
-  "source_errors": 2,
-  "generated_at": "2026-11-02T05:54:19.627834+00:00"
+  "source_errors": 3,
+  "generated_at": "2026-11-03T06:38:57.085156+00:00"
 }
