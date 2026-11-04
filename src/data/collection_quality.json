@@ -1,17 +1,141 @@
 {
   "last_update": {
-    "completed_at": "2026-11-03T06:38:57.084939+00:00",
-    "new_count": 0,
-    "new_documents": [],
+    "completed_at": "2026-11-04T06:06:12.674557+00:00",
+    "new_count": 4,
+    "new_documents": [
+      {
+        "id": "7177ff2e58c7fd7d826f",
+        "doi": "",
+        "source_type": "news",
+        "source": "The Sunday Guardian",
+        "region": "international",
+        "title": "Watch Viral Video: Apple’s First Touchscreen MacBook Pro Revealed With 120Hz Tandem OLED Display, M5 Pro Chips, Dynamic Island & New Premium Design; Check Launch Date, Prices, Colours, Features & More - The Sunday Guardian",
+        "published_at": "2026-11-03",
+        "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQMG5NMmg0Mm1ISXhQOWlBWk5mQWYtTUxNOTJMWFFqS0tGTlFmUi1DZHAyMk8yVTh2R3plTmMyekNoaE1nX1EzbmxnbnZvSXRhLWY0RlJrcEFWTGdXUnBTMXU3MVVhXzljUkFocnV4UUZpOXcxUDJ4LVd0TFYyYzRDZU5Bck9BbWw1cUFxYlc5SzBwcDhlMkdTbi1jbW40U2swTjd4WDNybEdyQ0J6TWdTOXdFY1Vnal9xX0ZfUkxpdnVwdm8xZWlWZ3ZURkh1UUZuVjk3WVBnQlp0MFV2NnV1azhwNktaNG5zVGFTLWdiXzFXMjU4V2FwTkZ0RmxkbnRaQWp2UWJCWGFCX2JXc0EteTBGc0kzeFZkWGtZM0swdUJEWTQ3RlNSOE94c09haC10QUJPX2Y1UGpnbERoTzBPT1NyTVVwNGl0WEdmZW9aUVR3eGpqNEJiaNIB3gJBVV95cUxNbVNsM3ZvWGtQY2JKMGlTNVlQM0tDbWFaYXdyTXdOUWNpc3NBU0NuYzMtd3NodTRMZFFWbExWNTQtMW9Tb0xBYnh3Q0E5RldUSFA1Y29ZRWpVaDVNNXktaVpxNTc0ODVrZk5oVmxETEo2ZWhxb3UtY0d1WmU3c3QyYzhXTWo2VWIwOUVzY2RoeUFLLUF0NGFYN1lmOGxUc1lWbjVCSF9pV0pKTmN2bUdfUXRjeDZFeFRHUTZ2dERpUkdIRDYtWGFyQlRJQXVNaS15SlFBNV9HMXVfVXZtcUY4ekp1TW14Q3ZRanRET3drR1BtSGUtUWFBZTdvV1dyVWFqb2otTmRHcUdCdlpib3pwYkVpSzhqQWtRdUh1UGVoRFdhOVRfTlU2QUM2VW56a1lMemRkbjlleDRmVHRqZXJTd0plemc0LXFiRHFoRkN3Wlpzc3cwR3R1SnZMSHdFZw?oc=5",
+        "summary": "Watch Viral Video: Apple’s First Touchscreen MacBook Pro Revealed With 120Hz Tandem OLED Display, M5 Pro Chips, Dynamic Island & New Premium Design; Check Launch Date, Prices, Colours, Features & More The Sunday Guardian",
+        "technologies": [
+          "발광 구조"
+        ],
+        "collected_at": "2026-11-04T06:05:20.396766+00:00",
+        "document_id": "7177ff2e58c7fd7d826f",
+        "published_date": "2026-11-03",
+        "company": [
+          "Apple"
+        ],
+        "technology": [
+          "발광 구조"
+        ],
+        "keywords": [
+          "탠덤 OLED"
+        ],
+        "keyword_scores": {
+          "탠덤 OLED": 3
+        },
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQMG5NMmg0Mm1ISXhQOWlBWk5mQWYtTUxNOTJMWFFqS0tGTlFmUi1DZHAyMk8yVTh2R3plTmMyekNoaE1nX1EzbmxnbnZvSXRhLWY0RlJrcEFWTGdXUnBTMXU3MVVhXzljUkFocnV4UUZpOXcxUDJ4LVd0TFYyYzRDZU5Bck9BbWw1cUFxYlc5SzBwcDhlMkdTbi1jbW40U2swTjd4WDNybEdyQ0J6TWdTOXdFY1Vnal9xX0ZfUkxpdnVwdm8xZWlWZ3ZURkh1UUZuVjk3WVBnQlp0MFV2NnV1azhwNktaNG5zVGFTLWdiXzFXMjU4V2FwTkZ0RmxkbnRaQWp2UWJCWGFCX2JXc0EteTBGc0kzeFZkWGtZM0swdUJEWTQ3RlNSOE94c09haC10QUJPX2Y1UGpnbERoTzBPT1NyTVVwNGl0WEdmZW9aUVR3eGpqNEJiaNIB3gJBVV95cUxNbVNsM3ZvWGtQY2JKMGlTNVlQM0tDbWFaYXdyTXdOUWNpc3NBU0NuYzMtd3NodTRMZFFWbExWNTQtMW9Tb0xBYnh3Q0E5RldUSFA1Y29ZRWpVaDVNNXktaVpxNTc0ODVrZk5oVmxETEo2ZWhxb3UtY0d1WmU3c3QyYzhXTWo2VWIwOUVzY2RoeUFLLUF0NGFYN1lmOGxUc1lWbjVCSF9pV0pKTmN2bUdfUXRjeDZFeFRHUTZ2dERpUkdIRDYtWGFyQlRJQXVNaS15SlFBNV9HMXVfVXZtcUY4ekp1TW14Q3ZRanRET3drR1BtSGUtUWFBZTdvV1dyVWFqb2otTmRHcUdCdlpib3pwYkVpSzhqQWtRdUh1UGVoRFdhOVRfTlU2QUM2VW56a1lMemRkbjlleDRmVHRqZXJTd0plemc0LXFiRHFoRkN3Wlpzc3cwR3R1SnZMSHdFZw?oc=5"
+      },
+      {
+        "id": "716f2513688eece95a38",
+        "doi": "",
+        "source_type": "news",
+        "source": "Notebookcheck",
+        "region": "international",
+        "title": "Xiaomi said to launch compact smartwatch with 3,000-nit OLED display globally soon - Notebookcheck",
+        "published_at": "2026-11-03",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcUJYRlRtbzRfcjlKb2s3S1VqNjB1Wk1kWGVwVXM0NWNIT0I0eng5TGtkQ2FMaTBKbVFBWUNCMlFGUEdKYmZXM1YyTnhQU1Z6QTBTMjFwNGpRRkZ3RjNnUi1QdlI0NkFVTG1GY3VValpDRllza3VQOENxWjRaVWR0Zm51SUhQTm1ydmxkQ1RVZFlPY3l0bHNyZEFiT3otbnNoSG1KUDN2VGIwamhxd3ZsTzhvS2gyRGFEZTBhdDFwYmRKYXdkcHc?oc=5",
+        "summary": "Xiaomi said to launch compact smartwatch with 3,000-nit OLED display globally soon Notebookcheck",
+        "technologies": [
+          "초고휘도"
+        ],
+        "collected_at": "2026-11-04T06:05:20.097688+00:00",
+        "document_id": "716f2513688eece95a38",
+        "published_date": "2026-11-03",
+        "company": [],
+        "technology": [
+          "초고휘도"
+        ],
+        "keywords": [
+          "휘도"
+        ],
+        "keyword_scores": {
+          "휘도": 3
+        },
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcUJYRlRtbzRfcjlKb2s3S1VqNjB1Wk1kWGVwVXM0NWNIT0I0eng5TGtkQ2FMaTBKbVFBWUNCMlFGUEdKYmZXM1YyTnhQU1Z6QTBTMjFwNGpRRkZ3RjNnUi1QdlI0NkFVTG1GY3VValpDRllza3VQOENxWjRaVWR0Zm51SUhQTm1ydmxkQ1RVZFlPY3l0bHNyZEFiT3otbnNoSG1KUDN2VGIwamhxd3ZsTzhvS2gyRGFEZTBhdDFwYmRKYXdkcHc?oc=5"
+      },
+      {
+        "id": "0a1b852d124041b0484d",
+        "doi": "",
+        "source_type": "news",
+        "source": "IT조선",
+        "region": "domestic",
+        "title": "‘탠덤’으로 묶는다…LGD, OLED 기술 브랜드 출범 - IT조선",
+        "published_at": "2025-12-17",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82a1pzTjNiNjYwSV9QeVBRVU8tV2tKb1VyVjFFOERYel9XTndfeHN4YW4xaW1USnlBQ1g4alRkNnF0T2NxU25iSGFFV0t4Zl8tQlJSZFlPZkpQZm13N2lvMXUtUFhyc183M0twalAwVlfSAXRBVV95cUxQTXZiUjRON1AyeUdxYkpEbVR6TklmRTVZak9SdzlBVlE4ZDl2SXB3eVI2SE9GSEx6ekJiYWE5Q3QzX2hHcDhGZ2VfYmpSOXZxOTFtSy1sOUpfelNkMzVLbTl3Uy12LWV5VmtzZVQzMTFsTlA1OQ?oc=5",
+        "summary": "‘탠덤’으로 묶는다…LGD, OLED 기술 브랜드 출범 IT조선",
+        "technologies": [
+          "발광 구조"
+        ],
+        "collected_at": "2026-11-04T06:05:19.322158+00:00",
+        "document_id": "0a1b852d124041b0484d",
+        "published_date": "2025-12-17",
+        "company": [
+          "LG디스플레이"
+        ],
+        "technology": [
+          "발광 구조"
+        ],
+        "keywords": [
+          "탠덤 OLED"
+        ],
+        "keyword_scores": {
+          "탠덤 OLED": 3
+        },
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82a1pzTjNiNjYwSV9QeVBRVU8tV2tKb1VyVjFFOERYel9XTndfeHN4YW4xaW1USnlBQ1g4alRkNnF0T2NxU25iSGFFV0t4Zl8tQlJSZFlPZkpQZm13N2lvMXUtUFhyc183M0twalAwVlfSAXRBVV95cUxQTXZiUjRON1AyeUdxYkpEbVR6TklmRTVZak9SdzlBVlE4ZDl2SXB3eVI2SE9GSEx6ekJiYWE5Q3QzX2hHcDhGZ2VfYmpSOXZxOTFtSy1sOUpfelNkMzVLbTl3Uy12LWV5VmtzZVQzMTFsTlA1OQ?oc=5"
+      },
+      {
+        "id": "1dc3ce592798f46b43f4",
+        "doi": "",
+        "source_type": "news",
+        "source": "디일렉",
+        "region": "domestic",
+        "title": "[영상] 애플, 애플워치 신제품에 새로운 LTPO OLED 적용...LGD 납품 전망 - 디일렉",
+        "published_at": "2024-04-16",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE05NHNzMzB5SWs5bWRfeW5WWFV4MlVYVHRXTUZOTno5a3Z2U1J1S3JhMjZJcG5pYkh0THhWNjdyUGZiU3daWkFHVklwWjBWQVkxWDB0aloyeGNXc3lZbGtnS3NMaG9tZw?oc=5",
+        "summary": "[영상] 애플, 애플워치 신제품에 새로운 LTPO OLED 적용...LGD 납품 전망 디일렉",
+        "technologies": [
+          "저전력"
+        ],
+        "collected_at": "2026-11-04T06:05:19.322870+00:00",
+        "document_id": "1dc3ce592798f46b43f4",
+        "published_date": "2024-04-16",
+        "company": [
+          "LG디스플레이",
+          "Apple"
+        ],
+        "technology": [
+          "저전력"
+        ],
+        "keywords": [
+          "LTPO"
+        ],
+        "keyword_scores": {
+          "LTPO": 3
+        },
+        "metrics": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE05NHNzMzB5SWs5bWRfeW5WWFV4MlVYVHRXTUZOTno5a3Z2U1J1S3JhMjZJcG5pYkh0THhWNjdyUGZiU3daWkFHVklwWjBWQVkxWDB0aloyeGNXc3lZbGtnS3NMaG9tZw?oc=5"
+      }
+    ],
     "source_errors": 3
   },
-  "input": 922,
-  "excluded_irrelevant": 370,
-  "excluded_before_2023": 104,
-  "duplicates_removed": 151,
-  "saved": 297,
+  "input": 784,
+  "excluded_irrelevant": 277,
+  "excluded_before_2023": 95,
+  "duplicates_removed": 111,
+  "saved": 301,
   "missing_date": 0,
   "missing_summary": 22,
   "source_errors": 3,
-  "generated_at": "2026-11-03T06:38:57.085156+00:00"
+  "generated_at": "2026-11-04T06:06:12.674766+00:00"
 }
